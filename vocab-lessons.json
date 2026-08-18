@@ -217,7 +217,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – Sıfatlar (1/3)",
+  "title": "A1 (orta) – Sıfatlar (1/4)",
   "cefr": 1,
   "words": [
    "eerste",
@@ -237,7 +237,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – Sıfatlar (2/3)",
+  "title": "A1 (orta) – Sıfatlar (2/4)",
   "cefr": 1,
   "words": [
    "makkelijk",
@@ -257,7 +257,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – Sıfatlar (3/3)",
+  "title": "A1 (orta) – Sıfatlar (3/4)",
   "cefr": 1,
   "words": [
    "droog",
@@ -271,7 +271,16 @@
    "lekker",
    "zoet",
    "zuur",
-   "zonnig"
+   "zonnig",
+   "blij",
+   "vierde"
+  ]
+ },
+ {
+  "title": "A1 (orta) – Sıfatlar (4/4)",
+  "cefr": 1,
+  "words": [
+   "vijfde"
   ]
  },
  {
@@ -304,7 +313,7 @@
    "weer__adv",
    "al",
    "nog",
-   "echt",
+   "echt__adv",
    "weg__adv",
    "terug"
   ]
@@ -321,7 +330,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (1/9)",
+  "title": "A1 (orta) – İsimler (1/10)",
   "cefr": 1,
   "words": [
    "opa",
@@ -341,7 +350,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (2/9)",
+  "title": "A1 (orta) – İsimler (2/10)",
   "cefr": 1,
   "words": [
    "zondag",
@@ -361,7 +370,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (3/9)",
+  "title": "A1 (orta) – İsimler (3/10)",
   "cefr": 1,
   "words": [
    "kaas",
@@ -381,7 +390,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (4/9)",
+  "title": "A1 (orta) – İsimler (4/10)",
   "cefr": 1,
   "words": [
    "oor",
@@ -401,7 +410,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (5/9)",
+  "title": "A1 (orta) – İsimler (5/10)",
   "cefr": 1,
   "words": [
    "zon",
@@ -421,7 +430,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (6/9)",
+  "title": "A1 (orta) – İsimler (6/10)",
   "cefr": 1,
   "words": [
    "neef",
@@ -441,7 +450,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (7/9)",
+  "title": "A1 (orta) – İsimler (7/10)",
   "cefr": 1,
   "words": [
    "banaan",
@@ -461,7 +470,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (8/9)",
+  "title": "A1 (orta) – İsimler (8/10)",
   "cefr": 1,
   "words": [
    "leraar",
@@ -481,25 +490,68 @@
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (9/9)",
+  "title": "A1 (orta) – İsimler (9/10)",
   "cefr": 1,
   "words": [
    "video",
    "muziek",
    "film",
    "televisie",
-   "radio"
+   "radio",
+   "dingen",
+   "meisje",
+   "jongen",
+   "ogen",
+   "dier",
+   "boom",
+   "bloem",
+   "zee",
+   "strand"
   ]
  },
  {
-  "title": "A1 (orta) – Sayılar",
+  "title": "A1 (orta) – İsimler (10/10)",
+  "cefr": 1,
+  "words": [
+   "dorp",
+   "feest",
+   "cadeau",
+   "verjaardag",
+   "mevrouw",
+   "meneer",
+   "toilet",
+   "pizza",
+   "aap"
+  ]
+ },
+ {
+  "title": "A1 (orta) – Sayılar (1/2)",
   "cefr": 1,
   "words": [
    "elf",
    "twaalf",
    "twintig",
    "dertig",
-   "honderd"
+   "honderd",
+   "dertien",
+   "veertien",
+   "vijftien",
+   "zestien",
+   "zeventien",
+   "achttien",
+   "negentien",
+   "veertig",
+   "vijftig"
+  ]
+ },
+ {
+  "title": "A1 (orta) – Sayılar (2/2)",
+  "cefr": 1,
+  "words": [
+   "zestig",
+   "zeventig",
+   "tachtig",
+   "negentig"
   ]
  },
  {
@@ -532,7 +584,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – Fiiller (1/2)",
+  "title": "A1 (orta) – Fiiller (1/3)",
   "cefr": 1,
   "words": [
    "kennen",
@@ -552,7 +604,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – Fiiller (2/2)",
+  "title": "A1 (orta) – Fiiller (2/3)",
   "cefr": 1,
   "words": [
    "leren",
@@ -569,6 +621,13 @@
    "opstaan",
    "rennen",
    "fietsen"
+  ]
+ },
+ {
+  "title": "A1 (orta) – Fiiller (3/3)",
+  "cefr": 1,
+  "words": [
+   "heten"
   ]
  },
  {
@@ -642,7 +701,12 @@
    "vreemd",
    "raar",
    "bewolkt",
-   "regenachtig"
+   "regenachtig",
+   "ander",
+   "echt__adj",
+   "gek",
+   "zesde",
+   "zevende"
   ]
  },
  {
@@ -679,7 +743,9 @@
    "vooruit",
    "omhoog",
    "omlaag",
-   "daarom"
+   "daarom",
+   "allemaal",
+   "elk"
   ]
  },
  {
@@ -693,7 +759,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – İsimler (1/10)",
+  "title": "A1 (ileri) – İsimler (1/14)",
   "cefr": 2,
   "words": [
    "markt",
@@ -713,7 +779,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – İsimler (2/10)",
+  "title": "A1 (ileri) – İsimler (2/14)",
   "cefr": 2,
   "words": [
    "wolk",
@@ -733,7 +799,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – İsimler (3/10)",
+  "title": "A1 (ileri) – İsimler (3/14)",
   "cefr": 2,
   "words": [
    "trap",
@@ -753,7 +819,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – İsimler (4/10)",
+  "title": "A1 (ileri) – İsimler (4/14)",
   "cefr": 2,
   "words": [
    "citroen",
@@ -773,7 +839,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – İsimler (5/10)",
+  "title": "A1 (ileri) – İsimler (5/14)",
   "cefr": 2,
   "words": [
    "bibliotheek",
@@ -793,7 +859,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – İsimler (6/10)",
+  "title": "A1 (ileri) – İsimler (6/14)",
   "cefr": 2,
   "words": [
    "tram",
@@ -813,7 +879,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – İsimler (7/10)",
+  "title": "A1 (ileri) – İsimler (7/14)",
   "cefr": 2,
   "words": [
    "bloed",
@@ -833,7 +899,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – İsimler (8/10)",
+  "title": "A1 (ileri) – İsimler (8/14)",
   "cefr": 2,
   "words": [
    "handschoenen",
@@ -853,7 +919,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – İsimler (9/10)",
+  "title": "A1 (ileri) – İsimler (9/14)",
   "cefr": 2,
   "words": [
    "bericht",
@@ -873,7 +939,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – İsimler (10/10)",
+  "title": "A1 (ileri) – İsimler (10/14)",
   "cefr": 2,
   "words": [
    "doel",
@@ -890,6 +956,81 @@
    "situatie",
    "keuze",
    "mogelijkheid"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – İsimler (11/14)",
+  "cefr": 2,
+  "words": [
+   "prijs",
+   "begin",
+   "einde",
+   "mens",
+   "woord",
+   "plaatsen",
+   "plant",
+   "gras",
+   "berg",
+   "rivier",
+   "eiland",
+   "bos",
+   "gebouw",
+   "brug"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – İsimler (12/14)",
+  "cefr": 2,
+  "words": [
+   "toren",
+   "kerk",
+   "moskee",
+   "museum",
+   "bioscoop",
+   "concert",
+   "bal",
+   "glas",
+   "feestje",
+   "kilo",
+   "zwembad",
+   "café",
+   "lente",
+   "laptop"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – İsimler (13/14)",
+  "cefr": 2,
+  "words": [
+   "kerst",
+   "bord",
+   "klok",
+   "doos",
+   "douche",
+   "lift",
+   "toerist",
+   "fles",
+   "supermarkt",
+   "mes",
+   "achternaam",
+   "herfst",
+   "leeuw",
+   "cent"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – İsimler (14/14)",
+  "cefr": 2,
+  "words": [
+   "smartphone",
+   "gitaar",
+   "liter",
+   "speelgoed",
+   "centimeter",
+   "app",
+   "lip",
+   "piano",
+   "kus"
   ]
  },
  {
@@ -910,7 +1051,8 @@
    "sinds",
    "vanaf",
    "langs",
-   "volgens"
+   "volgens",
+   "naast"
   ]
  },
  {
@@ -923,7 +1065,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – Fiiller (1/5)",
+  "title": "A1 (ileri) – Fiiller (1/6)",
   "cefr": 2,
   "words": [
    "verkopen",
@@ -943,7 +1085,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – Fiiller (2/5)",
+  "title": "A1 (ileri) – Fiiller (2/6)",
   "cefr": 2,
   "words": [
    "reizen",
@@ -963,7 +1105,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – Fiiller (3/5)",
+  "title": "A1 (ileri) – Fiiller (3/6)",
   "cefr": 2,
   "words": [
    "ontmoeten",
@@ -983,7 +1125,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – Fiiller (4/5)",
+  "title": "A1 (ileri) – Fiiller (4/6)",
   "cefr": 2,
   "words": [
    "gooien",
@@ -1003,7 +1145,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – Fiiller (5/5)",
+  "title": "A1 (ileri) – Fiiller (5/6)",
   "cefr": 2,
   "words": [
    "uitrusten",
@@ -1018,11 +1160,19 @@
    "downloaden",
    "uploaden",
    "printen",
-   "opladen"
+   "opladen",
+   "houden"
   ]
  },
  {
-  "title": "A2 (başlangıç) – Sıfatlar (1/4)",
+  "title": "A1 (ileri) – Fiiller (6/6)",
+  "cefr": 2,
+  "words": [
+   "krijgen"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Sıfatlar (1/6)",
   "cefr": 3,
   "words": [
    "zwak",
@@ -1042,7 +1192,7 @@
   ]
  },
  {
-  "title": "A2 (başlangıç) – Sıfatlar (2/4)",
+  "title": "A2 (başlangıç) – Sıfatlar (2/6)",
   "cefr": 3,
   "words": [
    "populair",
@@ -1062,7 +1212,7 @@
   ]
  },
  {
-  "title": "A2 (başlangıç) – Sıfatlar (3/4)",
+  "title": "A2 (başlangıç) – Sıfatlar (3/6)",
   "cefr": 3,
   "words": [
    "nerveus",
@@ -1082,7 +1232,7 @@
   ]
  },
  {
-  "title": "A2 (başlangıç) – Sıfatlar (4/4)",
+  "title": "A2 (başlangıç) – Sıfatlar (4/6)",
   "cefr": 3,
   "words": [
    "betaald",
@@ -1097,7 +1247,42 @@
    "onmogelijk",
    "waarschijnlijk__adj",
    "onwaarschijnlijk",
-   "vochtig"
+   "vochtig",
+   "duidelijk"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Sıfatlar (5/6)",
+  "cefr": 3,
+  "words": [
+   "levend",
+   "bezig",
+   "vreselijk",
+   "fantastisch",
+   "geweldig",
+   "prachtig",
+   "positief",
+   "negatief",
+   "digitaal",
+   "hoger",
+   "groter",
+   "perfect",
+   "Amerikaans",
+   "kwaad"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Sıfatlar (6/6)",
+  "cefr": 3,
+  "words": [
+   "spannend",
+   "vrolijk",
+   "stom",
+   "prettig",
+   "blond",
+   "favoriet",
+   "schattig",
+   "vierkant"
   ]
  },
  {
@@ -1130,7 +1315,14 @@
    "overigens",
    "bovendien",
    "daardoor",
-   "hierdoor"
+   "hierdoor",
+   "eens",
+   "toch",
+   "ooit",
+   "opnieuw",
+   "sommige",
+   "vele",
+   "beide"
   ]
  },
  {
@@ -1144,7 +1336,7 @@
   ]
  },
  {
-  "title": "A2 (başlangıç) – İsimler (1/5)",
+  "title": "A2 (başlangıç) – İsimler (1/15)",
   "cefr": 3,
   "words": [
    "kans",
@@ -1164,7 +1356,7 @@
   ]
  },
  {
-  "title": "A2 (başlangıç) – İsimler (2/5)",
+  "title": "A2 (başlangıç) – İsimler (2/15)",
   "cefr": 3,
   "words": [
    "brievenbus",
@@ -1184,7 +1376,7 @@
   ]
  },
  {
-  "title": "A2 (başlangıç) – İsimler (3/5)",
+  "title": "A2 (başlangıç) – İsimler (3/15)",
   "cefr": 3,
   "words": [
    "spier",
@@ -1204,7 +1396,7 @@
   ]
  },
  {
-  "title": "A2 (başlangıç) – İsimler (4/5)",
+  "title": "A2 (başlangıç) – İsimler (4/15)",
   "cefr": 3,
   "words": [
    "resultaat",
@@ -1224,7 +1416,7 @@
   ]
  },
  {
-  "title": "A2 (başlangıç) – İsimler (5/5)",
+  "title": "A2 (başlangıç) – İsimler (5/15)",
   "cefr": 3,
   "words": [
    "gelegenheid",
@@ -1232,7 +1424,209 @@
    "voorwaarde",
    "behoefte",
    "wens",
-   "besluit"
+   "besluit",
+   "januari",
+   "februari",
+   "maart",
+   "april",
+   "mei",
+   "juni",
+   "juli",
+   "augustus"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler (6/15)",
+  "cefr": 3,
+  "words": [
+   "september",
+   "oktober",
+   "november",
+   "december",
+   "aantal",
+   "manier",
+   "soort",
+   "stuk",
+   "deel",
+   "kant",
+   "plek",
+   "centrum",
+   "buurt",
+   "plan"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler (7/15)",
+  "cefr": 3,
+  "words": [
+   "stap",
+   "rest",
+   "groep",
+   "verhaal",
+   "programma",
+   "wedstrijd",
+   "seizoen",
+   "team",
+   "bedrijf",
+   "contact",
+   "miljoen",
+   "dood",
+   "energie",
+   "natuur"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler (8/15)",
+  "cefr": 3,
+  "words": [
+   "theater",
+   "bruiloft",
+   "taal",
+   "geheim__noun",
+   "verrassing",
+   "geluk",
+   "koning",
+   "koningin",
+   "apparaat",
+   "machine",
+   "motor",
+   "dollar",
+   "aarde",
+   "club"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler (9/15)",
+  "cefr": 3,
+  "words": [
+   "spel",
+   "serie",
+   "album",
+   "festival",
+   "pagina",
+   "logo",
+   "vlag",
+   "goud",
+   "zilver",
+   "test",
+   "adres",
+   "klant",
+   "product",
+   "datum"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler (10/15)",
+  "cefr": 3,
+  "words": [
+   "spullen",
+   "grap",
+   "zak",
+   "afbeelding",
+   "appartement",
+   "korting",
+   "ster",
+   "dans",
+   "boer",
+   "hout",
+   "plastic",
+   "plein",
+   "smaak",
+   "boerderij"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler (11/15)",
+  "cefr": 3,
+  "words": [
+   "gat",
+   "tip",
+   "mobiel",
+   "villa",
+   "kasteel",
+   "verdieping",
+   "mode",
+   "nek",
+   "web",
+   "zand",
+   "cursus",
+   "zanger",
+   "pot",
+   "wiskunde"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler (12/15)",
+  "cefr": 3,
+  "words": [
+   "beker",
+   "leerling",
+   "wolf",
+   "binnenstad",
+   "borst",
+   "planeet",
+   "letter",
+   "pauze",
+   "reiziger",
+   "tent",
+   "lijn",
+   "heuvel",
+   "knop",
+   "lach"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler (13/15)",
+  "cefr": 3,
+  "words": [
+   "seconde",
+   "hal",
+   "kok",
+   "garage",
+   "kwart",
+   "snelweg",
+   "keel",
+   "marathon",
+   "acteur",
+   "basisschool",
+   "massage",
+   "bakker",
+   "wandeling",
+   "maaltijd"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler (14/15)",
+  "cefr": 3,
+  "words": [
+   "tunnel",
+   "aanbieding",
+   "oefening",
+   "tiener",
+   "ketting",
+   "pond",
+   "tong",
+   "vrachtwagen",
+   "wang",
+   "zuster",
+   "draak",
+   "vos",
+   "kwartier",
+   "toets"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler (15/15)",
+  "cefr": 3,
+  "words": [
+   "camping",
+   "casino",
+   "molen",
+   "schilder",
+   "schuur",
+   "verf",
+   "videoclip",
+   "zangeres"
   ]
  },
  {
@@ -1240,7 +1634,7 @@
   "cefr": 3,
   "words": [
    "rondom",
-   "richting",
+   "richting__prep",
    "dankzij",
    "ondanks",
    "betreffende",
@@ -1249,7 +1643,7 @@
   ]
  },
  {
-  "title": "A2 (başlangıç) – Fiiller (1/4)",
+  "title": "A2 (başlangıç) – Fiiller (1/5)",
   "cefr": 3,
   "words": [
    "vliegen",
@@ -1269,7 +1663,7 @@
   ]
  },
  {
-  "title": "A2 (başlangıç) – Fiiller (2/4)",
+  "title": "A2 (başlangıç) – Fiiller (2/5)",
   "cefr": 3,
   "words": [
    "uitgeven",
@@ -1289,7 +1683,7 @@
   ]
  },
  {
-  "title": "A2 (başlangıç) – Fiiller (3/4)",
+  "title": "A2 (başlangıç) – Fiiller (3/5)",
   "cefr": 3,
   "words": [
    "regelen",
@@ -1309,10 +1703,1788 @@
   ]
  },
  {
-  "title": "A2 (başlangıç) – Fiiller (4/4)",
+  "title": "A2 (başlangıç) – Fiiller (4/5)",
   "cefr": 3,
   "words": [
-   "aanmelden"
+   "aanmelden",
+   "laten",
+   "horen",
+   "bestellen",
+   "hangen",
+   "trouwen",
+   "tekenen",
+   "roken",
+   "wandelen",
+   "meenemen",
+   "snappen",
+   "kloppen",
+   "bakken",
+   "proeven"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Fiiller (5/5)",
+  "cefr": 3,
+  "words": [
+   "typen"
+  ]
+ },
+ {
+  "title": "A2 (orta) – Sıfatlar (1/4)",
+  "cefr": 4,
+  "words": [
+   "typisch",
+   "algemeen",
+   "actief",
+   "origineel",
+   "uniek",
+   "internationaal",
+   "nationaal",
+   "lokaal",
+   "centraal",
+   "technisch",
+   "praktisch",
+   "sociaal",
+   "cultureel",
+   "historisch"
+  ]
+ },
+ {
+  "title": "A2 (orta) – Sıfatlar (2/4)",
+  "cefr": 4,
+  "words": [
+   "medisch",
+   "elektronisch",
+   "fysiek",
+   "mentaal",
+   "emotioneel",
+   "lager",
+   "kleiner",
+   "dagelijks",
+   "tegenwoordig",
+   "geheim__adj",
+   "verboden",
+   "Duits",
+   "Frans",
+   "Spaans"
+  ]
+ },
+ {
+  "title": "A2 (orta) – Sıfatlar (3/4)",
+  "cefr": 4,
+  "words": [
+   "Italiaans",
+   "dagelijkse",
+   "volwassen",
+   "wild",
+   "chinees",
+   "triest",
+   "Japans",
+   "blind",
+   "bezet",
+   "pijnlijk",
+   "plat",
+   "vuil",
+   "simpel",
+   "correct"
+  ]
+ },
+ {
+  "title": "A2 (orta) – Sıfatlar (4/4)",
+  "cefr": 4,
+  "words": [
+   "gevuld",
+   "ideaal",
+   "olympisch",
+   "gigantisch"
+  ]
+ },
+ {
+  "title": "A2 (orta) – Zarflar",
+  "cefr": 4,
+  "words": [
+   "echter",
+   "zoveel",
+   "inderdaad",
+   "waardoor",
+   "waarin",
+   "waarbij",
+   "waarvan",
+   "waarmee",
+   "waarop",
+   "ervan",
+   "ervoor",
+   "erover",
+   "overdag"
+  ]
+ },
+ {
+  "title": "A2 (orta) – Bağlaçlar",
+  "cefr": 4,
+  "words": [
+   "zowel",
+   "nadat",
+   "voordat"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (1/20)",
+  "cefr": 4,
+  "words": [
+   "rol",
+   "vorm",
+   "basis",
+   "gebied",
+   "grond",
+   "omgeving",
+   "regio",
+   "actie",
+   "top",
+   "zaak",
+   "geval",
+   "onderzoek",
+   "artikel",
+   "geschiedenis"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (2/20)",
+  "cefr": 4,
+  "words": [
+   "oorlog",
+   "organisatie",
+   "project",
+   "president",
+   "leeftijd",
+   "god",
+   "zin",
+   "aandacht",
+   "lid",
+   "km",
+   "beeld",
+   "dienst",
+   "stem",
+   "kracht"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (3/20)",
+  "cefr": 4,
+  "words": [
+   "techniek",
+   "klimaat",
+   "milieu",
+   "cultuur",
+   "kunst",
+   "gewoonte",
+   "veiligheid",
+   "respect",
+   "vrede",
+   "wapen",
+   "verlies",
+   "prins",
+   "prinses",
+   "advocaat"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (4/20)",
+  "cefr": 4,
+  "words": [
+   "gevangenis",
+   "niveau",
+   "kwaliteit",
+   "waarde",
+   "code",
+   "versie",
+   "beroep",
+   "studie",
+   "rekening",
+   "stress",
+   "ervaring",
+   "hoofdstad",
+   "kust",
+   "golf"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (5/20)",
+  "cefr": 4,
+  "words": [
+   "afstand",
+   "richting__noun",
+   "ronde",
+   "finale",
+   "competitie",
+   "veld",
+   "kampioen",
+   "record",
+   "interview",
+   "reactie",
+   "boodschap",
+   "aflevering",
+   "optreden",
+   "collectie"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (6/20)",
+  "cefr": 4,
+  "words": [
+   "stukje",
+   "hoeveelheid",
+   "bron",
+   "tekst",
+   "titel",
+   "teken",
+   "Frankrijk",
+   "Duitsland",
+   "Rusland",
+   "Spanje",
+   "België",
+   "China",
+   "Engeland",
+   "Italië"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (7/20)",
+  "cefr": 4,
+  "words": [
+   "Griekenland",
+   "Canada",
+   "India",
+   "klasse",
+   "materiaal",
+   "merk",
+   "verkoop",
+   "effect",
+   "evenement",
+   "betekenis",
+   "details",
+   "excuus",
+   "medewerker",
+   "professor"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (8/20)",
+  "cefr": 4,
+  "words": [
+   "service",
+   "stadion",
+   "agent",
+   "taak",
+   "thema",
+   "journalist",
+   "lengte",
+   "opening",
+   "presentatie",
+   "stroom",
+   "platform",
+   "profiel",
+   "studio",
+   "vertrek"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (9/20)",
+  "cefr": 4,
+  "words": [
+   "wetenschap",
+   "technologie",
+   "trainer",
+   "held",
+   "poging",
+   "snelheid",
+   "uitdaging",
+   "uitslag",
+   "voordeel",
+   "agenda",
+   "carrière",
+   "gebruiker",
+   "kanaal",
+   "straf"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (10/20)",
+  "cefr": 4,
+  "words": [
+   "gas",
+   "afscheid",
+   "talent",
+   "humor",
+   "optie",
+   "podium",
+   "rand",
+   "document",
+   "uitleg",
+   "kunstenaar",
+   "monument",
+   "patiënt",
+   "stilte",
+   "toernooi"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (11/20)",
+  "cefr": 4,
+  "words": [
+   "assistent",
+   "klacht",
+   "update",
+   "reclame",
+   "Suriname",
+   "gewicht",
+   "huur",
+   "rook",
+   "software",
+   "zaal",
+   "ingang",
+   "paleis",
+   "wagen",
+   "afval"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (12/20)",
+  "cefr": 4,
+  "words": [
+   "ontmoeting",
+   "poort",
+   "geboorte",
+   "kapitein",
+   "ouderen",
+   "volger",
+   "chauffeur",
+   "plaat",
+   "alcohol",
+   "docent",
+   "deal",
+   "loon",
+   "luxe",
+   "roman"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (13/20)",
+  "cefr": 4,
+  "words": [
+   "drama",
+   "blad",
+   "blok",
+   "documentaire",
+   "fotograaf",
+   "kruis",
+   "toestel",
+   "jury",
+   "medaille",
+   "trend",
+   "waarschuwing",
+   "emotie",
+   "kijkje",
+   "lijf"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (14/20)",
+  "cefr": 4,
+  "words": [
+   "uitzicht",
+   "pakket",
+   "boel",
+   "drank",
+   "tempel",
+   "voertuig",
+   "glimlach",
+   "graf",
+   "hersenen",
+   "alarm",
+   "boete",
+   "chef",
+   "elektriciteit",
+   "fotografie"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (15/20)",
+  "cefr": 4,
+  "words": [
+   "leider",
+   "tempo",
+   "passagier",
+   "schilderij",
+   "wonder",
+   "geur",
+   "gedicht",
+   "klap",
+   "pijp",
+   "fort",
+   "planning",
+   "score",
+   "stage",
+   "vallei"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (16/20)",
+  "cefr": 4,
+  "words": [
+   "doelpunt",
+   "kampioenschap",
+   "mix",
+   "uitnodiging",
+   "abonnement",
+   "idioot",
+   "lezer",
+   "tekening",
+   "adem",
+   "avontuur",
+   "koppel",
+   "metaal",
+   "priester",
+   "schrijfster"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (17/20)",
+  "cefr": 4,
+  "words": [
+   "architect",
+   "bom",
+   "hekel",
+   "label",
+   "monster",
+   "regisseur",
+   "schot",
+   "zuidoost",
+   "bestelling",
+   "instrument",
+   "klus",
+   "woestijn",
+   "begrafenis",
+   "gerecht"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (18/20)",
+  "cefr": 4,
+  "words": [
+   "gevangene",
+   "heleboel",
+   "kopie",
+   "muzikant",
+   "warmte",
+   "aankomst",
+   "achterkant",
+   "hoofdstuk",
+   "kroon",
+   "portret",
+   "supporter",
+   "voeding",
+   "arena",
+   "lef"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (19/20)",
+  "cefr": 4,
+  "words": [
+   "schaduw",
+   "zonnepaneel",
+   "aanrader",
+   "artiest",
+   "detail",
+   "tank",
+   "trio",
+   "leerkracht",
+   "liga",
+   "wetenschapper",
+   "actrice",
+   "bocht",
+   "campus",
+   "kliniek"
+  ]
+ },
+ {
+  "title": "A2 (orta) – İsimler (20/20)",
+  "cefr": 4,
+  "words": [
+   "staal",
+   "voorwerp",
+   "betaling",
+   "fantasie"
+  ]
+ },
+ {
+  "title": "A2 (orta) – Sayılar",
+  "cefr": 4,
+  "words": [
+   "miljard"
+  ]
+ },
+ {
+  "title": "A2 (orta) – Edatlar",
+  "cefr": 4,
+  "words": [
+   "vanuit",
+   "vanwege"
+  ]
+ },
+ {
+  "title": "A2 (orta) – Fiiller (1/4)",
+  "cefr": 4,
+  "words": [
+   "zorgen",
+   "lijken",
+   "geloven",
+   "ontdekken",
+   "beslissen",
+   "twijfelen",
+   "vertrouwen",
+   "waarderen",
+   "respecteren",
+   "negeren",
+   "herkennen",
+   "waarschuwen",
+   "verrassen",
+   "redden"
+  ]
+ },
+ {
+  "title": "A2 (orta) – Fiiller (2/4)",
+  "cefr": 4,
+  "words": [
+   "scoren",
+   "melden",
+   "doden",
+   "vermoorden",
+   "groeien",
+   "serveren",
+   "vechten",
+   "draaien",
+   "verwijderen",
+   "verzamelen",
+   "oplossen",
+   "verdwijnen",
+   "oefenen",
+   "rekenen"
+  ]
+ },
+ {
+  "title": "A2 (orta) – Fiiller (3/4)",
+  "cefr": 4,
+  "words": [
+   "nadenken",
+   "liegen",
+   "tellen",
+   "bezorgen",
+   "vullen",
+   "bidden",
+   "durven",
+   "aankomen",
+   "bewaren",
+   "laden",
+   "opgeven",
+   "varen",
+   "slagen",
+   "danken"
+  ]
+ },
+ {
+  "title": "A2 (orta) – Fiiller (4/4)",
+  "cefr": 4,
+  "words": [
+   "verbranden",
+   "voorbereiden",
+   "wisselen",
+   "rusten",
+   "duiken",
+   "wennen",
+   "filmen",
+   "haten",
+   "schelen",
+   "opzoeken",
+   "toevoegen",
+   "uitgaan",
+   "doorgeven",
+   "uitzoeken"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Sıfatlar (1/8)",
+  "cefr": 5,
+  "words": [
+   "specifiek",
+   "concreet",
+   "effectief",
+   "efficiënt",
+   "passief",
+   "regionaal",
+   "theoretisch",
+   "politiek__adj",
+   "economisch",
+   "religieus",
+   "wetenschappelijk",
+   "juridisch",
+   "financieel",
+   "virtueel"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Sıfatlar (2/8)",
+  "cefr": 5,
+  "words": [
+   "psychologisch",
+   "beperkt",
+   "uitgebreid",
+   "wekelijks",
+   "maandelijks",
+   "jaarlijks",
+   "voormalig",
+   "huidig",
+   "toekomstig",
+   "recent",
+   "verantwoordelijk",
+   "afhankelijk",
+   "onafhankelijk",
+   "militair"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Sıfatlar (3/8)",
+  "cefr": 5,
+  "words": [
+   "koninklijk",
+   "officieel",
+   "verplicht",
+   "vrijwillig",
+   "toegestaan",
+   "Afrikaans",
+   "Russisch",
+   "Britse",
+   "Vlaams",
+   "tijdelijk",
+   "wereldwijd",
+   "menselijk",
+   "individueel",
+   "katholiek"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Sıfatlar (4/8)",
+  "cefr": 5,
+  "words": [
+   "plaatselijk",
+   "duurzaam",
+   "redelijk",
+   "christelijk",
+   "maximaal",
+   "definitief",
+   "extreem",
+   "gescheiden",
+   "rechtstreeks",
+   "seksueel",
+   "verkrijgbaar",
+   "automatisch",
+   "bewezen",
+   "professioneel"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Sıfatlar (5/8)",
+  "cefr": 5,
+  "words": [
+   "creatief",
+   "geldig",
+   "geestelijk",
+   "Joods",
+   "tropisch",
+   "zelfstandig",
+   "landelijk",
+   "muzikaal",
+   "naakt",
+   "onvoldoende",
+   "gezamenlijk",
+   "minimaal",
+   "onzeker",
+   "anoniem"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Sıfatlar (6/8)",
+  "cefr": 5,
+  "words": [
+   "bereikbaar",
+   "betrouwbaar",
+   "gevoelig",
+   "beschadigd",
+   "gecontroleerd",
+   "krachtig",
+   "kritisch",
+   "gedeeltelijk",
+   "indrukwekkend",
+   "chemisch",
+   "exact",
+   "stabiel",
+   "verrassend",
+   "goedgekeurd"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Sıfatlar (7/8)",
+  "cefr": 5,
+  "words": [
+   "illegaal",
+   "onschuldig",
+   "gewenst",
+   "gewijzigd",
+   "uitstekend",
+   "afgerond",
+   "permanent",
+   "biologisch",
+   "dodelijk",
+   "onduidelijk",
+   "overdreven",
+   "schitterend",
+   "dwars",
+   "zakelijk"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Sıfatlar (8/8)",
+  "cefr": 5,
+  "words": [
+   "zeldzaam",
+   "gereed",
+   "heftig",
+   "oprecht",
+   "toeristisch",
+   "literair",
+   "gewapend",
+   "heilig",
+   "herkenbaar"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Zarflar",
+  "cefr": 5,
+  "words": [
+   "elders",
+   "achteraf",
+   "halverwege"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (1/25)",
+  "cefr": 5,
+  "words": [
+   "orde",
+   "leger",
+   "politiek__noun",
+   "minister",
+   "gemeente",
+   "provincie",
+   "inwoners",
+   "geloof",
+   "industrie",
+   "economie",
+   "stijl",
+   "traditie",
+   "bevolking",
+   "gemeenschap"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (2/25)",
+  "cefr": 5,
+  "words": [
+   "beweging",
+   "vrijheid",
+   "waarheid",
+   "leugen",
+   "geduld",
+   "twijfel",
+   "haat",
+   "macht",
+   "invloed",
+   "strijd",
+   "geweld",
+   "aanval",
+   "overwinning",
+   "overheid"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (3/25)",
+  "cefr": 5,
+  "words": [
+   "regering",
+   "burgemeester",
+   "premier",
+   "koninkrijk",
+   "verkiezing",
+   "partij",
+   "rechter",
+   "rechtbank",
+   "misdaad",
+   "slachtoffer",
+   "verdachte",
+   "burger",
+   "voorzitter",
+   "vereniging"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (4/25)",
+  "cefr": 5,
+  "words": [
+   "stichting",
+   "systeem",
+   "methode",
+   "proces",
+   "model",
+   "functie",
+   "gegevens",
+   "netwerk",
+   "uitvinding",
+   "opleiding",
+   "contract",
+   "schuld",
+   "winst",
+   "belasting"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (5/25)",
+  "cefr": 5,
+  "words": [
+   "behandeling",
+   "operatie",
+   "indruk",
+   "gedrag",
+   "houding",
+   "karakter",
+   "persoonlijkheid",
+   "continent",
+   "grens",
+   "landschap",
+   "positie",
+   "locatie",
+   "discussie",
+   "kritiek"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (6/25)",
+  "cefr": 5,
+  "words": [
+   "verklaring",
+   "rapport",
+   "editie",
+   "percentage",
+   "gemiddelde",
+   "statistiek",
+   "achtergrond",
+   "inhoud",
+   "symbool",
+   "Brazilië",
+   "Indonesië",
+   "Zweden",
+   "Polen",
+   "Syrië"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (7/25)",
+  "cefr": 5,
+  "words": [
+   "categorie",
+   "combinatie",
+   "selectie",
+   "verzoek",
+   "debat",
+   "district",
+   "status",
+   "stof",
+   "verslag",
+   "aanleiding",
+   "eenheid",
+   "kader",
+   "pers",
+   "generatie"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (8/25)",
+  "cefr": 5,
+  "words": [
+   "sfeer",
+   "spoor",
+   "handel",
+   "middel",
+   "reeks",
+   "unie",
+   "verantwoordelijkheid",
+   "voorstel",
+   "mate",
+   "concept",
+   "kwestie",
+   "oorzaak",
+   "termijn",
+   "terrein"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (9/25)",
+  "cefr": 5,
+  "words": [
+   "begrip",
+   "bijeenkomst",
+   "crisis",
+   "meerderheid",
+   "sector",
+   "aanwezigheid",
+   "aanbod",
+   "praktijk",
+   "cel",
+   "forum",
+   "ploeg",
+   "aanpak",
+   "lot",
+   "melding"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (10/25)",
+  "cefr": 5,
+  "words": [
+   "schaal",
+   "beveiliging",
+   "blik",
+   "instituut",
+   "pensioen",
+   "privacy",
+   "commentaar",
+   "fase",
+   "virus",
+   "kanker",
+   "tentoonstelling",
+   "gevecht",
+   "literatuur",
+   "natie"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (11/25)",
+  "cefr": 5,
+  "words": [
+   "wezen",
+   "analyse",
+   "congres",
+   "ondernemer",
+   "revolutie",
+   "zicht",
+   "getuige",
+   "uiterlijk",
+   "voorkeur",
+   "bedrag",
+   "drugs",
+   "element",
+   "ondersteuning",
+   "samenvatting"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (12/25)",
+  "cefr": 5,
+  "words": [
+   "werkzaamheden",
+   "ziel",
+   "hongarije",
+   "wereldoorlog",
+   "bestuurder",
+   "conflict",
+   "inkomen",
+   "landbouw",
+   "paniek",
+   "beschrijving",
+   "goederen",
+   "identiteit",
+   "passie",
+   "religie"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (13/25)",
+  "cefr": 5,
+  "words": [
+   "tekort",
+   "zone",
+   "bodem",
+   "conclusie",
+   "kenmerk",
+   "pand",
+   "zijde",
+   "belang",
+   "terugkeer",
+   "toestand",
+   "verstand",
+   "verzameling",
+   "voorstelling",
+   "impact"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (14/25)",
+  "cefr": 5,
+  "words": [
+   "tegenstander",
+   "alternatief",
+   "misbruik",
+   "opname",
+   "politicus",
+   "prestatie",
+   "variant",
+   "vijand",
+   "zelfmoord",
+   "figuur",
+   "herstel",
+   "promotie",
+   "ramp",
+   "transport"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (15/25)",
+  "cefr": 5,
+  "words": [
+   "zekerheid",
+   "armoede",
+   "bijbel",
+   "opmerking",
+   "verwachting",
+   "onderhoud",
+   "oordeel",
+   "realiteit",
+   "verbetering",
+   "vervolg",
+   "voorbereiding",
+   "zender",
+   "zonde",
+   "inkomsten"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (16/25)",
+  "cefr": 5,
+  "words": [
+   "officier",
+   "afkomst",
+   "bedreiging",
+   "geheugen",
+   "grootte",
+   "scheiding",
+   "verblijf",
+   "voorziening",
+   "aanvraag",
+   "archief",
+   "formule",
+   "dader",
+   "gezondheidszorg",
+   "jacht"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (17/25)",
+  "cefr": 5,
+  "words": [
+   "luitenant",
+   "racisme",
+   "woonplaats",
+   "hoogtepunt",
+   "toeval",
+   "verbod",
+   "chaos",
+   "duel",
+   "focus",
+   "massa",
+   "reputatie",
+   "strategie",
+   "exemplaar",
+   "nood"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (18/25)",
+  "cefr": 5,
+  "words": [
+   "woede",
+   "ambtenaar",
+   "crimineel",
+   "expert",
+   "explosie",
+   "incident",
+   "management",
+   "ontvangst",
+   "signaal",
+   "specialist",
+   "vermoeden",
+   "commandant",
+   "geliefde",
+   "oppervlakte"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (19/25)",
+  "cefr": 5,
+  "words": [
+   "proef",
+   "budget",
+   "deelnemer",
+   "diefstal",
+   "marketing",
+   "nieuwsbrief",
+   "senator",
+   "vaart",
+   "verlichting",
+   "voorraad",
+   "arbeid",
+   "architectuur",
+   "debuut",
+   "draai"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (20/25)",
+  "cefr": 5,
+  "words": [
+   "drukte",
+   "kiezer",
+   "patroon",
+   "secretaris",
+   "stemming",
+   "uitgave",
+   "waardering",
+   "brandstof",
+   "cliënt",
+   "roep",
+   "schatting",
+   "autoriteit",
+   "dagblad",
+   "Denemarken"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (21/25)",
+  "cefr": 5,
+  "words": [
+   "keizer",
+   "kogel",
+   "lijk",
+   "tijdstip",
+   "vaardigheid",
+   "aanslag",
+   "interieur",
+   "nadruk",
+   "ongeval",
+   "toerisme",
+   "apparatuur",
+   "protest",
+   "registratie",
+   "schema"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (22/25)",
+  "cefr": 5,
+  "words": [
+   "senior",
+   "terrorist",
+   "tocht",
+   "bod",
+   "brein",
+   "experiment",
+   "factor",
+   "gemak",
+   "lading",
+   "neerslag",
+   "overval",
+   "rechtszaak",
+   "ruil",
+   "sessie"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (23/25)",
+  "cefr": 5,
+  "words": [
+   "Zwitserland",
+   "nut",
+   "populariteit",
+   "amateur",
+   "balans",
+   "delta",
+   "gave",
+   "instructie",
+   "object",
+   "bende",
+   "bevestiging",
+   "daad",
+   "gerucht",
+   "lening"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (24/25)",
+  "cefr": 5,
+  "words": [
+   "lezing",
+   "wraak",
+   "conferentie",
+   "consument",
+   "enthousiasme",
+   "leed",
+   "mishandeling",
+   "bemanning",
+   "bevrijding",
+   "filosofie",
+   "hectare",
+   "poëzie",
+   "straling",
+   "verwarring"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – İsimler (25/25)",
+  "cefr": 5,
+  "words": [
+   "academie",
+   "argument",
+   "beoordeling",
+   "divisie",
+   "echtgenote",
+   "herhaling",
+   "hoofdkantoor",
+   "journalistiek",
+   "uitgeverij",
+   "werkloosheid",
+   "zelfvertrouwen",
+   "aankoop",
+   "administratie"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Fiiller (1/10)",
+  "cefr": 5,
+  "words": [
+   "blijken",
+   "leiden",
+   "publiceren",
+   "richten",
+   "verwijzen",
+   "vermelden",
+   "aangeven",
+   "aantonen",
+   "bevestigen",
+   "ontkennen",
+   "weigeren",
+   "toestaan",
+   "verbieden",
+   "beperken"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Fiiller (2/10)",
+  "cefr": 5,
+  "words": [
+   "vergroten",
+   "verkleinen",
+   "verhogen",
+   "verlagen",
+   "verslechteren",
+   "bevorderen",
+   "voorkomen",
+   "veroorzaken",
+   "beïnvloeden",
+   "overwegen",
+   "bewijzen",
+   "garanderen",
+   "teleurstellen",
+   "overtuigen"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Fiiller (3/10)",
+  "cefr": 5,
+  "words": [
+   "bieden",
+   "beschermen",
+   "verdedigen",
+   "aanvallen",
+   "bereiken",
+   "ontwikkelen",
+   "produceren",
+   "leveren",
+   "besturen",
+   "regeren",
+   "stemmen",
+   "samenwerken",
+   "communiceren",
+   "informeren"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Fiiller (4/10)",
+  "cefr": 5,
+  "words": [
+   "registreren",
+   "beheren",
+   "uitvoeren",
+   "realiseren",
+   "herstellen",
+   "genezen",
+   "overlijden",
+   "ontsnappen",
+   "vluchten",
+   "dalen",
+   "stijgen",
+   "bereiden",
+   "omgaan",
+   "dienen"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Fiiller (5/10)",
+  "cefr": 5,
+  "words": [
+   "bepalen",
+   "bespreken",
+   "creëren",
+   "ontwerpen",
+   "presenteren",
+   "behandelen",
+   "bevatten",
+   "bijdragen",
+   "dateren",
+   "uitzenden",
+   "ontstaan",
+   "aanpassen",
+   "verschijnen",
+   "verzorgen"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Fiiller (6/10)",
+  "cefr": 5,
+  "words": [
+   "verplaatsen",
+   "verwerken",
+   "verzenden",
+   "aanmaken",
+   "verzekeren",
+   "lijden",
+   "inzetten",
+   "veroordelen",
+   "ondernemen",
+   "vernietigen",
+   "aanbieden",
+   "plaatsvinden",
+   "drukken",
+   "onderhouden"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Fiiller (7/10)",
+  "cefr": 5,
+  "words": [
+   "verbergen",
+   "verklaren",
+   "beantwoorden",
+   "verlopen",
+   "versterken",
+   "aanpakken",
+   "besteden",
+   "handelen",
+   "stimuleren",
+   "afsluiten",
+   "vermijden",
+   "verspreiden",
+   "aannemen",
+   "dreigen"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Fiiller (8/10)",
+  "cefr": 5,
+  "words": [
+   "ontvoeren",
+   "plegen",
+   "uitmaken",
+   "ophouden",
+   "toegeven",
+   "verminderen",
+   "opzetten",
+   "terugkeren",
+   "uitkomen",
+   "verblijven",
+   "eisen",
+   "verbinden",
+   "arresteren",
+   "verzinnen"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Fiiller (9/10)",
+  "cefr": 5,
+  "words": [
+   "voldoen",
+   "overkomen",
+   "overnemen",
+   "behalen",
+   "beleven",
+   "beseffen",
+   "dwingen",
+   "profiteren",
+   "promoten",
+   "scheiden",
+   "verlengen",
+   "beëindigen",
+   "functioneren",
+   "opleveren"
+  ]
+ },
+ {
+  "title": "A2 (ileri) – Fiiller (10/10)",
+  "cefr": 5,
+  "words": [
+   "beschuldigen"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – Sıfatlar (1/3)",
+  "cefr": 6,
+  "words": [
+   "burgerlijk",
+   "commercieel",
+   "toegankelijk",
+   "werkzaam",
+   "intern",
+   "voortdurend",
+   "federaal",
+   "daadwerkelijk",
+   "wettelijk",
+   "noodzakelijk",
+   "gespecialiseerd",
+   "aanzienlijk",
+   "massaal",
+   "aanvankelijk"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – Sıfatlar (2/3)",
+  "cefr": 6,
+  "words": [
+   "vergelijkbaar",
+   "ingediend",
+   "talloos",
+   "voorafgaand",
+   "hedendaags",
+   "samengesteld",
+   "toenemend",
+   "voortgezet",
+   "kwetsbaar",
+   "maatschappelijk",
+   "verleend",
+   "administratief",
+   "gebruikelijk",
+   "gemeentelijk"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – Sıfatlar (3/3)",
+  "cefr": 6,
+  "words": [
+   "groeiend",
+   "industrieel",
+   "volkomen",
+   "langdurig",
+   "provinciaal",
+   "voornaamste",
+   "degelijk",
+   "toegekend",
+   "eventueel",
+   "onderling",
+   "buitengewoon"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – Zarflar",
+  "cefr": 6,
+  "words": [
+   "veelal",
+   "uiterst",
+   "tegemoet",
+   "desondanks",
+   "doorgaans",
+   "respectievelijk",
+   "enigszins"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – Bağlaçlar",
+  "cefr": 6,
+  "words": [
+   "alsmede"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – İsimler (1/11)",
+  "cefr": 6,
+  "words": [
+   "samenleving",
+   "maatschappij",
+   "gelijkheid",
+   "moed",
+   "verdediging",
+   "nederlaag",
+   "republiek",
+   "parlement",
+   "beleid",
+   "commissie",
+   "bestuur",
+   "aandeel",
+   "investering",
+   "instantie"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – İsimler (2/11)",
+  "cefr": 6,
+  "words": [
+   "eigendom",
+   "opstand",
+   "tegenstelling",
+   "vermogen",
+   "toezicht",
+   "uitvoering",
+   "bevel",
+   "marine",
+   "toepassing",
+   "erfgoed",
+   "principe",
+   "domein",
+   "koers",
+   "verdrag"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – İsimler (3/11)",
+  "cefr": 6,
+  "words": [
+   "defensie",
+   "werking",
+   "beheer",
+   "ellende",
+   "structuur",
+   "uitbreiding",
+   "belangstelling",
+   "publicatie",
+   "overleg",
+   "aard",
+   "kern",
+   "opkomst",
+   "wetgeving",
+   "beurs"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – İsimler (4/11)",
+  "cefr": 6,
+  "words": [
+   "complex",
+   "bereik",
+   "elite",
+   "omvang",
+   "front",
+   "gezelschap",
+   "infrastructuur",
+   "inzicht",
+   "oorsprong",
+   "context",
+   "grondwet",
+   "omroep",
+   "resolutie",
+   "welzijn"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – İsimler (5/11)",
+  "cefr": 6,
+  "words": [
+   "coalitie",
+   "dossier",
+   "erkenning",
+   "gezag",
+   "grondgebied",
+   "instelling",
+   "opzet",
+   "stelling",
+   "integratie",
+   "mensheid",
+   "onderscheid",
+   "perspectief",
+   "bewustzijn",
+   "bezwaar"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – İsimler (6/11)",
+  "cefr": 6,
+  "words": [
+   "stijging",
+   "voorsprong",
+   "aanleg",
+   "behoud",
+   "comité",
+   "innovatie",
+   "wethouder",
+   "onafhankelijkheid",
+   "oprichter",
+   "opvolger",
+   "verhouding",
+   "burgeroorlog",
+   "hoogleraar",
+   "norm"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – İsimler (7/11)",
+  "cefr": 6,
+  "words": [
+   "onderneming",
+   "besef",
+   "fractie",
+   "procedure",
+   "standpunt",
+   "begeleiding",
+   "betrokkenheid",
+   "concurrentie",
+   "discriminatie",
+   "maagd",
+   "overgang",
+   "traject",
+   "bezetting",
+   "decennium"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – İsimler (8/11)",
+  "cefr": 6,
+  "words": [
+   "subsidie",
+   "tijdperk",
+   "vooruitgang",
+   "aansluiting",
+   "arbeidsmarkt",
+   "bekendheid",
+   "beperking",
+   "capaciteit",
+   "diversiteit",
+   "financiën",
+   "staatssecretaris",
+   "verloop",
+   "aanzien",
+   "oprichting"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – İsimler (9/11)",
+  "cefr": 6,
+  "words": [
+   "referendum",
+   "sectie",
+   "verlangen",
+   "verspreiding",
+   "fraude",
+   "invoering",
+   "overeenstemming",
+   "uiterste",
+   "verwijzing",
+   "aanvang",
+   "benadering",
+   "creativiteit",
+   "fonds",
+   "onderhandeling"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – İsimler (10/11)",
+  "cefr": 6,
+  "words": [
+   "verdeling",
+   "goedkeuring",
+   "noodzaak",
+   "toename",
+   "weerstand",
+   "indeling",
+   "omzet",
+   "opdrachtgever",
+   "vergunning",
+   "vervanging",
+   "dekking",
+   "duurzaamheid",
+   "overname",
+   "senaat"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – İsimler (11/11)",
+  "cefr": 6,
+  "words": [
+   "wijziging",
+   "aanklacht",
+   "daling",
+   "departement",
+   "ligging",
+   "onrust",
+   "constructie",
+   "herkomst"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – Edatlar",
+  "cefr": 6,
+  "words": [
+   "ongeacht"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – Fiiller (1/2)",
+  "cefr": 6,
+  "words": [
+   "investeren",
+   "verkiezen",
+   "vertegenwoordigen",
+   "onderhandelen",
+   "emigreren",
+   "immigreren",
+   "vestigen",
+   "krimpen",
+   "onderscheiden",
+   "opheffen",
+   "verkrijgen",
+   "streven",
+   "bestrijden",
+   "opstellen"
+  ]
+ },
+ {
+  "title": "B1 (başlangıç) – Fiiller (2/2)",
+  "cefr": 6,
+  "words": [
+   "omvatten"
   ]
  }
 ]
