@@ -30,7 +30,7 @@
 <div id="peak-indicator" class="peak-tab dal" title="DeepSeek yoğun/sakin saat fiyatlandırması (UTC saatine göre)">● sakin saat</div>
 <div id="app">
 
-  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.03</span></h1>
+  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.04</span></h1>
 
   <!-- ===================== PRACTICE SCREEN ===================== -->
   <section id="screen-practice">
@@ -377,7 +377,7 @@
     </div>
     <div class="card">
       <h3 style="margin-top:0;">Sürüm</h3>
-      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.03</b></div>
+      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.04</b></div>
       <div class="muted" style="margin-top:4px;">Bir değişiklikten sonra bu zaman damgası güncellenmezse, yükleme doğru yenilenmemiş demektir — GitHub'ı kontrol edin ve sayfayı yeniden yükleyin (önbellek için gizli sekme deneyin).</div>
     </div>
     </div>
@@ -1315,13 +1315,14 @@ async function startCheckup(){
 // grammaticaal niet vrij verder te vervoegen zijn (voegwoorden, voornaamwoorden, telwoorden, tussenwerpsels).
 // Zonder dit filter kon de AI zo'n al-complex woord als basis krijgen en in de war raken bij het nóg een
 // keer vervoegen, met kale/onbegrijpelijke uitkomsten als gevolg — exact het gerapporteerde probleem.
-const GRAMMAR_DRILL_EXCLUDED_CATEGORIES = new Set(["Prepositions","Conjunctions","Determiners","Pronouns","Exclamations","Numbers"]);
+const GRAMMAR_DRILL_EXCLUDED_CATEGORIES = new Set(["Edatlar","Bağlaçlar","Zamirler","Ünlemler","Sayılar"]);
 let _grammarDrillFunctionWords = null;
 function grammarDrillFunctionWordSet(){
   if(_grammarDrillFunctionWords) return _grammarDrillFunctionWords;
   _grammarDrillFunctionWords = new Set();
   for(const v of VOCAB_LESSON_DATA){
-    const cat = v.title.split(" — ")[0];
+    const parts = v.title.split(" – ");
+    const cat = (parts.length > 1 ? parts[1] : v.title).replace(/\s*\(\d+\/\d+\)\s*$/, "");
     if(GRAMMAR_DRILL_EXCLUDED_CATEGORIES.has(cat)) for(const w of v.words) _grammarDrillFunctionWords.add(w);
   }
   return _grammarDrillFunctionWords;
@@ -1732,7 +1733,7 @@ function prepositionWordSet(){
   if(_prepositionWordSet) return _prepositionWordSet;
   _prepositionWordSet = new Set();
   for(const v of VOCAB_LESSON_DATA){
-    if(v.title.startsWith("Prepositions")) for(const w of v.words) _prepositionWordSet.add(w);
+    if(v.title.includes(" – Edatlar")) for(const w of v.words) _prepositionWordSet.add(w);
   }
   return _prepositionWordSet;
 }
@@ -2299,8 +2300,8 @@ async function nextSkillPracticeQuestion(){
   el("checkup-post-actions").classList.add("hidden");
   const lesson = skillPracticeState.lesson;
 
-  el("checkup-modal-title").textContent = `🎯 Practice: ${lesson.title}`;
-  el("checkup-progress").textContent = `Question ${skillPracticeState.roundResults.length+1}/${SKILL_PRACTICE_ROUND_SIZE}`;
+  el("checkup-modal-title").textContent = `🎯 Pratik: ${lesson.title}`;
+  el("checkup-progress").textContent = `Soru ${skillPracticeState.roundResults.length+1}/${SKILL_PRACTICE_ROUND_SIZE}`;
   el("checkup-word").textContent = "🤖 …";
   el("checkup-word-meta").textContent = "";
   const badgeEl = el("checkup-badge");
@@ -2308,8 +2309,8 @@ async function nextSkillPracticeQuestion(){
 
   if(lesson.words && lesson.words.length){
     const en = pickSkillPracticeWord(lesson.words);
-    badgeEl.textContent = "word"; badgeEl.className = "badge badge-word";
-    if(needsContextualDrill(en) || lesson.title.startsWith("Prepositions")){
+    badgeEl.textContent = "kelime"; badgeEl.className = "badge badge-word";
+    if(needsContextualDrill(en) || lesson.title.includes(" – Edatlar")){
       // voorzetsel-vocabulaire is inherent relationeel (bv. "under" = "altında", zelf al een naamval-
       // constructie) -- als kaal woordpaar getoetst herhaalt dat precies het "geïsoleerd, niet in gebruik"
       // probleem, nu op vocabulaire-niveau. Dus: verpak 'm in een kort zinnetje, net als bij de grammatica-frameworks.
@@ -4295,12 +4296,12 @@ async function renderPractice(){
     const kind = picked.kind || "sentence";
     const isQ = kind === "question";
     const isSuffix = kind === "suffix";
-    el("badge-type").textContent = isSuffix ? "suffix" : (isQ ? "question" : "sentence");
+    el("badge-type").textContent = isSuffix ? "kalıp" : (isQ ? "soru" : "cümle");
     el("badge-type").className = "badge " + (isSuffix ? "badge-word" : (isQ ? "badge-question" : "badge-sentence"));
-    el("tr-word").textContent = isSuffix ? "🤖 …" : (isQ ? "🤖 AI is coming up with a question…" : "🤖 AI is generating a sentence…");
+    el("tr-word").textContent = isSuffix ? "🤖 …" : (isQ ? "🤖 Yapay zeka bir soru hazırlıyor…" : "🤖 Yapay zeka bir cümle oluşturuyor…");
     el("tr-word").className = "tr-word" + (isSuffix ? "" : " sentence");
     el("level-fill").style.width = "0%";
-    el("level-label").textContent = "please wait…";
+    el("level-label").textContent = "lütfen bekleyin…";
     el("answer-instruction").querySelector("span").textContent = "";
     try{
       picked = isSuffix ? await generateSuffixDrill() : (isQ ? await generateQuestion() : await generateSentence());
@@ -4311,11 +4312,11 @@ async function renderPractice(){
     }
   } else if(picked && picked.type === "word"){
     // vertaling op aanvraag: pas nu, want dit woord is nu daadwerkelijk aan de beurt
-    el("badge-type").textContent = "word";
+    el("badge-type").textContent = "kelime";
     el("badge-type").className = "badge badge-word";
     el("tr-word").textContent = "🤖 …";
     el("level-fill").style.width = "0%";
-    el("level-label").textContent = "please wait…";
+    el("level-label").textContent = "lütfen bekleyin…";
     let sense = await resolveWordSense(picked.en, picked.direction);
     if(sense){
       picked.tr = sense.tr[0];
@@ -4353,7 +4354,7 @@ async function renderPractice(){
   const isTrEn = isWord && currentItem.direction === "tr-en";
   const isSuffix = currentItem.type === "suffix";
 
-  el("badge-type").textContent = isSuffix ? "suffix" : (isQuestion ? "question" : (isSentence ? "sentence" : (isTrEn ? "TR → EN" : "EN → TR")));
+  el("badge-type").textContent = isSuffix ? "kalıp" : (isQuestion ? "soru" : (isSentence ? "cümle" : (isTrEn ? "TR → NL" : "NL → TR")));
   el("badge-type").className = "badge " + (isQuestion ? "badge-question" : (isSentence ? "badge-sentence" : "badge-word"));
   el("btn-edit-flashcard").classList.toggle("hidden", !isWord);
   const wordEl = el("tr-word");
