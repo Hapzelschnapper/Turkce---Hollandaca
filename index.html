@@ -30,7 +30,7 @@
 <div id="peak-indicator" class="peak-tab dal" title="DeepSeek yoğun/sakin saat fiyatlandırması (UTC saatine göre)">● sakin saat</div>
 <div id="app">
 
-  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.01</span></h1>
+  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.02</span></h1>
 
   <!-- ===================== PRACTICE SCREEN ===================== -->
   <section id="screen-practice">
@@ -377,7 +377,7 @@
     </div>
     <div class="card">
       <h3 style="margin-top:0;">Sürüm</h3>
-      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.01</b></div>
+      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.02</b></div>
       <div class="muted" style="margin-top:4px;">Bir değişiklikten sonra bu zaman damgası güncellenmezse, yükleme doğru yenilenmemiş demektir — GitHub'ı kontrol edin ve sayfayı yeniden yükleyin (önbellek için gizli sekme deneyin).</div>
     </div>
     </div>
@@ -1257,7 +1257,7 @@ function pickLessonGrammarTopic(){
 const CHECKUP_QUESTIONS_PER_VOCAB_LEVEL = 5;   // per CEFR-subniveau minstens dit aantal vragen vóór een oordeel
 const CHECKUP_QUESTIONS_PER_GRAMMAR_TOPIC = 3; // idem per grammatica-onderwerp
 const CHECKUP_LEVEL_PASS_THRESHOLD = 60;       // % nodig binnen zo'n batch om door te gaan naar het volgende niveau
-const CHECKUP_DRILL_BASE_WORDS = "ev (house), kitap (book), su (water), ekmek (bread), okul (school), gün (day), adam (man), kadın (woman), çocuk (child), gitmek (to go), gelmek (to come), görmek (to see), yemek (to eat), içmek (to drink)";
+const CHECKUP_DRILL_BASE_WORDS = "huis (ev), boek (kitap), water (su), brood (ekmek), school (okul), dag (gün), man (adam), vrouw (kadın), kind (çocuk), gaan (gitmek), komen (gelmek), zien (görmek), eten (yemek), drinken (içmek)";
 
 function sortedGrammarTopicsByLevel(){
   return [...GRAMMAR_TOPICS].sort((a,b)=>a.minCefr-b.minCefr);
@@ -1479,36 +1479,35 @@ async function pickGrammarDrillBaseWords(){
   for(const w of picks){
     try{
       const tr = await getOrFetchTranslation(w);
-      pairs.push(`${tr[0]} (${w})`);
+      pairs.push(`${baseEnOf(w)} (${tr[0]})`);
     }catch(e){ /* deze overslaan als vertalen mislukt */ }
   }
   return pairs;
 }
 
 async function generateGrammarDrillCandidate(topic, wordList, correctionNote){
-  const sys = `You create an ISOLATED grammar drill for a given Turkish grammar topic.
+  const sys = `You create an ISOLATED grammar drill for a given Dutch grammar topic, for a Turkish-speaking learner.
 
 CRITICAL — TEST THE SKILL IN ACTUAL USE, NEVER ABSTRACTLY:
-WRONG (never do this): a meta-question about the rule itself, like "What does the suffix -e mean?" or "What is the dative case used for?", and absolutely NEVER show a bare, standalone suffix like "-e" or "-den" as the prompt or answer — that tests knowledge ABOUT the grammar, not actually APPLYING it.
-WRONG (also never do this): a bare, standalone function word/preposition on its own, like just "to" or "from" with no surrounding phrase — that isolates the preposition/case itself instead of testing it "in use".
+WRONG (never do this): a meta-question about the rule itself, like "-e eki ne anlama gelir?" or "voltooid deelwoord ne için kullanılır?", and absolutely NEVER show a bare, standalone suffix/particle like "-t" or "ge-" as the prompt or answer — that tests knowledge ABOUT the grammar, not actually APPLYING it.
+WRONG (also never do this): a bare, standalone function word/preposition on its own, like just "op" or "van" with no surrounding phrase — that isolates the preposition/case itself instead of testing it "in use".
 RIGHT (always do this): have the student translate a concrete, real, complete word or short phrase, in a randomly chosen direction:
-- en-tr: give an English phrase that requires the skill to translate correctly — e.g. "on the table", "from home", "next to him" (a full phrase, never just "on"/"from"/"next to" alone) — and ask for the correct Turkish form.
-- tr-en: give a real, already correctly inflected/derived Turkish word or phrase (e.g. "okula", or "masanın üstünde"), and ask for the English meaning.
-IMPORTANT FOR TOPICS WITH "RELATIONAL NOUNS" (preposition-like constructions using üst/alt/ön/arka/yan etc.): occasionally also test the bare building-block word itself as plain vocabulary (e.g. "üst" -> top, "yan" -> side, with no further inflection) — that's just as important as the suffix mechanics itself, and may simply be asked as a word translation.
-STRICT REQUIREMENT: the base word MUST come literally from the list given to you for this call, no other word whatsoever. Pick whichever one best fits the topic (a verb for verb conjugation topics, a noun for case topics, etc.) — do not invent a different word yourself, even if you think you could come up with a "better" example.
-NOTE — THE ENGLISH GLOSS IN PARENTHESES IS ONLY A MEMORY AID, NOT AN INSTRUCTION TO RE-TRANSLATE IT YOURSELF: each item in the list is formatted as "TURKISH_WORD (english meaning)" — use the GIVEN Turkish word literally as written. Do NOT re-translate the English gloss yourself, because English words are often ambiguous (e.g. "like" can mean either "to like" (beğenmek) or "similar to" (gibi)) — if the list contains "gibi (like)", the intended word is ALWAYS "gibi", never a self-invented translation of "like" such as "beğenmek".
-Write everything in English and Turkish ONLY — never any other language.
+- en-tr: give a TURKISH phrase that requires the skill to translate correctly into Dutch — e.g. "masanın üstünde" (a full phrase) — and ask for the correct DUTCH form.
+- tr-en: give a real, already correctly formed DUTCH word or phrase (e.g. "op de tafel"), and ask for the TURKISH meaning.
+STRICT REQUIREMENT: the base word MUST come literally from the list given to you for this call, no other word whatsoever. Pick whichever one best fits the topic (a verb for verb-tense topics, a noun for de/het topics, etc.) — do not invent a different word yourself, even if you think you could come up with a "better" example.
+NOTE — THE TURKISH GLOSS IN PARENTHESES IS ONLY A MEMORY AID, NOT AN INSTRUCTION TO RE-TRANSLATE IT YOURSELF: each item in the list is formatted as "DUTCH_WORD (turkish meaning)" — use the GIVEN Dutch word literally as written. Do NOT re-translate the Turkish gloss yourself, because Turkish words are often ambiguous — if the list contains "gibi (zoals)", the intended word is ALWAYS "gibi"... (this is just an example of the general principle: always use the given word literally).
+Write everything in Dutch and Turkish ONLY — never any other language (not English).
 Respond in JSON.`;
-  const userMsg = `Topic: "${topic.label}" (${topic.hint})
-Allowed base words (pick exactly one): ${wordList}` + (correctionNote ? `\n\nNOTE: your previous attempt was rejected — ${correctionNote} Please get it right this time.` : "");
+  const userMsg = `Onderwerp: "${topic.label}" (${topic.hint})
+Toegestane basiswoorden (kies er precies één): ${wordList}` + (correctionNote ? `\n\nLET OP: je vorige poging werd afgekeurd — ${correctionNote} Doe het deze keer goed.` : "");
   const schema = {
     name: "grammar_drill",
     description: "Een geïsoleerde grammatica-oefening: een concrete zin/frase, geen abstracte regelvraag.",
     input_schema: {
       type: "object",
       properties: {
-        direction: {type:"string", enum:["en-tr","tr-en"]},
-        prompt: {type:"string", description:"De Engelse frase (en-tr) of Turkse vorm (tr-en) die aan de gebruiker getoond wordt."},
+        direction: {type:"string", enum:["en-tr","tr-en"], description:"'en-tr' = Turkse frase tonen, Nederlands antwoord vragen (productie). 'tr-en' = Nederlandse frase tonen, Turks antwoord vragen (begrip)."},
+        prompt: {type:"string", description:"De Turkse frase (en-tr) of Nederlandse vorm (tr-en) die aan de gebruiker getoond wordt."},
         correct: {type:"string", description:"Het correcte antwoord, in de andere taal dan prompt."},
         baseWord: {type:"string", description:"Het gekozen basiswoord, letterlijk overgenomen uit de gegeven lijst."},
       },
@@ -1522,13 +1521,10 @@ Allowed base words (pick exactly one): ${wordList}` + (correctionNote ? `\n\nNOT
 /* Keurt een drill af als de AI de instructies toch negeerde: een metavraag over een kale uitgang,
    of een basiswoord dat niet daadwerkelijk uit de meegegeven, beheerste woordenlijst komt. */
 // Losse functiewoorden die NOOIT als op-zichzelf-staand antwoord/prompt mogen voorkomen — een oefening
-// moet altijd een ECHTE woordgroep zijn (bv. "on the table"), nooit alleen het voorzetsel zelf. Ook
-// een handvol Nederlandse woorden erbij, want de AI liet af en toe per ongeluk Nederlands lekken
-// (waarschijnlijk doordat de instructieprompt zelf in het Nederlands is) i.p.v. zuiver Engels/Turks.
+// moet altijd een ECHTE woordgroep zijn (bv. "op de tafel"), nooit alleen het voorzetsel zelf.
 const BARE_FUNCTION_WORDS = new Set([
-  "to","from","at","on","in","under","over","with","without","before","after","like","as","of","by",
-  "for","near","between","behind","toward","towards","above","below","through","during","until","since",
-  "naar","van","bij","op","onder","in","met","zonder","voor","na","als","zoals","achter","tussen","door","tijdens","tot","sinds","boven",
+  "naar","van","bij","op","onder","in","met","zonder","voor","na","als","zoals","achter","tussen","door","tijdens","tot","sinds","boven","aan","over",
+  "e","den","dan","ile","gibi","kadar","için","göre","hakkında","üzerinde","altında","önünde","arkasında","yanında",
 ]);
 function drillLooksInvalid(drill, baseWords){
   if(!drill || !drill.prompt || !drill.correct) return true;
@@ -1560,19 +1556,22 @@ function drillLooksInvalid(drill, baseWords){
    de vaardigheid ISOLEERD maar wel PRAKTISCH TOEGEPAST (in een echt kort zinnetje) getoetst wordt. */
 
 // Welke woordsoort-pool(s) elk onderwerp nodig heeft, en welk framework (zinspatroon) daarbij hoort.
-const GRAMMAR_TOPIC_FRAMEWORK = {
-  // "verb": de kalıp/patroon-trainer (renderSuffixPractice/generateSuffixDrill) mag dit onderwerp
-  // combineren met een ELK WILLEKEURIG beheerst werkwoord -- alleen onderwerpen waarvoor dat
-  // taalkundig altijd klopt (geen speciale eigenschap van het werkwoord nodig, zoals scheidbaar of
-  // wederkerend zijn) staan hier. zijn_hebben (specifieke onregelmatige werkwoorden) en
-  // scheidbare_werkwoorden/wederkerende_ww (vereisen een werkwoord met een specifieke eigenschap die
-  // niet in de woordenlijst gemarkeerd staat) blijven bewust buiten deze lijst -- die worden via de
-  // gewone woord-/lespraktijk geoefend, niet via de geïsoleerde patroon-trainer.
-  tegenwoordige_tijd:"verb", voltooid_tegenwoordige_tijd:"verb", onvoltooid_verleden_tijd:"verb",
-  toekomende_tijd:"verb", gebiedende_wijs:"verb", modale_werkwoorden:"verb",
-  // rest: geen duidelijke "combineer met een willekeurig werkwoord"-toepassing (naamwoord-gebaseerd,
-  // zinsbouw-regel, of een gesloten setje specifieke woorden) -- gebruikt de patroon-trainer niet.
-};
+// LET OP: deze mapping wordt ALLEEN nog door masteredTopicsForSuffixDrillKeys hieronder gebruikt (voor
+// de kalıp/patroon-trainer). generateGrammarDrill (losse zin-oefeningen bij "Bu beceriyi çalış"/
+// bilgi kontrolü) gebruikt deze NIET meer -- die riep voorheen bij een "framework"-hit
+// generateFrameworkDrillCandidate aan, een nog-niet-voor-Nederlands-aangepaste (Turks-specifieke)
+// functie; dat leidde tot de bug waarbij grammaticalessen als "zijn" toch nog Engelse/Turkse
+// oefenzinnen i.p.v. Nederlandse toonden. generateGrammarDrill gebruikt nu voor ALLE onderwerpen
+// altijd het generieke, wél voor Nederlands aangepaste pad (generateGrammarDrillCandidate).
+const SUFFIX_DRILL_TOPIC_KEYS = new Set([
+  // Onderwerpen die zich lenen voor "vervoeg dit met een WILLEKEURIG beheerst werkwoord" -- alleen
+  // onderwerpen waarvoor dat taalkundig altijd klopt (geen speciale eigenschap van het werkwoord nodig,
+  // zoals scheidbaar of wederkerend zijn) staan hier. zijn_hebben (specifieke onregelmatige werkwoorden)
+  // en scheidbare_werkwoorden/wederkerende_ww (vereisen een werkwoord met een specifieke eigenschap die
+  // niet in de woordenlijst gemarkeerd staat) blijven bewust buiten deze lijst.
+  "tegenwoordige_tijd", "voltooid_tegenwoordige_tijd", "onvoltooid_verleden_tijd",
+  "toekomende_tijd", "gebiedende_wijs", "modale_werkwoorden",
+]);
 
 let _a1CategoryCache = {};
 function categoryWordSet(category){
@@ -1844,9 +1843,8 @@ function masteredVerbsForSuffixDrill(){
 // worden en werd vervolgens geforceerd op een werkwoord toegepast, wat taalkundig onzin oplevert (een
 // werkwoord heeft geen meervoud/naamval). Onderwerpen zonder framework-vermelding (de "rest"-categorie
 // onderaan GRAMMAR_TOPIC_FRAMEWORK) worden voorzichtigheidshalve ook uitgesloten.
-const SUFFIX_DRILL_VERB_FRAMEWORKS = new Set(["verb", "verb2"]);
 function masteredTopicsForSuffixDrill(){
-  return GRAMMAR_TOPICS.filter(t => SUFFIX_DRILL_VERB_FRAMEWORKS.has(GRAMMAR_TOPIC_FRAMEWORK[t.key]) && getTopicProgress(t).level >= SUFFIX_DRILL_MIN_LEVEL);
+  return GRAMMAR_TOPICS.filter(t => SUFFIX_DRILL_TOPIC_KEYS.has(t.key) && getTopicProgress(t).level >= SUFFIX_DRILL_MIN_LEVEL);
 }
 function canOfferSuffixDrill(){
   return masteredVerbsForSuffixDrill().length > 0 && masteredTopicsForSuffixDrill().length > 0;
@@ -1950,43 +1948,27 @@ Antwoord in JSON.`;
 }
 
 async function generateGrammarDrill(topic, avoidEn){
-  // BUGFIX: topic.key kan variant-gescoped zijn (bv. "hitap_bicimleri::titel", "ce_eki::gorus" --
-  // zie effectiveTopicForVariant/variantProgressKey), maar GRAMMAR_TOPIC_FRAMEWORK is alleen op de
-  // KALE topic-sleutel gevuld. Zonder deze strip faalde de lookup voor ELK onderwerp met varianten
-  // zodra er een specifieke variant gekozen was, en viel de code stilzwijgend terug op het generieke
-  // (niet-framework) pad -- dus de zorgvuldig gecureerde frameworks (bv. address_form, postpositions,
-  // opinion_ce) werden voor die onderwerpen in de praktijk nooit gebruikt.
-  const baseTopicKey = topic.key && topic.key.includes("::") ? topic.key.split("::")[0] : topic.key;
-  const framework = GRAMMAR_TOPIC_FRAMEWORK[baseTopicKey];
-  if(framework){
-    let drill = await generateFrameworkDrillCandidate(topic, framework, undefined, avoidEn);
-    let attempts = 1;
-    // Structuurcheck (kale uitgang/metavraag/functiewoord) ÉN natuurlijkheidscheck (klinkt de zin echt
-    // als iets een moedertaalspreker zou zeggen, i.p.v. een geforceerde combinatie van twee willekeurig
-    // gekozen woorden -- zie de "kupadaki başarı"-klasse problemen die hiermee opgevangen worden,
-    // ook voor topic-combinaties die niet apart met een eigen framework gecureerd zijn).
-    while(attempts < 3 && (drillLooksInvalid(drill, []) || !(await checkSentenceNatural(drillTurkishText(drill))))){
-      drill = await generateFrameworkDrillCandidate(topic, framework, "make sure it's a real short sentence/phrase using only the given word(s), never a bare suffix or standalone preposition/function word, and make sure the result sounds genuinely natural to a native speaker -- not a forced or nonsensical combination of the two given words.", avoidEn);
-      attempts++;
-    }
-    return drill;
-  }
+  // Gebruikt sinds de Nederlands-leren-versie ALTIJD het generieke pad (generateGrammarDrillCandidate,
+  // wél aangepast voor Nederlands) -- het oude framework-pad (generateFrameworkDrillCandidate) was
+  // specifiek gebouwd voor Turkse zinsconstructies (isim tamlaması, postpositie-naamvallen e.d.) en is
+  // niet meegenomen in de herschrijving; SUFFIX_DRILL_TOPIC_KEYS (zie hierboven) regelt nu apart en
+  // uitsluitend welke onderwerpen in de geïsoleerde kalıp/patroon-trainer bruikbaar zijn.
   const baseWords = await pickGrammarDrillBaseWords();
   const wordList = baseWords.length ? baseWords.join(", ") : CHECKUP_DRILL_BASE_WORDS;
   let drill = await generateGrammarDrillCandidate(topic, wordList);
   let attempts = 1;
   while(drillLooksInvalid(drill, baseWords) && attempts < 3){
     const p = (drill.prompt || "").trim();
-    const isBareSuffix = /-[a-zA-ZçğıöşüÇĞİÖŞÜ]{1,5}\b/.test(p) || /-[a-zA-ZçğıöşüÇĞİÖŞÜ]{1,5}\b/.test((drill.correct||""));
+    const isBareSuffix = /-[a-zA-Z]{1,5}\b/.test(p) || /-[a-zA-Z]{1,5}\b/.test((drill.correct||""));
     const isMeta = /\bsuffix\b|\bwhat (does|is)\b/i.test(p);
     const isBareWord = BARE_FUNCTION_WORDS.has(p.toLowerCase().replace(/[.?!]/g,"")) || BARE_FUNCTION_WORDS.has((drill.correct||"").toLowerCase().replace(/[.?!]/g,""));
     let note;
     if(isBareSuffix || isMeta){
       note = "you asked a meta-question about the bare rule/suffix itself, or showed a bare suffix, instead of having the student translate a concrete word.";
     } else if(isBareWord){
-      note = 'you used a bare, standalone preposition/function word with no surrounding phrase (e.g. just "to" or "from") — this must always be a full phrase like "on the table" or "next to him", testing the skill in actual use, never the isolated word alone.';
+      note = 'you used a bare, standalone preposition/function word with no surrounding phrase (e.g. just "op" or "van") — this must always be a full phrase like "op de tafel", testing the skill in actual use, never the isolated word alone.';
     } else {
-      note = `you used the word "${drill.baseWord || drill.prompt}", which does not literally appear in the given word list — you likely re-translated an English gloss yourself instead of using the given Turkish word.`;
+      note = `you used the word "${drill.baseWord || drill.prompt}", which does not literally appear in the given word list — you likely re-translated the Turkish gloss yourself instead of using the given Dutch word.`;
     }
     drill = await generateGrammarDrillCandidate(topic, wordList, note);
     attempts++;
@@ -1996,7 +1978,10 @@ async function generateGrammarDrill(topic, avoidEn){
 
 async function gradeGrammarDrillAnswer(drill, answer){
   const isTrEn = drill.direction === "tr-en";
-  const sys = `Je beoordeelt of het ${isTrEn ? "Engelse" : "Turkse"} antwoord van een gebruiker correct is voor de opdracht "${drill.prompt}" (${isTrEn ? "gebruiker moest de Turkse vorm naar het Engels vertalen" : "gebruiker moest de Engelse frase naar het Turks vertalen"}). Het verwachte antwoord was "${drill.correct}", maar er kunnen legitieme alternatieve correcte vormen/synoniemen bestaan. BELANGRIJK: Turks is een pro-drop-taal — het onderwerp-voornaamwoord (ben/sen/o/biz/siz/onlar) mag vrijwel altijd weggelaten OF expliciet toegevoegd worden zonder dat de zin fout wordt (bv. "et" en "O et" zijn beide correct voor "it is meat"). Reken dit soort verschil dus NOOIT fout. ${isTrEn ? "" : "NEGEER Turkse diakritische tekens volledig (ı/i, ş/s, ğ/g, ü/u, ö/o, ç/c zijn onderling uitwisselbaar) en"} kleine tikfouten met een ondubbelzinnige bedoeling reken je goed. Geef ook een korte (max 2 zinnen) uitleg in het Engels, rechtstreeks tegen de gebruiker gericht (spreek de gebruiker aan met "you") — vooral nuttig als het antwoord fout is, om te laten zien waarom. Antwoord in JSON.`;
+  // isTrEn=true: Nederlandse vorm getoond, Turks antwoord gevraagd (begrip). isTrEn=false ("en-tr"):
+  // Turkse frase getoond, Nederlands antwoord gevraagd (productie) -- zie het schema-veld "direction"
+  // in generateGrammarDrillCandidate hierboven voor de precieze betekenis.
+  const sys = `Je beoordeelt of het ${isTrEn ? "Turkse" : "Nederlandse"} antwoord van een gebruiker correct is voor de opdracht "${drill.prompt}" (${isTrEn ? "gebruiker moest de Nederlandse vorm naar het Turks vertalen" : "gebruiker moest de Turkse frase naar het Nederlands vertalen"}). Het verwachte antwoord was "${drill.correct}", maar er kunnen legitieme alternatieve correcte vormen/synoniemen bestaan.${isTrEn ? ` BELANGRIJK: Turks is een pro-drop-taal — het onderwerp-voornaamwoord (ben/sen/o/biz/siz/onlar) mag vrijwel altijd weggelaten OF expliciet toegevoegd worden zonder dat de zin fout wordt. Reken dit soort verschil dus NOOIT fout. NEGEER Turkse diakritische tekens volledig (ı/i, ş/s, ğ/g, ü/u, ö/o, ç/c zijn onderling uitwisselbaar) en` : ` BELANGRIJK: in tegenstelling tot het Turks is Nederlands GEEN pro-drop-taal — het onderwerp-voornaamwoord is bij een volledige zin vereist en het ontbreken ervan is wél een fout (tenzij de opdracht zelf om een kale vorm vraagt, bv. bij de gebiedende wijs). NEGEER kleine accentfouten (é/è/ë als e, ï als i, ü/ö als u/o) en`} kleine tikfouten met een ondubbelzinnige bedoeling reken je goed. Geef ook een korte (max 2 zinnen) uitleg in het Engels, rechtstreeks tegen de gebruiker gericht (spreek de gebruiker aan met "you") — vooral nuttig als het antwoord fout is, om te laten zien waarom. Antwoord in JSON.`;
   const schema = {
     name: "beoordeel_antwoord",
     description: "Beoordeling van een grammatica-oefening.",
