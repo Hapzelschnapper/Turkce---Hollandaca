@@ -369,7 +369,7 @@
    }
   ]
  },
- "haar": {
+ "haar__pron": {
   "senses": [
    {
     "gloss": "her",
@@ -3229,7 +3229,7 @@
    }
   ]
  },
- "gelukkig": {
+ "gelukkig__adj": {
   "senses": [
    {
     "gloss": "happy",
@@ -3567,7 +3567,7 @@
    }
   ]
  },
- "zeker": {
+ "zeker__adj": {
   "senses": [
    {
     "gloss": "sure/certain",
@@ -3983,7 +3983,7 @@
    }
   ]
  },
- "heel": {
+ "heel__adv": {
   "senses": [
    {
     "gloss": "very/whole",
@@ -4243,7 +4243,7 @@
    }
   ]
  },
- "gewoon": {
+ "gewoon__adv": {
   "senses": [
    {
     "gloss": "just/simply",
@@ -4568,7 +4568,7 @@
    }
   ]
  },
- "weg": {
+ "weg__noun": {
   "senses": [
    {
     "gloss": "road",
@@ -4965,6 +4965,6220 @@
     "pos": "noun",
     "tr": [
      "kere / kez"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "eindigen": {
+  "senses": [
+   {
+    "gloss": "to end",
+    "pos": "verb",
+    "tr": [
+     "bitmek (bir şeyin sona ermesi)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "proberen": {
+  "senses": [
+   {
+    "gloss": "to try",
+    "pos": "verb",
+    "tr": [
+     "denemek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "lukken": {
+  "senses": [
+   {
+    "gloss": "to succeed",
+    "pos": "verb",
+    "tr": [
+     "başarmak / başarılı olmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vergeten": {
+  "senses": [
+   {
+    "gloss": "to forget",
+    "pos": "verb",
+    "tr": [
+     "unutmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "onthouden": {
+  "senses": [
+   {
+    "gloss": "to remember",
+    "pos": "verb",
+    "tr": [
+     "hatırlamak / aklında tutmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "herinneren": {
+  "senses": [
+   {
+    "gloss": "to remember",
+    "pos": "verb",
+    "tr": [
+     "hatırlamak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "hopen": {
+  "senses": [
+   {
+    "gloss": "to hope",
+    "pos": "verb",
+    "tr": [
+     "ummak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "dromen": {
+  "senses": [
+   {
+    "gloss": "to dream",
+    "pos": "verb",
+    "tr": [
+     "hayal etmek / rüya görmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "besluiten": {
+  "senses": [
+   {
+    "gloss": "to decide",
+    "pos": "verb",
+    "tr": [
+     "karar vermek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "kiezen": {
+  "senses": [
+   {
+    "gloss": "to choose",
+    "pos": "verb",
+    "tr": [
+     "seçmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "veranderen": {
+  "senses": [
+   {
+    "gloss": "to change",
+    "pos": "verb",
+    "tr": [
+     "değişmek / değiştirmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verbeteren": {
+  "senses": [
+   {
+    "gloss": "to improve",
+    "pos": "verb",
+    "tr": [
+     "iyileştirmek / düzeltmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ontmoeten": {
+  "senses": [
+   {
+    "gloss": "to meet",
+    "pos": "verb",
+    "tr": [
+     "tanışmak / buluşmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "uitnodigen": {
+  "senses": [
+   {
+    "gloss": "to invite",
+    "pos": "verb",
+    "tr": [
+     "davet etmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bezoeken": {
+  "senses": [
+   {
+    "gloss": "to visit",
+    "pos": "verb",
+    "tr": [
+     "ziyaret etmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verwachten": {
+  "senses": [
+   {
+    "gloss": "to expect",
+    "pos": "verb",
+    "tr": [
+     "beklemek (ummak)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "controleren": {
+  "senses": [
+   {
+    "gloss": "to check",
+    "pos": "verb",
+    "tr": [
+     "kontrol etmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "herhalen": {
+  "senses": [
+   {
+    "gloss": "to repeat",
+    "pos": "verb",
+    "tr": [
+     "tekrarlamak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "uitleggen": {
+  "senses": [
+   {
+    "gloss": "to explain",
+    "pos": "verb",
+    "tr": [
+     "açıklamak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "beschrijven": {
+  "senses": [
+   {
+    "gloss": "to describe",
+    "pos": "verb",
+    "tr": [
+     "tanımlamak / betimlemek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "betekenen": {
+  "senses": [
+   {
+    "gloss": "to mean",
+    "pos": "verb",
+    "tr": [
+     "anlamına gelmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "gebeuren": {
+  "senses": [
+   {
+    "gloss": "to happen",
+    "pos": "verb",
+    "tr": [
+     "olmak (vuku bulmak)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bestaan": {
+  "senses": [
+   {
+    "gloss": "to exist",
+    "pos": "verb",
+    "tr": [
+     "var olmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ontbreken": {
+  "senses": [
+   {
+    "gloss": "to be missing",
+    "pos": "verb",
+    "tr": [
+     "eksik olmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "missen": {
+  "senses": [
+   {
+    "gloss": "to miss",
+    "pos": "verb",
+    "tr": [
+     "özlemek / kaçırmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verliezen": {
+  "senses": [
+   {
+    "gloss": "to lose",
+    "pos": "verb",
+    "tr": [
+     "kaybetmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "winnen": {
+  "senses": [
+   {
+    "gloss": "to win",
+    "pos": "verb",
+    "tr": [
+     "kazanmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verdienen": {
+  "senses": [
+   {
+    "gloss": "to earn",
+    "pos": "verb",
+    "tr": [
+     "kazanmak (para)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "uitgeven": {
+  "senses": [
+   {
+    "gloss": "to spend (money)",
+    "pos": "verb",
+    "tr": [
+     "harcamak (para)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "sparen": {
+  "senses": [
+   {
+    "gloss": "to save (money)",
+    "pos": "verb",
+    "tr": [
+     "biriktirmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "lenen": {
+  "senses": [
+   {
+    "gloss": "to borrow/lend",
+    "pos": "verb",
+    "tr": [
+     "ödünç almak/vermek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "terugbetalen": {
+  "senses": [
+   {
+    "gloss": "to pay back",
+    "pos": "verb",
+    "tr": [
+     "geri ödemek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "huren": {
+  "senses": [
+   {
+    "gloss": "to rent",
+    "pos": "verb",
+    "tr": [
+     "kiralamak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verhuizen": {
+  "senses": [
+   {
+    "gloss": "to move (house)",
+    "pos": "verb",
+    "tr": [
+     "taşınmak (ev)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bouwen": {
+  "senses": [
+   {
+    "gloss": "to build",
+    "pos": "verb",
+    "tr": [
+     "inşa etmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "repareren": {
+  "senses": [
+   {
+    "gloss": "to repair",
+    "pos": "verb",
+    "tr": [
+     "tamir etmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "breken": {
+  "senses": [
+   {
+    "gloss": "to break",
+    "pos": "verb",
+    "tr": [
+     "kırmak / kırılmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vallen": {
+  "senses": [
+   {
+    "gloss": "to fall",
+    "pos": "verb",
+    "tr": [
+     "düşmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "gooien": {
+  "senses": [
+   {
+    "gloss": "to throw",
+    "pos": "verb",
+    "tr": [
+     "atmak (fırlatmak)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vangen": {
+  "senses": [
+   {
+    "gloss": "to catch",
+    "pos": "verb",
+    "tr": [
+     "yakalamak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "duwen": {
+  "senses": [
+   {
+    "gloss": "to push",
+    "pos": "verb",
+    "tr": [
+     "itmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "trekken": {
+  "senses": [
+   {
+    "gloss": "to pull",
+    "pos": "verb",
+    "tr": [
+     "çekmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "tillen": {
+  "senses": [
+   {
+    "gloss": "to lift",
+    "pos": "verb",
+    "tr": [
+     "kaldırmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "leggen": {
+  "senses": [
+   {
+    "gloss": "to lay/put down",
+    "pos": "verb",
+    "tr": [
+     "yatay koymak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "zetten": {
+  "senses": [
+   {
+    "gloss": "to put/set",
+    "pos": "verb",
+    "tr": [
+     "koymak (dikey)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "sturen": {
+  "senses": [
+   {
+    "gloss": "to send",
+    "pos": "verb",
+    "tr": [
+     "göndermek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ontvangen": {
+  "senses": [
+   {
+    "gloss": "to receive",
+    "pos": "verb",
+    "tr": [
+     "almak (teslim)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "versturen": {
+  "senses": [
+   {
+    "gloss": "to send off",
+    "pos": "verb",
+    "tr": [
+     "postalamak / göndermek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "appen": {
+  "senses": [
+   {
+    "gloss": "to text/WhatsApp",
+    "pos": "verb",
+    "tr": [
+     "mesaj atmak (WhatsApp)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "mailen": {
+  "senses": [
+   {
+    "gloss": "to email",
+    "pos": "verb",
+    "tr": [
+     "e-posta göndermek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "reageren": {
+  "senses": [
+   {
+    "gloss": "to react/respond",
+    "pos": "verb",
+    "tr": [
+     "tepki vermek / yanıtlamak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "groeten": {
+  "senses": [
+   {
+    "gloss": "to greet",
+    "pos": "verb",
+    "tr": [
+     "selamlamak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "voorstellen": {
+  "senses": [
+   {
+    "gloss": "to introduce/suggest",
+    "pos": "verb",
+    "tr": [
+     "tanıtmak / teklif etmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bedanken": {
+  "senses": [
+   {
+    "gloss": "to thank",
+    "pos": "verb",
+    "tr": [
+     "teşekkür etmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verontschuldigen": {
+  "senses": [
+   {
+    "gloss": "to apologise",
+    "pos": "verb",
+    "tr": [
+     "özür dilemek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "feliciteren": {
+  "senses": [
+   {
+    "gloss": "to congratulate",
+    "pos": "verb",
+    "tr": [
+     "tebrik etmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vieren": {
+  "senses": [
+   {
+    "gloss": "to celebrate",
+    "pos": "verb",
+    "tr": [
+     "kutlamak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "organiseren": {
+  "senses": [
+   {
+    "gloss": "to organise",
+    "pos": "verb",
+    "tr": [
+     "organize etmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "plannen": {
+  "senses": [
+   {
+    "gloss": "to plan",
+    "pos": "verb",
+    "tr": [
+     "planlamak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "regelen": {
+  "senses": [
+   {
+    "gloss": "to arrange",
+    "pos": "verb",
+    "tr": [
+     "ayarlamak / halletmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "besparen": {
+  "senses": [
+   {
+    "gloss": "to save (effort/money)",
+    "pos": "verb",
+    "tr": [
+     "tasarruf etmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ruilen": {
+  "senses": [
+   {
+    "gloss": "to exchange",
+    "pos": "verb",
+    "tr": [
+     "takas etmek / değiştirmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "passen": {
+  "senses": [
+   {
+    "gloss": "to fit/try on",
+    "pos": "verb",
+    "tr": [
+     "uymak / prova etmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "aankleden": {
+  "senses": [
+   {
+    "gloss": "to dress",
+    "pos": "verb",
+    "tr": [
+     "giydirmek / giyinmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "uitkleden": {
+  "senses": [
+   {
+    "gloss": "to undress",
+    "pos": "verb",
+    "tr": [
+     "soymak / soyunmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "douchen": {
+  "senses": [
+   {
+    "gloss": "to shower",
+    "pos": "verb",
+    "tr": [
+     "duş almak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "baden": {
+  "senses": [
+   {
+    "gloss": "to bathe",
+    "pos": "verb",
+    "tr": [
+     "banyo yapmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "tandenpoetsen": {
+  "senses": [
+   {
+    "gloss": "to brush teeth",
+    "pos": "verb",
+    "tr": [
+     "diş fırçalamak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "kammen": {
+  "senses": [
+   {
+    "gloss": "to comb",
+    "pos": "verb",
+    "tr": [
+     "taramak (saç)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "scheren": {
+  "senses": [
+   {
+    "gloss": "to shave",
+    "pos": "verb",
+    "tr": [
+     "tıraş olmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "opstaan": {
+  "senses": [
+   {
+    "gloss": "to get up",
+    "pos": "verb",
+    "tr": [
+     "kalkmak (yataktan)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "uitrusten": {
+  "senses": [
+   {
+    "gloss": "to rest",
+    "pos": "verb",
+    "tr": [
+     "dinlenmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ontspannen": {
+  "senses": [
+   {
+    "gloss": "to relax",
+    "pos": "verb",
+    "tr": [
+     "rahatlamak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "trainen": {
+  "senses": [
+   {
+    "gloss": "to train",
+    "pos": "verb",
+    "tr": [
+     "antrenman yapmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bewegen": {
+  "senses": [
+   {
+    "gloss": "to move",
+    "pos": "verb",
+    "tr": [
+     "hareket etmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "rennen": {
+  "senses": [
+   {
+    "gloss": "to run",
+    "pos": "verb",
+    "tr": [
+     "koşmak (hızlı)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "springen": {
+  "senses": [
+   {
+    "gloss": "to jump",
+    "pos": "verb",
+    "tr": [
+     "zıplamak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "klimmen": {
+  "senses": [
+   {
+    "gloss": "to climb",
+    "pos": "verb",
+    "tr": [
+     "tırmanmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "fietsen": {
+  "senses": [
+   {
+    "gloss": "to cycle",
+    "pos": "verb",
+    "tr": [
+     "bisiklete binmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "skiën": {
+  "senses": [
+   {
+    "gloss": "to ski",
+    "pos": "verb",
+    "tr": [
+     "kayak yapmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "voetballen": {
+  "senses": [
+   {
+    "gloss": "to play football",
+    "pos": "verb",
+    "tr": [
+     "futbol oynamak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "winkelen": {
+  "senses": [
+   {
+    "gloss": "to shop",
+    "pos": "verb",
+    "tr": [
+     "alışveriş yapmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bevallen": {
+  "senses": [
+   {
+    "gloss": "to please/like",
+    "pos": "verb",
+    "tr": [
+     "hoşuna gitmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "irriteren": {
+  "senses": [
+   {
+    "gloss": "to irritate",
+    "pos": "verb",
+    "tr": [
+     "sinir etmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "storen": {
+  "senses": [
+   {
+    "gloss": "to disturb",
+    "pos": "verb",
+    "tr": [
+     "rahatsız etmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ondertekenen": {
+  "senses": [
+   {
+    "gloss": "to sign",
+    "pos": "verb",
+    "tr": [
+     "imzalamak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "invullen": {
+  "senses": [
+   {
+    "gloss": "to fill in",
+    "pos": "verb",
+    "tr": [
+     "doldurmak (form)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "aanmelden": {
+  "senses": [
+   {
+    "gloss": "to sign up",
+    "pos": "verb",
+    "tr": [
+     "kaydolmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "inloggen": {
+  "senses": [
+   {
+    "gloss": "to log in",
+    "pos": "verb",
+    "tr": [
+     "giriş yapmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "uitloggen": {
+  "senses": [
+   {
+    "gloss": "to log out",
+    "pos": "verb",
+    "tr": [
+     "çıkış yapmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "downloaden": {
+  "senses": [
+   {
+    "gloss": "to download",
+    "pos": "verb",
+    "tr": [
+     "indirmek (dosya)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "uploaden": {
+  "senses": [
+   {
+    "gloss": "to upload",
+    "pos": "verb",
+    "tr": [
+     "yüklemek (dosya)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "printen": {
+  "senses": [
+   {
+    "gloss": "to print",
+    "pos": "verb",
+    "tr": [
+     "yazdırmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "opladen": {
+  "senses": [
+   {
+    "gloss": "to charge",
+    "pos": "verb",
+    "tr": [
+     "şarj etmek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "dik": {
+  "senses": [
+   {
+    "gloss": "thick/fat",
+    "pos": "adj",
+    "tr": [
+     "kalın / şişman"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "dun": {
+  "senses": [
+   {
+    "gloss": "thin",
+    "pos": "adj",
+    "tr": [
+     "ince / zayıf"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "breed": {
+  "senses": [
+   {
+    "gloss": "wide",
+    "pos": "adj",
+    "tr": [
+     "geniş"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "smal": {
+  "senses": [
+   {
+    "gloss": "narrow",
+    "pos": "adj",
+    "tr": [
+     "dar"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "diep": {
+  "senses": [
+   {
+    "gloss": "deep",
+    "pos": "adj",
+    "tr": [
+     "derin"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ondiep": {
+  "senses": [
+   {
+    "gloss": "shallow",
+    "pos": "adj",
+    "tr": [
+     "sığ"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "rond": {
+  "senses": [
+   {
+    "gloss": "round",
+    "pos": "adj",
+    "tr": [
+     "yuvarlak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "recht__adj": {
+  "senses": [
+   {
+    "gloss": "straight",
+    "pos": "adj",
+    "tr": [
+     "düz"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "krom": {
+  "senses": [
+   {
+    "gloss": "crooked",
+    "pos": "adj",
+    "tr": [
+     "eğri"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "scherp": {
+  "senses": [
+   {
+    "gloss": "sharp",
+    "pos": "adj",
+    "tr": [
+     "keskin"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bot__adj": {
+  "senses": [
+   {
+    "gloss": "blunt",
+    "pos": "adj",
+    "tr": [
+     "kör (bıçak vs.)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "hard": {
+  "senses": [
+   {
+    "gloss": "hard/loud",
+    "pos": "adj",
+    "tr": [
+     "sert / yüksek sesli"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "zacht": {
+  "senses": [
+   {
+    "gloss": "soft",
+    "pos": "adj",
+    "tr": [
+     "yumuşak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "nat": {
+  "senses": [
+   {
+    "gloss": "wet",
+    "pos": "adj",
+    "tr": [
+     "ıslak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "droog": {
+  "senses": [
+   {
+    "gloss": "dry",
+    "pos": "adj",
+    "tr": [
+     "kuru"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "stevig": {
+  "senses": [
+   {
+    "gloss": "sturdy",
+    "pos": "adj",
+    "tr": [
+     "sağlam"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "los": {
+  "senses": [
+   {
+    "gloss": "loose",
+    "pos": "adj",
+    "tr": [
+     "gevşek / bağımsız"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vast": {
+  "senses": [
+   {
+    "gloss": "fixed/solid",
+    "pos": "adj",
+    "tr": [
+     "sabit / katı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bekend": {
+  "senses": [
+   {
+    "gloss": "familiar/known",
+    "pos": "adj",
+    "tr": [
+     "tanıdık / ünlü"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "onbekend": {
+  "senses": [
+   {
+    "gloss": "unknown",
+    "pos": "adj",
+    "tr": [
+     "tanınmayan / bilinmeyen"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "beroemd": {
+  "senses": [
+   {
+    "gloss": "famous",
+    "pos": "adj",
+    "tr": [
+     "ünlü"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "gewoon__adj": {
+  "senses": [
+   {
+    "gloss": "normal/ordinary",
+    "pos": "adj",
+    "tr": [
+     "normal / sıradan"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bijzonder": {
+  "senses": [
+   {
+    "gloss": "special",
+    "pos": "adj",
+    "tr": [
+     "özel / olağandışı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "apart": {
+  "senses": [
+   {
+    "gloss": "separate/odd",
+    "pos": "adj",
+    "tr": [
+     "ayrı / farklı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "gelijk": {
+  "senses": [
+   {
+    "gloss": "equal/same",
+    "pos": "adj",
+    "tr": [
+     "eşit / aynı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "anders__adj": {
+  "senses": [
+   {
+    "gloss": "different",
+    "pos": "adj",
+    "tr": [
+     "farklı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "hetzelfde": {
+  "senses": [
+   {
+    "gloss": "the same",
+    "pos": "adj",
+    "tr": [
+     "aynı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "modern": {
+  "senses": [
+   {
+    "gloss": "modern",
+    "pos": "adj",
+    "tr": [
+     "modern"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ouderwets": {
+  "senses": [
+   {
+    "gloss": "old-fashioned",
+    "pos": "adj",
+    "tr": [
+     "eski moda"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "populair": {
+  "senses": [
+   {
+    "gloss": "popular",
+    "pos": "adj",
+    "tr": [
+     "popüler"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "aardig": {
+  "senses": [
+   {
+    "gloss": "nice/kind",
+    "pos": "adj",
+    "tr": [
+     "nazik / hoş"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "onaardig": {
+  "senses": [
+   {
+    "gloss": "unkind",
+    "pos": "adj",
+    "tr": [
+     "kaba / nazik olmayan"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "beleefd": {
+  "senses": [
+   {
+    "gloss": "polite",
+    "pos": "adj",
+    "tr": [
+     "kibar"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "onbeleefd": {
+  "senses": [
+   {
+    "gloss": "impolite",
+    "pos": "adj",
+    "tr": [
+     "kaba"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "eerlijk": {
+  "senses": [
+   {
+    "gloss": "honest",
+    "pos": "adj",
+    "tr": [
+     "dürüst"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "oneerlijk": {
+  "senses": [
+   {
+    "gloss": "dishonest",
+    "pos": "adj",
+    "tr": [
+     "sahtekar / haksız"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "slim": {
+  "senses": [
+   {
+    "gloss": "smart",
+    "pos": "adj",
+    "tr": [
+     "akıllı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "dom": {
+  "senses": [
+   {
+    "gloss": "stupid",
+    "pos": "adj",
+    "tr": [
+     "aptal"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verstandig": {
+  "senses": [
+   {
+    "gloss": "sensible",
+    "pos": "adj",
+    "tr": [
+     "mantıklı / akıllıca"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "dapper": {
+  "senses": [
+   {
+    "gloss": "brave",
+    "pos": "adj",
+    "tr": [
+     "cesur"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verlegen": {
+  "senses": [
+   {
+    "gloss": "shy",
+    "pos": "adj",
+    "tr": [
+     "utangaç"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "nieuwsgierig": {
+  "senses": [
+   {
+    "gloss": "curious",
+    "pos": "adj",
+    "tr": [
+     "meraklı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "trots": {
+  "senses": [
+   {
+    "gloss": "proud",
+    "pos": "adj",
+    "tr": [
+     "gururlu"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "jaloers": {
+  "senses": [
+   {
+    "gloss": "jealous",
+    "pos": "adj",
+    "tr": [
+     "kıskanç"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "tevreden": {
+  "senses": [
+   {
+    "gloss": "satisfied",
+    "pos": "adj",
+    "tr": [
+     "memnun"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ontevreden": {
+  "senses": [
+   {
+    "gloss": "dissatisfied",
+    "pos": "adj",
+    "tr": [
+     "memnuniyetsiz"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "teleurgesteld": {
+  "senses": [
+   {
+    "gloss": "disappointed",
+    "pos": "adj",
+    "tr": [
+     "hayal kırıklığına uğramış"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verbaasd": {
+  "senses": [
+   {
+    "gloss": "surprised",
+    "pos": "adj",
+    "tr": [
+     "şaşırmış"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "opgewonden": {
+  "senses": [
+   {
+    "gloss": "excited",
+    "pos": "adj",
+    "tr": [
+     "heyecanlı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "kalm": {
+  "senses": [
+   {
+    "gloss": "calm",
+    "pos": "adj",
+    "tr": [
+     "sakin"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "nerveus": {
+  "senses": [
+   {
+    "gloss": "nervous",
+    "pos": "adj",
+    "tr": [
+     "gergin"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "gestrest": {
+  "senses": [
+   {
+    "gloss": "stressed",
+    "pos": "adj",
+    "tr": [
+     "stresli"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verveeld": {
+  "senses": [
+   {
+    "gloss": "bored",
+    "pos": "adj",
+    "tr": [
+     "sıkılmış"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "eenzaam": {
+  "senses": [
+   {
+    "gloss": "lonely",
+    "pos": "adj",
+    "tr": [
+     "yalnız (hissi)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "aantrekkelijk": {
+  "senses": [
+   {
+    "gloss": "attractive",
+    "pos": "adj",
+    "tr": [
+     "çekici"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "knap": {
+  "senses": [
+   {
+    "gloss": "handsome/clever",
+    "pos": "adj",
+    "tr": [
+     "yakışıklı/güzel/zeki"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "lief": {
+  "senses": [
+   {
+    "gloss": "sweet/kind",
+    "pos": "adj",
+    "tr": [
+     "tatlı / sevimli"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "gemeen": {
+  "senses": [
+   {
+    "gloss": "mean",
+    "pos": "adj",
+    "tr": [
+     "kötü kalpli"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "streng": {
+  "senses": [
+   {
+    "gloss": "strict",
+    "pos": "adj",
+    "tr": [
+     "katı / sıkı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "mild": {
+  "senses": [
+   {
+    "gloss": "mild",
+    "pos": "adj",
+    "tr": [
+     "yumuşak / hafif"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "levendig": {
+  "senses": [
+   {
+    "gloss": "lively",
+    "pos": "adj",
+    "tr": [
+     "canlı / hareketli"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "stil": {
+  "senses": [
+   {
+    "gloss": "quiet",
+    "pos": "adj",
+    "tr": [
+     "sessiz"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "lawaaierig": {
+  "senses": [
+   {
+    "gloss": "noisy",
+    "pos": "adj",
+    "tr": [
+     "gürültülü"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "lekker": {
+  "senses": [
+   {
+    "gloss": "tasty",
+    "pos": "adj",
+    "tr": [
+     "lezzetli"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "zoet": {
+  "senses": [
+   {
+    "gloss": "sweet (taste)",
+    "pos": "adj",
+    "tr": [
+     "tatlı (tat)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "zuur": {
+  "senses": [
+   {
+    "gloss": "sour",
+    "pos": "adj",
+    "tr": [
+     "ekşi"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bitter": {
+  "senses": [
+   {
+    "gloss": "bitter",
+    "pos": "adj",
+    "tr": [
+     "acı (tat)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "pittig": {
+  "senses": [
+   {
+    "gloss": "spicy",
+    "pos": "adj",
+    "tr": [
+     "baharatlı / acı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vers": {
+  "senses": [
+   {
+    "gloss": "fresh",
+    "pos": "adj",
+    "tr": [
+     "taze"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bedorven": {
+  "senses": [
+   {
+    "gloss": "spoiled",
+    "pos": "adj",
+    "tr": [
+     "bozulmuş"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "rijp": {
+  "senses": [
+   {
+    "gloss": "ripe",
+    "pos": "adj",
+    "tr": [
+     "olgun"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "compleet": {
+  "senses": [
+   {
+    "gloss": "complete",
+    "pos": "adj",
+    "tr": [
+     "tam / eksiksiz"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "half": {
+  "senses": [
+   {
+    "gloss": "half",
+    "pos": "adj",
+    "tr": [
+     "yarım"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "heel__adj": {
+  "senses": [
+   {
+    "gloss": "whole/intact",
+    "pos": "adj",
+    "tr": [
+     "sağlam / bütün"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "kapot": {
+  "senses": [
+   {
+    "gloss": "broken",
+    "pos": "adj",
+    "tr": [
+     "kırık / bozuk"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "gratis": {
+  "senses": [
+   {
+    "gloss": "free (no cost)",
+    "pos": "adj",
+    "tr": [
+     "ücretsiz"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "betaald": {
+  "senses": [
+   {
+    "gloss": "paid",
+    "pos": "adj",
+    "tr": [
+     "ücretli"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "particulier": {
+  "senses": [
+   {
+    "gloss": "private",
+    "pos": "adj",
+    "tr": [
+     "özel (kişisel)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "openbaar": {
+  "senses": [
+   {
+    "gloss": "public",
+    "pos": "adj",
+    "tr": [
+     "kamuya açık"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "dringend": {
+  "senses": [
+   {
+    "gloss": "urgent",
+    "pos": "adj",
+    "tr": [
+     "acil"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "relevant": {
+  "senses": [
+   {
+    "gloss": "relevant",
+    "pos": "adj",
+    "tr": [
+     "ilgili / alakalı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "nuttig": {
+  "senses": [
+   {
+    "gloss": "useful",
+    "pos": "adj",
+    "tr": [
+     "faydalı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "nutteloos": {
+  "senses": [
+   {
+    "gloss": "useless",
+    "pos": "adj",
+    "tr": [
+     "faydasız"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "handig": {
+  "senses": [
+   {
+    "gloss": "handy/useful",
+    "pos": "adj",
+    "tr": [
+     "kullanışlı / becerikli"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "onhandig": {
+  "senses": [
+   {
+    "gloss": "clumsy",
+    "pos": "adj",
+    "tr": [
+     "beceriksiz"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "normaal": {
+  "senses": [
+   {
+    "gloss": "normal",
+    "pos": "adj",
+    "tr": [
+     "normal"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vreemd": {
+  "senses": [
+   {
+    "gloss": "strange/foreign",
+    "pos": "adj",
+    "tr": [
+     "garip / yabancı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "raar": {
+  "senses": [
+   {
+    "gloss": "weird",
+    "pos": "adj",
+    "tr": [
+     "tuhaf"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "logisch": {
+  "senses": [
+   {
+    "gloss": "logical",
+    "pos": "adj",
+    "tr": [
+     "mantıklı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "onmogelijk": {
+  "senses": [
+   {
+    "gloss": "impossible",
+    "pos": "adj",
+    "tr": [
+     "imkansız"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "waarschijnlijk__adj": {
+  "senses": [
+   {
+    "gloss": "likely",
+    "pos": "adj",
+    "tr": [
+     "muhtemel"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "onwaarschijnlijk": {
+  "senses": [
+   {
+    "gloss": "unlikely",
+    "pos": "adj",
+    "tr": [
+     "olası olmayan"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bijvoorbeeld": {
+  "senses": [
+   {
+    "gloss": "for example",
+    "pos": "adv",
+    "tr": [
+     "örneğin / mesela"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "trouwens": {
+  "senses": [
+   {
+    "gloss": "by the way",
+    "pos": "adv",
+    "tr": [
+     "bu arada"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "eigenlijk": {
+  "senses": [
+   {
+    "gloss": "actually",
+    "pos": "adv",
+    "tr": [
+     "aslında"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "blijkbaar": {
+  "senses": [
+   {
+    "gloss": "apparently",
+    "pos": "adv",
+    "tr": [
+     "görünüşe göre"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "gelukkig__adv": {
+  "senses": [
+   {
+    "gloss": "fortunately",
+    "pos": "adv",
+    "tr": [
+     "neyse ki"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "helaas": {
+  "senses": [
+   {
+    "gloss": "unfortunately",
+    "pos": "adv",
+    "tr": [
+     "ne yazık ki"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "uiteindelijk": {
+  "senses": [
+   {
+    "gloss": "eventually",
+    "pos": "adv",
+    "tr": [
+     "sonunda"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "tenslotte": {
+  "senses": [
+   {
+    "gloss": "finally/lastly",
+    "pos": "adv",
+    "tr": [
+     "sonuç olarak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ondertussen": {
+  "senses": [
+   {
+    "gloss": "meanwhile",
+    "pos": "adv",
+    "tr": [
+     "bu arada / o esnada"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bijna": {
+  "senses": [
+   {
+    "gloss": "almost",
+    "pos": "adv",
+    "tr": [
+     "neredeyse"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ongeveer": {
+  "senses": [
+   {
+    "gloss": "approximately",
+    "pos": "adv",
+    "tr": [
+     "yaklaşık"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "precies": {
+  "senses": [
+   {
+    "gloss": "exactly",
+    "pos": "adv",
+    "tr": [
+     "tam olarak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "volledig": {
+  "senses": [
+   {
+    "gloss": "completely",
+    "pos": "adv",
+    "tr": [
+     "tamamen"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "nauwelijks": {
+  "senses": [
+   {
+    "gloss": "hardly",
+    "pos": "adv",
+    "tr": [
+     "neredeyse hiç"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "absoluut": {
+  "senses": [
+   {
+    "gloss": "absolutely",
+    "pos": "adv",
+    "tr": [
+     "kesinlikle"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "zeker__adv": {
+  "senses": [
+   {
+    "gloss": "surely/certainly",
+    "pos": "adv",
+    "tr": [
+     "kesinlikle / muhtemelen"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "waarschijnlijk__adv": {
+  "senses": [
+   {
+    "gloss": "probably",
+    "pos": "adv",
+    "tr": [
+     "muhtemelen"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "plotseling": {
+  "senses": [
+   {
+    "gloss": "suddenly",
+    "pos": "adv",
+    "tr": [
+     "aniden"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "meteen": {
+  "senses": [
+   {
+    "gloss": "immediately",
+    "pos": "adv",
+    "tr": [
+     "hemen"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "onmiddellijk": {
+  "senses": [
+   {
+    "gloss": "immediately",
+    "pos": "adv",
+    "tr": [
+     "derhal"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "langzamerhand": {
+  "senses": [
+   {
+    "gloss": "gradually",
+    "pos": "adv",
+    "tr": [
+     "yavaş yavaş"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "regelmatig": {
+  "senses": [
+   {
+    "gloss": "regularly",
+    "pos": "adv",
+    "tr": [
+     "düzenli olarak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "constant": {
+  "senses": [
+   {
+    "gloss": "constantly",
+    "pos": "adv",
+    "tr": [
+     "sürekli"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "meestal": {
+  "senses": [
+   {
+    "gloss": "usually",
+    "pos": "adv",
+    "tr": [
+     "genellikle"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "gewoonlijk": {
+  "senses": [
+   {
+    "gloss": "usually",
+    "pos": "adv",
+    "tr": [
+     "genellikle"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "zelden": {
+  "senses": [
+   {
+    "gloss": "rarely",
+    "pos": "adv",
+    "tr": [
+     "nadiren"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "overal": {
+  "senses": [
+   {
+    "gloss": "everywhere",
+    "pos": "adv",
+    "tr": [
+     "her yerde"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "nergens": {
+  "senses": [
+   {
+    "gloss": "nowhere",
+    "pos": "adv",
+    "tr": [
+     "hiçbir yerde"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ergens": {
+  "senses": [
+   {
+    "gloss": "somewhere",
+    "pos": "adv",
+    "tr": [
+     "bir yerde"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "thuis": {
+  "senses": [
+   {
+    "gloss": "at home",
+    "pos": "adv",
+    "tr": [
+     "evde"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "weg__adv": {
+  "senses": [
+   {
+    "gloss": "away/gone",
+    "pos": "adv",
+    "tr": [
+     "uzakta / gitmiş"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "terug": {
+  "senses": [
+   {
+    "gloss": "back",
+    "pos": "adv",
+    "tr": [
+     "geri"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vooruit": {
+  "senses": [
+   {
+    "gloss": "forward",
+    "pos": "adv",
+    "tr": [
+     "ileri"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "achteruit": {
+  "senses": [
+   {
+    "gloss": "backward",
+    "pos": "adv",
+    "tr": [
+     "geri (yön)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "omhoog": {
+  "senses": [
+   {
+    "gloss": "upward",
+    "pos": "adv",
+    "tr": [
+     "yukarı doğru"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "omlaag": {
+  "senses": [
+   {
+    "gloss": "downward",
+    "pos": "adv",
+    "tr": [
+     "aşağı doğru"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "overigens": {
+  "senses": [
+   {
+    "gloss": "moreover",
+    "pos": "adv",
+    "tr": [
+     "ayrıca / bu arada"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bovendien": {
+  "senses": [
+   {
+    "gloss": "moreover",
+    "pos": "adv",
+    "tr": [
+     "ayrıca / üstelik"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "daarom": {
+  "senses": [
+   {
+    "gloss": "therefore",
+    "pos": "adv",
+    "tr": [
+     "bu yüzden"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "daardoor": {
+  "senses": [
+   {
+    "gloss": "because of that",
+    "pos": "adv",
+    "tr": [
+     "bu sebeple / onun yüzünden"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "hierdoor": {
+  "senses": [
+   {
+    "gloss": "because of this",
+    "pos": "adv",
+    "tr": [
+     "bunun sonucunda"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "anders__conj": {
+  "senses": [
+   {
+    "gloss": "otherwise",
+    "pos": "conj",
+    "tr": [
+     "yoksa / aksi halde"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "hoewel": {
+  "senses": [
+   {
+    "gloss": "although",
+    "pos": "conj",
+    "tr": [
+     "-e rağmen / gerçi"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ofschoon": {
+  "senses": [
+   {
+    "gloss": "although (formal)",
+    "pos": "conj",
+    "tr": [
+     "gerçi / her ne kadar"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "zodat": {
+  "senses": [
+   {
+    "gloss": "so that",
+    "pos": "conj",
+    "tr": [
+     "öyle ki / böylece"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "mits": {
+  "senses": [
+   {
+    "gloss": "provided that",
+    "pos": "conj",
+    "tr": [
+     "şartıyla"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "tenzij": {
+  "senses": [
+   {
+    "gloss": "unless",
+    "pos": "conj",
+    "tr": [
+     "-medikçe"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "sinds": {
+  "senses": [
+   {
+    "gloss": "since",
+    "pos": "prep",
+    "tr": [
+     "-den beri"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vanaf": {
+  "senses": [
+   {
+    "gloss": "from (starting)",
+    "pos": "prep",
+    "tr": [
+     "-den itibaren"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "rondom": {
+  "senses": [
+   {
+    "gloss": "around",
+    "pos": "prep",
+    "tr": [
+     "etrafında"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "langs": {
+  "senses": [
+   {
+    "gloss": "along/past",
+    "pos": "prep",
+    "tr": [
+     "boyunca / yanından"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "richting": {
+  "senses": [
+   {
+    "gloss": "towards",
+    "pos": "prep",
+    "tr": [
+     "yönünde"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "dankzij": {
+  "senses": [
+   {
+    "gloss": "thanks to",
+    "pos": "prep",
+    "tr": [
+     "sayesinde"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ondanks": {
+  "senses": [
+   {
+    "gloss": "despite",
+    "pos": "prep",
+    "tr": [
+     "-e rağmen"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "volgens": {
+  "senses": [
+   {
+    "gloss": "according to",
+    "pos": "prep",
+    "tr": [
+     "-e göre"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "betreffende": {
+  "senses": [
+   {
+    "gloss": "regarding",
+    "pos": "prep",
+    "tr": [
+     "ilgili / hakkında"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "inclusief": {
+  "senses": [
+   {
+    "gloss": "including",
+    "pos": "prep",
+    "tr": [
+     "dahil"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "exclusief": {
+  "senses": [
+   {
+    "gloss": "excluding",
+    "pos": "prep",
+    "tr": [
+     "hariç"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "neef": {
+  "senses": [
+   {
+    "gloss": "cousin/nephew (m)",
+    "pos": "noun",
+    "tr": [
+     "kuzen / yeğen (erkek)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "nicht": {
+  "senses": [
+   {
+    "gloss": "cousin/niece (f)",
+    "pos": "noun",
+    "tr": [
+     "kuzen / yeğen (kadın)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "tante": {
+  "senses": [
+   {
+    "gloss": "aunt",
+    "pos": "noun",
+    "tr": [
+     "teyze/hala"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "oom": {
+  "senses": [
+   {
+    "gloss": "uncle",
+    "pos": "noun",
+    "tr": [
+     "amca/dayı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "schoonmoeder": {
+  "senses": [
+   {
+    "gloss": "mother-in-law",
+    "pos": "noun",
+    "tr": [
+     "kaynana"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "schoonvader": {
+  "senses": [
+   {
+    "gloss": "father-in-law",
+    "pos": "noun",
+    "tr": [
+     "kaynata"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "schoonzus": {
+  "senses": [
+   {
+    "gloss": "sister-in-law",
+    "pos": "noun",
+    "tr": [
+     "görümce/yenge"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "schoonbroer": {
+  "senses": [
+   {
+    "gloss": "brother-in-law",
+    "pos": "noun",
+    "tr": [
+     "kayınbirader/enişte"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "stiefvader": {
+  "senses": [
+   {
+    "gloss": "stepfather",
+    "pos": "noun",
+    "tr": [
+     "üvey baba"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "stiefmoeder": {
+  "senses": [
+   {
+    "gloss": "stepmother",
+    "pos": "noun",
+    "tr": [
+     "üvey anne"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "partner": {
+  "senses": [
+   {
+    "gloss": "partner",
+    "pos": "noun",
+    "tr": [
+     "partner"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verloofde": {
+  "senses": [
+   {
+    "gloss": "fiancé(e)",
+    "pos": "noun",
+    "tr": [
+     "nişanlı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "collega": {
+  "senses": [
+   {
+    "gloss": "colleague",
+    "pos": "noun",
+    "tr": [
+     "meslektaş / iş arkadaşı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "buurman": {
+  "senses": [
+   {
+    "gloss": "neighbour (m)",
+    "pos": "noun",
+    "tr": [
+     "komşu (erkek)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "buurvrouw": {
+  "senses": [
+   {
+    "gloss": "neighbour (f)",
+    "pos": "noun",
+    "tr": [
+     "komşu (kadın)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "kennis": {
+  "senses": [
+   {
+    "gloss": "acquaintance",
+    "pos": "noun",
+    "tr": [
+     "tanıdık"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "woonkamer": {
+  "senses": [
+   {
+    "gloss": "living room",
+    "pos": "noun",
+    "tr": [
+     "oturma odası"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "zolder": {
+  "senses": [
+   {
+    "gloss": "attic",
+    "pos": "noun",
+    "tr": [
+     "tavan arası"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "kelder": {
+  "senses": [
+   {
+    "gloss": "basement",
+    "pos": "noun",
+    "tr": [
+     "bodrum"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "tuin": {
+  "senses": [
+   {
+    "gloss": "garden",
+    "pos": "noun",
+    "tr": [
+     "bahçe"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "balkon": {
+  "senses": [
+   {
+    "gloss": "balcony",
+    "pos": "noun",
+    "tr": [
+     "balkon"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "trap": {
+  "senses": [
+   {
+    "gloss": "stairs",
+    "pos": "noun",
+    "tr": [
+     "merdiven"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "muur": {
+  "senses": [
+   {
+    "gloss": "wall",
+    "pos": "noun",
+    "tr": [
+     "duvar"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vloer": {
+  "senses": [
+   {
+    "gloss": "floor",
+    "pos": "noun",
+    "tr": [
+     "zemin / yer"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "plafond": {
+  "senses": [
+   {
+    "gloss": "ceiling",
+    "pos": "noun",
+    "tr": [
+     "tavan"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "dak": {
+  "senses": [
+   {
+    "gloss": "roof",
+    "pos": "noun",
+    "tr": [
+     "çatı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bank": {
+  "senses": [
+   {
+    "gloss": "sofa",
+    "pos": "noun",
+    "tr": [
+     "kanepe"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "kast": {
+  "senses": [
+   {
+    "gloss": "cupboard/closet",
+    "pos": "noun",
+    "tr": [
+     "dolap"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "koelkast": {
+  "senses": [
+   {
+    "gloss": "fridge",
+    "pos": "noun",
+    "tr": [
+     "buzdolabı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "wasmachine": {
+  "senses": [
+   {
+    "gloss": "washing machine",
+    "pos": "noun",
+    "tr": [
+     "çamaşır makinesi"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "magnetron": {
+  "senses": [
+   {
+    "gloss": "microwave",
+    "pos": "noun",
+    "tr": [
+     "mikrodalga"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "fornuis": {
+  "senses": [
+   {
+    "gloss": "stove",
+    "pos": "noun",
+    "tr": [
+     "ocak (mutfak)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "spiegel": {
+  "senses": [
+   {
+    "gloss": "mirror",
+    "pos": "noun",
+    "tr": [
+     "ayna"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "lamp": {
+  "senses": [
+   {
+    "gloss": "lamp",
+    "pos": "noun",
+    "tr": [
+     "lamba"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "kussen": {
+  "senses": [
+   {
+    "gloss": "pillow",
+    "pos": "noun",
+    "tr": [
+     "yastık"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "deken": {
+  "senses": [
+   {
+    "gloss": "blanket",
+    "pos": "noun",
+    "tr": [
+     "battaniye"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "gordijn": {
+  "senses": [
+   {
+    "gloss": "curtain",
+    "pos": "noun",
+    "tr": [
+     "perde"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "sleutel": {
+  "senses": [
+   {
+    "gloss": "key",
+    "pos": "noun",
+    "tr": [
+     "anahtar"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "slot": {
+  "senses": [
+   {
+    "gloss": "lock",
+    "pos": "noun",
+    "tr": [
+     "kilit"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "brievenbus": {
+  "senses": [
+   {
+    "gloss": "mailbox",
+    "pos": "noun",
+    "tr": [
+     "posta kutusu"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "huisdier": {
+  "senses": [
+   {
+    "gloss": "pet",
+    "pos": "noun",
+    "tr": [
+     "ev hayvanı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "hond": {
+  "senses": [
+   {
+    "gloss": "dog",
+    "pos": "noun",
+    "tr": [
+     "köpek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "kat": {
+  "senses": [
+   {
+    "gloss": "cat",
+    "pos": "noun",
+    "tr": [
+     "kedi"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vogel": {
+  "senses": [
+   {
+    "gloss": "bird",
+    "pos": "noun",
+    "tr": [
+     "kuş"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "paard": {
+  "senses": [
+   {
+    "gloss": "horse",
+    "pos": "noun",
+    "tr": [
+     "at"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "aardappel": {
+  "senses": [
+   {
+    "gloss": "potato",
+    "pos": "noun",
+    "tr": [
+     "patates"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "tomaat": {
+  "senses": [
+   {
+    "gloss": "tomato",
+    "pos": "noun",
+    "tr": [
+     "domates"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ui": {
+  "senses": [
+   {
+    "gloss": "onion",
+    "pos": "noun",
+    "tr": [
+     "soğan"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "knoflook": {
+  "senses": [
+   {
+    "gloss": "garlic",
+    "pos": "noun",
+    "tr": [
+     "sarımsak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "wortel": {
+  "senses": [
+   {
+    "gloss": "carrot",
+    "pos": "noun",
+    "tr": [
+     "havuç"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "sla": {
+  "senses": [
+   {
+    "gloss": "lettuce",
+    "pos": "noun",
+    "tr": [
+     "marul"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "banaan": {
+  "senses": [
+   {
+    "gloss": "banana",
+    "pos": "noun",
+    "tr": [
+     "muz"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "sinaasappel": {
+  "senses": [
+   {
+    "gloss": "orange",
+    "pos": "noun",
+    "tr": [
+     "portakal"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "druif": {
+  "senses": [
+   {
+    "gloss": "grape",
+    "pos": "noun",
+    "tr": [
+     "üzüm"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "citroen": {
+  "senses": [
+   {
+    "gloss": "lemon",
+    "pos": "noun",
+    "tr": [
+     "limon"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ei": {
+  "senses": [
+   {
+    "gloss": "egg",
+    "pos": "noun",
+    "tr": [
+     "yumurta"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "boter": {
+  "senses": [
+   {
+    "gloss": "butter",
+    "pos": "noun",
+    "tr": [
+     "tereyağı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "olie": {
+  "senses": [
+   {
+    "gloss": "oil",
+    "pos": "noun",
+    "tr": [
+     "yağ"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "rijst": {
+  "senses": [
+   {
+    "gloss": "rice",
+    "pos": "noun",
+    "tr": [
+     "pirinç"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "pasta": {
+  "senses": [
+   {
+    "gloss": "pasta",
+    "pos": "noun",
+    "tr": [
+     "makarna"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "soep": {
+  "senses": [
+   {
+    "gloss": "soup",
+    "pos": "noun",
+    "tr": [
+     "çorba"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "saus": {
+  "senses": [
+   {
+    "gloss": "sauce",
+    "pos": "noun",
+    "tr": [
+     "sos"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "taart": {
+  "senses": [
+   {
+    "gloss": "cake",
+    "pos": "noun",
+    "tr": [
+     "pasta (tatlı)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "koekje": {
+  "senses": [
+   {
+    "gloss": "cookie",
+    "pos": "noun",
+    "tr": [
+     "kurabiye"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "chocolade": {
+  "senses": [
+   {
+    "gloss": "chocolate",
+    "pos": "noun",
+    "tr": [
+     "çikolata"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ijs": {
+  "senses": [
+   {
+    "gloss": "ice cream",
+    "pos": "noun",
+    "tr": [
+     "dondurma"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "wijn": {
+  "senses": [
+   {
+    "gloss": "wine",
+    "pos": "noun",
+    "tr": [
+     "şarap"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bier": {
+  "senses": [
+   {
+    "gloss": "beer",
+    "pos": "noun",
+    "tr": [
+     "bira"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "sap": {
+  "senses": [
+   {
+    "gloss": "juice",
+    "pos": "noun",
+    "tr": [
+     "meyve suyu"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "frisdrank": {
+  "senses": [
+   {
+    "gloss": "soft drink",
+    "pos": "noun",
+    "tr": [
+     "gazlı içecek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "kip": {
+  "senses": [
+   {
+    "gloss": "chicken (meat)",
+    "pos": "noun",
+    "tr": [
+     "tavuk (et)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "rundvlees": {
+  "senses": [
+   {
+    "gloss": "beef",
+    "pos": "noun",
+    "tr": [
+     "dana eti"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "varkensvlees": {
+  "senses": [
+   {
+    "gloss": "pork",
+    "pos": "noun",
+    "tr": [
+     "domuz eti"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "worst": {
+  "senses": [
+   {
+    "gloss": "sausage",
+    "pos": "noun",
+    "tr": [
+     "sosis"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ham": {
+  "senses": [
+   {
+    "gloss": "ham",
+    "pos": "noun",
+    "tr": [
+     "jambon"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "boterham": {
+  "senses": [
+   {
+    "gloss": "sandwich (slice)",
+    "pos": "noun",
+    "tr": [
+     "sandviç (ekmek dilimi)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "baas": {
+  "senses": [
+   {
+    "gloss": "boss",
+    "pos": "noun",
+    "tr": [
+     "patron"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "directeur": {
+  "senses": [
+   {
+    "gloss": "director",
+    "pos": "noun",
+    "tr": [
+     "müdür"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "werknemer": {
+  "senses": [
+   {
+    "gloss": "employee",
+    "pos": "noun",
+    "tr": [
+     "çalışan"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "werkgever": {
+  "senses": [
+   {
+    "gloss": "employer",
+    "pos": "noun",
+    "tr": [
+     "işveren"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "sollicitatie": {
+  "senses": [
+   {
+    "gloss": "job application",
+    "pos": "noun",
+    "tr": [
+     "iş başvurusu"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "salaris": {
+  "senses": [
+   {
+    "gloss": "salary",
+    "pos": "noun",
+    "tr": [
+     "maaş"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vergadering": {
+  "senses": [
+   {
+    "gloss": "meeting",
+    "pos": "noun",
+    "tr": [
+     "toplantı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "afspraak": {
+  "senses": [
+   {
+    "gloss": "appointment",
+    "pos": "noun",
+    "tr": [
+     "randevu"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "kantoor": {
+  "senses": [
+   {
+    "gloss": "office",
+    "pos": "noun",
+    "tr": [
+     "ofis"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "fabriek": {
+  "senses": [
+   {
+    "gloss": "factory",
+    "pos": "noun",
+    "tr": [
+     "fabrika"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "winkelcentrum": {
+  "senses": [
+   {
+    "gloss": "shopping mall",
+    "pos": "noun",
+    "tr": [
+     "alışveriş merkezi"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bibliotheek": {
+  "senses": [
+   {
+    "gloss": "library",
+    "pos": "noun",
+    "tr": [
+     "kütüphane"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "universiteit": {
+  "senses": [
+   {
+    "gloss": "university",
+    "pos": "noun",
+    "tr": [
+     "üniversite"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "klas": {
+  "senses": [
+   {
+    "gloss": "class(room)",
+    "pos": "noun",
+    "tr": [
+     "sınıf"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "leraar": {
+  "senses": [
+   {
+    "gloss": "teacher (m)",
+    "pos": "noun",
+    "tr": [
+     "öğretmen (erkek)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "lerares": {
+  "senses": [
+   {
+    "gloss": "teacher (f)",
+    "pos": "noun",
+    "tr": [
+     "öğretmen (kadın)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "student": {
+  "senses": [
+   {
+    "gloss": "student (university)",
+    "pos": "noun",
+    "tr": [
+     "öğrenci (üniversite)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "cijfer": {
+  "senses": [
+   {
+    "gloss": "grade/mark",
+    "pos": "noun",
+    "tr": [
+     "not (okul)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "examen": {
+  "senses": [
+   {
+    "gloss": "exam",
+    "pos": "noun",
+    "tr": [
+     "sınav"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "huiswerk": {
+  "senses": [
+   {
+    "gloss": "homework",
+    "pos": "noun",
+    "tr": [
+     "ev ödevi"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vak": {
+  "senses": [
+   {
+    "gloss": "school subject",
+    "pos": "noun",
+    "tr": [
+     "ders (okul dersi)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "diploma": {
+  "senses": [
+   {
+    "gloss": "diploma",
+    "pos": "noun",
+    "tr": [
+     "diploma"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vliegveld": {
+  "senses": [
+   {
+    "gloss": "airport",
+    "pos": "noun",
+    "tr": [
+     "havalimanı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "paspoort": {
+  "senses": [
+   {
+    "gloss": "passport",
+    "pos": "noun",
+    "tr": [
+     "pasaport"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "koffer": {
+  "senses": [
+   {
+    "gloss": "suitcase",
+    "pos": "noun",
+    "tr": [
+     "bavul"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "rugzak": {
+  "senses": [
+   {
+    "gloss": "backpack",
+    "pos": "noun",
+    "tr": [
+     "sırt çantası"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "hotel": {
+  "senses": [
+   {
+    "gloss": "hotel",
+    "pos": "noun",
+    "tr": [
+     "otel"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vakantie": {
+  "senses": [
+   {
+    "gloss": "holiday",
+    "pos": "noun",
+    "tr": [
+     "tatil"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "uitstapje": {
+  "senses": [
+   {
+    "gloss": "outing/trip",
+    "pos": "noun",
+    "tr": [
+     "gezi"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bestemming": {
+  "senses": [
+   {
+    "gloss": "destination",
+    "pos": "noun",
+    "tr": [
+     "varış noktası"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "route": {
+  "senses": [
+   {
+    "gloss": "route",
+    "pos": "noun",
+    "tr": [
+     "rota / güzergah"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "kaart": {
+  "senses": [
+   {
+    "gloss": "map",
+    "pos": "noun",
+    "tr": [
+     "harita"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "taxi": {
+  "senses": [
+   {
+    "gloss": "taxi",
+    "pos": "noun",
+    "tr": [
+     "taksi"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "metro": {
+  "senses": [
+   {
+    "gloss": "metro",
+    "pos": "noun",
+    "tr": [
+     "metro"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "tram": {
+  "senses": [
+   {
+    "gloss": "tram",
+    "pos": "noun",
+    "tr": [
+     "tramvay"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "boot": {
+  "senses": [
+   {
+    "gloss": "boat",
+    "pos": "noun",
+    "tr": [
+     "tekne / gemi"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "parkeerplaats": {
+  "senses": [
+   {
+    "gloss": "parking lot",
+    "pos": "noun",
+    "tr": [
+     "park yeri"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "benzine": {
+  "senses": [
+   {
+    "gloss": "petrol",
+    "pos": "noun",
+    "tr": [
+     "benzin"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "rijbewijs": {
+  "senses": [
+   {
+    "gloss": "driving license",
+    "pos": "noun",
+    "tr": [
+     "ehliyet"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verkeer": {
+  "senses": [
+   {
+    "gloss": "traffic",
+    "pos": "noun",
+    "tr": [
+     "trafik"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "file": {
+  "senses": [
+   {
+    "gloss": "traffic jam",
+    "pos": "noun",
+    "tr": [
+     "trafik sıkışıklığı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ongeluk": {
+  "senses": [
+   {
+    "gloss": "accident",
+    "pos": "noun",
+    "tr": [
+     "kaza"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "gezicht": {
+  "senses": [
+   {
+    "gloss": "face",
+    "pos": "noun",
+    "tr": [
+     "yüz"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "haar__noun": {
+  "senses": [
+   {
+    "gloss": "hair",
+    "pos": "noun",
+    "tr": [
+     "saç"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "hals": {
+  "senses": [
+   {
+    "gloss": "neck",
+    "pos": "noun",
+    "tr": [
+     "boyun"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "schouder": {
+  "senses": [
+   {
+    "gloss": "shoulder",
+    "pos": "noun",
+    "tr": [
+     "omuz"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "rug": {
+  "senses": [
+   {
+    "gloss": "back",
+    "pos": "noun",
+    "tr": [
+     "sırt"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "buik": {
+  "senses": [
+   {
+    "gloss": "belly",
+    "pos": "noun",
+    "tr": [
+     "karın"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vinger": {
+  "senses": [
+   {
+    "gloss": "finger",
+    "pos": "noun",
+    "tr": [
+     "parmak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "teen": {
+  "senses": [
+   {
+    "gloss": "toe",
+    "pos": "noun",
+    "tr": [
+     "ayak parmağı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "knie": {
+  "senses": [
+   {
+    "gloss": "knee",
+    "pos": "noun",
+    "tr": [
+     "diz"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "tand": {
+  "senses": [
+   {
+    "gloss": "tooth",
+    "pos": "noun",
+    "tr": [
+     "diş"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "huid": {
+  "senses": [
+   {
+    "gloss": "skin",
+    "pos": "noun",
+    "tr": [
+     "cilt / deri"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bloed": {
+  "senses": [
+   {
+    "gloss": "blood",
+    "pos": "noun",
+    "tr": [
+     "kan"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bot__noun": {
+  "senses": [
+   {
+    "gloss": "bone",
+    "pos": "noun",
+    "tr": [
+     "kemik"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "spier": {
+  "senses": [
+   {
+    "gloss": "muscle",
+    "pos": "noun",
+    "tr": [
+     "kas"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ziekte": {
+  "senses": [
+   {
+    "gloss": "illness",
+    "pos": "noun",
+    "tr": [
+     "hastalık"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "koorts": {
+  "senses": [
+   {
+    "gloss": "fever",
+    "pos": "noun",
+    "tr": [
+     "ateş (hastalık)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "hoofdpijn": {
+  "senses": [
+   {
+    "gloss": "headache",
+    "pos": "noun",
+    "tr": [
+     "baş ağrısı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verkoudheid": {
+  "senses": [
+   {
+    "gloss": "cold (illness)",
+    "pos": "noun",
+    "tr": [
+     "nezle"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "medicijn": {
+  "senses": [
+   {
+    "gloss": "medicine",
+    "pos": "noun",
+    "tr": [
+     "ilaç"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "apotheek": {
+  "senses": [
+   {
+    "gloss": "pharmacy",
+    "pos": "noun",
+    "tr": [
+     "eczane"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "recept": {
+  "senses": [
+   {
+    "gloss": "prescription",
+    "pos": "noun",
+    "tr": [
+     "reçete"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verband": {
+  "senses": [
+   {
+    "gloss": "bandage",
+    "pos": "noun",
+    "tr": [
+     "bandaj"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ambulance": {
+  "senses": [
+   {
+    "gloss": "ambulance",
+    "pos": "noun",
+    "tr": [
+     "ambulans"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "tandarts": {
+  "senses": [
+   {
+    "gloss": "dentist",
+    "pos": "noun",
+    "tr": [
+     "diş hekimi"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verpleegkundige": {
+  "senses": [
+   {
+    "gloss": "nurse",
+    "pos": "noun",
+    "tr": [
+     "hemşire"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "trui": {
+  "senses": [
+   {
+    "gloss": "sweater",
+    "pos": "noun",
+    "tr": [
+     "kazak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "rok": {
+  "senses": [
+   {
+    "gloss": "skirt",
+    "pos": "noun",
+    "tr": [
+     "etek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "jurk": {
+  "senses": [
+   {
+    "gloss": "dress",
+    "pos": "noun",
+    "tr": [
+     "elbise"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "pak": {
+  "senses": [
+   {
+    "gloss": "suit",
+    "pos": "noun",
+    "tr": [
+     "takım elbise"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "sokken": {
+  "senses": [
+   {
+    "gloss": "socks",
+    "pos": "noun",
+    "tr": [
+     "çorap"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ondergoed": {
+  "senses": [
+   {
+    "gloss": "underwear",
+    "pos": "noun",
+    "tr": [
+     "iç çamaşırı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "muts": {
+  "senses": [
+   {
+    "gloss": "hat/beanie",
+    "pos": "noun",
+    "tr": [
+     "bere"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "handschoenen": {
+  "senses": [
+   {
+    "gloss": "gloves",
+    "pos": "noun",
+    "tr": [
+     "eldiven"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "sjaal": {
+  "senses": [
+   {
+    "gloss": "scarf",
+    "pos": "noun",
+    "tr": [
+     "atkı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "riem": {
+  "senses": [
+   {
+    "gloss": "belt",
+    "pos": "noun",
+    "tr": [
+     "kemer"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "tas": {
+  "senses": [
+   {
+    "gloss": "bag",
+    "pos": "noun",
+    "tr": [
+     "çanta"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bril": {
+  "senses": [
+   {
+    "gloss": "glasses",
+    "pos": "noun",
+    "tr": [
+     "gözlük"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "horloge": {
+  "senses": [
+   {
+    "gloss": "watch",
+    "pos": "noun",
+    "tr": [
+     "kol saati"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "sieraad": {
+  "senses": [
+   {
+    "gloss": "jewellery",
+    "pos": "noun",
+    "tr": [
+     "mücevher"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "temperatuur": {
+  "senses": [
+   {
+    "gloss": "temperature",
+    "pos": "noun",
+    "tr": [
+     "sıcaklık"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "graad": {
+  "senses": [
+   {
+    "gloss": "degree",
+    "pos": "noun",
+    "tr": [
+     "derece"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "storm": {
+  "senses": [
+   {
+    "gloss": "storm",
+    "pos": "noun",
+    "tr": [
+     "fırtına"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "onweer": {
+  "senses": [
+   {
+    "gloss": "thunderstorm",
+    "pos": "noun",
+    "tr": [
+     "gök gürültülü fırtına"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "mist": {
+  "senses": [
+   {
+    "gloss": "fog",
+    "pos": "noun",
+    "tr": [
+     "sis"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vochtig": {
+  "senses": [
+   {
+    "gloss": "humid",
+    "pos": "adj",
+    "tr": [
+     "nemli"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bewolkt": {
+  "senses": [
+   {
+    "gloss": "cloudy",
+    "pos": "adj",
+    "tr": [
+     "bulutlu"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "zonnig": {
+  "senses": [
+   {
+    "gloss": "sunny",
+    "pos": "adj",
+    "tr": [
+     "güneşli"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "regenachtig": {
+  "senses": [
+   {
+    "gloss": "rainy",
+    "pos": "adj",
+    "tr": [
+     "yağmurlu"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "gevoel": {
+  "senses": [
+   {
+    "gloss": "feeling",
+    "pos": "noun",
+    "tr": [
+     "duygu"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "gedachte": {
+  "senses": [
+   {
+    "gloss": "thought",
+    "pos": "noun",
+    "tr": [
+     "düşünce"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "mening": {
+  "senses": [
+   {
+    "gloss": "opinion",
+    "pos": "noun",
+    "tr": [
+     "fikir / görüş"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "herinnering": {
+  "senses": [
+   {
+    "gloss": "memory",
+    "pos": "noun",
+    "tr": [
+     "anı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "droom": {
+  "senses": [
+   {
+    "gloss": "dream",
+    "pos": "noun",
+    "tr": [
+     "rüya / hayal"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "hoop": {
+  "senses": [
+   {
+    "gloss": "hope",
+    "pos": "noun",
+    "tr": [
+     "umut"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "angst": {
+  "senses": [
+   {
+    "gloss": "fear",
+    "pos": "noun",
+    "tr": [
+     "korku"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verdriet": {
+  "senses": [
+   {
+    "gloss": "sadness",
+    "pos": "noun",
+    "tr": [
+     "üzüntü"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vreugde": {
+  "senses": [
+   {
+    "gloss": "joy",
+    "pos": "noun",
+    "tr": [
+     "sevinç"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "liefde": {
+  "senses": [
+   {
+    "gloss": "love",
+    "pos": "noun",
+    "tr": [
+     "aşk / sevgi"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "vriendschap": {
+  "senses": [
+   {
+    "gloss": "friendship",
+    "pos": "noun",
+    "tr": [
+     "arkadaşlık"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bericht": {
+  "senses": [
+   {
+    "gloss": "message",
+    "pos": "noun",
+    "tr": [
+     "mesaj"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "brief": {
+  "senses": [
+   {
+    "gloss": "letter",
+    "pos": "noun",
+    "tr": [
+     "mektup"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "krant": {
+  "senses": [
+   {
+    "gloss": "newspaper",
+    "pos": "noun",
+    "tr": [
+     "gazete"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "tijdschrift": {
+  "senses": [
+   {
+    "gloss": "magazine",
+    "pos": "noun",
+    "tr": [
+     "dergi"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "nieuws": {
+  "senses": [
+   {
+    "gloss": "news",
+    "pos": "noun",
+    "tr": [
+     "haber"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "internet": {
+  "senses": [
+   {
+    "gloss": "internet",
+    "pos": "noun",
+    "tr": [
+     "internet"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "website": {
+  "senses": [
+   {
+    "gloss": "website",
+    "pos": "noun",
+    "tr": [
+     "web sitesi"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "wachtwoord": {
+  "senses": [
+   {
+    "gloss": "password",
+    "pos": "noun",
+    "tr": [
+     "şifre"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "account": {
+  "senses": [
+   {
+    "gloss": "account",
+    "pos": "noun",
+    "tr": [
+     "hesap (dijital)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "scherm": {
+  "senses": [
+   {
+    "gloss": "screen",
+    "pos": "noun",
+    "tr": [
+     "ekran"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "toetsenbord": {
+  "senses": [
+   {
+    "gloss": "keyboard",
+    "pos": "noun",
+    "tr": [
+     "klavye"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "muis": {
+  "senses": [
+   {
+    "gloss": "mouse (computer)",
+    "pos": "noun",
+    "tr": [
+     "fare (bilgisayar)"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "batterij": {
+  "senses": [
+   {
+    "gloss": "battery",
+    "pos": "noun",
+    "tr": [
+     "pil / batarya"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "oplader": {
+  "senses": [
+   {
+    "gloss": "charger",
+    "pos": "noun",
+    "tr": [
+     "şarj aleti"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "camera": {
+  "senses": [
+   {
+    "gloss": "camera",
+    "pos": "noun",
+    "tr": [
+     "kamera"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "foto": {
+  "senses": [
+   {
+    "gloss": "photo",
+    "pos": "noun",
+    "tr": [
+     "fotoğraf"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "video": {
+  "senses": [
+   {
+    "gloss": "video",
+    "pos": "noun",
+    "tr": [
+     "video"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "muziek": {
+  "senses": [
+   {
+    "gloss": "music",
+    "pos": "noun",
+    "tr": [
+     "müzik"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "lied": {
+  "senses": [
+   {
+    "gloss": "song",
+    "pos": "noun",
+    "tr": [
+     "şarkı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "film": {
+  "senses": [
+   {
+    "gloss": "movie",
+    "pos": "noun",
+    "tr": [
+     "film"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "televisie": {
+  "senses": [
+   {
+    "gloss": "television",
+    "pos": "noun",
+    "tr": [
+     "televizyon"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "radio": {
+  "senses": [
+   {
+    "gloss": "radio",
+    "pos": "noun",
+    "tr": [
+     "radyo"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "reden": {
+  "senses": [
+   {
+    "gloss": "reason",
+    "pos": "noun",
+    "tr": [
+     "neden / sebep"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "doel": {
+  "senses": [
+   {
+    "gloss": "goal",
+    "pos": "noun",
+    "tr": [
+     "amaç / hedef"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "resultaat": {
+  "senses": [
+   {
+    "gloss": "result",
+    "pos": "noun",
+    "tr": [
+     "sonuç"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "oplossing": {
+  "senses": [
+   {
+    "gloss": "solution",
+    "pos": "noun",
+    "tr": [
+     "çözüm"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "advies": {
+  "senses": [
+   {
+    "gloss": "advice",
+    "pos": "noun",
+    "tr": [
+     "tavsiye"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "hulp": {
+  "senses": [
+   {
+    "gloss": "help",
+    "pos": "noun",
+    "tr": [
+     "yardım"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "regel": {
+  "senses": [
+   {
+    "gloss": "rule",
+    "pos": "noun",
+    "tr": [
+     "kural"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "wet": {
+  "senses": [
+   {
+    "gloss": "law",
+    "pos": "noun",
+    "tr": [
+     "kanun"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "recht__noun": {
+  "senses": [
+   {
+    "gloss": "right (legal)",
+    "pos": "noun",
+    "tr": [
+     "hak"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "plicht": {
+  "senses": [
+   {
+    "gloss": "duty",
+    "pos": "noun",
+    "tr": [
+     "görev / yükümlülük"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verschil": {
+  "senses": [
+   {
+    "gloss": "difference",
+    "pos": "noun",
+    "tr": [
+     "fark"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "overeenkomst": {
+  "senses": [
+   {
+    "gloss": "similarity/agreement",
+    "pos": "noun",
+    "tr": [
+     "benzerlik / anlaşma"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "voorbeeld": {
+  "senses": [
+   {
+    "gloss": "example",
+    "pos": "noun",
+    "tr": [
+     "örnek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "informatie": {
+  "senses": [
+   {
+    "gloss": "information",
+    "pos": "noun",
+    "tr": [
+     "bilgi"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "bewijs": {
+  "senses": [
+   {
+    "gloss": "proof",
+    "pos": "noun",
+    "tr": [
+     "kanıt"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "risico": {
+  "senses": [
+   {
+    "gloss": "risk",
+    "pos": "noun",
+    "tr": [
+     "risk"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "gevaar": {
+  "senses": [
+   {
+    "gloss": "danger",
+    "pos": "noun",
+    "tr": [
+     "tehlike"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "succes": {
+  "senses": [
+   {
+    "gloss": "success",
+    "pos": "noun",
+    "tr": [
+     "başarı"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "fout": {
+  "senses": [
+   {
+    "gloss": "mistake",
+    "pos": "noun",
+    "tr": [
+     "hata"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verandering": {
+  "senses": [
+   {
+    "gloss": "change",
+    "pos": "noun",
+    "tr": [
+     "değişim"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "ontwikkeling": {
+  "senses": [
+   {
+    "gloss": "development",
+    "pos": "noun",
+    "tr": [
+     "gelişim"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "groei": {
+  "senses": [
+   {
+    "gloss": "growth",
+    "pos": "noun",
+    "tr": [
+     "büyüme"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "toekomst": {
+  "senses": [
+   {
+    "gloss": "future",
+    "pos": "noun",
+    "tr": [
+     "gelecek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "verleden": {
+  "senses": [
+   {
+    "gloss": "past",
+    "pos": "noun",
+    "tr": [
+     "geçmiş"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "periode": {
+  "senses": [
+   {
+    "gloss": "period",
+    "pos": "noun",
+    "tr": [
+     "dönem"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "moment": {
+  "senses": [
+   {
+    "gloss": "moment",
+    "pos": "noun",
+    "tr": [
+     "an"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "gelegenheid": {
+  "senses": [
+   {
+    "gloss": "occasion/opportunity",
+    "pos": "noun",
+    "tr": [
+     "fırsat / vesile"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "situatie": {
+  "senses": [
+   {
+    "gloss": "situation",
+    "pos": "noun",
+    "tr": [
+     "durum"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "omstandigheid": {
+  "senses": [
+   {
+    "gloss": "circumstance",
+    "pos": "noun",
+    "tr": [
+     "koşul"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "voorwaarde": {
+  "senses": [
+   {
+    "gloss": "condition",
+    "pos": "noun",
+    "tr": [
+     "şart"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "behoefte": {
+  "senses": [
+   {
+    "gloss": "need",
+    "pos": "noun",
+    "tr": [
+     "ihtiyaç"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "wens": {
+  "senses": [
+   {
+    "gloss": "wish",
+    "pos": "noun",
+    "tr": [
+     "dilek / istek"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "keuze": {
+  "senses": [
+   {
+    "gloss": "choice",
+    "pos": "noun",
+    "tr": [
+     "seçim"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "besluit": {
+  "senses": [
+   {
+    "gloss": "decision",
+    "pos": "noun",
+    "tr": [
+     "karar"
+    ],
+    "register": "neutral",
+    "note": ""
+   }
+  ]
+ },
+ "mogelijkheid": {
+  "senses": [
+   {
+    "gloss": "possibility",
+    "pos": "noun",
+    "tr": [
+     "olasılık / imkan"
     ],
     "register": "neutral",
     "note": ""

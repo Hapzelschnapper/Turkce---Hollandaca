@@ -141,9 +141,10 @@
   "base": "zijn"
  },
  {
-  "en": "haar",
+  "en": "haar__pron",
   "cefr": 1,
-  "pos": "pron"
+  "pos": "pron",
+  "base": "haar"
  },
  {
   "en": "ons",
@@ -1247,9 +1248,10 @@
   "pos": "adj"
  },
  {
-  "en": "gelukkig",
+  "en": "gelukkig__adj",
   "cefr": 1,
-  "pos": "adj"
+  "pos": "adj",
+  "base": "gelukkig"
  },
  {
   "en": "verdrietig",
@@ -1378,9 +1380,10 @@
   "pos": "adj"
  },
  {
-  "en": "zeker",
+  "en": "zeker__adj",
   "cefr": 2,
-  "pos": "adj"
+  "pos": "adj",
+  "base": "zeker"
  },
  {
   "en": "mogelijk",
@@ -1539,9 +1542,10 @@
   "pos": "adv"
  },
  {
-  "en": "heel",
+  "en": "heel__adv",
   "cefr": 1,
-  "pos": "adv"
+  "pos": "adv",
+  "base": "heel"
  },
  {
   "en": "erg",
@@ -1641,9 +1645,10 @@
   "pos": "adv"
  },
  {
-  "en": "gewoon",
+  "en": "gewoon__adv",
   "cefr": 2,
-  "pos": "adv"
+  "pos": "adv",
+  "base": "gewoon"
  },
  {
   "en": "echt",
@@ -1766,9 +1771,10 @@
   "pos": "noun"
  },
  {
-  "en": "weg",
+  "en": "weg__noun",
   "cefr": 1,
-  "pos": "noun"
+  "pos": "noun",
+  "base": "weg"
  },
  {
   "en": "reis",
@@ -1919,6 +1925,2410 @@
  {
   "en": "keer",
   "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "eindigen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "proberen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "lukken",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "vergeten",
+  "cefr": 1,
+  "pos": "verb"
+ },
+ {
+  "en": "onthouden",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "herinneren",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "hopen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "dromen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "besluiten",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "kiezen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "veranderen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "verbeteren",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "ontmoeten",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "uitnodigen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "bezoeken",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "verwachten",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "controleren",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "herhalen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "uitleggen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "beschrijven",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "betekenen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "gebeuren",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "bestaan",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "ontbreken",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "missen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "verliezen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "winnen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "verdienen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "uitgeven",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "sparen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "lenen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "terugbetalen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "huren",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "verhuizen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "bouwen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "repareren",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "breken",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "vallen",
+  "cefr": 1,
+  "pos": "verb"
+ },
+ {
+  "en": "gooien",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "vangen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "duwen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "trekken",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "tillen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "leggen",
+  "cefr": 1,
+  "pos": "verb"
+ },
+ {
+  "en": "zetten",
+  "cefr": 1,
+  "pos": "verb"
+ },
+ {
+  "en": "sturen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "ontvangen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "versturen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "appen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "mailen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "reageren",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "groeten",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "voorstellen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "bedanken",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "verontschuldigen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "feliciteren",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "vieren",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "organiseren",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "plannen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "regelen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "besparen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "ruilen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "passen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "aankleden",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "uitkleden",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "douchen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "baden",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "tandenpoetsen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "kammen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "scheren",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "opstaan",
+  "cefr": 1,
+  "pos": "verb"
+ },
+ {
+  "en": "uitrusten",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "ontspannen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "trainen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "bewegen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "rennen",
+  "cefr": 1,
+  "pos": "verb"
+ },
+ {
+  "en": "springen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "klimmen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "fietsen",
+  "cefr": 1,
+  "pos": "verb"
+ },
+ {
+  "en": "skiën",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "voetballen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "winkelen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "bevallen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "irriteren",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "storen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "ondertekenen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "invullen",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "aanmelden",
+  "cefr": 3,
+  "pos": "verb"
+ },
+ {
+  "en": "inloggen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "uitloggen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "downloaden",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "uploaden",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "printen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "opladen",
+  "cefr": 2,
+  "pos": "verb"
+ },
+ {
+  "en": "dik",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "dun",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "breed",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "smal",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "diep",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "ondiep",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "rond",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "recht__adj",
+  "cefr": 2,
+  "pos": "adj",
+  "base": "recht"
+ },
+ {
+  "en": "krom",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "scherp",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "bot__adj",
+  "cefr": 3,
+  "pos": "adj",
+  "base": "bot"
+ },
+ {
+  "en": "hard",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "zacht",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "nat",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "droog",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "stevig",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "los",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "vast",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "bekend",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "onbekend",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "beroemd",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "gewoon__adj",
+  "cefr": 2,
+  "pos": "adj",
+  "base": "gewoon"
+ },
+ {
+  "en": "bijzonder",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "apart",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "gelijk",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "anders__adj",
+  "cefr": 1,
+  "pos": "adj",
+  "base": "anders"
+ },
+ {
+  "en": "hetzelfde",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "modern",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "ouderwets",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "populair",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "aardig",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "onaardig",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "beleefd",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "onbeleefd",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "eerlijk",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "oneerlijk",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "slim",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "dom",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "verstandig",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "dapper",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "verlegen",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "nieuwsgierig",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "trots",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "jaloers",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "tevreden",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "ontevreden",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "teleurgesteld",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "verbaasd",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "opgewonden",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "kalm",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "nerveus",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "gestrest",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "verveeld",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "eenzaam",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "aantrekkelijk",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "knap",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "lief",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "gemeen",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "streng",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "mild",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "levendig",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "stil",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "lawaaierig",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "lekker",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "zoet",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "zuur",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "bitter",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "pittig",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "vers",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "bedorven",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "rijp",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "compleet",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "half",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "heel__adj",
+  "cefr": 2,
+  "pos": "adj",
+  "base": "heel"
+ },
+ {
+  "en": "kapot",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "gratis",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "betaald",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "particulier",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "openbaar",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "dringend",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "relevant",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "nuttig",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "nutteloos",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "handig",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "onhandig",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "normaal",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "vreemd",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "raar",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "logisch",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "onmogelijk",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "waarschijnlijk__adj",
+  "cefr": 3,
+  "pos": "adj",
+  "base": "waarschijnlijk"
+ },
+ {
+  "en": "onwaarschijnlijk",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "bijvoorbeeld",
+  "cefr": 2,
+  "pos": "adv"
+ },
+ {
+  "en": "trouwens",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "eigenlijk",
+  "cefr": 2,
+  "pos": "adv"
+ },
+ {
+  "en": "blijkbaar",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "gelukkig__adv",
+  "cefr": 2,
+  "pos": "adv",
+  "base": "gelukkig"
+ },
+ {
+  "en": "helaas",
+  "cefr": 2,
+  "pos": "adv"
+ },
+ {
+  "en": "uiteindelijk",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "tenslotte",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "ondertussen",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "bijna",
+  "cefr": 2,
+  "pos": "adv"
+ },
+ {
+  "en": "ongeveer",
+  "cefr": 2,
+  "pos": "adv"
+ },
+ {
+  "en": "precies",
+  "cefr": 2,
+  "pos": "adv"
+ },
+ {
+  "en": "volledig",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "nauwelijks",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "absoluut",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "zeker__adv",
+  "cefr": 2,
+  "pos": "adv",
+  "base": "zeker"
+ },
+ {
+  "en": "waarschijnlijk__adv",
+  "cefr": 3,
+  "pos": "adv",
+  "base": "waarschijnlijk"
+ },
+ {
+  "en": "plotseling",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "meteen",
+  "cefr": 2,
+  "pos": "adv"
+ },
+ {
+  "en": "onmiddellijk",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "langzamerhand",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "regelmatig",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "constant",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "meestal",
+  "cefr": 2,
+  "pos": "adv"
+ },
+ {
+  "en": "gewoonlijk",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "zelden",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "overal",
+  "cefr": 2,
+  "pos": "adv"
+ },
+ {
+  "en": "nergens",
+  "cefr": 2,
+  "pos": "adv"
+ },
+ {
+  "en": "ergens",
+  "cefr": 2,
+  "pos": "adv"
+ },
+ {
+  "en": "thuis",
+  "cefr": 0,
+  "pos": "adv"
+ },
+ {
+  "en": "weg__adv",
+  "cefr": 1,
+  "pos": "adv",
+  "base": "weg"
+ },
+ {
+  "en": "terug",
+  "cefr": 1,
+  "pos": "adv"
+ },
+ {
+  "en": "vooruit",
+  "cefr": 2,
+  "pos": "adv"
+ },
+ {
+  "en": "achteruit",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "omhoog",
+  "cefr": 2,
+  "pos": "adv"
+ },
+ {
+  "en": "omlaag",
+  "cefr": 2,
+  "pos": "adv"
+ },
+ {
+  "en": "overigens",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "bovendien",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "daarom",
+  "cefr": 2,
+  "pos": "adv"
+ },
+ {
+  "en": "daardoor",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "hierdoor",
+  "cefr": 3,
+  "pos": "adv"
+ },
+ {
+  "en": "anders__conj",
+  "cefr": 2,
+  "pos": "conj",
+  "base": "anders"
+ },
+ {
+  "en": "hoewel",
+  "cefr": 2,
+  "pos": "conj"
+ },
+ {
+  "en": "ofschoon",
+  "cefr": 3,
+  "pos": "conj"
+ },
+ {
+  "en": "zodat",
+  "cefr": 3,
+  "pos": "conj"
+ },
+ {
+  "en": "mits",
+  "cefr": 3,
+  "pos": "conj"
+ },
+ {
+  "en": "tenzij",
+  "cefr": 3,
+  "pos": "conj"
+ },
+ {
+  "en": "sinds",
+  "cefr": 2,
+  "pos": "prep"
+ },
+ {
+  "en": "vanaf",
+  "cefr": 2,
+  "pos": "prep"
+ },
+ {
+  "en": "rondom",
+  "cefr": 3,
+  "pos": "prep"
+ },
+ {
+  "en": "langs",
+  "cefr": 2,
+  "pos": "prep"
+ },
+ {
+  "en": "richting",
+  "cefr": 3,
+  "pos": "prep"
+ },
+ {
+  "en": "dankzij",
+  "cefr": 3,
+  "pos": "prep"
+ },
+ {
+  "en": "ondanks",
+  "cefr": 3,
+  "pos": "prep"
+ },
+ {
+  "en": "volgens",
+  "cefr": 2,
+  "pos": "prep"
+ },
+ {
+  "en": "betreffende",
+  "cefr": 3,
+  "pos": "prep"
+ },
+ {
+  "en": "inclusief",
+  "cefr": 3,
+  "pos": "prep"
+ },
+ {
+  "en": "exclusief",
+  "cefr": 3,
+  "pos": "prep"
+ },
+ {
+  "en": "neef",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "nicht",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "tante",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "oom",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "schoonmoeder",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "schoonvader",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "schoonzus",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "schoonbroer",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "stiefvader",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "stiefmoeder",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "partner",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "verloofde",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "collega",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "buurman",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "buurvrouw",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "kennis",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "woonkamer",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "zolder",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "kelder",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "tuin",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "balkon",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "trap",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "muur",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "vloer",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "plafond",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "dak",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "bank",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "kast",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "koelkast",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "wasmachine",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "magnetron",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "fornuis",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "spiegel",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "lamp",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "kussen",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "deken",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "gordijn",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "sleutel",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "slot",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "brievenbus",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "huisdier",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "hond",
+  "cefr": 0,
+  "pos": "noun"
+ },
+ {
+  "en": "kat",
+  "cefr": 0,
+  "pos": "noun"
+ },
+ {
+  "en": "vogel",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "paard",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "aardappel",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "tomaat",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "ui",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "knoflook",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "wortel",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "sla",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "banaan",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "sinaasappel",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "druif",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "citroen",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "ei",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "boter",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "olie",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "rijst",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "pasta",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "soep",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "saus",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "taart",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "koekje",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "chocolade",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "ijs",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "wijn",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "bier",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "sap",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "frisdrank",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "kip",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "rundvlees",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "varkensvlees",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "worst",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "ham",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "boterham",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "baas",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "directeur",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "werknemer",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "werkgever",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "sollicitatie",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "salaris",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "vergadering",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "afspraak",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "kantoor",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "fabriek",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "winkelcentrum",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "bibliotheek",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "universiteit",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "klas",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "leraar",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "lerares",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "student",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "cijfer",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "examen",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "huiswerk",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "vak",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "diploma",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "vliegveld",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "paspoort",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "koffer",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "rugzak",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "hotel",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "vakantie",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "uitstapje",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "bestemming",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "route",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "kaart",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "taxi",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "metro",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "tram",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "boot",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "parkeerplaats",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "benzine",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "rijbewijs",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "verkeer",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "file",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "ongeluk",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "gezicht",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "haar__noun",
+  "cefr": 1,
+  "pos": "noun",
+  "base": "haar"
+ },
+ {
+  "en": "hals",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "schouder",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "rug",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "buik",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "vinger",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "teen",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "knie",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "tand",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "huid",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "bloed",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "bot__noun",
+  "cefr": 3,
+  "pos": "noun",
+  "base": "bot"
+ },
+ {
+  "en": "spier",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "ziekte",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "koorts",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "hoofdpijn",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "verkoudheid",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "medicijn",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "apotheek",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "recept",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "verband",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "ambulance",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "tandarts",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "verpleegkundige",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "trui",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "rok",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "jurk",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "pak",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "sokken",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "ondergoed",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "muts",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "handschoenen",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "sjaal",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "riem",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "tas",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "bril",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "horloge",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "sieraad",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "temperatuur",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "graad",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "storm",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "onweer",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "mist",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "vochtig",
+  "cefr": 3,
+  "pos": "adj"
+ },
+ {
+  "en": "bewolkt",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "zonnig",
+  "cefr": 1,
+  "pos": "adj"
+ },
+ {
+  "en": "regenachtig",
+  "cefr": 2,
+  "pos": "adj"
+ },
+ {
+  "en": "gevoel",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "gedachte",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "mening",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "herinnering",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "droom",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "hoop",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "angst",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "verdriet",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "vreugde",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "liefde",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "vriendschap",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "bericht",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "brief",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "krant",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "tijdschrift",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "nieuws",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "internet",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "website",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "wachtwoord",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "account",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "scherm",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "toetsenbord",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "muis",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "batterij",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "oplader",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "camera",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "foto",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "video",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "muziek",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "lied",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "film",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "televisie",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "radio",
+  "cefr": 1,
+  "pos": "noun"
+ },
+ {
+  "en": "reden",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "doel",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "resultaat",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "oplossing",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "advies",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "hulp",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "regel",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "wet",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "recht__noun",
+  "cefr": 3,
+  "pos": "noun",
+  "base": "recht"
+ },
+ {
+  "en": "plicht",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "verschil",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "overeenkomst",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "voorbeeld",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "informatie",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "bewijs",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "risico",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "gevaar",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "succes",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "fout",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "verandering",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "ontwikkeling",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "groei",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "toekomst",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "verleden",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "periode",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "moment",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "gelegenheid",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "situatie",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "omstandigheid",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "voorwaarde",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "behoefte",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "wens",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "keuze",
+  "cefr": 2,
+  "pos": "noun"
+ },
+ {
+  "en": "besluit",
+  "cefr": 3,
+  "pos": "noun"
+ },
+ {
+  "en": "mogelijkheid",
+  "cefr": 2,
   "pos": "noun"
  }
 ]

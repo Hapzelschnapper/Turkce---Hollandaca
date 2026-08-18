@@ -53,7 +53,8 @@
    "ook",
    "veel",
    "hier",
-   "daar"
+   "daar",
+   "thuis"
   ]
  },
  {
@@ -135,7 +136,9 @@
    "computer",
    "telefoon",
    "naam",
-   "mensen"
+   "mensen",
+   "hond",
+   "kat"
   ]
  },
  {
@@ -214,7 +217,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – Sıfatlar (1/2)",
+  "title": "A1 (orta) – Sıfatlar (1/3)",
   "cefr": 1,
   "words": [
    "eerste",
@@ -234,18 +237,41 @@
   ]
  },
  {
-  "title": "A1 (orta) – Sıfatlar (2/2)",
+  "title": "A1 (orta) – Sıfatlar (2/3)",
   "cefr": 1,
   "words": [
    "makkelijk",
    "moeilijk",
    "duur",
-   "gelukkig",
+   "gelukkig__adj",
    "moe",
    "ziek",
    "leuk",
    "open",
-   "dicht"
+   "dicht",
+   "dik",
+   "dun",
+   "hard",
+   "zacht",
+   "nat"
+  ]
+ },
+ {
+  "title": "A1 (orta) – Sıfatlar (3/3)",
+  "cefr": 1,
+  "words": [
+   "droog",
+   "anders__adj",
+   "hetzelfde",
+   "aardig",
+   "slim",
+   "dom",
+   "lief",
+   "stil",
+   "lekker",
+   "zoet",
+   "zuur",
+   "zonnig"
   ]
  },
  {
@@ -261,7 +287,7 @@
    "nooit",
    "soms",
    "vaak",
-   "heel",
+   "heel__adv",
    "erg",
    "weinig",
    "meer",
@@ -278,7 +304,9 @@
    "weer__adv",
    "al",
    "nog",
-   "echt"
+   "echt",
+   "weg__adv",
+   "terug"
   ]
  },
  {
@@ -293,7 +321,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (1/5)",
+  "title": "A1 (orta) – İsimler (1/9)",
   "cefr": 1,
   "words": [
    "opa",
@@ -313,7 +341,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (2/5)",
+  "title": "A1 (orta) – İsimler (2/9)",
   "cefr": 1,
   "words": [
    "zondag",
@@ -333,7 +361,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (3/5)",
+  "title": "A1 (orta) – İsimler (3/9)",
   "cefr": 1,
   "words": [
    "kaas",
@@ -353,7 +381,7 @@
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (4/5)",
+  "title": "A1 (orta) – İsimler (4/9)",
   "cefr": 1,
   "words": [
    "oor",
@@ -368,12 +396,12 @@
    "trein",
    "bus",
    "vliegtuig",
-   "weg",
+   "weg__noun",
    "weer__noun"
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (5/5)",
+  "title": "A1 (orta) – İsimler (5/9)",
   "cefr": 1,
   "words": [
    "zon",
@@ -390,6 +418,77 @@
    "vraag",
    "nummer",
    "keer"
+  ]
+ },
+ {
+  "title": "A1 (orta) – İsimler (6/9)",
+  "cefr": 1,
+  "words": [
+   "neef",
+   "nicht",
+   "tante",
+   "oom",
+   "tuin",
+   "bank",
+   "kast",
+   "koelkast",
+   "lamp",
+   "sleutel",
+   "vogel",
+   "paard",
+   "aardappel",
+   "tomaat"
+  ]
+ },
+ {
+  "title": "A1 (orta) – İsimler (7/9)",
+  "cefr": 1,
+  "words": [
+   "banaan",
+   "sinaasappel",
+   "ei",
+   "boter",
+   "rijst",
+   "pasta",
+   "soep",
+   "chocolade",
+   "ijs",
+   "wijn",
+   "bier",
+   "sap",
+   "kip",
+   "klas"
+  ]
+ },
+ {
+  "title": "A1 (orta) – İsimler (8/9)",
+  "cefr": 1,
+  "words": [
+   "leraar",
+   "lerares",
+   "student",
+   "hotel",
+   "vakantie",
+   "taxi",
+   "gezicht",
+   "haar__noun",
+   "tand",
+   "trui",
+   "tas",
+   "internet",
+   "camera",
+   "foto"
+  ]
+ },
+ {
+  "title": "A1 (orta) – İsimler (9/9)",
+  "cefr": 1,
+  "words": [
+   "video",
+   "muziek",
+   "film",
+   "televisie",
+   "radio"
   ]
  },
  {
@@ -423,7 +522,7 @@
   "words": [
    "jouw",
    "zijn__pron",
-   "haar",
+   "haar__pron",
    "ons",
    "deze",
    "die",
@@ -462,11 +561,18 @@
    "vragen",
    "wachten",
    "staan",
-   "zitten"
+   "zitten",
+   "vergeten",
+   "vallen",
+   "leggen",
+   "zetten",
+   "opstaan",
+   "rennen",
+   "fietsen"
   ]
  },
  {
-  "title": "A1 (ileri) – Sıfatlar (1/2)",
+  "title": "A1 (ileri) – Sıfatlar (1/4)",
   "cefr": 2,
   "words": [
    "laatste",
@@ -486,7 +592,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – Sıfatlar (2/2)",
+  "title": "A1 (ileri) – Sıfatlar (2/4)",
   "cefr": 2,
   "words": [
    "rustig",
@@ -495,11 +601,52 @@
    "vriendelijk",
    "waar__adj",
    "verkeerd",
-   "zeker"
+   "zeker__adj",
+   "breed",
+   "smal",
+   "diep",
+   "rond",
+   "recht__adj",
+   "scherp",
+   "los"
   ]
  },
  {
-  "title": "A1 (ileri) – Zarflar",
+  "title": "A1 (ileri) – Sıfatlar (3/4)",
+  "cefr": 2,
+  "words": [
+   "vast",
+   "bekend",
+   "gewoon__adj",
+   "gelijk",
+   "modern",
+   "onaardig",
+   "eerlijk",
+   "tevreden",
+   "kalm",
+   "knap",
+   "bitter",
+   "vers",
+   "half",
+   "heel__adj"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – Sıfatlar (4/4)",
+  "cefr": 2,
+  "words": [
+   "kapot",
+   "gratis",
+   "handig",
+   "normaal",
+   "vreemd",
+   "raar",
+   "bewolkt",
+   "regenachtig"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – Zarflar (1/2)",
   "cefr": 2,
   "words": [
    "genoeg",
@@ -508,8 +655,31 @@
    "buiten",
    "rechtdoor",
    "net",
-   "gewoon",
-   "natuurlijk"
+   "gewoon__adv",
+   "natuurlijk",
+   "bijvoorbeeld",
+   "eigenlijk",
+   "gelukkig__adv",
+   "helaas",
+   "bijna",
+   "ongeveer"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – Zarflar (2/2)",
+  "cefr": 2,
+  "words": [
+   "precies",
+   "zeker__adv",
+   "meteen",
+   "meestal",
+   "overal",
+   "nergens",
+   "ergens",
+   "vooruit",
+   "omhoog",
+   "omlaag",
+   "daarom"
   ]
  },
  {
@@ -517,11 +687,13 @@
   "cefr": 2,
   "words": [
    "toen",
-   "terwijl"
+   "terwijl",
+   "anders__conj",
+   "hoewel"
   ]
  },
  {
-  "title": "A1 (ileri) – İsimler (1/2)",
+  "title": "A1 (ileri) – İsimler (1/10)",
   "cefr": 2,
   "words": [
    "markt",
@@ -541,7 +713,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – İsimler (2/2)",
+  "title": "A1 (ileri) – İsimler (2/10)",
   "cefr": 2,
   "words": [
    "wolk",
@@ -549,7 +721,175 @@
    "leven",
    "probleem",
    "antwoord",
-   "idee"
+   "idee",
+   "schoonmoeder",
+   "schoonvader",
+   "partner",
+   "collega",
+   "buurman",
+   "buurvrouw",
+   "woonkamer",
+   "balkon"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – İsimler (3/10)",
+  "cefr": 2,
+  "words": [
+   "trap",
+   "muur",
+   "vloer",
+   "dak",
+   "wasmachine",
+   "spiegel",
+   "kussen",
+   "deken",
+   "huisdier",
+   "ui",
+   "knoflook",
+   "wortel",
+   "sla",
+   "druif"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – İsimler (4/10)",
+  "cefr": 2,
+  "words": [
+   "citroen",
+   "olie",
+   "saus",
+   "taart",
+   "koekje",
+   "frisdrank",
+   "rundvlees",
+   "worst",
+   "ham",
+   "boterham",
+   "baas",
+   "afspraak",
+   "kantoor",
+   "winkelcentrum"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – İsimler (5/10)",
+  "cefr": 2,
+  "words": [
+   "bibliotheek",
+   "universiteit",
+   "cijfer",
+   "examen",
+   "huiswerk",
+   "vak",
+   "vliegveld",
+   "paspoort",
+   "koffer",
+   "rugzak",
+   "uitstapje",
+   "route",
+   "kaart",
+   "metro"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – İsimler (6/10)",
+  "cefr": 2,
+  "words": [
+   "tram",
+   "boot",
+   "parkeerplaats",
+   "benzine",
+   "verkeer",
+   "ongeluk",
+   "hals",
+   "schouder",
+   "rug",
+   "buik",
+   "vinger",
+   "teen",
+   "knie",
+   "huid"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – İsimler (7/10)",
+  "cefr": 2,
+  "words": [
+   "bloed",
+   "ziekte",
+   "koorts",
+   "hoofdpijn",
+   "verkoudheid",
+   "medicijn",
+   "apotheek",
+   "ambulance",
+   "tandarts",
+   "rok",
+   "jurk",
+   "pak",
+   "sokken",
+   "muts"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – İsimler (8/10)",
+  "cefr": 2,
+  "words": [
+   "handschoenen",
+   "sjaal",
+   "riem",
+   "bril",
+   "horloge",
+   "temperatuur",
+   "graad",
+   "storm",
+   "gevoel",
+   "gedachte",
+   "mening",
+   "droom",
+   "angst",
+   "liefde"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – İsimler (9/10)",
+  "cefr": 2,
+  "words": [
+   "bericht",
+   "brief",
+   "krant",
+   "tijdschrift",
+   "nieuws",
+   "website",
+   "wachtwoord",
+   "account",
+   "scherm",
+   "muis",
+   "batterij",
+   "oplader",
+   "lied",
+   "reden"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – İsimler (10/10)",
+  "cefr": 2,
+  "words": [
+   "doel",
+   "hulp",
+   "regel",
+   "verschil",
+   "voorbeeld",
+   "informatie",
+   "succes",
+   "fout",
+   "toekomst",
+   "verleden",
+   "moment",
+   "situatie",
+   "keuze",
+   "mogelijkheid"
   ]
  },
  {
@@ -566,7 +906,11 @@
    "tussen",
    "zonder",
    "door",
-   "tijdens"
+   "tijdens",
+   "sinds",
+   "vanaf",
+   "langs",
+   "volgens"
   ]
  },
  {
@@ -579,7 +923,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – Fiiller (1/2)",
+  "title": "A1 (ileri) – Fiiller (1/5)",
   "cefr": 2,
   "words": [
    "verkopen",
@@ -599,7 +943,7 @@
   ]
  },
  {
-  "title": "A1 (ileri) – Fiiller (2/2)",
+  "title": "A1 (ileri) – Fiiller (2/5)",
   "cefr": 2,
   "words": [
    "reizen",
@@ -609,34 +953,366 @@
    "zingen",
    "liggen",
    "blijven",
-   "worden"
+   "worden",
+   "eindigen",
+   "proberen",
+   "hopen",
+   "dromen",
+   "kiezen",
+   "veranderen"
   ]
  },
  {
-  "title": "A2 (başlangıç) – Sıfatlar",
+  "title": "A1 (ileri) – Fiiller (3/5)",
+  "cefr": 2,
+  "words": [
+   "ontmoeten",
+   "bezoeken",
+   "uitleggen",
+   "betekenen",
+   "gebeuren",
+   "bestaan",
+   "missen",
+   "verliezen",
+   "winnen",
+   "verdienen",
+   "huren",
+   "verhuizen",
+   "bouwen",
+   "breken"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – Fiiller (4/5)",
+  "cefr": 2,
+  "words": [
+   "gooien",
+   "vangen",
+   "duwen",
+   "trekken",
+   "sturen",
+   "appen",
+   "mailen",
+   "groeten",
+   "bedanken",
+   "vieren",
+   "passen",
+   "aankleden",
+   "douchen",
+   "tandenpoetsen"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – Fiiller (5/5)",
+  "cefr": 2,
+  "words": [
+   "uitrusten",
+   "trainen",
+   "bewegen",
+   "springen",
+   "klimmen",
+   "voetballen",
+   "winkelen",
+   "inloggen",
+   "uitloggen",
+   "downloaden",
+   "uploaden",
+   "printen",
+   "opladen"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Sıfatlar (1/4)",
   "cefr": 3,
   "words": [
    "zwak",
    "saai",
    "veilig",
    "gevaarlijk",
-   "mogelijk"
+   "mogelijk",
+   "ondiep",
+   "krom",
+   "bot__adj",
+   "stevig",
+   "onbekend",
+   "beroemd",
+   "bijzonder",
+   "apart",
+   "ouderwets"
   ]
  },
  {
-  "title": "A2 (başlangıç) – İsimler",
+  "title": "A2 (başlangıç) – Sıfatlar (2/4)",
   "cefr": 3,
   "words": [
-   "kans"
+   "populair",
+   "beleefd",
+   "onbeleefd",
+   "oneerlijk",
+   "verstandig",
+   "dapper",
+   "verlegen",
+   "nieuwsgierig",
+   "trots",
+   "jaloers",
+   "ontevreden",
+   "teleurgesteld",
+   "verbaasd",
+   "opgewonden"
   ]
  },
  {
-  "title": "A2 (başlangıç) – Fiiller",
+  "title": "A2 (başlangıç) – Sıfatlar (3/4)",
+  "cefr": 3,
+  "words": [
+   "nerveus",
+   "gestrest",
+   "verveeld",
+   "eenzaam",
+   "aantrekkelijk",
+   "gemeen",
+   "streng",
+   "mild",
+   "levendig",
+   "lawaaierig",
+   "pittig",
+   "bedorven",
+   "rijp",
+   "compleet"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Sıfatlar (4/4)",
+  "cefr": 3,
+  "words": [
+   "betaald",
+   "particulier",
+   "openbaar",
+   "dringend",
+   "relevant",
+   "nuttig",
+   "nutteloos",
+   "onhandig",
+   "logisch",
+   "onmogelijk",
+   "waarschijnlijk__adj",
+   "onwaarschijnlijk",
+   "vochtig"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Zarflar (1/2)",
+  "cefr": 3,
+  "words": [
+   "trouwens",
+   "blijkbaar",
+   "uiteindelijk",
+   "tenslotte",
+   "ondertussen",
+   "volledig",
+   "nauwelijks",
+   "absoluut",
+   "waarschijnlijk__adv",
+   "plotseling",
+   "onmiddellijk",
+   "langzamerhand",
+   "regelmatig",
+   "constant"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Zarflar (2/2)",
+  "cefr": 3,
+  "words": [
+   "gewoonlijk",
+   "zelden",
+   "achteruit",
+   "overigens",
+   "bovendien",
+   "daardoor",
+   "hierdoor"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Bağlaçlar",
+  "cefr": 3,
+  "words": [
+   "ofschoon",
+   "zodat",
+   "mits",
+   "tenzij"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler (1/5)",
+  "cefr": 3,
+  "words": [
+   "kans",
+   "schoonzus",
+   "schoonbroer",
+   "stiefvader",
+   "stiefmoeder",
+   "verloofde",
+   "kennis",
+   "zolder",
+   "kelder",
+   "plafond",
+   "magnetron",
+   "fornuis",
+   "gordijn",
+   "slot"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler (2/5)",
+  "cefr": 3,
+  "words": [
+   "brievenbus",
+   "varkensvlees",
+   "directeur",
+   "werknemer",
+   "werkgever",
+   "sollicitatie",
+   "salaris",
+   "vergadering",
+   "fabriek",
+   "diploma",
+   "bestemming",
+   "rijbewijs",
+   "file",
+   "bot__noun"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler (3/5)",
+  "cefr": 3,
+  "words": [
+   "spier",
+   "recept",
+   "verband",
+   "verpleegkundige",
+   "ondergoed",
+   "sieraad",
+   "onweer",
+   "mist",
+   "herinnering",
+   "hoop",
+   "verdriet",
+   "vreugde",
+   "vriendschap",
+   "toetsenbord"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler (4/5)",
+  "cefr": 3,
+  "words": [
+   "resultaat",
+   "oplossing",
+   "advies",
+   "wet",
+   "recht__noun",
+   "plicht",
+   "overeenkomst",
+   "bewijs",
+   "risico",
+   "gevaar",
+   "verandering",
+   "ontwikkeling",
+   "groei",
+   "periode"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler (5/5)",
+  "cefr": 3,
+  "words": [
+   "gelegenheid",
+   "omstandigheid",
+   "voorwaarde",
+   "behoefte",
+   "wens",
+   "besluit"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Edatlar",
+  "cefr": 3,
+  "words": [
+   "rondom",
+   "richting",
+   "dankzij",
+   "ondanks",
+   "betreffende",
+   "inclusief",
+   "exclusief"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Fiiller (1/4)",
   "cefr": 3,
   "words": [
    "vliegen",
    "huilen",
-   "dragen"
+   "dragen",
+   "lukken",
+   "onthouden",
+   "herinneren",
+   "besluiten",
+   "verbeteren",
+   "uitnodigen",
+   "verwachten",
+   "controleren",
+   "herhalen",
+   "beschrijven",
+   "ontbreken"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Fiiller (2/4)",
+  "cefr": 3,
+  "words": [
+   "uitgeven",
+   "sparen",
+   "lenen",
+   "terugbetalen",
+   "repareren",
+   "tillen",
+   "ontvangen",
+   "versturen",
+   "reageren",
+   "voorstellen",
+   "verontschuldigen",
+   "feliciteren",
+   "organiseren",
+   "plannen"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Fiiller (3/4)",
+  "cefr": 3,
+  "words": [
+   "regelen",
+   "besparen",
+   "ruilen",
+   "uitkleden",
+   "baden",
+   "kammen",
+   "scheren",
+   "ontspannen",
+   "skiën",
+   "bevallen",
+   "irriteren",
+   "storen",
+   "ondertekenen",
+   "invullen"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Fiiller (4/4)",
+  "cefr": 3,
+  "words": [
+   "aanmelden"
   ]
  }
 ]

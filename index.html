@@ -30,7 +30,7 @@
 <div id="peak-indicator" class="peak-tab dal" title="DeepSeek yoğun/sakin saat fiyatlandırması (UTC saatine göre)">● sakin saat</div>
 <div id="app">
 
-  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.04</span></h1>
+  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.05</span></h1>
 
   <!-- ===================== PRACTICE SCREEN ===================== -->
   <section id="screen-practice">
@@ -377,7 +377,7 @@
     </div>
     <div class="card">
       <h3 style="margin-top:0;">Sürüm</h3>
-      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.04</b></div>
+      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.05</b></div>
       <div class="muted" style="margin-top:4px;">Bir değişiklikten sonra bu zaman damgası güncellenmezse, yükleme doğru yenilenmemiş demektir — GitHub'ı kontrol edin ve sayfayı yeniden yükleyin (önbellek için gizli sekme deneyin).</div>
     </div>
     </div>
@@ -1927,10 +1927,10 @@ async function gradeSuffixDrillAnswer(drill, answer){
   const sys = drill.direction === "tr-en"
     ? `Je beoordeelt of de Turkse vertaling van een gebruiker de betekenis correct weergeeft van de Nederlandse vorm "${drill.prompt}" (het werkwoord "${drill.verbTr}" gevormd met het patroon "${drill.topicKey}"). Een voorbeeldvertaling is "${drill.correct}", maar andere bewoordingen die hetzelfde tijd/aspect/persoon correct weergeven zijn OOK goed.
 Reken het antwoord alleen FOUT als het daadwerkelijk een ANDERE tijd/aspect/persoon weergeeft dan de Nederlandse vorm uitdrukt (bv. tegenwoordige tijd i.p.v. verleden tijd, of de verkeerde persoon) -- niet om stilistische verschillen.
-Als het antwoord daadwerkelijk FOUT is: leg in het Engels (max 2 zinnen, geen tegenstrijdige redenering), rechtstreeks tegen de gebruiker gericht ("you"), BEKNOPT uit wat er mis is met hun vertaling "${answer}" t.o.v. wat "${drill.prompt}" daadwerkelijk betekent. Als het antwoord GOED is, laat "diff" leeg.
+Als het antwoord daadwerkelijk FOUT is: leg in het Turks (max 2 zinnen, geen tegenstrijdige redenering), rechtstreeks tegen de gebruiker gericht ("sen"), BEKNOPT uit wat er mis is met hun vertaling "${answer}" t.o.v. wat "${drill.prompt}" daadwerkelijk betekent. Als het antwoord GOED is, laat "diff" leeg.
 Antwoord in JSON.`
     : `Je beoordeelt of het Nederlandse antwoord van een gebruiker correct is voor de opdracht "${drill.prompt}" (gebruiker moest deze Turkse aanwijzing naar de correct gevormde Nederlandse vorm vertalen). Het verwachte antwoord was "${drill.correct}", maar er kunnen legitieme alternatieve correcte vormen/spellingen bestaan. BELANGRIJK: in tegenstelling tot het Turks is Nederlands GEEN pro-drop-taal -- het onderwerp-voornaamwoord (ik/jij/hij/zij/wij/jullie/zij) is bij een volledig-zin-antwoord VEREIST en het ontbreken ervan is wél een fout, TENZIJ de opdracht zelf duidelijk om een kaal werkwoordsvorm vraagt (bv. bij de gebiedende wijs, of wanneer "correct" zelf ook geen onderwerp bevat). NEGEER kleine accentfouten (é/è/ë als e, ï als i, ü/ö als u/o) en reken kleine tikfouten met een ondubbelzinnige bedoeling goed.
-Als het antwoord daadwerkelijk FOUT is: leg in het Engels (max 2 zinnen), rechtstreeks tegen de gebruiker gericht ("you"), PRECIES uit wat het verschil is tussen hun antwoord "${answer}" en de correcte vorm "${drill.correct}" -- welk element ontbreekt, verkeerd is, in de verkeerde volgorde staat, of welke fout er in de vorm zit ('t kofschip-regel, sterk/zwak werkwoord, woordvolgorde, etc.). Als het antwoord GOED is, laat "diff" leeg.
+Als het antwoord daadwerkelijk FOUT is: leg in het Turks (max 2 zinnen), rechtstreeks tegen de gebruiker gericht ("sen"), PRECIES uit wat het verschil is tussen hun antwoord "${answer}" en de correcte vorm "${drill.correct}" -- welk element ontbreekt, verkeerd is, in de verkeerde volgorde staat, of welke fout er in de vorm zit ('t kofschip-regel, sterk/zwak werkwoord, woordvolgorde, etc.). Als het antwoord GOED is, laat "diff" leeg.
 Antwoord in JSON.`;
   const schema = {
     name: "beoordeel_suffix_antwoord",
@@ -1982,7 +1982,7 @@ async function gradeGrammarDrillAnswer(drill, answer){
   // isTrEn=true: Nederlandse vorm getoond, Turks antwoord gevraagd (begrip). isTrEn=false ("en-tr"):
   // Turkse frase getoond, Nederlands antwoord gevraagd (productie) -- zie het schema-veld "direction"
   // in generateGrammarDrillCandidate hierboven voor de precieze betekenis.
-  const sys = `Je beoordeelt of het ${isTrEn ? "Turkse" : "Nederlandse"} antwoord van een gebruiker correct is voor de opdracht "${drill.prompt}" (${isTrEn ? "gebruiker moest de Nederlandse vorm naar het Turks vertalen" : "gebruiker moest de Turkse frase naar het Nederlands vertalen"}). Het verwachte antwoord was "${drill.correct}", maar er kunnen legitieme alternatieve correcte vormen/synoniemen bestaan.${isTrEn ? ` BELANGRIJK: Turks is een pro-drop-taal — het onderwerp-voornaamwoord (ben/sen/o/biz/siz/onlar) mag vrijwel altijd weggelaten OF expliciet toegevoegd worden zonder dat de zin fout wordt. Reken dit soort verschil dus NOOIT fout. NEGEER Turkse diakritische tekens volledig (ı/i, ş/s, ğ/g, ü/u, ö/o, ç/c zijn onderling uitwisselbaar) en` : ` BELANGRIJK: in tegenstelling tot het Turks is Nederlands GEEN pro-drop-taal — het onderwerp-voornaamwoord is bij een volledige zin vereist en het ontbreken ervan is wél een fout (tenzij de opdracht zelf om een kale vorm vraagt, bv. bij de gebiedende wijs). NEGEER kleine accentfouten (é/è/ë als e, ï als i, ü/ö als u/o) en`} kleine tikfouten met een ondubbelzinnige bedoeling reken je goed. Geef ook een korte (max 2 zinnen) uitleg in het Engels, rechtstreeks tegen de gebruiker gericht (spreek de gebruiker aan met "you") — vooral nuttig als het antwoord fout is, om te laten zien waarom. Antwoord in JSON.`;
+  const sys = `Je beoordeelt of het ${isTrEn ? "Turkse" : "Nederlandse"} antwoord van een gebruiker correct is voor de opdracht "${drill.prompt}" (${isTrEn ? "gebruiker moest de Nederlandse vorm naar het Turks vertalen" : "gebruiker moest de Turkse frase naar het Nederlands vertalen"}). Het verwachte antwoord was "${drill.correct}", maar er kunnen legitieme alternatieve correcte vormen/synoniemen bestaan.${isTrEn ? ` BELANGRIJK: Turks is een pro-drop-taal — het onderwerp-voornaamwoord (ben/sen/o/biz/siz/onlar) mag vrijwel altijd weggelaten OF expliciet toegevoegd worden zonder dat de zin fout wordt. Reken dit soort verschil dus NOOIT fout. NEGEER Turkse diakritische tekens volledig (ı/i, ş/s, ğ/g, ü/u, ö/o, ç/c zijn onderling uitwisselbaar) en` : ` BELANGRIJK: in tegenstelling tot het Turks is Nederlands GEEN pro-drop-taal — het onderwerp-voornaamwoord is bij een volledige zin vereist en het ontbreken ervan is wél een fout (tenzij de opdracht zelf om een kale vorm vraagt, bv. bij de gebiedende wijs). NEGEER kleine accentfouten (é/è/ë als e, ï als i, ü/ö als u/o) en`} kleine tikfouten met een ondubbelzinnige bedoeling reken je goed. Geef ook een korte (max 2 zinnen) uitleg in het Turks, rechtstreeks tegen de gebruiker gericht (spreek de gebruiker aan met "sen") — vooral nuttig als het antwoord fout is, om te laten zien waarom. Antwoord in JSON.`;
   const schema = {
     name: "beoordeel_antwoord",
     description: "Beoordeling van een grammatica-oefening.",
@@ -1990,7 +1990,7 @@ async function gradeGrammarDrillAnswer(drill, answer){
       type: "object",
       properties: {
         correct: {type:"boolean"},
-        uitleg: {type:"string", description:"Korte uitleg in het Engels, rechtstreeks tegen de gebruiker gericht."},
+        uitleg: {type:"string", description:"Korte uitleg in het Turks, rechtstreeks tegen de gebruiker gericht."},
       },
       required: ["correct","uitleg"]
     }
@@ -3074,7 +3074,7 @@ async function runBulkTranslate(onProgress){
 Voor elk gegeven Engels woord geef je:
 - de 1-2 meest gangbare Turkse vertaling(en), in de basisvorm (infinitief bij werkwoorden, bv. "gitmek" niet "gider")
 - een registerclassificatie: "neutral" (standaard, in vrijwel elke context bruikbaar/correct), "formal" (formeel, ongebruikelijk in casual spraak), "informal" (informeel/spreektaal, prima onder vrienden maar niet formeel/schriftelijk), "colloquial" (heel informeel/straattaal/jargon), of "caution" (verouderd, zeldzaam, dialectisch, of makkelijk verward met een ander woord)
-- ALLEEN als het register NIET "neutral" is: een korte toelichting in het Engels (max 8 woorden), gericht aan een taalstudent (bv. "more formal than everyday 'gitmek'")
+- ALLEEN als het register NIET "neutral" is: een korte toelichting in het Turks (max 8 woorden), gericht aan een taalstudent (bv. "günlük 'gitmek' kelimesinden daha resmi")
 Antwoord in JSON. De volgorde en het aantal items in "words" moet EXACT overeenkomen met de gegeven lijst, in dezelfde volgorde.`;
     const userMsg = "Woorden: " + batch.map(w=>w.en).join(", ");
     const schema = {
@@ -3092,7 +3092,7 @@ Antwoord in JSON. De volgorde en het aantal items in "words" moet EXACT overeenk
                 en: {type:"string"},
                 tr: {type:"array", items:{type:"string"}, minItems:1, maxItems:2},
                 register: {type:"string", enum:["neutral","formal","informal","colloquial","caution"]},
-                note: {type:"string", description:"Alleen bij een niet-neutraal register: max 8 woorden toelichting in het Engels."},
+                note: {type:"string", description:"Alleen bij een niet-neutraal register: max 8 woorden toelichting in het Turks."},
               },
               required: ["en","tr","register","note"]
             }
@@ -3875,7 +3875,7 @@ Beoordeel ook voor ELK genummerd woord uit de vraag, ONAFHANKELIJK EN KRITISCH, 
 BELANGRIJK ONDERSCHEID: "correct" gaat over of het antwoord een GEPAST ANTWOORD op de vraag is (vorm/pragmatiek); "words" gaat puur over WOORDBEGRIP. Die twee lopen NIET altijd gelijk op. Als "correct" false is omdat de gebruiker bijvoorbeeld reageert op de inhoud in plaats van de vraag direct te beantwoorden (maar wél overduidelijk laat zien dat hij/zij elk woord begrijpt, via een taalkundig kloppende en inhoudelijk relevante reactie), moeten de afzonderlijke woorden in "words" gewoon op true staan — bestraf woordbegrip niet voor een vorm-/pragmatiekfout.
 CONSISTENTIE-EIS geldt alleen andersom: als "correct" false is SPECIFIEK doordat de gebruiker een woord verkeerd heeft opgevat (bijvoorbeeld verward met een ander Turks woord, of totaal genegeerd), moet dát woord in "words" op false staan.
 Als een grammaticaal onderwerp is opgegeven waar de vraag bewust rond gebouwd is: beoordeel apart, in "grammar_correct", of de gebruiker specifiek dat grammaticale aspect correct begrijpt/gebruikt (in de vraag zelf herkend, en/of correct toegepast in het eigen antwoord) — los van of de rest verder klopt. Is er geen onderwerp opgegeven, zet "grammar_correct" dan op true.
-Schrijf "uitleg" ALTIJD rechtstreeks tegen de gebruiker (spreek diegene aan met "je"), in het Engels. Structuur: begin met het oordeel, en bij fout kort en concreet wat er niet klopte.
+Schrijf "uitleg" ALTIJD rechtstreeks tegen de gebruiker (spreek diegene aan met "sen"), in het Turks. Structuur: begin met het oordeel, en bij fout kort en concreet wat er niet klopte.
 Geef ook altijd een Engelse vertaling van de Turkse vraag, EN een Engelse vertaling van wat de gebruiker met zijn Turkse antwoord daadwerkelijk heeft gezegd (ook als dat inhoudelijk niet klopt — vertaal gewoon wat er staat, zodat de gebruiker kan zien wat hij eigenlijk zei).
 Als vermeld staat dat de gebruiker het niet eens is met een eerder oordeel: kijk extra kritisch of het antwoord (of delen ervan) toch correct kunnen zijn.
 Geef terug: correct (bool), uitleg (tekst), referentie (tekst), vraag_en (tekst), antwoord_en (tekst), grammar_correct (bool), en words — een platte lijst van exact ${item.words.length} true/false-waarden, in dezelfde volgorde als de genummerde woordenlijst. Antwoord in JSON.`;
@@ -3891,7 +3891,7 @@ ${isRecheck ? "De gebruiker is het NIET eens met een eerder oordeel en vraagt om
       type: "object",
       properties: {
         correct: {type:"boolean", description:"Is het antwoord een gepast, correct Turks antwoord op de vraag?"},
-        uitleg: {type:"string", description:"Korte uitleg in het Engels, rechtstreeks tegen de gebruiker gericht."},
+        uitleg: {type:"string", description:"Korte uitleg in het Turks, rechtstreeks tegen de gebruiker gericht."},
         referentie: {type:"string", description:"Een voorbeeld van een goed Turks antwoord op deze vraag."},
         vraag_en: {type:"string", description:"Engelse vertaling van de Turkse vraag."},
         antwoord_en: {type:"string", description:"Engelse vertaling van wat de gebruiker letterlijk heeft geantwoord."},
@@ -3947,7 +3947,7 @@ ${isRecheck ? "De gebruiker is het NIET eens met een eerder oordeel en vraagt om
       type: "object",
       properties: {
         correct: {type:"boolean", description:"Is de vertaling van de hele zin correct?"},
-        uitleg: {type:"string", description:"Korte uitleg in het Engels, max 2 zinnen, rechtstreeks tegen de gebruiker gericht."},
+        uitleg: {type:"string", description:"Korte uitleg in het Turks, max 2 zinnen, rechtstreeks tegen de gebruiker gericht."},
         referentie: {type:"string", description:"Correcte Engelse referentievertaling van de hele zin."},
         grammar_correct: {type:"boolean", description:"Of het specifiek opgegeven grammaticale aspect correct is toegepast (true als er geen onderwerp is opgegeven)."},
         words: {
@@ -4124,7 +4124,7 @@ ${isTrEn
 BELANGRIJK OVER TYPEFOUTEN: reken een antwoord GOED als het een tikfout bevat van de bedoelde vertaling, maar alleen als dat woord daadwerkelijk grotendeels dezelfde letters in vrijwel dezelfde volgorde bevat -- bv. één letter verwisseld, één letter te veel/te weinig, of twee letters omgewisseld (voorbeeld: "geliyor" i.p.v. "geliyour", of "tesekkur" i.p.v. "teşekkür"). Dit is GEEN tikfout en moet NIET als zodanig goedgekeurd worden: een kort/anders gespeld woord dat toevallig ergens op lijkt of er een beetje Turks/Engels uitziet, maar in werkelijkheid een ander of niet-bestaand woord is (voorbeeld: "çart" is GEEN tikfout van "grafik" -- die twee delen bijna geen letters, ook al lijkt "çart" fonetisch op het Engelse "chart"). Twijfel je of iets een tikfout is, ga dan uit van NEE (fout antwoord) tenzij de overeenkomst in spelling overduidelijk is. Zet een geaccepteerde tikfout dan wel kort en concreet in "afwijking" (zie hieronder), en zet "correct" niet op false enkel vanwege zo'n duidelijke, geringe tikfout.
 ALS HET ANTWOORD GOED IS MAAR NIET EXACT DE MEEST GANGBARE VORM: vul dan "afwijking" in met een korte, concrete Engelse zin die zegt WAT er afwijkt -- een tikfout (en wat het verschil is), een minder gebruikelijk/formeel synoniem, een andere (maar correcte) vervoeging/vorm, of iets dergelijks. Dit is de tekst die de gebruiker DIRECT bij het resultaat te zien krijgt (niet pas in het uitklapbare uitleg-paneel), dus hou het kort (één zin volstaat meestal). Was het antwoord exact de standaard/meest gangbare vorm, of is het antwoord fout, laat "afwijking" dan leeg ("").
 ALS HET ANTWOORD FOUT IS: geef in "betekenis_antwoord" aan wat het door de gebruiker ingevoerde woord ZELF betekent, VERTAALD NAAR ${isTrEn ? "het Turks" : "het Engels"} (dus NIET in dezelfde taal als het antwoord zelf — dat zou zinloos zijn, bv. nooit "great means great"), mits het een bestaand, betekenisvol woord is — dit helpt de gebruiker begrijpen welk ander woord hij in gedachten had. Is het antwoord geen bestaand woord, laat "betekenis_antwoord" dan leeg (""). Bij een GOED antwoord laat je "betekenis_antwoord" ook leeg.
-"uitleg" is de tekst voor een apart, uitklapbaar "Explanation"-paneel dat de gebruiker vrijwillig opent -- hier mag en moet je ruim de tijd/ruimte voor nemen, dit hoeft GEEN korte tekst te zijn. Schrijf hem ALTIJD rechtstreeks tegen de gebruiker (spreek diegene aan met "je", NOOIT in de derde persoon zoals "de student"), in het Engels, en behandel in aparte, korte alinea's (gescheiden door een lege regel):
+"uitleg" is de tekst voor een apart, uitklapbaar "Açıklama"-paneel dat de gebruiker vrijwillig opent -- hier mag en moet je ruim de tijd/ruimte voor nemen, dit hoeft GEEN korte tekst te zijn. Schrijf hem ALTIJD rechtstreeks tegen de gebruiker (spreek diegene aan met "sen", NOOIT in de derde persoon zoals "öğrenci"), in het Turks, en behandel in aparte, korte alinea's (gescheiden door een lege regel):
 1) De betekenis van het geteste woord zelf (${isTrEn ? `het Turkse woord "${item.tr}"` : `het Engelse woord "${baseEnOf(item.en)}"`}) -- een heldere, wat rijkere uitleg dan alleen het kale vertaal-trefwoord, met relevante nuance of gebruikscontext.
 2) ALLEEN als het echt iets toevoegt: een korte, interessante etymologie van het woord, EN/OF -- als het woord meerdere losstaande betekenissen heeft -- die andere betekenissen kort genoemd (dit mag je overslaan of leeg laten als er niets noemenswaardigs is, forceer het niet).
 3) Bij een FOUT antwoord: wat het door de gebruiker gegeven woord zelf betekent (mag beknopt hetzelfde zeggen als "betekenis_antwoord", dat is geen probleem). Lag die betekenis dicht bij de bedoelde betekenis (bv. een verwant begrip, een deel-synoniem, een andere vorm/vervoeging, of een betekenis die overlapt maar net niet past)? Benoem dat dan expliciet en maak scherp wat het verschil/de nuance precies is, zodat de gebruiker leert wanneer je het ene woord gebruikt en wanneer het andere. Was het antwoord gewoon een heel ander/onverwant woord, dan hoeft dit punt niet uitgebreid; een enkele zin volstaat.
@@ -4142,7 +4142,7 @@ Antwoord in JSON.`;
       properties: {
         correct: {type:"boolean"},
         afwijking: {type:"string", description:"ALLEEN bij een GOED antwoord dat niet exact de standaardvorm was: korte Engelse zin die zegt wat afwijkt (tikfout, minder gebruikelijk synoniem, andere correcte vervoeging, ...). Leeg bij een exact antwoord of een fout antwoord."},
-        uitleg: {type:"string", description:"Rijkere uitleg in het Engels voor het uitklapbare Explanation-paneel: betekenis van het geteste woord, evt. etymologie/deelbetekenissen, en bij een fout antwoord de betekenis van het gegeven woord plus (indien van toepassing) het verschil met de bedoelde betekenis. Meerdere zinnen/alinea's mogen, mag leeg zijn."},
+        uitleg: {type:"string", description:"Rijkere uitleg in het Turks voor het uitklapbare Açıklama-paneel: betekenis van het geteste woord, evt. etymologie/deelbetekenissen, en bij een fout antwoord de betekenis van het gegeven woord plus (indien van toepassing) het verschil met de bedoelde betekenis. Meerdere zinnen/alinea's mogen, mag leeg zijn."},
         betekenis_antwoord: {type:"string", description:"Betekenis van het antwoord van de gebruiker (vertaald naar de andere taal), indien fout en een bestaand woord; anders leeg."},
       },
       required: ["correct","afwijking","uitleg","betekenis_antwoord"]
@@ -4183,7 +4183,7 @@ async function askDeepSeekFree(item, question, chatHistoryMsgs){
     : `Woord: Turks "${item.tr || "?"}" = Engels "${baseEnOf(item.en)}" (richting van deze oefening: ${item.direction === "tr-en" ? "Turks -> Engels" : "Engels -> Turks"}).`;
   const sys = `Je bent een behulpzame docent Turks. Je gebruiker oefent het volgende:
 ${context}
-Beantwoord vragen kort, duidelijk, rechtstreeks tegen de gebruiker gericht (spreek diegene aan met "je") en in het Engels.`;
+Beantwoord vragen kort, duidelijk, rechtstreeks tegen de gebruiker gericht (spreek diegene aan met "sen") en in het Turks.`;
   const messages = [...chatHistoryMsgs, {role:"user", content: question}];
   const raw = await callAI("sentence", sys, messages, 3000, 0.3);
   return raw || "(geen antwoord)";

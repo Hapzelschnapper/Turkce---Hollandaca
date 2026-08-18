@@ -264,5 +264,95 @@
    "bijwoorden_tijd_plaats"
   ],
   "explanation": "<p>Zaman/yer zarfları genelde fiilden hemen sonra gelir.</p>\n<p><b>Türkçede nasıl?</b> Türkçede zarfların yeri esnektir (genelde cümle başında ya da fiilden önce); Hollandacada ise V2 kuralına bağlı olarak sabit bir konumu vardır -- genelde fiilin hemen ardından:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik ga morgen naar Amsterdam.</td><td>Yarın Amsterdam'a gidiyorum.</td></tr>\n<tr><td>Wij eten vanavond thuis.</td><td>Bu akşam evde yemek yiyoruz.</td></tr>\n</tbody></table>"
+ },
+ {
+  "id": "g_om_te_infinitief",
+  "title": "om ... te + infinitief",
+  "icon": "🎯",
+  "grammarTopics": [
+   "om_te_infinitief"
+  ],
+  "explanation": "<p><b>om ... te</b> + mastar = \"yapmak için\". Mastar cümlenin en sonuna gider.</p>\n<p><b>Türkçede nasıl?</b> Türkçede amaç bir EK ile ifade edilir (-mek için, ya da -mesi için): \"buraya\nyaşamak için\" değil, \"burada yaşamak için\" gibi düşünün -- Hollandacada \"om\" + tam cümle + \"te\" +\nmastar şeklinde AÇIK bir yapı kullanılır:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik leer Nederlands om hier te wonen.</td><td>Burada yaşamak için Hollandaca öğreniyorum.</td></tr>\n<tr><td>Zij spaart om een auto te kopen.</td><td>Araba almak için biriktiriyor.</td></tr>\n<tr><td>Ik bel je om het te bespreken.</td><td>Bunu konuşmak için seni ararım.</td></tr>\n</tbody></table>\n<p>Dikkat: sadece \"te\" tek başına yeterli DEĞİL -- \"om\" başta ve \"te\" mastarın hemen önünde, ikisi\nbirlikte kullanılır.</p>"
+ },
+ {
+  "id": "g_hoeven",
+  "title": "hoeven (niet hoeven te)",
+  "icon": "🚫",
+  "grammarTopics": [
+   "hoeven"
+  ],
+  "explanation": "<p><b>hoeven</b>, \"moeten\"in OLUMSUZ karşılığıdır: neredeyse hep \"niet/geen\" ile kullanılır ve\n\"yapmaya gerek yok\" anlamına gelir.</p>\n<p><b>Türkçede nasıl?</b> Türkçede \"gerekmiyor\" ile \"izinli değilsin\" arasındaki fark kelimede net\ngörülür, ama Hollandacada bu iki kavram YANLIŞLIKLA karıştırılabilir -- \"hoeven niet\" ile \"mogen niet\"\nTAMAMEN farklı şeylerdir:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Je hoeft niet te komen.</td><td>Gelmene gerek yok. (istersen gelme, serbestsin)</td></tr>\n<tr><td>Je mag niet komen.</td><td>Gelmen yasak / gelemezsin. (izin yok!)</td></tr>\n<tr><td>Ik hoef geen hulp.</td><td>Yardıma ihtiyacım yok.</td></tr>\n</tbody></table>\n<p>Kısa kural: \"gerek yok\" demek istiyorsanız → <b>hoeven</b> (+niet/geen). \"İzin yok\" demek\nistiyorsanız → <b>mogen niet</b>. Bu iki kalıbı asla karıştırmayın.</p>"
+ },
+ {
+  "id": "g_betrekkelijke_bijzin",
+  "title": "Betrekkelijke bijzin (die/dat)",
+  "icon": "🔗",
+  "grammarTopics": [
+   "betrekkelijke_bijzin"
+  ],
+  "explanation": "<p><b>die</b>/<b>dat</b> bir önceki ismi açıklayan yan cümle başlatır -- \"die\" de-kelime/çoğul için,\n\"dat\" het-kelime için. Yan cümle olduğu için fiil YİNE sona gider.</p>\n<p><b>Türkçede nasıl?</b> Türkçede bu işlevi bir ORTAÇ EKİ görür (-en/-diği): \"orada oturan adam\",\n\"okuduğum kitap\" -- fiil isimden ÖNCE gelir, ayrı bir kelime yoktur. Hollandacada ise \"die/dat\" isimden\nSONRA gelen AYRI bir kelimedir ve tam bir yan cümle açar:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>de man die daar woont</td><td>orada oturan adam (Türkçede: ek, isimden önce)</td></tr>\n<tr><td>het boek dat ik lees</td><td>okuduğum kitap</td></tr>\n<tr><td>de vrouw die werkt</td><td>çalışan kadın</td></tr>\n</tbody></table>\n<p>\"die\" mi \"dat\" mı seçilir, ilgili İSMİN (adamın/kitabın) de-/het- durumuna bakılır, yan cümlenin\niçeriğine değil.</p>"
+ },
+ {
+  "id": "g_toen_als",
+  "title": "toen vs. als",
+  "icon": "⏰",
+  "grammarTopics": [
+   "toen_als"
+  ],
+  "explanation": "<p><b>toen</b>: geçmişte TEK BİR an. <b>als</b>: tekrarlayan/alışkanlık anlar, veya şimdiki/gelecek\nzaman.</p>\n<p><b>Türkçede nasıl?</b> Türkçede \"-diğinde\" hem geçmiş hem şimdiki zaman için kullanılabilir, bu\nayrımı Türkçe konuşanlar genelde yapmaz. Hollandacada ise bu SIKI bir kuraldır ve çok sık hata\nyapılan bir noktadır:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Toen ik klein was, woonde ik in Izmir.</td><td>Küçükken İzmir'de yaşıyordum. (TEK bir dönem, geçmiş)</td></tr>\n<tr><td>Als ik thuiskom, eet ik.</td><td>Eve geldiğimde yerim. (HER SEFERİNDE, alışkanlık)</td></tr>\n<tr><td>Toen hij belde, sliep ik.</td><td>O aradığında uyuyordum. (o BİR seferlik arama anı)</td></tr>\n</tbody></table>\n<p>Basit test: \"her seferinde\" ekleyebiliyor musunuz? Evetse → <b>als</b>. Belirli, tek bir geçmiş an\nmı? → <b>toen</b> (ve fiil MUTLAKA geçmiş zamanda olmalı).</p>"
+ },
+ {
+  "id": "g_aan_het_infinitief",
+  "title": "aan het + infinitief",
+  "icon": "⏳",
+  "grammarTopics": [
+   "aan_het_infinitief"
+  ],
+  "explanation": "<p><b>zijn</b> + <b>aan het</b> + mastar: şu anda TAM OLARAK yapılmakta olan bir eylemi vurgular.</p>\n<p><b>Türkçede nasıl?</b> Bu, Türkçedeki -iyor ekinin (şimdiki zaman/progressive) Hollandacadaki EN\nYAKIN karşılığıdır -- normal şimdiki zaman (tegenwoordige tijd dersini hatırlayın) hem -iyor hem geniş\nzamanı karşılarken, \"aan het\" yapısı SADECE \"şu anda, tam bu esnada\" anlamını verir, daha kesin/vurgulu:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik ben aan het koken.</td><td>(Şu anda) yemek pişiriyorum.</td></tr>\n<tr><td>Ik kook.</td><td>Yemek pişiririm / pişiriyorum. (daha nötr, belirsiz)</td></tr>\n<tr><td>Zij is aan het werken.</td><td>O şu anda çalışıyor.</td></tr>\n</tbody></table>\n<p>Kullanışlı ipucu: -iyor ekinin \"şu anda oluyor\" anlamını Hollandacada net vurgulamak istediğinizde\n\"aan het\" yapısını tercih edin.</p>"
+ },
+ {
+  "id": "g_elkaar",
+  "title": "elkaar (wederkerig)",
+  "icon": "🤝",
+  "grammarTopics": [
+   "elkaar"
+  ],
+  "explanation": "<p><b>elkaar</b> = birbiri/birbirlerini -- iki veya daha fazla kişi arasındaki karşılıklı eylemler\niçin.</p>\n<p><b>Türkçede nasıl?</b> Türkçede karşılıklılık genelde bir EKLE (-iş: \"görüşmek\" = birbirini görmek)\nfiile işlenir. Hollandacada ise AYRI bir kelime (\"elkaar\") kullanılır, fiile ek gelmez:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Zij houden van elkaar.</td><td>Birbirlerini seviyorlar.</td></tr>\n<tr><td>Wij helpen elkaar.</td><td>Birbirimize yardım ederiz.</td></tr>\n<tr><td>Zij kennen elkaar goed.</td><td>Birbirlerini iyi tanıyorlar.</td></tr>\n</tbody></table>\n<p>Dikkat: \"elkaar\" ile \"zich\" (kendini, wederkerende_ww dersi) karıştırmayın -- \"zich\" TEK kişinin\nkendine yönelik eylemi, \"elkaar\" İKİ (veya daha fazla) kişi arasındaki karşılıklı eylem içindir.</p>"
+ },
+ {
+  "id": "g_onbepaalde_vnw_uitgebreid",
+  "title": "iets/niets + sıfat (+s)",
+  "icon": "➕",
+  "grammarTopics": [
+   "onbepaalde_vnw_uitgebreid"
+  ],
+  "explanation": "<p>\"iets/niets/wat/veel\" gibi kelimelerden sonra gelen bir sıfat, niteleme olarak kullanıldığında\nsona <b>-s</b> alır.</p>\n<p><b>Türkçede nasıl?</b> Türkçede sıfat hiç değişmez (\"yeni bir şey\", \"özel bir şey değil\"). Hollandacada\nise bu özel kalıpta sıfatın sonuna küçük bir ek eklenir -- bnw_verbuiging dersindeki -e kuralından\nFARKLI, ayrı bir küçük kural:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>iets leuks</td><td>eğlenceli/hoş bir şey</td></tr>\n<tr><td>niets bijzonders</td><td>özel bir şey değil</td></tr>\n<tr><td>iets nieuws</td><td>yeni bir şey</td></tr>\n<tr><td>wat lekkers</td><td>lezzetli bir şey</td></tr>\n</tbody></table>\n<p>Küçük ama sık karşılaşacağınız bir kalıp -- \"iets\"/\"niets\"/\"wat\"/\"veel\" gördüğünüzde, ardından gelen\nsıfatın -s aldığını hatırlayın.</p>"
+ },
+ {
+  "id": "g_tijd_manier_plaats",
+  "title": "Volgorde: tijd - manier - plaats",
+  "icon": "🧭",
+  "grammarTopics": [
+   "tijd_manier_plaats"
+  ],
+  "explanation": "<p>Birden fazla zarf/tümleç varsa sıralama: önce ZAMAN, sonra ŞEKİL/ARAÇ, en son YER.</p>\n<p><b>Türkçede nasıl?</b> Türkçede kelime sırası nispeten serbesttir, bu yüzden böyle sıkı bir kural\nyoktur. Hollandacada ise SABİT bir sıra izlenir -- bu sırayı ezberlemek cümlelerinizi çok daha doğal\nkılar:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik ga morgen met de trein naar Utrecht.</td><td>Yarın trenle Utrecht'e gidiyorum. (zaman→şekil→yer)</td></tr>\n<tr><td>Wij eten vanavond thuis samen.</td><td>Bu akşam beraber evde yemek yiyoruz.</td></tr>\n</tbody></table>\n<p>Basit hatırlatma: \"NE ZAMAN, NASIL, NEREYE\" sırasıyla düşünün -- Türkçedeki sıralamayla karşılaştırma\nyapmaya çalışmayın, bu tamamen Hollandacaya özgü sabit bir düzendir.</p>"
+ },
+ {
+  "id": "g_twee_object_volgorde",
+  "title": "Twee objecten: volgorde",
+  "icon": "🔀",
+  "grammarTopics": [
+   "twee_object_volgorde"
+  ],
+  "explanation": "<p>Hem dolaylı hem dolaysız nesne olan bir cümlede, biri veya ikisi de zamir olduğunda sıra değişir.</p>\n<p><b>Türkçede nasıl?</b> Türkçede nesnelerin sırası oldukça serbesttir, hal ekleri (-i, -e) rolü zaten\nbelli eder. Hollandacada ise kelime sırasının KENDİSİ rolü belirler, bu yüzden sıra önemlidir:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik geef het boek aan haar.</td><td>Kitabı ona veriyorum. (nötr, isimlerle)</td></tr>\n<tr><td>Ik geef het haar.</td><td>Onu ona veriyorum. (İKİSİ de zamir → dolaysız nesne ÖNCE)</td></tr>\n<tr><td>Ik geef haar het boek.</td><td>Ona kitabı veriyorum. (\"aan\" olmadan, dolaylı nesne önce)</td></tr>\n</tbody></table>\n<p>Pratik kural: her ikisi de zamirse, dolaysız nesne (ne?) her zaman dolaylı nesneden (kime?) ÖNCE\ngelir.</p>"
+ },
+ {
+  "id": "g_passief_basis",
+  "title": "Passief (basis)",
+  "icon": "🔄",
+  "grammarTopics": [
+   "passief_basis"
+  ],
+  "explanation": "<p><b>worden</b> (şimdiki zaman) / <b>werden</b> (geçmiş) + voltooid deelwoord: eylemi kimin\nyaptığından çok, eylemin KENDİSİNE odaklanan yapı.</p>\n<p><b>Türkçede nasıl?</b> Türkçede edilgen çatı bir EK ile yapılır (-il/-in: \"yapılıyor\", \"inşa edildi\").\nHollandacada ise ayrı bir yardımcı fiil (\"worden\"/\"werden\") + voltooid deelwoord (voltooid_tegenwoordige_tijd\ndersindeki gibi) kullanılır:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Het huis wordt gebouwd.</td><td>Ev inşa ediliyor.</td></tr>\n<tr><td>De brief werd verstuurd.</td><td>Mektup gönderildi.</td></tr>\n<tr><td>Het probleem wordt opgelost.</td><td>Sorun çözülüyor.</td></tr>\n</tbody></table>\n<p>Dikkat: passief için \"worden\" kullanılır, \"olmak/hâle gelmek\" anlamındaki normal \"worden\" (bkz.\nonvoltooid_verleden_tijd) ile AYNI kelimedir ama burada yardımcı fiil rolündedir -- bağlamdan\nayırt edilir.</p>"
  }
 ]
