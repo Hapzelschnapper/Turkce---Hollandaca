@@ -20,7 +20,7 @@
   "grammarTopics": [
    "zijn_hebben"
   ],
-  "explanation": "<p><b>zijn</b> (olmak) ve <b>hebben</b> (sahip olmak), Hollandacanın en sık kullanılan iki\ndüzensiz fiilidir -- şimdiki zamanda ezberlenmesi gerekir:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>ik ben</td><td>ik heb</td></tr><tr><td>jij/u bent</td><td>jij/u hebt/heeft</td></tr>\n<tr><td>hij/zij/het is</td><td>hij/zij/het heeft</td></tr>\n<tr><td>wij zijn</td><td>wij hebben</td></tr><tr><td>jullie zijn</td><td>jullie hebben</td></tr>\n<tr><td>zij zijn</td><td>zij hebben</td></tr>\n</tbody></table>\n<p>Örnek: \"Ik ben moe, maar ik heb geen tijd om te slapen.\" (Yorgunum ama uyumaya vaktim yok.)</p>"
+  "explanation": "<p><b>zijn</b> (olmak) ve <b>hebben</b> (sahip olmak) AYRI, tam fiillerdir -- Hollandacada\nTürkçedeki gibi ek değil, gerçek birer kelimedir.</p>\n<p><b>Türkçede nasıl?</b> Türkçede bu ikisi HİÇ fiil değildir:</p>\n<ul>\n<li><b>\"olmak\" bir EK'tir</b> (\"-im/-sin/-dir\" vb.), çoğu zaman hatta tamamen düşer: \"öğretmenim\" (ik ben leraar), \"yorgun\" (moe -- \"hij is\" burada hiç görünmez).</li>\n<li><b>\"sahip olmak\" bir fiil bile değildir</b> -- \"var/yok\" + iyelik eki kullanılır: \"arabam var\" = kelimesi kelimesine \"benim arabam mevcut\" (letterlijk: \"mijn auto bestaat\").</li>\n</ul>\n<p>Hollandacada ise ikisi de normal, çekimlenen fiillerdir:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>ik ben moe</td><td>yorgunum (ek)</td></tr>\n<tr><td>ik heb een auto</td><td>arabam var (ayrı yapı!)</td></tr>\n<tr><td>hij is leraar</td><td>o öğretmen</td></tr>\n<tr><td>zij heeft geen tijd</td><td>onun vakti yok</td></tr>\n</tbody></table>\n<p>Kısacası: Türkçede \"sahip olma\" fiili aramayın -- yok. Hollandacada \"hebben\" gerçek, çekimlenen bir fiildir ve ezberlemeniz gerekir.</p>"
  },
  {
   "id": "g_tegenwoordige_tijd",
@@ -29,7 +29,7 @@
   "grammarTopics": [
    "tegenwoordige_tijd"
   ],
-  "explanation": "<p>Düzenli fiillerin şimdiki zaman çekimi fiil kökünden (stam) türetilir:</p>\n<ul>\n<li><b>ik</b> + kök (ek yok): \"ik werk\"</li>\n<li><b>jij/hij/zij/het</b> + kök + <b>-t</b>: \"jij werkt\"</li>\n<li><b>wij/jullie/zij</b> + tam mastar: \"wij werken\"</li>\n</ul>\n<p>Kök, mastardan -en'i çıkararak bulunur: \"werken\" → \"werk\". Soru cümlelerinde \"jij\" ile devrik\nsırada -t düşer: \"Werk jij?\" (değil \"Werkt jij?\").</p>"
+  "explanation": "<p>Düzenli fiil çekimi: <b>ik</b> + kök, <b>jij/hij/zij/het</b> + kök+<b>t</b>, <b>wij/jullie/zij</b> + tam mastar.</p>\n<p><b>Türkçede nasıl?</b> Türkçede şimdiki zamanın İKİ ayrı hâli vardır: <b>-iyor</b> (şu anda oluyor: \"içiyorum\" = ik drink nu) ve <b>geniş zaman -ir/-er</b> (genel/alışkanlık: \"içerim\" = ik drink (in het algemeen)). Hollandaca \"tegenwoordige tijd\" bu İKİSİNİ DE aynı tek çekimle karşılar -- ayrım Hollandacada yoktur, bağlamdan anlaşılır:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>ik drink water (nu)</td><td>şu anda su içiyorum</td></tr>\n<tr><td>ik drink elke dag water</td><td>her gün su içerim</td></tr>\n<tr><td>jij werkt</td><td>sen çalışıyorsun / çalışırsın</td></tr>\n<tr><td>wij wonen hier</td><td>biz burada oturuyoruz</td></tr>\n</tbody></table>\n<p>İki farklı Türkçe zaman, tek bir Hollandaca zamana karşılık geliyor -- bu yüzden Hollandaca konuşurken bu ayrımı düşünmenize gerek yok.</p>"
  },
  {
   "id": "g_woordvolgorde_v2",
@@ -38,7 +38,7 @@
   "grammarTopics": [
    "woordvolgorde_v2"
   ],
-  "explanation": "<p>Hollandaca ana cümlelerde çekimli fiil <b>her zaman ikinci öge</b> olarak gelir -- cümlenin ilk\nögesi özne olmak zorunda değildir:</p>\n<p>\"Ik ga morgen naar Amsterdam.\" → \"Morgen ga ik naar Amsterdam.\" (Fiil hâlâ 2. sırada, özne 3.\nsıraya kayar.)</p>\n<p>Bu, Türkçedeki nispeten serbest kelime sırasından çok farklıdır -- Hollandacada fiilin yeri\nsabittir.</p>"
+  "explanation": "<p>Ana cümlede çekimli fiil HER ZAMAN 2. sırada gelir, cümle neyle başlarsa başlasın.</p>\n<p><b>Türkçede nasıl?</b> Türkçe SOV (özne-nesne-fiil) dilidir ve kelime sırası nispeten serbesttir -- fiil neredeyse hep sonda durur, vurguya göre diğer ögeler yer değiştirebilir. Hollandaca ise SIKI bir kurala sahiptir: fiil daima 2.:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik ga vandaag naar school.</td><td>Bugün okula gidiyorum. (fiil sonda)</td></tr>\n<tr><td>Vandaag ga ik naar school.</td><td>(aynı cümle, \"bugün\" öne alındı -- fiil YİNE 2.)</td></tr>\n<tr><td>Morgen werkt zij niet.</td><td>Yarın o çalışmıyor. (fiil sonda)</td></tr>\n</tbody></table>\n<p>Dikkat: \"Vandaag ik ga\" YANLIŞ -- öne aldığınız kelime ne olursa olsun, fiil ikinci sırada kalmalı, özne fiilin ÖNÜNE değil ARDINDAN gelir.</p>"
  },
  {
   "id": "g_ontkenning",
@@ -47,7 +47,7 @@
   "grammarTopics": [
    "ontkenning"
   ],
-  "explanation": "<p><b>geen</b>: belirsiz bir ismi olumsuzlar (bir \"een\" ismini veya çıplak çoğul/sayılamayan\nismi değiştirir). \"Ik heb een auto.\" → \"Ik heb geen auto.\"</p>\n<p><b>niet</b>: her şeyi olumsuzlar (fiil, sıfat, belirli/bilinen bir isim). \"Ik zie de auto niet.\"\n(Arabayı görmüyorum -- belirli bir araba.)</p>"
+  "explanation": "<p><b>geen</b>: belirsiz bir ismi olumsuzlar. <b>niet</b>: her şeyi (fiil, sıfat, belirli isim) olumsuzlar.</p>\n<p><b>Türkçede nasıl?</b> Türkçede olumsuzluk fiile eklenen bir <b>ek</b>tir (-me/-mi): \"içmiyorum\". Hollandacada ise olumsuzluk AYRI bir kelimedir, fiile hiç dokunulmaz:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik heb een auto.</td><td>Ik heb geen auto. (arabam yok)</td></tr>\n<tr><td>Ik zie de auto.</td><td>Ik zie de auto niet. (arabayı görmüyorum -- belirli araba)</td></tr>\n<tr><td>Zij is moe.</td><td>Zij is niet moe.</td></tr>\n</tbody></table>\n<p>Kısa kural: bir \"een\"-isim veya çıplak çoğul/sayılamayan isim mi olumsuzlanıyor → <b>geen</b>. Başka her şey → <b>niet</b>.</p>"
  },
  {
   "id": "g_lidwoorden",
@@ -56,7 +56,7 @@
   "grammarTopics": [
    "lidwoorden"
   ],
-  "explanation": "<p>Hollandacada iki belirli tanımlık vardır: <b>de</b> (çoğunluk, ve TÜM çoğullar) ve\n<b>het</b> (bir azınlık, genellikle tekil isimler). Belirsiz tanımlık her ikisi için de \"een\"dir.</p>\n<p>Kesin bir kural yoktur -- her yeni ismi tanımlığıyla birlikte öğrenmek en güvenlisidir. Örnek:\n\"de tafel\" (masa), \"het huis\" (ev), ama çoğulda ikisi de \"de\": \"de huizen\" (evler).</p>"
+  "explanation": "<p><b>de</b> (çoğunluk + tüm çoğullar) ve <b>het</b> (bir azınlık, genelde tekil) -- Hollandacanın iki belirli tanımlığı.</p>\n<p><b>Türkçede nasıl?</b> Türkçede tanımlık YOKTUR -- \"kitap\" bağlama göre \"bir kitap\", \"kitap\" veya \"o kitap\" anlamına gelebilir, hiçbir ek/kelime eklenmez. Bu, Türkçe konuşanlar için tamamen YENİ bir kavramdır:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>de tafel</td><td>masa (belirli, \"de\")</td></tr>\n<tr><td>het huis</td><td>ev (belirli, \"het\")</td></tr>\n<tr><td>een tafel</td><td>bir masa (belirsiz)</td></tr>\n<tr><td>de tafels / de huizen</td><td>masalar / evler (çoğulda HER ZAMAN \"de\")</td></tr>\n</tbody></table>\n<p>Kesin bir kural yoktur -- her yeni ismi tanımlığıyla birlikte ezberlemek en güvenlisidir.</p>"
  },
  {
   "id": "g_meervoud",
@@ -65,7 +65,7 @@
   "grammarTopics": [
    "meervoud"
   ],
-  "explanation": "<p>Çoğu isim çoğulda <b>-en</b> alır: \"boek\" → \"boeken\". Vurgusuz -el/-em/-en/-er ile biten\nkelimeler veya bazı sesli harfle bitenler <b>-s</b> alır: \"tafel\" → \"tafels\", \"auto\" → \"auto's\"\n(kesme işaretiyle).</p>"
+  "explanation": "<p>Çoğu isim <b>-en</b> alır (\"boek\" → \"boeken\"); bazıları <b>-s</b> alır (\"tafel\" → \"tafels\").</p>\n<p><b>Türkçede nasıl?</b> Türkçede TEK bir çoğul eki vardır, sadece ünlü uyumuna göre iki hâli olur (-ler/-lar): \"kitaplar\", \"evler\". Hollandacada ise İKİ FARKLI ek var ve seçim ünlü uyumuna değil, kelimenin SONUNA bağlıdır:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>boek → boeken</td><td>kitap → kitaplar</td></tr>\n<tr><td>huis → huizen</td><td>ev → evler</td></tr>\n<tr><td>tafel → tafels</td><td>masa → masalar (-s: vurgusuz -el ile bitiyor)</td></tr>\n<tr><td>auto → auto's</td><td>araba → arabalar (-s + kesme işareti, sesli harfle bitince)</td></tr>\n</tbody></table>\n<p>Genel kural: -el/-em/-en/-er ile biten ya da bazı sesli-harf-sonlu kelimeler -s alır, gerisi -en alır -- ama istisnalar var, her kelimeyle birlikte öğrenin.</p>"
  },
  {
   "id": "g_verkleinwoord",
@@ -74,7 +74,7 @@
   "grammarTopics": [
    "verkleinwoord"
   ],
-  "explanation": "<p>Küçültme eki, kelimenin son sesine göre değişir: <b>-je</b> (varsayılan), <b>-tje</b> (sesli\nharf/n/l/r sonrası), <b>-pje</b> (m sonrası), <b>-kje</b> (-ing sonrası). Her zaman \"het\"-kelimesi\nolur. Örnek: \"huis\" → \"huisje\", \"boom\" → \"boompje\", \"ring\" → \"ringetje\".</p>"
+  "explanation": "<p>Küçültme eki -je/-tje/-pje/-kje, kelimenin son sesine göre seçilir; sonuç HER ZAMAN \"het\"-kelimesi olur.</p>\n<p><b>Türkçede nasıl?</b> Türkçede de bir küçültme eki var (-cik/-cık: \"kitapçık\", \"evcik\") ama günlük konuşmada Hollandacadaki kadar SIK ve DOĞAL kullanılmaz -- Hollandacada neredeyse her isim rahatça küçültülebilir, hatta bazen sevgi/rahatlık belirtmek için (Türkçedeki gibi):</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>huis → huisje</td><td>ev → evcik (küçük ev)</td></tr>\n<tr><td>boom → boompje</td><td>ağaç → ağaççık</td></tr>\n<tr><td>ring → ringetje</td><td>yüzük → yüzükçük</td></tr>\n<tr><td>kop → kopje</td><td>fincan (küçültme burada normal kelime gibi kullanılır -- \"een kopje koffie\" = bir fincan kahve)</td></tr>\n</tbody></table>\n<p>Önemli fark: küçültülmüş hâl ORİJİNAL kelimenin cinsiyetini (de/het) kaybeder, her zaman \"het\" olur -- \"de ring\" ama \"het ringetje\".</p>"
  },
  {
   "id": "g_bnw_verbuiging",
@@ -83,7 +83,7 @@
   "grammarTopics": [
    "bnw_verbuiging"
   ],
-  "explanation": "<p>Bir isimden hemen önce gelen sıfat genellikle <b>-e</b> alır: \"een grote hond\". TEK istisna:\ntekil \"het\"-kelimesi \"een\" (veya tanımlıksız) ile kullanılıyorsa -e almaz: \"een groot huis\".</p>\n<p>de-kelimesi, çoğul, veya \"het/dit/dat\" ile kullanılan het-kelimesi → HER ZAMAN -e.</p>"
+  "explanation": "<p>Bir isimden hemen önceki sıfat genelde <b>-e</b> alır; TEK istisna: tekil \"het\"-kelimesi + \"een\"/tanımlıksız.</p>\n<p><b>Türkçede nasıl?</b> Türkçe sıfatlar HİÇBİR ZAMAN değişmez: \"büyük ev\", \"büyük evler\", \"ev büyük\" -- hepsinde \"büyük\" aynı kalır. Hollandacada ise sıfat İSMİN önündeyse çoğu zaman değişir, bu Türkçe konuşanlar için alışılmadık bir durumdur:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>de grote hond</td><td>büyük köpek (de-kelimesi → -e EKLENİR)</td></tr>\n<tr><td>een groot huis</td><td>büyük ev (het-kelimesi + \"een\" → -e YOK, istisna!)</td></tr>\n<tr><td>het grote huis</td><td>büyük ev (\"het\" ile kullanılınca yine -e EKLENİR)</td></tr>\n<tr><td>grote huizen</td><td>büyük evler (çoğul → her zaman -e)</td></tr>\n</tbody></table>\n<p>Kısa kural: sadece \"een groot huis\" gibi (het-kelime + een/tanımlıksız) durumda -e YOK, gerisinde hep VAR.</p>"
  },
  {
   "id": "g_vergelijking",
@@ -92,7 +92,7 @@
   "grammarTopics": [
    "vergelijking"
   ],
-  "explanation": "<p>Karşılaştırma: sıfat + <b>-er</b> (\"groter\" = daha büyük). Üstünlük: sıfat + <b>-st</b>,\ngenellikle \"het\" ile (\"het grootst\" = en büyük). Uzun/yabancı kökenli sıfatlarda bunun yerine\n\"meer\"/\"meest\" kullanılır: \"meer interessant\" (daha ilginç).</p>"
+  "explanation": "<p>Karşılaştırma: sıfat+<b>-er</b>. Üstünlük: sıfat+<b>-st</b> (genelde \"het\" ile). Uzun sıfatlarda \"meer\"/\"meest\".</p>\n<p><b>Türkçede nasıl?</b> Türkçede sıfat hiç değişmez, bunun yerine AYRI bir kelime (\"daha\"/\"en\") eklenir: \"daha büyük\", \"en büyük\". Hollandacada ise (kısa sıfatlarda) sıfatın SONUNA ek gelir:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>groot → groter → grootst</td><td>büyük → daha büyük → en büyük</td></tr>\n<tr><td>mooi → mooier → mooist</td><td>güzel → daha güzel → en güzel</td></tr>\n<tr><td>interessant → meer interessant</td><td>ilginç → daha ilginç (uzun kelime → ek yerine \"meer\")</td></tr>\n<tr><td>Dit huis is groter dan dat huis.</td><td>Bu ev o evden daha büyük.</td></tr>\n</tbody></table>\n<p>Kısa sıfatlar (1-2 hece) → -er/-st eki. Uzun/yabancı kökenli sıfatlar → \"meer\"/\"meest\" (Türkçedeki \"daha\"/\"en\" gibi ayrı kelime).</p>"
  },
  {
   "id": "g_scheidbare_werkwoorden",
@@ -101,7 +101,7 @@
   "grammarTopics": [
    "scheidbare_werkwoorden"
   ],
-  "explanation": "<p>\"opbellen\", \"aankomen\" gibi bileşik fiiller ana cümlede ikiye ayrılır: çekimli kısım 2. sırada\nkalır, ek cümlenin SONUNA gider. \"Ik bel je morgen op.\" (Seni yarın ararım.)</p>\n<p>Bijzin (yan cümle) veya mastar halinde birleşik kalır: \"...omdat ik je opbel.\" / \"Ik ga\nopbellen.\"</p>"
+  "explanation": "<p>\"opbellen\" gibi bileşik fiiller ana cümlede ikiye ayrılır: çekimli kısım 2. sırada, ek cümle SONUNDA.</p>\n<p><b>Türkçede nasıl?</b> Bu yapı Türkçede YOKTUR -- en yakın benzeri \"yardım etmek\" gibi isim+fiil birleşimleridir, ama onlar bölünmez. Hollandacada ise fiil gerçekten ikiye ayrılıp cümlenin İKİ ucuna dağılır -- bu tamamen yeni bir kavramdır:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik bel je morgen op.</td><td>Seni yarın ararım. (\"opbellen\" ikiye ayrıldı: bel...op)</td></tr>\n<tr><td>Zij staat om zeven uur op.</td><td>O yedide kalkar. (\"opstaan\" ayrıldı: staat...op)</td></tr>\n<tr><td>...omdat ik je opbel.</td><td>(yan cümlede BİRLEŞİK kalır, ayrılmaz!)</td></tr>\n<tr><td>Ik ga morgen opbellen.</td><td>(mastar hâlinde de birleşik kalır)</td></tr>\n</tbody></table>\n<p>Kural: SADECE ana cümlede, çekimli hâlde ayrılır. Yan cümlede ve mastar hâlinde tek kelime olarak kalır.</p>"
  },
  {
   "id": "g_modale_werkwoorden",
@@ -110,7 +110,7 @@
   "grammarTopics": [
    "modale_werkwoorden"
   ],
-  "explanation": "<p>kunnen (yapabilmek), moeten (zorunda olmak), mogen (izinli olmak), willen (istemek) --\nbunlardan sonra gelen ikinci (esas) fiil MASTAR halinde cümlenin SONUNA gider: \"Ik moet nu\nvertrekken.\" (Şimdi ayrılmam gerekiyor.)</p>"
+  "explanation": "<p>kunnen/moeten/mogen/willen + esas fiil MASTAR hâlinde cümle SONUNA gider.</p>\n<p><b>Türkçede nasıl?</b> Türkçede \"yapabilmek\" gibi modal anlamlar genelde bir EK ile (-ebilmek) tek kelimede birleşir. Hollandacada ise İKİ AYRI kelime kullanılır ve esas fiil cümlenin sonuna atılır:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik kan morgen komen.</td><td>Yarın gelebilirim. (Hollandacada 2 kelime: kan...komen)</td></tr>\n<tr><td>Jij moet nu vertrekken.</td><td>Şimdi ayrılman gerekiyor.</td></tr>\n<tr><td>Mag ik binnenkomen?</td><td>İçeri girebilir miyim?</td></tr>\n<tr><td>Ik wil een appel eten.</td><td>Bir elma yemek istiyorum.</td></tr>\n</tbody></table>\n<p>Türkçedeki TEK ek (-ebilmek), Hollandacada modal fiil + cümle sonundaki mastar olarak İKİYE bölünür.</p>"
  },
  {
   "id": "g_voltooid_tegenwoordige_tijd",
@@ -119,7 +119,7 @@
   "grammarTopics": [
    "voltooid_tegenwoordige_tijd"
   ],
-  "explanation": "<p>hebben/zijn (şimdiki zamanda) + voltooid deelwoord (cümle sonunda). Çoğu fiil \"hebben\" alır;\nhareket/durum değişimi bildiren fiiller (gaan, komen, worden...) \"zijn\" alır.</p>\n<p>Düzenli voltooid deelwoord: ge- + kök + -d/-t ('t kofschip kuralı: kök sessiz \"t,k,f,s,ch,p\"\nile bitiyorsa -t, aksi halde -d). Örn: \"gewerkt\" (çalıştı), \"gehoord\" (duydu). Birçok sık kullanılan\nfiil düzensizdir: \"gelezen\" (okudu, lezen'den), \"gegaan\" (gitti, gaan'dan).</p>"
+  "explanation": "<p>hebben/zijn (şimdiki zamanda) + voltooid deelwoord (cümle sonunda).</p>\n<p><b>Türkçede nasıl?</b> Türkçede İKİ AYRI geçmiş zaman vardır: <b>-di</b> (gördüğünüz/kesin: \"geldim\") ve <b>-miş</b> (duyduğunuz/çıkarım: \"gelmiş\"). Hollandaca \"voltooid tegenwoordige tijd\" ikisinin de yerini büyük ölçüde tutar -- Hollandaca konuşmada geçmişten bahsetmenin EN YAYGIN yoludur:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik heb gewerkt.</td><td>Çalıştım. (düzenli: ge+kök+d/t)</td></tr>\n<tr><td>Wij zijn naar huis gegaan.</td><td>Eve gittik. (\"zijn\" -- hareket fiili!)</td></tr>\n<tr><td>Ik heb het boek gelezen.</td><td>Kitabı okudum. (düzensiz voltooid deelwoord)</td></tr>\n</tbody></table>\n<p>hebben/zijn seçimi: hareket veya durum-değişimi bildiren fiiller (gaan, komen, worden...) \"zijn\" alır, gerisi \"hebben\" alır.</p>"
  },
  {
   "id": "g_onvoltooid_verleden_tijd",
@@ -128,7 +128,7 @@
   "grammarTopics": [
    "onvoltooid_verleden_tijd"
   ],
-  "explanation": "<p>Düzenli fiiller -te(n) veya -de(n) alır (aynı 't kofschip kuralına göre): \"werken\" →\n\"werkte\", \"spelen\" → \"speelde\". Birçok sık kullanılan fiil düzensizdir (güçlü fiil, ünlü değişimi):\n\"gaan\" → \"ging\", \"komen\" → \"kwam\".</p>"
+  "explanation": "<p>Düzenli fiiller -te(n)/-de(n) alır; birçok sık fiil düzensizdir (ünlü değişimi).</p>\n<p><b>Türkçede nasıl?</b> Bu zaman en çok Türkçenin <b>-di'li geçmiş zamanı</b>na (gördüğünüz/kesin geçmiş) benzer -- ama günlük Hollandacada konuşurken bunun yerine genelde bir önceki dersteki \"voltooid tegenwoordige tijd\" tercih edilir; onvoltooid verleden tijd daha çok YAZI DİLİNDE ve hikaye anlatırken kullanılır:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Zij speelde buiten.</td><td>Dışarıda oynadı. (düzenli: -de)</td></tr>\n<tr><td>Hij kwam laat.</td><td>Geç geldi. (düzensiz: \"komen\"→\"kwam\")</td></tr>\n<tr><td>Ik werkte de hele dag.</td><td>Bütün gün çalıştım.</td></tr>\n</tbody></table>"
  },
  {
   "id": "g_toekomende_tijd",
@@ -137,7 +137,7 @@
   "grammarTopics": [
    "toekomende_tijd"
   ],
-  "explanation": "<p><b>gaan</b> + mastar: günlük konuşmada en yaygın yakın gelecek zamanı. \"Ik ga morgen\nwerken.\" (Yarın çalışacağım.)</p>\n<p><b>zullen</b> + mastar: söz verme, tahmin, öneri için. \"Ik zal je helpen.\" (Sana yardım\nedeceğim.)</p>"
+  "explanation": "<p><b>gaan</b>+mastar: günlük yakın gelecek. <b>zullen</b>+mastar: söz/tahmin.</p>\n<p><b>Türkçede nasıl?</b> Türkçede gelecek zaman TEK bir ekle yapılır (-ecek/-acak: \"geleceğim\"). Hollandacada ise İKİ AYRI kelime gerekir, tıpkı modal fiillerde olduğu gibi:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik ga morgen werken.</td><td>Yarın çalışacağım. (gaan + mastar sonda)</td></tr>\n<tr><td>Wij gaan naar de markt lopen.</td><td>Pazara yürüyeceğiz.</td></tr>\n<tr><td>Ik zal je helpen.</td><td>Sana yardım edeceğim. (söz verme → zullen)</td></tr>\n</tbody></table>\n<p>\"gaan\" günlük konuşmada, \"zullen\" daha çok söz/tahmin/nezaket bağlamında kullanılır.</p>"
  },
  {
   "id": "g_vraagzinnen",
@@ -146,7 +146,7 @@
   "grammarTopics": [
    "vraagzinnen"
   ],
-  "explanation": "<p>Evet/hayır soruları: fiil ve özne yer değiştirir (devrik sıra). \"Werk jij?\" (Çalışıyor\nmusun?)</p>\n<p>Soru kelimeli sorular: soru kelimesi + fiil + özne. \"Waar woon jij?\" (Nerede oturuyorsun?)</p>"
+  "explanation": "<p>Evet/hayır: fiil-özne yer değiştirir. Soru kelimeli: soru kelimesi+fiil+özne.</p>\n<p><b>Türkçede nasıl?</b> Türkçede evet/hayır soruları bir SORU PARÇACIĞI (mi/mı/mu/mü) ile yapılır, kelime sırası değişmez: \"Geliyor musun?\". Hollandacada ise parçacık YOKTUR -- bunun yerine fiil ve özne yer DEĞİŞTİRİR:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Werk jij?</td><td>Çalışıyor musun? (Hollandacada: fiil ÖNCE)</td></tr>\n<tr><td>Kom je morgen?</td><td>Yarın geliyor musun?</td></tr>\n<tr><td>Waar woon jij?</td><td>Nerede oturuyorsun? (soru kelimesi + fiil + özne)</td></tr>\n</tbody></table>\n<p>Türkçedeki \"mi\" eki gibi bir parçacık aramayın -- Hollandacada onun yerini kelime sırası (devrik cümle) alır.</p>"
  },
  {
   "id": "g_bijzin_volgorde",
@@ -155,7 +155,7 @@
   "grammarTopics": [
    "bijzin_volgorde"
   ],
-  "explanation": "<p>omdat/dat/als/terwijl/hoewel gibi bağlaçlardan sonraki yan cümlede çekimli fiil cümlenin EN\nSONUNA gider -- ana cümledeki V2 kuralının tam tersi. \"...omdat ik moe ben.\" (...çünkü yorgunum.)</p>"
+  "explanation": "<p>omdat/dat/als/terwijl gibi bağlaçlardan sonra fiil cümlenin EN SONUNA gider.</p>\n<p><b>Türkçede nasıl?</b> Türkçede yan cümleler genelde bir ULAÇ/ORTAÇ eki ile kurulur (-diği, -eceği, -diğinde) ve fiil zaten cümlenin sonunda durur, bu yüzden aslında SONUÇ benzer -- ama Hollandacada bu tam bir CÜMLE (bağlaç + özne + ... + fiil) olarak kurulur, ek değil:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>...omdat ik moe ben.</td><td>...çünkü yorgunum. (fiil sonda, tam cümle)</td></tr>\n<tr><td>Ik blijf thuis als het regent.</td><td>Yağmur yağarsa evde kalırım.</td></tr>\n<tr><td>Ik weet dat hij komt.</td><td>Onun geldiğini biliyorum. (Türkçede -diği eki, Hollandacada tam \"dat\"-cümlesi)</td></tr>\n</tbody></table>\n<p>Fark: Türkçe bunu bir EKLE tek kelimeye sıkıştırır, Hollandaca ayrı bir bağlaç + tam cümle kullanır (fiil yine sonda).</p>"
  },
  {
   "id": "g_persoonlijke_vnw",
@@ -164,7 +164,7 @@
   "grammarTopics": [
    "persoonlijke_vnw"
   ],
-  "explanation": "<p>Özne halleri: ik/jij(u)/hij/zij/het/wij/jullie/zij. Nesne halleri: mij(me)/jou(je)/hem/haar/\nhet/ons/jullie/hen(ze). \"Ik zie hem.\" (Onu görüyorum) -- özne \"ik\", nesne \"hem\".</p>"
+  "explanation": "<p>Özne: ik/jij/hij/zij/het/wij/jullie/zij. Nesne: mij(me)/jou(je)/hem/haar/het/ons/jullie/hen(ze).</p>\n<p><b>Türkçede nasıl?</b> EN ÖNEMLİ FARK: Türkçe \"pro-drop\" bir dildir -- fiil çekimi zaten kişiyi belirttiği için özne zamiri (ben/sen/o) çoğu zaman TAMAMEN ATLANIR: \"Geliyorum\" (ben demeden de \"ben\" anlaşılır). Hollandacada bu KESİNLİKLE YAPILMAZ -- özne HER ZAMAN yazılmalı:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik kom. (asla \"Kom.\" değil)</td><td>Geliyorum. (özne atlanabilir)</td></tr>\n<tr><td>Ik zie hem.</td><td>Onu görüyorum. (özne \"ik\" ZORUNLU, \"hem\" = nesne)</td></tr>\n<tr><td>Help je haar?</td><td>Ona yardım ediyor musun?</td></tr>\n</tbody></table>\n<p>Alışkanlık geliştirin: Hollandaca konuşurken özneyi ASLA atlamayın, Türkçede olduğu gibi \"anlaşılır zaten\" diye düşünmeyin.</p>"
  },
  {
   "id": "g_bezittelijke_vnw",
@@ -173,7 +173,7 @@
   "grammarTopics": [
    "bezittelijke_vnw"
   ],
-  "explanation": "<p>mijn (benim), jouw/je (senin), zijn (onun-erkek), haar (onun-kadın), ons/onze (bizim),\njullie (sizin-çoğul), hun (onların). \"ons\", de-kelimesi veya çoğuldan önce \"onze\" olur: \"onze\nauto\" (arabamız).</p>"
+  "explanation": "<p>mijn/jouw(je)/zijn/haar/ons(onze)/jullie/hun -- \"ons\" de-kelime/çoğul önünde \"onze\" olur.</p>\n<p><b>Türkçede nasıl?</b> Türkçede iyelik hem bir EK olarak isme eklenir (evim = \"my house\") hem de isteğe bağlı olarak vurgu için ayrı bir kelime de eklenebilir (benim evim). Hollandacada ek YOKTUR -- SADECE ayrı kelime kullanılır:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>mijn huis</td><td>evim (ek) / benim evim (vurgulu)</td></tr>\n<tr><td>onze auto</td><td>arabamız (de-kelime → \"onze\")</td></tr>\n<tr><td>hun boek</td><td>onların kitabı</td></tr>\n</tbody></table>\n<p>Türkçedeki \"-im/-in/-i\" gibi iyelik eklerini unutun -- Hollandacada bunun tam karşılığı hep ayrı, önde duran bir kelimedir.</p>"
  },
  {
   "id": "g_wederkerende_ww",
@@ -182,7 +182,7 @@
   "grammarTopics": [
    "wederkerende_ww"
   ],
-  "explanation": "<p>Dönüşlü fiiller \"zich\" (kişiye göre değişir: me/je/zich/ons/je/zich) ile kullanılır: \"Ik was\nme.\" (Kendimi yıkarım.), \"Zij vergist zich.\" (O yanılıyor.)</p>"
+  "explanation": "<p>Dönüşlü fiiller \"zich\" (kişiye göre: me/je/zich/ons/je/zich) ile kullanılır.</p>\n<p><b>Türkçede nasıl?</b> Türkçede dönüşlülük genelde bir EK ile fiile işlenir (-in/-il: \"giyinmek\" = kendini giydirmek). Hollandacada ise ayrı bir kelime (\"zich\" vb.) fiilin yanına eklenir:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik was me.</td><td>Kendimi yıkarım / yıkanırım.</td></tr>\n<tr><td>Zij vergist zich.</td><td>O yanılıyor.</td></tr>\n<tr><td>Wij vervelen ons.</td><td>Sıkılıyoruz.</td></tr>\n</tbody></table>"
  },
  {
   "id": "g_er_constructie",
@@ -191,7 +191,7 @@
   "grammarTopics": [
    "er_constructie"
   ],
-  "explanation": "<p>\"er is/zijn\" varlık bildirir: \"Er is een probleem.\" (Bir sorun var.)</p>\n<p>\"er\" bir edatla birleşip \"het/dat\"ın yerini alabilir: \"Ik denk erover na.\" (Onu\ndüşünüyorum -- \"over\" + \"erover\").</p>"
+  "explanation": "<p>\"er is/zijn\" (varlık) ve \"er\" + edat kombinasyonu (\"erover\", \"ermee\").</p>\n<p><b>Türkçede nasıl?</b> Bu kelimenin Türkçede DOĞRUDAN bir karşılığı YOKTUR -- tamamen Hollandacaya özgü bir kavramdır, bu yüzden ekstra dikkat gerektirir:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Er is een probleem.</td><td>Bir sorun var. (\"er\" = Türkçedeki \"var\"ın parçası gibi düşünün)</td></tr>\n<tr><td>Er zijn veel mensen.</td><td>Çok insan var.</td></tr>\n<tr><td>Ik denk erover na.</td><td>Onu düşünüyorum. (\"erover\" = \"over het\" yerine)</td></tr>\n<tr><td>Ik hou ervan.</td><td>Bunu seviyorum. (\"houden van\" + \"er\")</td></tr>\n</tbody></table>\n<p>En kolay yaklaşım: \"Er is/zijn\" yapısını Türkçedeki \"var/yok\" ile eşleştirerek ezberleyin; \"er+edat\" kombinasyonlarını ise kalıp olarak öğrenin.</p>"
  },
  {
   "id": "g_voorzetsels",
@@ -200,7 +200,7 @@
   "grammarTopics": [
    "voorzetsels"
   ],
-  "explanation": "<p>in, op, aan, van, met, voor, naar gibi edatlar hem yer/yön bildirir hem de sabit\nifadelerde kullanılır (örn. \"wachten OP\" = beklemek, \"houden VAN\" = sevmek). Bu sabit kombinasyonları\nezberlemek gerekir.</p>"
+  "explanation": "<p>in, op, aan, van, met, voor, naar gibi edatlar hem yer/yön bildirir hem sabit ifadelerde geçer.</p>\n<p><b>Türkçede nasıl?</b> Türkçede edatların çoğu isimden SONRA gelir (son çekim eki veya ayrı kelime olarak): \"masada\" (op tafel), \"seninle\" (met jou). Hollandacada ise edat isimden ÖNCE gelir -- sıra TERS:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>op de tafel</td><td>masada (Türkçe: ek sonda) / masanın üstünde</td></tr>\n<tr><td>met jou</td><td>seninle</td></tr>\n<tr><td>wachten op iets</td><td>bir şeyi beklemek (Hollandacada \"op\" ZORUNLU, Türkçede yok)</td></tr>\n<tr><td>houden van iemand</td><td>birini sevmek (\"van\" burada da sabit, çevrilemez)</td></tr>\n</tbody></table>\n<p>Özellikle fiil+edat kombinasyonlarını (wachten OP, houden VAN) kelime kelime çevirmeye çalışmayın -- kalıp olarak ezberleyin.</p>"
  },
  {
   "id": "g_gebiedende_wijs",
@@ -209,7 +209,7 @@
   "grammarTopics": [
    "gebiedende_wijs"
   ],
-  "explanation": "<p>Emir kipi, fiilin çıplak kökü ile yapılır, özne kullanılmaz: \"Kom hier!\" (Buraya gel!),\n\"Wacht even.\" (Biraz bekle.)</p>"
+  "explanation": "<p>Emir kipi = fiilin çıplak kökü, özne yok.</p>\n<p><b>Türkçede nasıl?</b> Burada Türkçe ile Hollandaca oldukça BENZER: ikisinde de \"sen\" için özel bir emir eki/formu var ve özne söylenmez:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Kom hier!</td><td>Buraya gel!</td></tr>\n<tr><td>Wacht even.</td><td>Biraz bekle.</td></tr>\n<tr><td>Eet je bord leeg.</td><td>Tabağını bitir.</td></tr>\n</tbody></table>\n<p>Kolay kural: mastardan \"-en\"i çıkarın, kalan kök emir kipidir (werken → werk!, komen → kom!).</p>"
  },
  {
   "id": "g_telwoorden_tijd",
@@ -218,7 +218,7 @@
   "grammarTopics": [
    "telwoorden_tijd"
   ],
-  "explanation": "<p>Sayılar ve saat söyleme. DİKKAT: \"half negen\" Türkçedeki \"dokuz buçuk\" gibi düşünülmemeli --\n\"negen\"e doğru yarı yol demektir, yani 8:30'a karşılık gelir.</p>"
+  "explanation": "<p>Sayılar ve saat söyleme.</p>\n<p><b>Türkçede nasıl?</b> Sayı sistemi mantığı benzer, ama saat söylemede DİKKAT: Hollandaca \"half X\", Türkçedeki \"X buçuk\" gibi DÜŞÜNÜLMEMELİ:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>half negen</td><td>sekiz buçuk (8:30! -- \"negen\"e YARI yol demek, dokuz buçuk DEĞİL)</td></tr>\n<tr><td>kwart voor drie</td><td>üçe çeyrek var (2:45)</td></tr>\n<tr><td>kwart over drie</td><td>üçü çeyrek geçiyor (3:15)</td></tr>\n<tr><td>de derde mei</td><td>üç Mayıs</td></tr>\n</tbody></table>\n<p>\"half negen\" tuzağı çok yaygın bir hatadır -- bir dahaki sefere aklınıza gelsin diye tekrar vurguluyoruz.</p>"
  },
  {
   "id": "g_nevenschikking",
@@ -227,7 +227,7 @@
   "grammarTopics": [
    "nevenschikking"
   ],
-  "explanation": "<p>en, maar, want, of, dus -- bu bağlaçlar kelime sırasını DEĞİŞTİRMEZ, her iki taraf da normal\nV2 kuralını takip eder. \"Ik werk, want ik heb geld nodig.\" (Çalışıyorum, çünkü paraya ihtiyacım\nvar.)</p>"
+  "explanation": "<p>en/maar/want/of/dus -- kelime sırasını DEĞİŞTİRMEZ.</p>\n<p><b>Türkçede nasıl?</b> İşlev olarak Türkçedeki ve/ama/çünkü/veya/bu yüzden ile hemen hemen birebir aynı, kelime sırası kuralları da benzer şekilde etkilenmez:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik werk, want ik heb geld nodig.</td><td>Çalışıyorum, çünkü paraya ihtiyacım var.</td></tr>\n<tr><td>Hij is moe, maar hij werkt door.</td><td>Yorgun ama çalışmaya devam ediyor.</td></tr>\n</tbody></table>"
  },
  {
   "id": "g_onderschikking",
@@ -236,7 +236,7 @@
   "grammarTopics": [
    "onderschikking"
   ],
-  "explanation": "<p>omdat, als, terwijl, dat, hoewel -- bu bağlaçlardan sonra fiil cümlenin sonuna gider (bkz.\nbijzin_volgorde). \"Ik blijf thuis als het regent.\" (Yağmur yağarsa evde kalırım.)</p>"
+  "explanation": "<p>omdat/als/terwijl/dat/hoewel -- fiili cümle sonuna gönderir (bkz. bijzin_volgorde).</p>\n<p><b>Türkçede nasıl?</b> Türkçe bu anlamları genelde bir ULAÇ EKİYLE (-diğinde, -irse, -iken) tek kelimede toplar; Hollandaca ayrı bir bağlaç kelimesi + tam bir cümle kullanır:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik blijf thuis als het regent.</td><td>Yağmur yağarsa evde kalırım. (-irse eki ↔ \"als\" + tam cümle)</td></tr>\n<tr><td>Terwijl ik kook, luister ik muziek.</td><td>Yemek pişirirken müzik dinlerim. (-irken eki ↔ \"terwijl\" + tam cümle)</td></tr>\n</tbody></table>"
  },
  {
   "id": "g_aanwijzende_vnw",
@@ -245,7 +245,7 @@
   "grammarTopics": [
    "aanwijzende_vnw"
   ],
-  "explanation": "<p>deze/die: de-kelimeleri ve çoğullar için. dit/dat: tekil het-kelimeleri için. deze/dit =\nyakın, die/dat = uzak. \"deze auto\" (bu araba, de-kelimesi) vs. \"dit huis\" (bu ev,\nhet-kelimesi).</p>"
+  "explanation": "<p>deze/die (de-kelime+çoğul), dit/dat (het-kelime); deze/dit=yakın, die/dat=uzak.</p>\n<p><b>Türkçede nasıl?</b> Türkçede ÜÇ aşamalı bir sistem var: bu (yakın)/şu (dinleyiciye yakın)/o (uzak). Hollandacada ise SADECE İKİ aşama var -- \"şu\" için ayrı bir kelime YOKTUR, o da \"die/dat\" ile karşılanır:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>deze auto</td><td>bu araba (yakın, de-kelime)</td></tr>\n<tr><td>dit huis</td><td>bu ev (yakın, het-kelime)</td></tr>\n<tr><td>die auto / dat huis</td><td>şu araba / o araba -- Hollandacada İKİSİ DE aynı kelime!</td></tr>\n</tbody></table>\n<p>Türkçedeki \"şu\" ile \"o\" ayrımını Hollandacaya taşımaya çalışmayın -- ikisi de basitçe \"die\"/\"dat\" olur.</p>"
  },
  {
   "id": "g_hoeveelheidswoorden",
@@ -254,7 +254,7 @@
   "grammarTopics": [
    "hoeveelheidswoorden"
   ],
-  "explanation": "<p>veel (çok), weinig (az), een beetje (biraz), geen (hiç) gibi miktar bildiren kelimeler.\n\"veel geld\" (çok para), \"weinig tijd\" (az zaman).</p>"
+  "explanation": "<p>veel (çok), weinig (az), een beetje (biraz), geen (hiç).</p>\n<p><b>Türkçede nasıl?</b> Doğrudan, kelime kelime çevrilebilen bir kategori -- büyük yapısal fark yok:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>veel geld</td><td>çok para</td></tr>\n<tr><td>weinig tijd</td><td>az zaman</td></tr>\n<tr><td>een beetje water</td><td>biraz su</td></tr>\n</tbody></table>"
  },
  {
   "id": "g_bijwoorden_tijd_plaats",
@@ -263,6 +263,6 @@
   "grammarTopics": [
    "bijwoorden_tijd_plaats"
   ],
-  "explanation": "<p>Zaman ve yer bildiren zarflar genellikle fiilden hemen sonra gelir: \"Ik ga morgen naar\nAmsterdam.\" (Yarın Amsterdam'a gidiyorum.)</p>"
+  "explanation": "<p>Zaman/yer zarfları genelde fiilden hemen sonra gelir.</p>\n<p><b>Türkçede nasıl?</b> Türkçede zarfların yeri esnektir (genelde cümle başında ya da fiilden önce); Hollandacada ise V2 kuralına bağlı olarak sabit bir konumu vardır -- genelde fiilin hemen ardından:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>Ik ga morgen naar Amsterdam.</td><td>Yarın Amsterdam'a gidiyorum.</td></tr>\n<tr><td>Wij eten vanavond thuis.</td><td>Bu akşam evde yemek yiyoruz.</td></tr>\n</tbody></table>"
  }
 ]
