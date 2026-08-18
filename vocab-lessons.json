@@ -1,0 +1,642 @@
+[
+ {
+  "title": "A1 (başlangıç) – Sıfatlar (1/2)",
+  "cefr": 0,
+  "words": [
+   "rood",
+   "blauw",
+   "geel",
+   "groen",
+   "zwart",
+   "wit",
+   "groot",
+   "klein",
+   "goed",
+   "slecht",
+   "mooi",
+   "nieuw",
+   "oud",
+   "warm"
+  ]
+ },
+ {
+  "title": "A1 (başlangıç) – Sıfatlar (2/2)",
+  "cefr": 0,
+  "words": [
+   "koud"
+  ]
+ },
+ {
+  "title": "A1 (başlangıç) – Zarflar (1/2)",
+  "cefr": 0,
+  "words": [
+   "alsjeblieft",
+   "ja",
+   "nee",
+   "wie",
+   "wat",
+   "waar__adv",
+   "wanneer",
+   "waarom",
+   "hoe",
+   "vandaag",
+   "morgen",
+   "nu",
+   "niet",
+   "geen"
+  ]
+ },
+ {
+  "title": "A1 (başlangıç) – Zarflar (2/2)",
+  "cefr": 0,
+  "words": [
+   "ook",
+   "veel",
+   "hier",
+   "daar"
+  ]
+ },
+ {
+  "title": "A1 (başlangıç) – Bağlaçlar",
+  "cefr": 0,
+  "words": [
+   "en",
+   "of",
+   "maar"
+  ]
+ },
+ {
+  "title": "A1 (başlangıç) – Ünlemler",
+  "cefr": 0,
+  "words": [
+   "hallo",
+   "goedemorgen",
+   "goedemiddag",
+   "goedenavond",
+   "goedenacht",
+   "tot ziens",
+   "doei",
+   "dank je wel",
+   "bedankt",
+   "sorry",
+   "pardon",
+   "oké"
+  ]
+ },
+ {
+  "title": "A1 (başlangıç) – İsimler (1/3)",
+  "cefr": 0,
+  "words": [
+   "dag",
+   "familie",
+   "vader",
+   "moeder",
+   "ouders",
+   "zoon",
+   "dochter",
+   "kind",
+   "broer",
+   "zus",
+   "man",
+   "vrouw",
+   "vriend",
+   "vriendin"
+  ]
+ },
+ {
+  "title": "A1 (başlangıç) – İsimler (2/3)",
+  "cefr": 0,
+  "words": [
+   "tijd",
+   "week",
+   "maand",
+   "jaar",
+   "uur",
+   "huis",
+   "kamer",
+   "stad",
+   "school",
+   "werk",
+   "eten__noun",
+   "drinken__noun",
+   "water",
+   "brood"
+  ]
+ },
+ {
+  "title": "A1 (başlangıç) – İsimler (3/3)",
+  "cefr": 0,
+  "words": [
+   "koffie",
+   "thee",
+   "auto",
+   "fiets",
+   "boek",
+   "computer",
+   "telefoon",
+   "naam",
+   "mensen"
+  ]
+ },
+ {
+  "title": "A1 (başlangıç) – Sayılar",
+  "cefr": 0,
+  "words": [
+   "nul",
+   "een",
+   "twee",
+   "drie",
+   "vier",
+   "vijf",
+   "zes",
+   "zeven",
+   "acht",
+   "negen",
+   "tien"
+  ]
+ },
+ {
+  "title": "A1 (başlangıç) – Edatlar",
+  "cefr": 0,
+  "words": [
+   "in",
+   "op",
+   "van",
+   "voor",
+   "met"
+  ]
+ },
+ {
+  "title": "A1 (başlangıç) – Zamirler",
+  "cefr": 0,
+  "words": [
+   "ik",
+   "jij",
+   "u",
+   "hij",
+   "zij",
+   "het",
+   "wij",
+   "jullie",
+   "mijn"
+  ]
+ },
+ {
+  "title": "A1 (başlangıç) – Fiiller (1/2)",
+  "cefr": 0,
+  "words": [
+   "zijn__verb",
+   "hebben",
+   "gaan",
+   "komen",
+   "doen",
+   "maken",
+   "zeggen",
+   "zien",
+   "weten",
+   "willen",
+   "kunnen",
+   "moeten",
+   "wonen",
+   "werken"
+  ]
+ },
+ {
+  "title": "A1 (başlangıç) – Fiiller (2/2)",
+  "cefr": 0,
+  "words": [
+   "eten__verb",
+   "drinken__verb",
+   "slapen",
+   "lopen",
+   "spelen",
+   "lezen"
+  ]
+ },
+ {
+  "title": "A1 (orta) – Sıfatlar (1/2)",
+  "cefr": 1,
+  "words": [
+   "eerste",
+   "tweede",
+   "bruin",
+   "oranje",
+   "grijs",
+   "roze",
+   "lelijk",
+   "jong",
+   "snel",
+   "langzaam",
+   "lang",
+   "kort",
+   "hoog",
+   "laag"
+  ]
+ },
+ {
+  "title": "A1 (orta) – Sıfatlar (2/2)",
+  "cefr": 1,
+  "words": [
+   "makkelijk",
+   "moeilijk",
+   "duur",
+   "gelukkig",
+   "moe",
+   "ziek",
+   "leuk",
+   "open",
+   "dicht"
+  ]
+ },
+ {
+  "title": "A1 (orta) – Zarflar (1/2)",
+  "cefr": 1,
+  "words": [
+   "misschien",
+   "hoeveel",
+   "welke",
+   "gisteren",
+   "later",
+   "altijd",
+   "nooit",
+   "soms",
+   "vaak",
+   "heel",
+   "erg",
+   "weinig",
+   "meer",
+   "minder"
+  ]
+ },
+ {
+  "title": "A1 (orta) – Zarflar (2/2)",
+  "cefr": 1,
+  "words": [
+   "boven__adv",
+   "links",
+   "rechts",
+   "weer__adv",
+   "al",
+   "nog",
+   "echt"
+  ]
+ },
+ {
+  "title": "A1 (orta) – Bağlaçlar",
+  "cefr": 1,
+  "words": [
+   "want",
+   "omdat",
+   "dus",
+   "als",
+   "dat"
+  ]
+ },
+ {
+  "title": "A1 (orta) – İsimler (1/5)",
+  "cefr": 1,
+  "words": [
+   "opa",
+   "oma",
+   "baby",
+   "minuut",
+   "ochtend",
+   "middag",
+   "avond",
+   "nacht",
+   "maandag",
+   "dinsdag",
+   "woensdag",
+   "donderdag",
+   "vrijdag",
+   "zaterdag"
+  ]
+ },
+ {
+  "title": "A1 (orta) – İsimler (2/5)",
+  "cefr": 1,
+  "words": [
+   "zondag",
+   "weekend",
+   "keuken",
+   "badkamer",
+   "slaapkamer",
+   "deur",
+   "raam",
+   "tafel",
+   "stoel",
+   "bed",
+   "straat",
+   "winkel",
+   "restaurant",
+   "land"
+  ]
+ },
+ {
+  "title": "A1 (orta) – İsimler (3/5)",
+  "cefr": 1,
+  "words": [
+   "kaas",
+   "melk",
+   "fruit",
+   "appel",
+   "groente",
+   "vis",
+   "ontbijt",
+   "lunch",
+   "kleur",
+   "hoofd",
+   "hand",
+   "been",
+   "voet",
+   "oog"
+  ]
+ },
+ {
+  "title": "A1 (orta) – İsimler (4/5)",
+  "cefr": 1,
+  "words": [
+   "oor",
+   "mond",
+   "neus",
+   "dokter",
+   "kleding",
+   "jas",
+   "broek",
+   "schoenen",
+   "shirt",
+   "trein",
+   "bus",
+   "vliegtuig",
+   "weg",
+   "weer__noun"
+  ]
+ },
+ {
+  "title": "A1 (orta) – İsimler (5/5)",
+  "cefr": 1,
+  "words": [
+   "zon",
+   "regen",
+   "wind",
+   "les",
+   "papier",
+   "pen",
+   "geld",
+   "euro",
+   "persoon",
+   "plaats",
+   "ding",
+   "vraag",
+   "nummer",
+   "keer"
+  ]
+ },
+ {
+  "title": "A1 (orta) – Sayılar",
+  "cefr": 1,
+  "words": [
+   "elf",
+   "twaalf",
+   "twintig",
+   "dertig",
+   "honderd"
+  ]
+ },
+ {
+  "title": "A1 (orta) – Edatlar",
+  "cefr": 1,
+  "words": [
+   "aan",
+   "bij",
+   "naar",
+   "achter",
+   "onder",
+   "boven__prep",
+   "over",
+   "tot"
+  ]
+ },
+ {
+  "title": "A1 (orta) – Zamirler",
+  "cefr": 1,
+  "words": [
+   "jouw",
+   "zijn__pron",
+   "haar",
+   "ons",
+   "deze",
+   "die",
+   "iets",
+   "niets",
+   "alles"
+  ]
+ },
+ {
+  "title": "A1 (orta) – Fiiller (1/2)",
+  "cefr": 1,
+  "words": [
+   "kennen",
+   "mogen",
+   "rijden",
+   "kopen",
+   "geven",
+   "nemen",
+   "schrijven",
+   "praten",
+   "spreken",
+   "luisteren",
+   "kijken",
+   "houden van",
+   "vinden",
+   "denken"
+  ]
+ },
+ {
+  "title": "A1 (orta) – Fiiller (2/2)",
+  "cefr": 1,
+  "words": [
+   "leren",
+   "beginnen",
+   "helpen",
+   "vragen",
+   "wachten",
+   "staan",
+   "zitten"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – Sıfatlar (1/2)",
+  "cefr": 2,
+  "words": [
+   "laatste",
+   "zwaar",
+   "licht",
+   "goedkoop",
+   "verdrietig",
+   "boos",
+   "bang",
+   "gezond",
+   "sterk",
+   "vol",
+   "leeg",
+   "schoon",
+   "vies",
+   "druk"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – Sıfatlar (2/2)",
+  "cefr": 2,
+  "words": [
+   "rustig",
+   "belangrijk",
+   "interessant",
+   "vriendelijk",
+   "waar__adj",
+   "verkeerd",
+   "zeker"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – Zarflar",
+  "cefr": 2,
+  "words": [
+   "genoeg",
+   "beneden",
+   "binnen",
+   "buiten",
+   "rechtdoor",
+   "net",
+   "gewoon",
+   "natuurlijk"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – Bağlaçlar",
+  "cefr": 2,
+  "words": [
+   "toen",
+   "terwijl"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – İsimler (1/2)",
+  "cefr": 2,
+  "words": [
+   "markt",
+   "ziekenhuis",
+   "station",
+   "wereld",
+   "vlees",
+   "suiker",
+   "zout",
+   "diner",
+   "lichaam",
+   "hart",
+   "pijn",
+   "reis",
+   "kaartje",
+   "sneeuw"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – İsimler (2/2)",
+  "cefr": 2,
+  "words": [
+   "wolk",
+   "baan",
+   "leven",
+   "probleem",
+   "antwoord",
+   "idee"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – Sayılar",
+  "cefr": 2,
+  "words": [
+   "duizend"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – Edatlar",
+  "cefr": 2,
+  "words": [
+   "tussen",
+   "zonder",
+   "door",
+   "tijdens"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – Zamirler",
+  "cefr": 2,
+  "words": [
+   "hun",
+   "iemand",
+   "niemand"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – Fiiller (1/2)",
+  "cefr": 2,
+  "words": [
+   "verkopen",
+   "begrijpen",
+   "stoppen",
+   "antwoorden",
+   "zoeken",
+   "brengen",
+   "halen",
+   "betalen",
+   "kosten",
+   "openen",
+   "sluiten",
+   "bellen",
+   "wassen",
+   "koken"
+  ]
+ },
+ {
+  "title": "A1 (ileri) – Fiiller (2/2)",
+  "cefr": 2,
+  "words": [
+   "reizen",
+   "zwemmen",
+   "lachen",
+   "dansen",
+   "zingen",
+   "liggen",
+   "blijven",
+   "worden"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Sıfatlar",
+  "cefr": 3,
+  "words": [
+   "zwak",
+   "saai",
+   "veilig",
+   "gevaarlijk",
+   "mogelijk"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – İsimler",
+  "cefr": 3,
+  "words": [
+   "kans"
+  ]
+ },
+ {
+  "title": "A2 (başlangıç) – Fiiller",
+  "cefr": 3,
+  "words": [
+   "vliegen",
+   "huilen",
+   "dragen"
+  ]
+ }
+]

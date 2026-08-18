@@ -1,0 +1,268 @@
+[
+ {
+  "id": "welcome",
+  "title": "Hoş Geldiniz",
+  "icon": "👋",
+  "grammarTopics": [],
+  "explanation": "<p>Hollandaca Öğren'e hoş geldiniz! Bu uygulama, Türkçe konuşanlar için özel olarak\ntasarlanmış bir Hollandaca öğrenme aracıdır.</p>\n<p>Nasıl çalışır:</p>\n<ul>\n<li><b>Pratik</b> sekmesinde kelime, cümle ve soru alıştırmaları yaparsınız -- her doğru cevap\nkelimenin/konunun seviyesini artırır, her yanlış cevap seviyesini düşürür (aralıklı tekrar sistemi).</li>\n<li><b>Kalıplar</b> sekmesinde, zaten iyi bildiğiniz fiilleri zaten iyi bildiğiniz gramer kalıplarıyla\nbirleştirerek pratik yaparsınız (örn. bir fiili farklı zamanlarda çekmek).</li>\n<li><b>Kurs</b> sekmesi, A1'den başlayarak yapılandırılmış bir öğrenme yolu sunar; düzenli pratik\notomatik olarak bu kursu takip eder.</li>\n<li>İlerlemeniz cihazınızda saklanır ve isteğe bağlı olarak birden fazla cihaz arasında\nsenkronize edilebilir (Ayarlar sekmesi).</li>\n</ul>"
+ },
+ {
+  "id": "how_dutch_works",
+  "title": "Hollandaca Nasıl Çalışır?",
+  "icon": "🇳🇱",
+  "grammarTopics": [],
+  "explanation": "<p>Hollandaca, Türkçeden yapısal olarak oldukça farklı bir dildir. İşte karşınıza en sık\nçıkacak birkaç temel fark:</p>\n<ul>\n<li><b>Kelime sırası (V2 kuralı):</b> Ana cümlede çekimli fiil her zaman ikinci sırada gelir, cümlenin\nneyle başladığından bağımsız olarak. Örn: \"Vandaag ga ik naar school.\" (Bugün okula gidiyorum) --\n\"Vandaag\" ilk sırada olduğu için özne \"ik\" fiilden SONRA gelir.</li>\n<li><b>de / het:</b> Türkçede karşılığı olmayan iki belirli tanımlık vardır. Hangi ismin \"de\" hangisinin\n\"het\" aldığını büyük ölçüde ezberlemeniz gerekir -- kesin bir kural yoktur.</li>\n<li><b>Ayrılabilir fiiller:</b> \"opbellen\" (aramak) gibi bazı fiiller ana cümlede ikiye ayrılır: \"Ik bel\nje op.\" (Seni ararım) -- fiilin eki cümlenin sonuna gider.</li>\n<li><b>Yardımcı fiil + sona giden fiil:</b> Modal fiiller (kunnen/moeten/willen) ve bileşik zamanlar\n(hebben/zijn + voltooid deelwoord) kullanıldığında, ikinci fiil cümlenin SONUNA gider -- Türkçedeki\nçekim eklerinin yaptığı işi burada kelime sırası yapar.</li>\n</ul>\n<p>Bu uygulama bu kalıpları hem <b>Pratik</b> sekmesinde (kelime/cümle bazında) hem de <b>Kalıplar</b>\nsekmesinde (yapı bazında, izole olarak) alıştırma imkânı sunar.</p>"
+ },
+ {
+  "id": "g_zijn_hebben",
+  "title": "zijn / hebben",
+  "icon": "🔑",
+  "grammarTopics": [
+   "zijn_hebben"
+  ],
+  "explanation": "<p><b>zijn</b> (olmak) ve <b>hebben</b> (sahip olmak), Hollandacanın en sık kullanılan iki\ndüzensiz fiilidir -- şimdiki zamanda ezberlenmesi gerekir:</p>\n<table class=\"vocab-word-list\"><tbody>\n<tr><td>ik ben</td><td>ik heb</td></tr><tr><td>jij/u bent</td><td>jij/u hebt/heeft</td></tr>\n<tr><td>hij/zij/het is</td><td>hij/zij/het heeft</td></tr>\n<tr><td>wij zijn</td><td>wij hebben</td></tr><tr><td>jullie zijn</td><td>jullie hebben</td></tr>\n<tr><td>zij zijn</td><td>zij hebben</td></tr>\n</tbody></table>\n<p>Örnek: \"Ik ben moe, maar ik heb geen tijd om te slapen.\" (Yorgunum ama uyumaya vaktim yok.)</p>"
+ },
+ {
+  "id": "g_tegenwoordige_tijd",
+  "title": "Tegenwoordige tijd",
+  "icon": "⏱️",
+  "grammarTopics": [
+   "tegenwoordige_tijd"
+  ],
+  "explanation": "<p>Düzenli fiillerin şimdiki zaman çekimi fiil kökünden (stam) türetilir:</p>\n<ul>\n<li><b>ik</b> + kök (ek yok): \"ik werk\"</li>\n<li><b>jij/hij/zij/het</b> + kök + <b>-t</b>: \"jij werkt\"</li>\n<li><b>wij/jullie/zij</b> + tam mastar: \"wij werken\"</li>\n</ul>\n<p>Kök, mastardan -en'i çıkararak bulunur: \"werken\" → \"werk\". Soru cümlelerinde \"jij\" ile devrik\nsırada -t düşer: \"Werk jij?\" (değil \"Werkt jij?\").</p>"
+ },
+ {
+  "id": "g_woordvolgorde_v2",
+  "title": "Woordvolgorde: V2",
+  "icon": "2️⃣",
+  "grammarTopics": [
+   "woordvolgorde_v2"
+  ],
+  "explanation": "<p>Hollandaca ana cümlelerde çekimli fiil <b>her zaman ikinci öge</b> olarak gelir -- cümlenin ilk\nögesi özne olmak zorunda değildir:</p>\n<p>\"Ik ga morgen naar Amsterdam.\" → \"Morgen ga ik naar Amsterdam.\" (Fiil hâlâ 2. sırada, özne 3.\nsıraya kayar.)</p>\n<p>Bu, Türkçedeki nispeten serbest kelime sırasından çok farklıdır -- Hollandacada fiilin yeri\nsabittir.</p>"
+ },
+ {
+  "id": "g_ontkenning",
+  "title": "niet vs. geen",
+  "icon": "🚫",
+  "grammarTopics": [
+   "ontkenning"
+  ],
+  "explanation": "<p><b>geen</b>: belirsiz bir ismi olumsuzlar (bir \"een\" ismini veya çıplak çoğul/sayılamayan\nismi değiştirir). \"Ik heb een auto.\" → \"Ik heb geen auto.\"</p>\n<p><b>niet</b>: her şeyi olumsuzlar (fiil, sıfat, belirli/bilinen bir isim). \"Ik zie de auto niet.\"\n(Arabayı görmüyorum -- belirli bir araba.)</p>"
+ },
+ {
+  "id": "g_lidwoorden",
+  "title": "de / het",
+  "icon": "📘",
+  "grammarTopics": [
+   "lidwoorden"
+  ],
+  "explanation": "<p>Hollandacada iki belirli tanımlık vardır: <b>de</b> (çoğunluk, ve TÜM çoğullar) ve\n<b>het</b> (bir azınlık, genellikle tekil isimler). Belirsiz tanımlık her ikisi için de \"een\"dir.</p>\n<p>Kesin bir kural yoktur -- her yeni ismi tanımlığıyla birlikte öğrenmek en güvenlisidir. Örnek:\n\"de tafel\" (masa), \"het huis\" (ev), ama çoğulda ikisi de \"de\": \"de huizen\" (evler).</p>"
+ },
+ {
+  "id": "g_meervoud",
+  "title": "Meervoud: -en / -s",
+  "icon": "🔢",
+  "grammarTopics": [
+   "meervoud"
+  ],
+  "explanation": "<p>Çoğu isim çoğulda <b>-en</b> alır: \"boek\" → \"boeken\". Vurgusuz -el/-em/-en/-er ile biten\nkelimeler veya bazı sesli harfle bitenler <b>-s</b> alır: \"tafel\" → \"tafels\", \"auto\" → \"auto's\"\n(kesme işaretiyle).</p>"
+ },
+ {
+  "id": "g_verkleinwoord",
+  "title": "Verkleinwoord",
+  "icon": "🤏",
+  "grammarTopics": [
+   "verkleinwoord"
+  ],
+  "explanation": "<p>Küçültme eki, kelimenin son sesine göre değişir: <b>-je</b> (varsayılan), <b>-tje</b> (sesli\nharf/n/l/r sonrası), <b>-pje</b> (m sonrası), <b>-kje</b> (-ing sonrası). Her zaman \"het\"-kelimesi\nolur. Örnek: \"huis\" → \"huisje\", \"boom\" → \"boompje\", \"ring\" → \"ringetje\".</p>"
+ },
+ {
+  "id": "g_bnw_verbuiging",
+  "title": "Bijvoeglijk naamwoord: -e",
+  "icon": "➕",
+  "grammarTopics": [
+   "bnw_verbuiging"
+  ],
+  "explanation": "<p>Bir isimden hemen önce gelen sıfat genellikle <b>-e</b> alır: \"een grote hond\". TEK istisna:\ntekil \"het\"-kelimesi \"een\" (veya tanımlıksız) ile kullanılıyorsa -e almaz: \"een groot huis\".</p>\n<p>de-kelimesi, çoğul, veya \"het/dit/dat\" ile kullanılan het-kelimesi → HER ZAMAN -e.</p>"
+ },
+ {
+  "id": "g_vergelijking",
+  "title": "Vergelijking: -er / -st",
+  "icon": "📈",
+  "grammarTopics": [
+   "vergelijking"
+  ],
+  "explanation": "<p>Karşılaştırma: sıfat + <b>-er</b> (\"groter\" = daha büyük). Üstünlük: sıfat + <b>-st</b>,\ngenellikle \"het\" ile (\"het grootst\" = en büyük). Uzun/yabancı kökenli sıfatlarda bunun yerine\n\"meer\"/\"meest\" kullanılır: \"meer interessant\" (daha ilginç).</p>"
+ },
+ {
+  "id": "g_scheidbare_werkwoorden",
+  "title": "Scheidbare werkwoorden",
+  "icon": "✂️",
+  "grammarTopics": [
+   "scheidbare_werkwoorden"
+  ],
+  "explanation": "<p>\"opbellen\", \"aankomen\" gibi bileşik fiiller ana cümlede ikiye ayrılır: çekimli kısım 2. sırada\nkalır, ek cümlenin SONUNA gider. \"Ik bel je morgen op.\" (Seni yarın ararım.)</p>\n<p>Bijzin (yan cümle) veya mastar halinde birleşik kalır: \"...omdat ik je opbel.\" / \"Ik ga\nopbellen.\"</p>"
+ },
+ {
+  "id": "g_modale_werkwoorden",
+  "title": "Modale werkwoorden",
+  "icon": "🧩",
+  "grammarTopics": [
+   "modale_werkwoorden"
+  ],
+  "explanation": "<p>kunnen (yapabilmek), moeten (zorunda olmak), mogen (izinli olmak), willen (istemek) --\nbunlardan sonra gelen ikinci (esas) fiil MASTAR halinde cümlenin SONUNA gider: \"Ik moet nu\nvertrekken.\" (Şimdi ayrılmam gerekiyor.)</p>"
+ },
+ {
+  "id": "g_voltooid_tegenwoordige_tijd",
+  "title": "Voltooid tegenwoordige tijd",
+  "icon": "✅",
+  "grammarTopics": [
+   "voltooid_tegenwoordige_tijd"
+  ],
+  "explanation": "<p>hebben/zijn (şimdiki zamanda) + voltooid deelwoord (cümle sonunda). Çoğu fiil \"hebben\" alır;\nhareket/durum değişimi bildiren fiiller (gaan, komen, worden...) \"zijn\" alır.</p>\n<p>Düzenli voltooid deelwoord: ge- + kök + -d/-t ('t kofschip kuralı: kök sessiz \"t,k,f,s,ch,p\"\nile bitiyorsa -t, aksi halde -d). Örn: \"gewerkt\" (çalıştı), \"gehoord\" (duydu). Birçok sık kullanılan\nfiil düzensizdir: \"gelezen\" (okudu, lezen'den), \"gegaan\" (gitti, gaan'dan).</p>"
+ },
+ {
+  "id": "g_onvoltooid_verleden_tijd",
+  "title": "Onvoltooid verleden tijd",
+  "icon": "⏮️",
+  "grammarTopics": [
+   "onvoltooid_verleden_tijd"
+  ],
+  "explanation": "<p>Düzenli fiiller -te(n) veya -de(n) alır (aynı 't kofschip kuralına göre): \"werken\" →\n\"werkte\", \"spelen\" → \"speelde\". Birçok sık kullanılan fiil düzensizdir (güçlü fiil, ünlü değişimi):\n\"gaan\" → \"ging\", \"komen\" → \"kwam\".</p>"
+ },
+ {
+  "id": "g_toekomende_tijd",
+  "title": "Toekomende tijd",
+  "icon": "🔮",
+  "grammarTopics": [
+   "toekomende_tijd"
+  ],
+  "explanation": "<p><b>gaan</b> + mastar: günlük konuşmada en yaygın yakın gelecek zamanı. \"Ik ga morgen\nwerken.\" (Yarın çalışacağım.)</p>\n<p><b>zullen</b> + mastar: söz verme, tahmin, öneri için. \"Ik zal je helpen.\" (Sana yardım\nedeceğim.)</p>"
+ },
+ {
+  "id": "g_vraagzinnen",
+  "title": "Vraagzinnen",
+  "icon": "❓",
+  "grammarTopics": [
+   "vraagzinnen"
+  ],
+  "explanation": "<p>Evet/hayır soruları: fiil ve özne yer değiştirir (devrik sıra). \"Werk jij?\" (Çalışıyor\nmusun?)</p>\n<p>Soru kelimeli sorular: soru kelimesi + fiil + özne. \"Waar woon jij?\" (Nerede oturuyorsun?)</p>"
+ },
+ {
+  "id": "g_bijzin_volgorde",
+  "title": "Bijzin: fiil sona gider",
+  "icon": "📎",
+  "grammarTopics": [
+   "bijzin_volgorde"
+  ],
+  "explanation": "<p>omdat/dat/als/terwijl/hoewel gibi bağlaçlardan sonraki yan cümlede çekimli fiil cümlenin EN\nSONUNA gider -- ana cümledeki V2 kuralının tam tersi. \"...omdat ik moe ben.\" (...çünkü yorgunum.)</p>"
+ },
+ {
+  "id": "g_persoonlijke_vnw",
+  "title": "Persoonlijke voornaamwoorden",
+  "icon": "🙋",
+  "grammarTopics": [
+   "persoonlijke_vnw"
+  ],
+  "explanation": "<p>Özne halleri: ik/jij(u)/hij/zij/het/wij/jullie/zij. Nesne halleri: mij(me)/jou(je)/hem/haar/\nhet/ons/jullie/hen(ze). \"Ik zie hem.\" (Onu görüyorum) -- özne \"ik\", nesne \"hem\".</p>"
+ },
+ {
+  "id": "g_bezittelijke_vnw",
+  "title": "Bezittelijke voornaamwoorden",
+  "icon": "🏠",
+  "grammarTopics": [
+   "bezittelijke_vnw"
+  ],
+  "explanation": "<p>mijn (benim), jouw/je (senin), zijn (onun-erkek), haar (onun-kadın), ons/onze (bizim),\njullie (sizin-çoğul), hun (onların). \"ons\", de-kelimesi veya çoğuldan önce \"onze\" olur: \"onze\nauto\" (arabamız).</p>"
+ },
+ {
+  "id": "g_wederkerende_ww",
+  "title": "Wederkerende werkwoorden",
+  "icon": "🪞",
+  "grammarTopics": [
+   "wederkerende_ww"
+  ],
+  "explanation": "<p>Dönüşlü fiiller \"zich\" (kişiye göre değişir: me/je/zich/ons/je/zich) ile kullanılır: \"Ik was\nme.\" (Kendimi yıkarım.), \"Zij vergist zich.\" (O yanılıyor.)</p>"
+ },
+ {
+  "id": "g_er_constructie",
+  "title": "Gebruik van \"er\"",
+  "icon": "📍",
+  "grammarTopics": [
+   "er_constructie"
+  ],
+  "explanation": "<p>\"er is/zijn\" varlık bildirir: \"Er is een probleem.\" (Bir sorun var.)</p>\n<p>\"er\" bir edatla birleşip \"het/dat\"ın yerini alabilir: \"Ik denk erover na.\" (Onu\ndüşünüyorum -- \"over\" + \"erover\").</p>"
+ },
+ {
+  "id": "g_voorzetsels",
+  "title": "Vaste voorzetsels",
+  "icon": "🔗",
+  "grammarTopics": [
+   "voorzetsels"
+  ],
+  "explanation": "<p>in, op, aan, van, met, voor, naar gibi edatlar hem yer/yön bildirir hem de sabit\nifadelerde kullanılır (örn. \"wachten OP\" = beklemek, \"houden VAN\" = sevmek). Bu sabit kombinasyonları\nezberlemek gerekir.</p>"
+ },
+ {
+  "id": "g_gebiedende_wijs",
+  "title": "Gebiedende wijs",
+  "icon": "❗",
+  "grammarTopics": [
+   "gebiedende_wijs"
+  ],
+  "explanation": "<p>Emir kipi, fiilin çıplak kökü ile yapılır, özne kullanılmaz: \"Kom hier!\" (Buraya gel!),\n\"Wacht even.\" (Biraz bekle.)</p>"
+ },
+ {
+  "id": "g_telwoorden_tijd",
+  "title": "Telwoorden & klok kijken",
+  "icon": "🕐",
+  "grammarTopics": [
+   "telwoorden_tijd"
+  ],
+  "explanation": "<p>Sayılar ve saat söyleme. DİKKAT: \"half negen\" Türkçedeki \"dokuz buçuk\" gibi düşünülmemeli --\n\"negen\"e doğru yarı yol demektir, yani 8:30'a karşılık gelir.</p>"
+ },
+ {
+  "id": "g_nevenschikking",
+  "title": "Nevenschikkende voegwoorden",
+  "icon": "🔀",
+  "grammarTopics": [
+   "nevenschikking"
+  ],
+  "explanation": "<p>en, maar, want, of, dus -- bu bağlaçlar kelime sırasını DEĞİŞTİRMEZ, her iki taraf da normal\nV2 kuralını takip eder. \"Ik werk, want ik heb geld nodig.\" (Çalışıyorum, çünkü paraya ihtiyacım\nvar.)</p>"
+ },
+ {
+  "id": "g_onderschikking",
+  "title": "Onderschikkende voegwoorden",
+  "icon": "🔽",
+  "grammarTopics": [
+   "onderschikking"
+  ],
+  "explanation": "<p>omdat, als, terwijl, dat, hoewel -- bu bağlaçlardan sonra fiil cümlenin sonuna gider (bkz.\nbijzin_volgorde). \"Ik blijf thuis als het regent.\" (Yağmur yağarsa evde kalırım.)</p>"
+ },
+ {
+  "id": "g_aanwijzende_vnw",
+  "title": "Aanwijzende voornaamwoorden",
+  "icon": "👉",
+  "grammarTopics": [
+   "aanwijzende_vnw"
+  ],
+  "explanation": "<p>deze/die: de-kelimeleri ve çoğullar için. dit/dat: tekil het-kelimeleri için. deze/dit =\nyakın, die/dat = uzak. \"deze auto\" (bu araba, de-kelimesi) vs. \"dit huis\" (bu ev,\nhet-kelimesi).</p>"
+ },
+ {
+  "id": "g_hoeveelheidswoorden",
+  "title": "Hoeveelheidswoorden",
+  "icon": "📊",
+  "grammarTopics": [
+   "hoeveelheidswoorden"
+  ],
+  "explanation": "<p>veel (çok), weinig (az), een beetje (biraz), geen (hiç) gibi miktar bildiren kelimeler.\n\"veel geld\" (çok para), \"weinig tijd\" (az zaman).</p>"
+ },
+ {
+  "id": "g_bijwoorden_tijd_plaats",
+  "title": "Bijwoorden van tijd & plaats",
+  "icon": "🧭",
+  "grammarTopics": [
+   "bijwoorden_tijd_plaats"
+  ],
+  "explanation": "<p>Zaman ve yer bildiren zarflar genellikle fiilden hemen sonra gelir: \"Ik ga morgen naar\nAmsterdam.\" (Yarın Amsterdam'a gidiyorum.)</p>"
+ }
+]
