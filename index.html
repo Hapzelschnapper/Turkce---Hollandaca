@@ -6,8 +6,13 @@
 <title>Hollandaca Öğren – Türkler için Hollandaca</title>
 <link rel="manifest" href="manifest.json">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <meta name="theme-color" content="#21468b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Hollandaca Öğren">
+<meta name="mobile-web-app-capable" content="yes">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -25,7 +30,7 @@
 <div id="peak-indicator" class="peak-tab dal" title="DeepSeek yoğun/sakin saat fiyatlandırması (UTC saatine göre)">● sakin saat</div>
 <div id="app">
 
-  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.00</span></h1>
+  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.01</span></h1>
 
   <!-- ===================== PRACTICE SCREEN ===================== -->
   <section id="screen-practice">
@@ -372,7 +377,7 @@
     </div>
     <div class="card">
       <h3 style="margin-top:0;">Sürüm</h3>
-      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-17 v1.00</b></div>
+      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.01</b></div>
       <div class="muted" style="margin-top:4px;">Bir değişiklikten sonra bu zaman damgası güncellenmezse, yükleme doğru yenilenmemiş demektir — GitHub'ı kontrol edin ve sayfayı yeniden yükleyin (önbellek için gizli sekme deneyin).</div>
     </div>
     </div>
@@ -513,11 +518,22 @@
 // bestanden worden nu parallel opgehaald door loadAllData() (verderop, na alle relevante
 // functiedefinities) en pas daarna wordt de rest van de app geïnitialiseerd -- zie het
 // laadscherm (#loading-overlay) en de DOMContentLoaded-handler onderaan dit bestand.
+// BUGFIX: had aanvankelijk GEEN timeout (in tegenstelling tot fetchWithTimeout, dat verderop wél
+// voor de AI-API-aanroepen gebruikt wordt) -- als één van deze fetches om wat voor reden dan ook
+// nooit reageert (trage/haperende verbinding, een DNS-/proxy-probleem, etc.) bleef de Promise voor
+// altijd hangen, zonder dat loadAllData() ooit resolvede OF rejectte. Resultaat: het laadscherm
+// bleef oneindig tonen ("... yükleniyor"), zonder ooit de foutmelding + "Tekrar dene"-knop te tonen
+// die de catch-blok in de DOMContentLoaded-handler juist voor zulke gevallen bedoeld is te tonen.
 function loadJSONAsync(url){
-  return fetch(url).then(res=>{
+  const controller = new AbortController();
+  const timer = setTimeout(()=> controller.abort(), 15000);
+  return fetch(url, {signal: controller.signal}).then(res=>{
     if(!res.ok) throw new Error("Kon " + url + " niet laden (status " + res.status + ")");
     return res.json();
-  });
+  }).catch(e=>{
+    if(e.name === "AbortError") throw new Error(url + " yüklenemedi: 15 saniye içinde yanıt gelmedi (yavaş veya kopuk bir bağlantı olabilir).");
+    throw e;
+  }).finally(()=> clearTimeout(timer));
 }
 let EN_WORDS_DATA; // Oxford 3000/5000, {en, cefr} per item — no pre-translated Turkish; wordt gevuld door loadAllData()
 // Voor woorden die zijn gesplitst op woordsoort (bv. "close__v"/"close__adj" voor het werkwoord
@@ -6041,7 +6057,7 @@ document.addEventListener("DOMContentLoaded", async ()=>{
   try{
     await loadAllData();
   }catch(e){
-    el("loading-overlay-text").textContent = "⚠️ Couldn't load the app data: " + e.message;
+    el("loading-overlay-text").textContent = "⚠️ Uygulama verileri yüklenemedi: " + e.message;
     el("loading-spinner").classList.add("hidden");
     const retryBtn = el("loading-retry-btn");
     retryBtn.classList.remove("hidden");
