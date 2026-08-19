@@ -1,3490 +1,4938 @@
 [
  {
-  "title": "A1 (başlangıç) – Sıfatlar (1/2)",
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Sıfatlar (1/2)",
   "cefr": 0,
   "words": [
-   "rood",
-   "blauw",
-   "geel",
-   "groen",
-   "zwart",
-   "wit",
-   "groot",
-   "klein",
+   "ander",
+   "dom",
    "goed",
-   "slecht",
-   "mooi",
+   "klein",
+   "bekend",
+   "belangrijk",
+   "half",
+   "hoog",
+   "jong",
+   "lang",
+   "mogelijk",
    "nieuw",
    "oud",
-   "warm"
+   "afhankelijk"
   ]
  },
  {
-  "title": "A1 (başlangıç) – Sıfatlar (2/2)",
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Sıfatlar (2/2)",
   "cefr": 0,
   "words": [
-   "koud"
+   "snel",
+   "tweede",
+   "vol",
+   "diep",
+   "enig",
+   "geldig",
+   "hetzelfde",
+   "lief",
+   "kwalijk",
+   "eerste",
+   "laatste"
   ]
  },
  {
-  "title": "A1 (başlangıç) – Zarflar (1/2)",
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Zarflar (1/4)",
   "cefr": 0,
   "words": [
-   "alsjeblieft",
-   "ja",
-   "nee",
-   "wie",
-   "wat",
-   "waar__adv",
-   "wanneer",
-   "waarom",
-   "hoe",
-   "vandaag",
-   "morgen",
-   "nu",
-   "niet",
-   "geen"
-  ]
- },
- {
-  "title": "A1 (başlangıç) – Zarflar (2/2)",
-  "cefr": 0,
-  "words": [
-   "ook",
-   "veel",
+   "al",
+   "allemaal",
+   "bijna",
+   "er",
+   "geen",
    "hier",
+   "hoe",
+   "ja",
+   "meer",
+   "niet",
+   "nu",
+   "toch",
+   "veel",
+   "wat"
+  ]
+ },
+ {
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Zarflar (2/4)",
+  "cefr": 0,
+  "words": [
+   "altijd",
+   "beide",
    "daar",
-   "thuis"
+   "daarom",
+   "echt",
+   "elk",
+   "erg__1",
+   "erg__2",
+   "ervan",
+   "heel",
+   "nee",
+   "nooit",
+   "vaak",
+   "waar"
   ]
  },
  {
-  "title": "A1 (başlangıç) – Bağlaçlar",
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Zarflar (3/4)",
   "cefr": 0,
   "words": [
+   "waarin",
+   "wie",
+   "bijvoorbeeld",
+   "binnen",
+   "eigenlijk",
+   "gewoon",
+   "gisteren",
+   "later",
+   "minder",
+   "net",
+   "soms",
+   "waarom",
+   "waarvan",
+   "wanneer"
+  ]
+ },
+ {
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Zarflar (4/4)",
+  "cefr": 0,
+  "words": [
+   "zoveel",
+   "buiten",
+   "hoeveel",
+   "welke"
+  ]
+ },
+ {
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Bağlaçlar",
+  "cefr": 0,
+  "words": [
+   "dat",
+   "dus",
    "en",
+   "maar",
    "of",
-   "maar"
+   "toen",
+   "als",
+   "omdat",
+   "want",
+   "terwijl"
   ]
  },
  {
-  "title": "A1 (başlangıç) – Ünlemler",
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Ünlemler",
   "cefr": 0,
   "words": [
-   "hallo",
-   "goedemorgen",
    "goedemiddag",
+   "goedemorgen",
    "goedenavond",
-   "goedenacht",
-   "tot ziens",
-   "doei",
-   "dank je wel",
-   "bedankt",
    "sorry",
-   "pardon",
-   "oké"
+   "pardon"
   ]
  },
  {
-  "title": "A1 (başlangıç) – İsimler (1/3)",
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – İsimler (1/8)",
+  "cefr": 0,
+  "words": [
+   "cent",
+   "dan",
+   "hem",
+   "juli",
+   "man",
+   "mens",
+   "nou",
+   "te",
+   "wel",
+   "zo'n",
+   "aantal",
+   "beter",
+   "boek",
+   "brief"
+  ]
+ },
+ {
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – İsimler (2/8)",
   "cefr": 0,
   "words": [
    "dag",
-   "familie",
-   "vader",
-   "moeder",
-   "ouders",
-   "zoon",
-   "dochter",
-   "kind",
-   "broer",
-   "zus",
-   "man",
+   "deel",
+   "derde",
+   "enkel",
+   "geval",
+   "heer",
+   "ieder",
+   "knie",
+   "land",
+   "leven",
+   "me",
+   "plaats",
+   "spel",
+   "vraag"
+  ]
+ },
+ {
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – İsimler (3/8)",
+  "cefr": 0,
+  "words": [
    "vrouw",
-   "vriend",
-   "vriendin"
-  ]
- },
- {
-  "title": "A1 (başlangıç) – İsimler (2/3)",
-  "cefr": 0,
-  "words": [
-   "tijd",
    "week",
-   "maand",
-   "jaar",
-   "uur",
-   "huis",
-   "kamer",
-   "stad",
-   "school",
-   "werk",
-   "eten__noun",
-   "drinken__noun",
-   "water",
-   "brood"
-  ]
- },
- {
-  "title": "A1 (başlangıç) – İsimler (3/3)",
-  "cefr": 0,
-  "words": [
-   "koffie",
-   "thee",
+   "woord",
+   "zeer",
+   "zelf",
+   "zelfs",
+   "zoals",
    "auto",
-   "fiets",
-   "boek",
-   "computer",
-   "telefoon",
-   "naam",
-   "mensen",
-   "hond",
-   "kat"
+   "daarmee",
+   "daarna",
+   "daarvoor",
+   "dergelijke",
+   "dezelfde",
+   "eerder"
   ]
  },
  {
-  "title": "A1 (başlangıç) – Sayılar",
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – İsimler (4/8)",
   "cefr": 0,
   "words": [
-   "nul",
-   "een",
-   "twee",
+   "erin",
+   "feit",
+   "gebied",
+   "geheel",
+   "gezicht",
+   "god",
+   "groep",
+   "helemaal",
+   "hen",
+   "hoor",
+   "juist",
+   "keer",
+   "kerk",
+   "maand"
+  ]
+ },
+ {
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – İsimler (5/8)",
+  "cefr": 0,
+  "words": [
+   "naam",
+   "paar",
+   "pas",
+   "per",
+   "probleem",
+   "reeds",
+   "slechts",
+   "uur",
+   "vrijdag",
+   "welk",
+   "wereld",
+   "zin",
+   "alsof",
+   "antwoord"
+  ]
+ },
+ {
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – İsimler (6/8)",
+  "cefr": 0,
+  "words": [
+   "begrip",
+   "directeur",
+   "eerst",
+   "eeuw",
+   "einde",
+   "ermee",
+   "film",
+   "gebruik",
+   "gesprek",
+   "gevoel",
+   "gevolg",
+   "graag",
+   "grond",
+   "kant"
+  ]
+ },
+ {
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – İsimler (7/8)",
+  "cefr": 0,
+  "words": [
+   "meisje",
+   "mogelijkheid",
+   "mei",
+   "oktober",
+   "zaterdag",
+   "zondag",
+   "april",
+   "januari",
+   "september",
+   "augustus",
+   "december",
+   "februari",
+   "maart",
+   "november"
+  ]
+ },
+ {
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – İsimler (8/8)",
+  "cefr": 0,
+  "words": [
+   "juni",
+   "maandag",
+   "woensdag",
+   "alstublieft",
+   "dinsdag",
+   "donderdag",
+   "welkom",
+   "goedendag",
+   "s.v.p.",
+   "mensen",
+   "hoop",
+   "dingen",
+   "regio",
+   "team"
+  ]
+ },
+ {
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Sayılar",
+  "cefr": 0,
+  "words": [
    "drie",
+   "twee",
    "vier",
    "vijf",
+   "honderd",
+   "tien",
    "zes",
-   "zeven",
    "acht",
+   "twintig",
+   "zeven",
    "negen",
-   "tien"
+   "twaalf",
+   "elf",
+   "een"
   ]
  },
  {
-  "title": "A1 (başlangıç) – Edatlar",
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Edatlar (1/2)",
   "cefr": 0,
   "words": [
+   "aan",
+   "bij",
+   "door",
    "in",
+   "met",
+   "na",
+   "naar",
    "op",
-   "van",
-   "voor",
-   "met"
+   "tot",
+   "uit",
+   "voor__1",
+   "voor__2",
+   "voor__3",
+   "onder",
+   "tussen",
+   "zonder"
   ]
  },
  {
-  "title": "A1 (başlangıç) – Zamirler",
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Edatlar (2/2)",
   "cefr": 0,
   "words": [
-   "ik",
-   "jij",
-   "u",
-   "hij",
-   "zij",
+   "tijdens",
+   "volgens",
+   "langs",
+   "naast",
+   "over",
+   "van__1",
+   "van__2"
+  ]
+ },
+ {
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Zamirler (1/2)",
+  "cefr": 0,
+  "words": [
+   "alles",
+   "deze",
+   "die",
+   "dit",
+   "haar",
    "het",
-   "wij",
-   "jullie",
-   "mijn"
+   "hij",
+   "hun",
+   "ik",
+   "je",
+   "men",
+   "mijn",
+   "ons",
+   "u"
   ]
  },
  {
-  "title": "A1 (başlangıç) – Fiiller (1/2)",
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Zamirler (2/2)",
   "cefr": 0,
   "words": [
-   "zijn__verb",
-   "hebben",
-   "gaan",
-   "komen",
+   "we",
+   "wij",
+   "zich",
+   "zij",
+   "zijn",
+   "elkaar",
+   "niets",
+   "iemand",
+   "jij",
+   "uw",
+   "niemand",
+   "jullie",
+   "ze",
+   "jouw"
+  ]
+ },
+ {
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Fiiller (1/4)",
+  "cefr": 0,
+  "words": [
+   "blijven",
    "doen",
+   "gaan",
+   "geven",
+   "hebben",
+   "kijken",
+   "komen",
+   "krijgen",
+   "kunnen",
+   "laten",
    "maken",
+   "moeten",
+   "pakken",
+   "weten"
+  ]
+ },
+ {
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Fiiller (2/4)",
+  "cefr": 0,
+  "words": [
+   "willen",
    "zeggen",
    "zien",
-   "weten",
-   "willen",
-   "kunnen",
-   "moeten",
-   "wonen",
-   "werken"
+   "begrijpen",
+   "bestaan",
+   "betekenen",
+   "brengen",
+   "denken",
+   "eigen",
+   "horen",
+   "liggen",
+   "lijken",
+   "lopen",
+   "mogen"
   ]
  },
  {
-  "title": "A1 (başlangıç) – Fiiller (2/2)",
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Fiiller (3/4)",
   "cefr": 0,
   "words": [
-   "eten__verb",
-   "drinken__verb",
-   "slapen",
-   "lopen",
-   "spelen",
-   "lezen"
+   "nemen",
+   "noemen",
+   "spreken",
+   "vinden",
+   "vragen",
+   "bedoelen",
+   "bereiken",
+   "gebeuren",
+   "gebruiken",
+   "geleden",
+   "kennen",
+   "leggen",
+   "leren",
+   "praten"
   ]
  },
  {
-  "title": "A1 (orta) – Sıfatlar (1/4)",
-  "cefr": 1,
+  "title": "A1-başlangıç: Temel kelimeler & selamlaşma – Fiiller (4/4)",
+  "cefr": 0,
   "words": [
-   "eerste",
-   "tweede",
-   "bruin",
-   "oranje",
-   "grijs",
-   "roze",
-   "lelijk",
-   "jong",
-   "snel",
-   "langzaam",
-   "lang",
-   "kort",
-   "hoog",
-   "laag"
+   "proberen",
+   "vertellen",
+   "vormen",
+   "betreffen",
+   "dienen",
+   "halen",
+   "hangen",
+   "hoeven",
+   "iedereen",
+   "lezen",
+   "danken",
+   "bedanken",
+   "groeten",
+   "worden"
   ]
  },
  {
-  "title": "A1 (orta) – Sıfatlar (2/4)",
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Sıfatlar (1/7)",
   "cefr": 1,
   "words": [
-   "makkelijk",
-   "moeilijk",
-   "duur",
-   "gelukkig__adj",
-   "moe",
-   "ziek",
-   "leuk",
-   "open",
-   "dicht",
-   "dik",
-   "dun",
+   "groot",
+   "anders",
+   "algemeen",
+   "bijzonder",
+   "bezig",
    "hard",
-   "zacht",
-   "nat"
+   "mooi",
+   "open",
+   "slecht",
+   "sociaal",
+   "stuk__adj",
+   "tijdelijk",
+   "vorig",
+   "zwaar"
   ]
  },
  {
-  "title": "A1 (orta) – Sıfatlar (3/4)",
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Sıfatlar (2/7)",
   "cefr": 1,
   "words": [
-   "droog",
-   "anders__adj",
-   "hetzelfde",
-   "aardig",
-   "slim",
-   "dom",
-   "lief",
-   "stil",
-   "lekker",
-   "zoet",
-   "zuur",
-   "zonnig",
+   "zwart",
+   "eenmalig",
+   "eenvoudig",
+   "laag",
+   "namelijk",
+   "recht__adj",
+   "rood",
+   "vreemd",
+   "waarschijnlijk",
+   "werkelijk",
+   "aanwezig",
+   "bang",
    "blij",
-   "vierde"
+   "ernstig"
   ]
  },
  {
-  "title": "A1 (orta) – Sıfatlar (4/4)",
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Sıfatlar (3/7)",
   "cefr": 1,
   "words": [
-   "vijfde"
+   "geestelijk",
+   "gemakkelijk",
+   "huwelijk",
+   "internationaal",
+   "licht",
+   "menselijk",
+   "modern",
+   "onmiddelijk",
+   "rustig",
+   "volkomen",
+   "vuil",
+   "aardig",
+   "dagelijks",
+   "eindelijk"
   ]
  },
  {
-  "title": "A1 (orta) – Zarflar (1/2)",
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Sıfatlar (4/7)",
   "cefr": 1,
   "words": [
-   "misschien",
-   "hoeveel",
-   "welke",
-   "gisteren",
-   "later",
-   "altijd",
-   "nooit",
-   "soms",
-   "vaak",
-   "heel__adv",
-   "erg",
-   "weinig",
-   "meer",
-   "minder"
+   "gelijk",
+   "geweldig",
+   "groen",
+   "leuk",
+   "los",
+   "maatschappelijk",
+   "nodig",
+   "rond",
+   "tegelijk",
+   "gek",
+   "persoonlijk",
+   "wetenschappelijk",
+   "druk",
+   "noodzakelijk"
   ]
  },
  {
-  "title": "A1 (orta) – Zarflar (2/2)",
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Sıfatlar (5/7)",
   "cefr": 1,
   "words": [
-   "boven__adv",
-   "links",
-   "rechts",
-   "weer__adv",
-   "al",
+   "gevaarlijk",
+   "seksueel",
+   "cultureel",
+   "spoedig",
+   "gezellig",
+   "kritisch",
+   "volwassen",
+   "voornamelijk",
+   "bezet",
+   "gezond",
+   "makkelijk",
+   "vrolijk",
+   "ziek",
+   "vijfentwintig"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Sıfatlar (6/7)",
+  "cefr": 1,
+  "words": [
+   "elektrisch",
+   "prettig",
+   "bitter",
+   "duizelig",
+   "jaloers",
+   "misselijk",
+   "perfect",
+   "pittig",
+   "slim",
+   "verdrietig",
+   "actueel",
+   "onduidelijk",
+   "populair",
+   "gevoelig"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Sıfatlar (7/7)",
+  "cefr": 1,
+  "words": [
+   "individueel",
+   "christelijk",
+   "hinderlijk",
+   "actief",
+   "Britse",
+   "hoger"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Zarflar (1/3)",
+  "cefr": 1,
+  "words": [
    "nog",
-   "echt__adv",
-   "weg__adv",
-   "terug"
+   "misschien",
+   "bovendien",
+   "direct",
+   "ongeveer",
+   "thuis",
+   "waarbij",
+   "waarop",
+   "best",
+   "meestal",
+   "nauwelijks",
+   "opnieuw",
+   "overigens",
+   "plotseling"
   ]
  },
  {
-  "title": "A1 (orta) – Bağlaçlar",
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Zarflar (2/3)",
   "cefr": 1,
   "words": [
-   "want",
-   "omdat",
-   "dus",
-   "als",
-   "dat"
+   "precies",
+   "recht__adv",
+   "tenslotte",
+   "volledig",
+   "waarmee",
+   "inderdaad",
+   "meteen",
+   "sommige",
+   "trouwens",
+   "waardoor",
+   "ooit",
+   "overal",
+   "gewoonlijk",
+   "vele"
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (1/10)",
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Zarflar (3/3)",
   "cefr": 1,
   "words": [
-   "opa",
-   "oma",
-   "baby",
-   "minuut",
-   "ochtend",
-   "middag",
-   "avond",
-   "nacht",
-   "maandag",
-   "dinsdag",
-   "woensdag",
-   "donderdag",
-   "vrijdag",
-   "zaterdag"
+   "ervoor",
+   "helaas",
+   "blijkbaar"
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (2/10)",
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Bağlaçlar",
   "cefr": 1,
   "words": [
-   "zondag",
-   "weekend",
-   "keuken",
-   "badkamer",
-   "slaapkamer",
-   "deur",
-   "raam",
-   "tafel",
-   "stoel",
-   "bed",
-   "straat",
-   "winkel",
-   "restaurant",
-   "land"
+   "zodat",
+   "zowel",
+   "nadat"
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (3/10)",
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Ünlemler",
   "cefr": 1,
   "words": [
-   "kaas",
-   "melk",
-   "fruit",
-   "appel",
-   "groente",
-   "vis",
-   "ontbijt",
-   "lunch",
-   "kleur",
-   "hoofd",
+   "bedankt"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (1/25)",
+  "cefr": 1,
+  "words": [
+   "om",
+   "bepaald",
+   "bruid",
    "hand",
-   "been",
-   "voet",
-   "oog"
+   "huis",
+   "kind",
+   "moeder",
+   "oog",
+   "tijd",
+   "verder",
+   "vooral",
+   "begin",
+   "deur",
+   "hoofd"
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (4/10)",
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (2/25)",
   "cefr": 1,
   "words": [
-   "oor",
-   "mond",
-   "neus",
-   "dokter",
-   "kleding",
-   "jas",
-   "broek",
-   "schoenen",
-   "shirt",
-   "trein",
-   "bus",
-   "vliegtuig",
-   "weg__noun",
-   "weer__noun"
-  ]
- },
- {
-  "title": "A1 (orta) – İsimler (5/10)",
-  "cefr": 1,
-  "words": [
-   "zon",
-   "regen",
-   "wind",
-   "les",
-   "papier",
-   "pen",
-   "geld",
-   "euro",
-   "persoon",
-   "plaats",
-   "ding",
-   "vraag",
-   "nummer",
-   "keer"
-  ]
- },
- {
-  "title": "A1 (orta) – İsimler (6/10)",
-  "cefr": 1,
-  "words": [
-   "neef",
-   "nicht",
-   "tante",
-   "oom",
-   "tuin",
-   "bank",
-   "kast",
-   "koelkast",
-   "lamp",
-   "sleutel",
-   "vogel",
-   "paard",
-   "aardappel",
-   "tomaat"
-  ]
- },
- {
-  "title": "A1 (orta) – İsimler (7/10)",
-  "cefr": 1,
-  "words": [
-   "banaan",
-   "sinaasappel",
-   "ei",
-   "boter",
-   "rijst",
-   "pasta",
-   "soep",
-   "chocolade",
-   "ijs",
-   "wijn",
-   "bier",
-   "sap",
-   "kip",
-   "klas"
-  ]
- },
- {
-  "title": "A1 (orta) – İsimler (8/10)",
-  "cefr": 1,
-  "words": [
-   "leraar",
-   "lerares",
-   "student",
-   "hotel",
-   "vakantie",
-   "taxi",
-   "gezicht",
-   "haar__noun",
-   "tand",
-   "trui",
-   "tas",
-   "internet",
-   "camera",
-   "foto"
-  ]
- },
- {
-  "title": "A1 (orta) – İsimler (9/10)",
-  "cefr": 1,
-  "words": [
-   "video",
-   "muziek",
-   "film",
-   "televisie",
-   "radio",
-   "dingen",
-   "meisje",
    "jongen",
-   "ogen",
-   "dier",
-   "boom",
-   "bloem",
-   "zee",
-   "strand"
+   "minister",
+   "soort",
+   "stad",
+   "steeds",
+   "vader",
+   "volgend",
+   "vorm",
+   "bed",
+   "beeld",
+   "gemeente",
+   "kamer",
+   "kans",
+   "nieuws"
   ]
  },
  {
-  "title": "A1 (orta) – İsimler (10/10)",
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (3/25)",
   "cefr": 1,
   "words": [
-   "dorp",
-   "feest",
-   "cadeau",
-   "verjaardag",
-   "mevrouw",
+   "niks",
+   "ontwikkeling",
+   "punt",
+   "situatie",
+   "staat",
+   "stem",
+   "stuk__noun",
+   "toe",
+   "voorbeeld",
+   "vrij",
+   "wijze",
+   "zichzelf",
+   "aandacht",
+   "allerlei"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (4/25)",
+  "cefr": 1,
+  "words": [
+   "been",
+   "behalve",
+   "betekenis",
+   "beweging",
+   "bril",
+   "commissie",
+   "daarin",
+   "dienst",
+   "dokter",
+   "dood",
+   "enorm",
+   "laat",
+   "lid",
+   "mevrouw"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (5/25)",
+  "cefr": 1,
+  "words": [
+   "middel",
+   "minuut",
+   "ogenblik",
+   "omstandigheid",
+   "oorlog",
+   "optreden",
+   "orde__1",
+   "orde__2",
+   "ouders",
+   "plan",
+   "prijs",
+   "procent",
+   "resultaat",
+   "schip"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (6/25)",
+  "cefr": 1,
+  "words": [
+   "streek",
+   "strijd",
+   "tafel",
+   "toekomst",
+   "ver",
+   "verhaal",
+   "volk",
+   "vriend",
+   "vroeg",
+   "vroeger",
+   "artikel",
+   "behoefte",
+   "bewust",
+   "blad"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (7/25)",
+  "cefr": 1,
+  "words": [
+   "buitenlands",
+   "daarover",
+   "dochter",
+   "doel",
+   "drinken",
+   "eruit",
+   "ervaring",
+   "familie",
+   "functie",
+   "gang",
+   "geest",
+   "gelegenheid",
+   "gezin",
+   "glas"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (8/25)",
+  "cefr": 1,
+  "words": [
+   "hart",
+   "hoek",
+   "houding",
+   "hulp",
+   "indruk",
+   "kapper",
+   "kennis",
+   "kracht",
+   "lichaam",
+   "maatschappij",
    "meneer",
-   "toilet",
-   "pizza",
-   "aap"
+   "mening",
+   "moment",
+   "mond"
   ]
  },
  {
-  "title": "A1 (orta) – Sayılar (1/2)",
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (9/25)",
   "cefr": 1,
   "words": [
-   "elf",
-   "twaalf",
-   "twintig",
-   "dertig",
-   "honderd",
-   "dertien",
-   "veertien",
-   "vijftien",
-   "zestien",
-   "zeventien",
-   "achttien",
-   "negentien",
-   "veertig",
+   "nacht",
+   "onderwijs",
+   "opzicht",
+   "organisatie",
+   "raad",
+   "reden",
+   "rol",
+   "terrein",
+   "verband",
+   "vrijwel",
+   "waaraan",
+   "waarde",
+   "zoon",
+   "zulk"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (10/25)",
+  "cefr": 1,
+  "words": [
+   "actie",
+   "afdeling",
+   "belangstelling",
+   "bevolking",
+   "blik",
+   "buitenland",
+   "burgermeester",
+   "conclusie",
+   "dorp",
+   "extra",
+   "geluid",
+   "gemeenschap",
+   "gemiddeld",
+   "helft"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (11/25)",
+  "cefr": 1,
+  "words": [
+   "jeugd",
+   "kleur",
+   "maal",
+   "muziek",
+   "nogal",
+   "omgeving",
+   "opvallend",
+   "positie",
+   "programma",
+   "publiek",
+   "raam",
+   "rust",
+   "speciaal",
+   "speelgoed"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (12/25)",
+  "cefr": 1,
+  "words": [
+   "stoel",
+   "succes",
+   "systeem",
+   "taak",
+   "taal",
+   "tenminste",
+   "terecht",
+   "toestand",
+   "totaal",
+   "verschil",
+   "voet",
+   "was",
+   "wedstrijd",
+   "aanleiding"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (13/25)",
+  "cefr": 1,
+  "words": [
+   "af",
+   "band",
+   "bloem",
+   "doorgaan",
+   "kop",
+   "overheid",
+   "patient",
+   "periode",
+   "uitspraak",
+   "bedrag",
+   "model",
+   "opdracht",
+   "praktijk",
+   "president"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (14/25)",
+  "cefr": 1,
+  "words": [
+   "rug",
+   "voorzitter",
+   "zus",
+   "behandeling",
+   "bewijs",
+   "bloed",
+   "broer",
+   "hotel",
+   "keuken",
+   "neus",
+   "oor",
+   "overgaan",
+   "pijn",
+   "tegenstelling"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (15/25)",
+  "cefr": 1,
+  "words": [
+   "muur",
+   "schuld",
+   "seizoen",
+   "televisie",
+   "titel",
+   "type",
+   "zon",
+   "arts",
+   "centrum",
+   "conflict",
+   "divers",
+   "kritiek",
+   "oom",
+   "personeel"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (16/25)",
+  "cefr": 1,
+  "words": [
+   "traditioneel",
+   "tuin",
+   "vinger",
+   "ziekte",
+   "afspraak",
+   "baby",
+   "boodschap",
+   "echtgenoot",
+   "gat",
+   "restaurant",
+   "schoen",
+   "telefoon",
+   "vuur",
+   "winkel"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (17/25)",
+  "cefr": 1,
+  "words": [
+   "dak",
+   "gewoonte",
+   "juffrouw",
+   "kantoor",
+   "kast",
+   "keel",
+   "klok",
+   "kwartier",
+   "onderzoek",
+   "ontzettend",
+   "staking",
+   "tand",
+   "tante",
+   "bad"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (18/25)",
+  "cefr": 1,
+  "words": [
+   "buik",
+   "flat",
+   "gehuwd",
+   "gezondheid",
+   "huisvrouw",
+   "huur",
+   "jurk",
+   "lamp",
+   "meubel",
+   "slaapkamer",
+   "vandaan",
+   "verpleegster",
+   "apotheek",
+   "creche"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (19/25)",
+  "cefr": 1,
+  "words": [
+   "griep",
+   "horloge",
+   "huiswerk",
+   "huurder",
+   "kies",
+   "koorts",
+   "luier",
+   "maag",
+   "medicijn",
+   "wachtkamer",
+   "basis",
+   "contant",
+   "kinderbijslag",
+   "kleuter"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (20/25)",
+  "cefr": 1,
+  "words": [
+   "lui",
+   "papa",
+   "retour",
+   "stofzuiger",
+   "stoplicht",
+   "tandpasta",
+   "tuinbouw",
+   "voorbehoedsmiddel",
+   "ziekenfonds",
+   "ziekenhuis",
+   "bureau",
+   "cao",
+   "cirkel",
+   "file"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (21/25)",
+  "cefr": 1,
+  "words": [
+   "pincode",
+   "present",
+   "prive",
+   "'s",
+   "tweedehands",
+   "zolder",
+   "appel",
+   "bezorgd",
+   "chocola",
+   "gebit",
+   "geneesmiddel",
+   "hoofdpijn",
+   "huisarts",
+   "jawel"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (22/25)",
+  "cefr": 1,
+  "words": [
+   "kaal",
+   "legaal",
+   "niveau",
+   "oma",
+   "opa",
+   "operatie",
+   "pak",
+   "pikant",
+   "balkon",
+   "communicatie",
+   "draad",
+   "drogist",
+   "kanker",
+   "plezier"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (23/25)",
+  "cefr": 1,
+  "words": [
+   "ramp",
+   "slap",
+   "teen",
+   "verdacht",
+   "ambassade",
+   "diamant",
+   "identiteitsbewijs",
+   "milieu",
+   "mobieltje",
+   "peuter",
+   "stadhuis",
+   "tabel",
+   "uitzendbureau",
+   "zoogdier"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (24/25)",
+  "cefr": 1,
+  "words": [
+   "plaatsen",
+   "ogen",
+   "plek",
+   "km",
+   "inwoners",
+   "stap",
+   "club",
+   "Frankrijk",
+   "Duitsland",
+   "eiland",
+   "België",
+   "versie",
+   "pagina",
+   "bron"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – İsimler (25/25)",
+  "cefr": 1,
+  "words": [
+   "China",
+   "veiligheid",
+   "burgemeester",
+   "ronde",
+   "Rusland",
+   "festival",
+   "Spanje"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Sayılar",
+  "cefr": 1,
+  "words": [
+   "duizend",
    "vijftig"
   ]
  },
  {
-  "title": "A1 (orta) – Sayılar (2/2)",
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Edatlar",
   "cefr": 1,
   "words": [
-   "zestig",
-   "zeventig",
-   "tachtig",
-   "negentig"
-  ]
- },
- {
-  "title": "A1 (orta) – Edatlar",
-  "cefr": 1,
-  "words": [
-   "aan",
-   "bij",
-   "naar",
-   "achter",
-   "onder",
-   "boven__prep",
-   "over",
-   "tot"
-  ]
- },
- {
-  "title": "A1 (orta) – Zamirler",
-  "cefr": 1,
-  "words": [
-   "jouw",
-   "zijn__pron",
-   "haar__pron",
-   "ons",
-   "deze",
-   "die",
-   "iets",
-   "niets",
-   "alles"
-  ]
- },
- {
-  "title": "A1 (orta) – Fiiller (1/3)",
-  "cefr": 1,
-  "words": [
-   "kennen",
-   "mogen",
-   "rijden",
-   "kopen",
-   "geven",
-   "nemen",
-   "schrijven",
-   "praten",
-   "spreken",
-   "luisteren",
-   "kijken",
-   "houden van",
-   "vinden",
-   "denken"
-  ]
- },
- {
-  "title": "A1 (orta) – Fiiller (2/3)",
-  "cefr": 1,
-  "words": [
-   "leren",
-   "beginnen",
-   "helpen",
-   "vragen",
-   "wachten",
-   "staan",
-   "zitten",
-   "vergeten",
-   "vallen",
-   "leggen",
-   "zetten",
-   "opstaan",
-   "rennen",
-   "fietsen"
-  ]
- },
- {
-  "title": "A1 (orta) – Fiiller (3/3)",
-  "cefr": 1,
-  "words": [
-   "heten"
-  ]
- },
- {
-  "title": "A1 (ileri) – Sıfatlar (1/4)",
-  "cefr": 2,
-  "words": [
-   "laatste",
-   "zwaar",
-   "licht",
-   "goedkoop",
-   "verdrietig",
-   "boos",
-   "bang",
-   "gezond",
-   "sterk",
-   "vol",
-   "leeg",
-   "schoon",
-   "vies",
-   "druk"
-  ]
- },
- {
-  "title": "A1 (ileri) – Sıfatlar (2/4)",
-  "cefr": 2,
-  "words": [
-   "rustig",
-   "belangrijk",
-   "interessant",
-   "vriendelijk",
-   "waar__adj",
-   "verkeerd",
-   "zeker__adj",
-   "breed",
-   "smal",
-   "diep",
-   "rond",
-   "recht__adj",
-   "scherp",
-   "los"
-  ]
- },
- {
-  "title": "A1 (ileri) – Sıfatlar (3/4)",
-  "cefr": 2,
-  "words": [
-   "vast",
-   "bekend",
-   "gewoon__adj",
-   "gelijk",
-   "modern",
-   "onaardig",
-   "eerlijk",
-   "tevreden",
-   "kalm",
-   "knap",
-   "bitter",
-   "vers",
-   "half",
-   "heel__adj"
-  ]
- },
- {
-  "title": "A1 (ileri) – Sıfatlar (4/4)",
-  "cefr": 2,
-  "words": [
-   "kapot",
-   "gratis",
-   "handig",
-   "normaal",
-   "vreemd",
-   "raar",
-   "bewolkt",
-   "regenachtig",
-   "ander",
-   "echt__adj",
-   "gek",
-   "zesde",
-   "zevende"
-  ]
- },
- {
-  "title": "A1 (ileri) – Zarflar (1/2)",
-  "cefr": 2,
-  "words": [
-   "genoeg",
-   "beneden",
-   "binnen",
-   "buiten",
-   "rechtdoor",
-   "net",
-   "gewoon__adv",
-   "natuurlijk",
-   "bijvoorbeeld",
-   "eigenlijk",
-   "gelukkig__adv",
-   "helaas",
-   "bijna",
-   "ongeveer"
-  ]
- },
- {
-  "title": "A1 (ileri) – Zarflar (2/2)",
-  "cefr": 2,
-  "words": [
-   "precies",
-   "zeker__adv",
-   "meteen",
-   "meestal",
-   "overal",
-   "nergens",
-   "ergens",
-   "vooruit",
-   "omhoog",
-   "omlaag",
-   "daarom",
-   "allemaal",
-   "elk"
-  ]
- },
- {
-  "title": "A1 (ileri) – Bağlaçlar",
-  "cefr": 2,
-  "words": [
-   "toen",
-   "terwijl",
-   "anders__conj",
-   "hoewel"
-  ]
- },
- {
-  "title": "A1 (ileri) – İsimler (1/14)",
-  "cefr": 2,
-  "words": [
-   "markt",
-   "ziekenhuis",
-   "station",
-   "wereld",
-   "vlees",
-   "suiker",
-   "zout",
-   "diner",
-   "lichaam",
-   "hart",
-   "pijn",
-   "reis",
-   "kaartje",
-   "sneeuw"
-  ]
- },
- {
-  "title": "A1 (ileri) – İsimler (2/14)",
-  "cefr": 2,
-  "words": [
-   "wolk",
-   "baan",
-   "leven",
-   "probleem",
-   "antwoord",
-   "idee",
-   "schoonmoeder",
-   "schoonvader",
-   "partner",
-   "collega",
-   "buurman",
-   "buurvrouw",
-   "woonkamer",
-   "balkon"
-  ]
- },
- {
-  "title": "A1 (ileri) – İsimler (3/14)",
-  "cefr": 2,
-  "words": [
-   "trap",
-   "muur",
-   "vloer",
-   "dak",
-   "wasmachine",
-   "spiegel",
-   "kussen",
-   "deken",
-   "huisdier",
-   "ui",
-   "knoflook",
-   "wortel",
-   "sla",
-   "druif"
-  ]
- },
- {
-  "title": "A1 (ileri) – İsimler (4/14)",
-  "cefr": 2,
-  "words": [
-   "citroen",
-   "olie",
-   "saus",
-   "taart",
-   "koekje",
-   "frisdrank",
-   "rundvlees",
-   "worst",
-   "ham",
-   "boterham",
-   "baas",
-   "afspraak",
-   "kantoor",
-   "winkelcentrum"
-  ]
- },
- {
-  "title": "A1 (ileri) – İsimler (5/14)",
-  "cefr": 2,
-  "words": [
-   "bibliotheek",
-   "universiteit",
-   "cijfer",
-   "examen",
-   "huiswerk",
-   "vak",
-   "vliegveld",
-   "paspoort",
-   "koffer",
-   "rugzak",
-   "uitstapje",
-   "route",
-   "kaart",
-   "metro"
-  ]
- },
- {
-  "title": "A1 (ileri) – İsimler (6/14)",
-  "cefr": 2,
-  "words": [
-   "tram",
-   "boot",
-   "parkeerplaats",
-   "benzine",
-   "verkeer",
-   "ongeluk",
-   "hals",
-   "schouder",
-   "rug",
-   "buik",
-   "vinger",
-   "teen",
-   "knie",
-   "huid"
-  ]
- },
- {
-  "title": "A1 (ileri) – İsimler (7/14)",
-  "cefr": 2,
-  "words": [
-   "bloed",
-   "ziekte",
-   "koorts",
-   "hoofdpijn",
-   "verkoudheid",
-   "medicijn",
-   "apotheek",
-   "ambulance",
-   "tandarts",
-   "rok",
-   "jurk",
-   "pak",
-   "sokken",
-   "muts"
-  ]
- },
- {
-  "title": "A1 (ileri) – İsimler (8/14)",
-  "cefr": 2,
-  "words": [
-   "handschoenen",
-   "sjaal",
-   "riem",
-   "bril",
-   "horloge",
-   "temperatuur",
-   "graad",
-   "storm",
-   "gevoel",
-   "gedachte",
-   "mening",
-   "droom",
-   "angst",
-   "liefde"
-  ]
- },
- {
-  "title": "A1 (ileri) – İsimler (9/14)",
-  "cefr": 2,
-  "words": [
-   "bericht",
-   "brief",
-   "krant",
-   "tijdschrift",
-   "nieuws",
-   "website",
-   "wachtwoord",
-   "account",
-   "scherm",
-   "muis",
-   "batterij",
-   "oplader",
-   "lied",
-   "reden"
-  ]
- },
- {
-  "title": "A1 (ileri) – İsimler (10/14)",
-  "cefr": 2,
-  "words": [
-   "doel",
-   "hulp",
-   "regel",
-   "verschil",
-   "voorbeeld",
-   "informatie",
-   "succes",
-   "fout",
-   "toekomst",
-   "verleden",
-   "moment",
-   "situatie",
-   "keuze",
-   "mogelijkheid"
-  ]
- },
- {
-  "title": "A1 (ileri) – İsimler (11/14)",
-  "cefr": 2,
-  "words": [
-   "prijs",
-   "begin",
-   "einde",
-   "mens",
-   "woord",
-   "plaatsen",
-   "plant",
-   "gras",
-   "berg",
-   "rivier",
-   "eiland",
-   "bos",
-   "gebouw",
-   "brug"
-  ]
- },
- {
-  "title": "A1 (ileri) – İsimler (12/14)",
-  "cefr": 2,
-  "words": [
-   "toren",
-   "kerk",
-   "moskee",
-   "museum",
-   "bioscoop",
-   "concert",
-   "bal",
-   "glas",
-   "feestje",
-   "kilo",
-   "zwembad",
-   "café",
-   "lente",
-   "laptop"
-  ]
- },
- {
-  "title": "A1 (ileri) – İsimler (13/14)",
-  "cefr": 2,
-  "words": [
-   "kerst",
-   "bord",
-   "klok",
-   "doos",
-   "douche",
-   "lift",
-   "toerist",
-   "fles",
-   "supermarkt",
-   "mes",
-   "achternaam",
-   "herfst",
-   "leeuw",
-   "cent"
-  ]
- },
- {
-  "title": "A1 (ileri) – İsimler (14/14)",
-  "cefr": 2,
-  "words": [
-   "smartphone",
-   "gitaar",
-   "liter",
-   "speelgoed",
-   "centimeter",
-   "app",
-   "lip",
-   "piano",
-   "kus"
-  ]
- },
- {
-  "title": "A1 (ileri) – Sayılar",
-  "cefr": 2,
-  "words": [
-   "duizend"
-  ]
- },
- {
-  "title": "A1 (ileri) – Edatlar",
-  "cefr": 2,
-  "words": [
-   "tussen",
-   "zonder",
-   "door",
-   "tijdens",
    "sinds",
-   "vanaf",
-   "langs",
-   "volgens",
-   "naast"
+   "achter",
+   "vanwege",
+   "dankzij"
   ]
  },
  {
-  "title": "A1 (ileri) – Zamirler",
-  "cefr": 2,
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Fiiller (1/9)",
+  "cefr": 1,
   "words": [
-   "hun",
-   "iemand",
-   "niemand"
-  ]
- },
- {
-  "title": "A1 (ileri) – Fiiller (1/6)",
-  "cefr": 2,
-  "words": [
-   "verkopen",
-   "begrijpen",
-   "stoppen",
-   "antwoorden",
-   "zoeken",
-   "brengen",
-   "halen",
-   "betalen",
-   "kosten",
-   "openen",
-   "sluiten",
-   "bellen",
-   "wassen",
-   "koken"
-  ]
- },
- {
-  "title": "A1 (ileri) – Fiiller (2/6)",
-  "cefr": 2,
-  "words": [
-   "reizen",
-   "zwemmen",
-   "lachen",
-   "dansen",
-   "zingen",
-   "liggen",
-   "blijven",
-   "worden",
-   "eindigen",
-   "proberen",
-   "hopen",
-   "dromen",
-   "kiezen",
-   "veranderen"
-  ]
- },
- {
-  "title": "A1 (ileri) – Fiiller (3/6)",
-  "cefr": 2,
-  "words": [
-   "ontmoeten",
-   "bezoeken",
-   "uitleggen",
-   "betekenen",
-   "gebeuren",
-   "bestaan",
-   "missen",
-   "verliezen",
-   "winnen",
-   "verdienen",
-   "huren",
-   "verhuizen",
-   "bouwen",
-   "breken"
-  ]
- },
- {
-  "title": "A1 (ileri) – Fiiller (4/6)",
-  "cefr": 2,
-  "words": [
-   "gooien",
-   "vangen",
-   "duwen",
-   "trekken",
-   "sturen",
-   "appen",
-   "mailen",
-   "groeten",
-   "bedanken",
-   "vieren",
-   "passen",
-   "aankleden",
-   "douchen",
-   "tandenpoetsen"
-  ]
- },
- {
-  "title": "A1 (ileri) – Fiiller (5/6)",
-  "cefr": 2,
-  "words": [
-   "uitrusten",
-   "trainen",
-   "bewegen",
-   "springen",
-   "klimmen",
-   "voetballen",
-   "winkelen",
-   "inloggen",
-   "uitloggen",
-   "downloaden",
-   "uploaden",
-   "printen",
-   "opladen",
-   "houden"
-  ]
- },
- {
-  "title": "A1 (ileri) – Fiiller (6/6)",
-  "cefr": 2,
-  "words": [
-   "krijgen"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – Sıfatlar (1/6)",
-  "cefr": 3,
-  "words": [
-   "zwak",
-   "saai",
-   "veilig",
-   "gevaarlijk",
-   "mogelijk",
-   "ondiep",
-   "krom",
-   "bot__adj",
-   "stevig",
-   "onbekend",
-   "beroemd",
-   "bijzonder",
-   "apart",
-   "ouderwets"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – Sıfatlar (2/6)",
-  "cefr": 3,
-  "words": [
-   "populair",
-   "beleefd",
-   "onbeleefd",
-   "oneerlijk",
-   "verstandig",
-   "dapper",
-   "verlegen",
-   "nieuwsgierig",
-   "trots",
-   "jaloers",
-   "ontevreden",
-   "teleurgesteld",
-   "verbaasd",
-   "opgewonden"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – Sıfatlar (3/6)",
-  "cefr": 3,
-  "words": [
-   "nerveus",
-   "gestrest",
-   "verveeld",
-   "eenzaam",
-   "aantrekkelijk",
-   "gemeen",
-   "streng",
-   "mild",
-   "levendig",
-   "lawaaierig",
-   "pittig",
-   "bedorven",
-   "rijp",
-   "compleet"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – Sıfatlar (4/6)",
-  "cefr": 3,
-  "words": [
-   "betaald",
-   "particulier",
-   "openbaar",
-   "dringend",
-   "relevant",
-   "nuttig",
-   "nutteloos",
-   "onhandig",
-   "logisch",
-   "onmogelijk",
-   "waarschijnlijk__adj",
-   "onwaarschijnlijk",
-   "vochtig",
-   "duidelijk"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – Sıfatlar (5/6)",
-  "cefr": 3,
-  "words": [
-   "levend",
-   "bezig",
-   "vreselijk",
-   "fantastisch",
-   "geweldig",
-   "prachtig",
-   "positief",
-   "negatief",
-   "digitaal",
-   "hoger",
-   "groter",
-   "perfect",
-   "Amerikaans",
-   "kwaad"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – Sıfatlar (6/6)",
-  "cefr": 3,
-  "words": [
-   "spannend",
-   "vrolijk",
-   "stom",
-   "prettig",
-   "blond",
-   "favoriet",
-   "schattig",
-   "vierkant"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – Zarflar (1/2)",
-  "cefr": 3,
-  "words": [
-   "trouwens",
-   "blijkbaar",
-   "uiteindelijk",
-   "tenslotte",
-   "ondertussen",
-   "volledig",
-   "nauwelijks",
-   "absoluut",
-   "waarschijnlijk__adv",
-   "plotseling",
-   "onmiddellijk",
-   "langzamerhand",
-   "regelmatig",
-   "constant"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – Zarflar (2/2)",
-  "cefr": 3,
-  "words": [
-   "gewoonlijk",
-   "zelden",
-   "achteruit",
-   "overigens",
-   "bovendien",
-   "daardoor",
-   "hierdoor",
-   "eens",
-   "toch",
-   "ooit",
-   "opnieuw",
-   "sommige",
-   "vele",
-   "beide"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – Bağlaçlar",
-  "cefr": 3,
-  "words": [
-   "ofschoon",
-   "zodat",
-   "mits",
-   "tenzij"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – İsimler (1/15)",
-  "cefr": 3,
-  "words": [
-   "kans",
-   "schoonzus",
-   "schoonbroer",
-   "stiefvader",
-   "stiefmoeder",
-   "verloofde",
-   "kennis",
-   "zolder",
-   "kelder",
-   "plafond",
-   "magnetron",
-   "fornuis",
-   "gordijn",
-   "slot"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – İsimler (2/15)",
-  "cefr": 3,
-  "words": [
-   "brievenbus",
-   "varkensvlees",
-   "directeur",
-   "werknemer",
-   "werkgever",
-   "sollicitatie",
-   "salaris",
-   "vergadering",
-   "fabriek",
-   "diploma",
-   "bestemming",
-   "rijbewijs",
-   "file",
-   "bot__noun"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – İsimler (3/15)",
-  "cefr": 3,
-  "words": [
-   "spier",
-   "recept",
-   "verband",
-   "verpleegkundige",
-   "ondergoed",
-   "sieraad",
-   "onweer",
-   "mist",
-   "herinnering",
-   "hoop",
-   "verdriet",
-   "vreugde",
-   "vriendschap",
-   "toetsenbord"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – İsimler (4/15)",
-  "cefr": 3,
-  "words": [
-   "resultaat",
-   "oplossing",
-   "advies",
-   "wet",
-   "recht__noun",
-   "plicht",
-   "overeenkomst",
-   "bewijs",
-   "risico",
-   "gevaar",
-   "verandering",
-   "ontwikkeling",
-   "groei",
-   "periode"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – İsimler (5/15)",
-  "cefr": 3,
-  "words": [
-   "gelegenheid",
-   "omstandigheid",
-   "voorwaarde",
-   "behoefte",
-   "wens",
-   "besluit",
-   "januari",
-   "februari",
-   "maart",
-   "april",
-   "mei",
-   "juni",
-   "juli",
-   "augustus"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – İsimler (6/15)",
-  "cefr": 3,
-  "words": [
-   "september",
-   "oktober",
-   "november",
-   "december",
-   "aantal",
-   "manier",
-   "soort",
-   "stuk",
-   "deel",
-   "kant",
-   "plek",
-   "centrum",
-   "buurt",
-   "plan"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – İsimler (7/15)",
-  "cefr": 3,
-  "words": [
-   "stap",
-   "rest",
-   "groep",
-   "verhaal",
-   "programma",
-   "wedstrijd",
-   "seizoen",
-   "team",
-   "bedrijf",
-   "contact",
-   "miljoen",
-   "dood",
-   "energie",
-   "natuur"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – İsimler (8/15)",
-  "cefr": 3,
-  "words": [
-   "theater",
-   "bruiloft",
-   "taal",
-   "geheim__noun",
-   "verrassing",
-   "geluk",
-   "koning",
-   "koningin",
-   "apparaat",
-   "machine",
-   "motor",
-   "dollar",
-   "aarde",
-   "club"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – İsimler (9/15)",
-  "cefr": 3,
-  "words": [
-   "spel",
-   "serie",
-   "album",
-   "festival",
-   "pagina",
-   "logo",
-   "vlag",
-   "goud",
-   "zilver",
-   "test",
-   "adres",
-   "klant",
-   "product",
-   "datum"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – İsimler (10/15)",
-  "cefr": 3,
-  "words": [
-   "spullen",
-   "grap",
-   "zak",
-   "afbeelding",
-   "appartement",
-   "korting",
-   "ster",
-   "dans",
-   "boer",
-   "hout",
-   "plastic",
-   "plein",
-   "smaak",
-   "boerderij"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – İsimler (11/15)",
-  "cefr": 3,
-  "words": [
-   "gat",
-   "tip",
-   "mobiel",
-   "villa",
-   "kasteel",
-   "verdieping",
-   "mode",
-   "nek",
-   "web",
-   "zand",
-   "cursus",
-   "zanger",
-   "pot",
-   "wiskunde"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – İsimler (12/15)",
-  "cefr": 3,
-  "words": [
-   "beker",
-   "leerling",
-   "wolf",
-   "binnenstad",
-   "borst",
-   "planeet",
-   "letter",
-   "pauze",
-   "reiziger",
-   "tent",
-   "lijn",
-   "heuvel",
-   "knop",
-   "lach"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – İsimler (13/15)",
-  "cefr": 3,
-  "words": [
-   "seconde",
-   "hal",
-   "kok",
-   "garage",
-   "kwart",
-   "snelweg",
-   "keel",
-   "marathon",
-   "acteur",
-   "basisschool",
-   "massage",
-   "bakker",
-   "wandeling",
-   "maaltijd"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – İsimler (14/15)",
-  "cefr": 3,
-  "words": [
-   "tunnel",
-   "aanbieding",
-   "oefening",
-   "tiener",
-   "ketting",
-   "pond",
-   "tong",
-   "vrachtwagen",
-   "wang",
-   "zuster",
-   "draak",
-   "vos",
-   "kwartier",
-   "toets"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – İsimler (15/15)",
-  "cefr": 3,
-  "words": [
-   "camping",
-   "casino",
-   "molen",
-   "schilder",
-   "schuur",
-   "verf",
-   "videoclip",
-   "zangeres"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – Edatlar",
-  "cefr": 3,
-  "words": [
-   "rondom",
-   "richting__prep",
-   "dankzij",
-   "ondanks",
-   "betreffende",
-   "inclusief",
-   "exclusief"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – Fiiller (1/5)",
-  "cefr": 3,
-  "words": [
-   "vliegen",
-   "huilen",
-   "dragen",
-   "lukken",
-   "onthouden",
-   "herinneren",
-   "besluiten",
-   "verbeteren",
-   "uitnodigen",
-   "verwachten",
-   "controleren",
-   "herhalen",
-   "beschrijven",
-   "ontbreken"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – Fiiller (2/5)",
-  "cefr": 3,
-  "words": [
-   "uitgeven",
-   "sparen",
-   "lenen",
-   "terugbetalen",
-   "repareren",
-   "tillen",
-   "ontvangen",
-   "versturen",
-   "reageren",
+   "beginnen",
+   "staan",
+   "even",
+   "houden",
+   "voelen",
+   "bepalen",
+   "leiden",
+   "ontstaan",
+   "samen",
+   "voorkomen",
    "voorstellen",
-   "verontschuldigen",
-   "feliciteren",
-   "organiseren",
+   "wachten",
+   "westen",
+   "zetten"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Fiiller (2/9)",
+  "cefr": 1,
+  "words": [
+   "zoeken",
+   "aankijken",
+   "aannemen",
+   "afgelopen",
+   "betrekken",
+   "duren",
+   "kiezen",
+   "lachen",
+   "oosten",
+   "opnemen",
+   "roepen",
+   "schijnen",
+   "slaan",
+   "trouwen"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Fiiller (3/9)",
+  "cefr": 1,
+  "words": [
+   "verdwijnen",
+   "vergeten",
+   "verklaren",
+   "wonen",
+   "zuiden",
+   "alleen",
+   "antwoorden",
+   "beperken",
+   "bouwen",
+   "draaien",
+   "groeien",
+   "heten",
+   "klinken",
+   "merken"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Fiiller (4/9)",
+  "cefr": 1,
+  "words": [
+   "mis",
+   "noorden",
+   "uitgaan",
+   "verschillen",
+   "winnen",
+   "zorgen",
+   "bekijken",
+   "bevinden",
+   "bewijzen",
+   "binnenkomen",
+   "drukken",
+   "geboren",
+   "luisteren",
+   "ontdekken"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Fiiller (5/9)",
+  "cefr": 1,
+  "words": [
+   "ontwikkelen",
+   "openen",
+   "passen",
+   "schieten",
+   "spelen",
+   "steken",
+   "toenemen",
+   "tonen",
+   "vliegen",
+   "voren",
+   "zingen",
+   "afvragen",
+   "behandelen",
+   "lukken"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Fiiller (6/9)",
+  "cefr": 1,
+  "words": [
+   "opstaan",
+   "aankomen",
+   "slagen",
+   "uitspreken",
+   "bellen",
+   "lijden",
+   "opbouwen",
+   "reageren",
+   "stijgen",
+   "innemen",
+   "overnemen",
+   "steunen",
+   "verzorgen",
+   "realiseren"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Fiiller (7/9)",
+  "cefr": 1,
+  "words": [
+   "vestigen",
+   "kleren",
+   "kloppen",
+   "opbellen",
+   "opgeven",
+   "verzetten",
+   "afspreken",
+   "verhogen",
+   "wassen",
+   "aanvragen",
+   "bevallen",
+   "huren",
+   "kraken",
+   "afblijven"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Fiiller (8/9)",
+  "cefr": 1,
+  "words": [
+   "eergisteren",
+   "huishouden",
+   "uitstellen",
+   "weglopen",
+   "solliciteren",
+   "spellen",
+   "telefoneren",
+   "verhuren",
+   "vrijen",
+   "genezen",
+   "starten",
+   "aanmelden",
+   "duim",
+   "ruilen"
+  ]
+ },
+ {
+  "title": "A1-orta: Aile, ev, vücut & sağlık – Fiiller (9/9)",
+  "cefr": 1,
+  "words": [
+   "tillen",
+   "boren",
+   "troosten",
+   "condoleren",
+   "masseren",
+   "doden",
    "plannen"
   ]
  },
  {
-  "title": "A2 (başlangıç) – Fiiller (3/5)",
-  "cefr": 3,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Sıfatlar (1/5)",
+  "cefr": 2,
   "words": [
-   "regelen",
-   "besparen",
-   "ruilen",
-   "uitkleden",
-   "baden",
-   "kammen",
-   "scheren",
-   "ontspannen",
-   "skiën",
-   "bevallen",
-   "irriteren",
-   "storen",
-   "ondertekenen",
-   "invullen"
+   "duidelijk",
+   "sterk",
+   "zeker",
+   "vast",
+   "stil",
+   "dicht",
+   "heilig",
+   "huidig",
+   "langzaam",
+   "leeg",
+   "normaal",
+   "officieel",
+   "onmogelijk",
+   "technisch"
   ]
  },
  {
-  "title": "A2 (başlangıç) – Fiiller (4/5)",
-  "cefr": 3,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Sıfatlar (2/5)",
+  "cefr": 2,
   "words": [
-   "aanmelden",
-   "laten",
-   "horen",
-   "bestellen",
-   "hangen",
-   "trouwen",
-   "tekenen",
-   "roken",
-   "wandelen",
-   "meenemen",
-   "snappen",
-   "kloppen",
-   "bakken",
-   "proeven"
-  ]
- },
- {
-  "title": "A2 (başlangıç) – Fiiller (5/5)",
-  "cefr": 3,
-  "words": [
-   "typen"
-  ]
- },
- {
-  "title": "A2 (orta) – Sıfatlar (1/4)",
-  "cefr": 4,
-  "words": [
-   "typisch",
-   "algemeen",
-   "actief",
-   "origineel",
-   "uniek",
-   "internationaal",
+   "voorlopig",
+   "voortdurend",
+   "blauw",
+   "eventueel",
+   "gunstig",
+   "interessant",
+   "kennelijk",
+   "militair",
    "nationaal",
-   "lokaal",
-   "centraal",
-   "technisch",
+   "prachtig",
+   "verkeerd",
+   "voorzichtig",
+   "zacht",
+   "economisch"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Sıfatlar (3/5)",
+  "cefr": 2,
+  "words": [
+   "eerlijk",
+   "grijs",
+   "katholiek",
+   "lekker",
+   "onderling",
+   "positief",
    "praktisch",
-   "sociaal",
-   "cultureel",
-   "historisch"
-  ]
- },
- {
-  "title": "A2 (orta) – Sıfatlar (2/4)",
-  "cefr": 4,
-  "words": [
-   "medisch",
-   "elektronisch",
-   "fysiek",
-   "mentaal",
-   "emotioneel",
-   "lager",
-   "kleiner",
-   "dagelijks",
+   "scherp",
    "tegenwoordig",
-   "geheim__adj",
-   "verboden",
-   "Duits",
-   "Frans",
-   "Spaans"
+   "uitstekend",
+   "vriendelijk",
+   "beroemd",
+   "concreet",
+   "medisch"
   ]
  },
  {
-  "title": "A2 (orta) – Sıfatlar (3/4)",
-  "cefr": 4,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Sıfatlar (4/5)",
+  "cefr": 2,
   "words": [
-   "Italiaans",
-   "dagelijkse",
-   "volwassen",
-   "wild",
-   "chinees",
-   "triest",
-   "Japans",
-   "blind",
-   "bezet",
-   "pijnlijk",
-   "plat",
-   "vuil",
+   "merkwaardig",
+   "negatief",
+   "onbekend",
+   "openbaar",
+   "bruin",
+   "vreselijk",
+   "gratis",
+   "zoet",
+   "smakelijk",
+   "hopeloos",
+   "kostbaar",
+   "boos",
+   "betaald",
+   "Frans"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Sıfatlar (5/5)",
+  "cefr": 2,
+  "words": [
+   "groter",
+   "verantwoordelijk",
+   "voormalig",
+   "uitgebreid",
+   "oranje",
+   "beperkt",
    "simpel",
-   "correct"
+   "compleet"
   ]
  },
  {
-  "title": "A2 (orta) – Sıfatlar (4/4)",
-  "cefr": 4,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Zarflar (1/2)",
+  "cefr": 2,
   "words": [
-   "gevuld",
-   "ideaal",
-   "olympisch",
-   "gigantisch"
+   "eens",
+   "ook",
+   "terug",
+   "genoeg",
+   "ergens",
+   "straks",
+   "uiterst",
+   "beneden",
+   "morgen__adv",
+   "omlaag",
+   "absoluut",
+   "links",
+   "weinig",
+   "hierdoor"
   ]
  },
  {
-  "title": "A2 (orta) – Zarflar",
-  "cefr": 4,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Zarflar (2/2)",
+  "cefr": 2,
   "words": [
-   "echter",
-   "zoveel",
-   "inderdaad",
-   "waardoor",
-   "waarin",
-   "waarbij",
-   "waarvan",
-   "waarmee",
-   "waarop",
-   "ervan",
-   "ervoor",
-   "erover",
-   "overdag"
+   "ondertussen",
+   "daardoor"
   ]
  },
  {
-  "title": "A2 (orta) – Bağlaçlar",
-  "cefr": 4,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Bağlaçlar",
+  "cefr": 2,
   "words": [
-   "zowel",
-   "nadat",
-   "voordat"
+   "doordat",
+   "voordat",
+   "tenzij"
   ]
  },
  {
-  "title": "A2 (orta) – İsimler (1/20)",
-  "cefr": 4,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (1/21)",
+  "cefr": 2,
   "words": [
-   "rol",
-   "vorm",
-   "basis",
-   "gebied",
-   "grond",
-   "omgeving",
-   "regio",
-   "actie",
-   "top",
-   "zaak",
-   "geval",
-   "onderzoek",
-   "artikel",
-   "geschiedenis"
+   "ding",
+   "macht",
+   "beetje",
+   "water",
+   "bedrijf",
+   "regering",
+   "school",
+   "arm",
+   "eten",
+   "invloed",
+   "politiek",
+   "raak",
+   "meter",
+   "voldoende"
   ]
  },
  {
-  "title": "A2 (orta) – İsimler (2/20)",
-  "cefr": 4,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (2/21)",
+  "cefr": 2,
   "words": [
-   "oorlog",
-   "organisatie",
-   "project",
-   "president",
-   "leeftijd",
-   "god",
-   "zin",
-   "aandacht",
-   "lid",
-   "km",
-   "beeld",
-   "dienst",
-   "stem",
-   "kracht"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (3/20)",
-  "cefr": 4,
-  "words": [
-   "techniek",
-   "klimaat",
-   "milieu",
+   "bezoek",
+   "gezag",
+   "krant",
+   "lijn",
+   "mate",
+   "moeite",
+   "bedoeling",
+   "bestuur",
    "cultuur",
+   "dame",
+   "eis",
+   "factor",
+   "figuur",
+   "fijn"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (3/21)",
+  "cefr": 2,
+  "words": [
+   "foto",
+   "gauw",
+   "geschiedenis",
+   "gevaar",
+   "grens",
+   "herinnering",
+   "hoogte",
+   "ineens",
+   "inmiddels",
+   "jou",
+   "klaar",
+   "koffie",
    "kunst",
-   "gewoonte",
-   "veiligheid",
-   "respect",
-   "vrede",
-   "wapen",
-   "verlies",
-   "prins",
-   "prinses",
-   "advocaat"
+   "kwestie"
   ]
  },
  {
-  "title": "A2 (orta) – İsimler (4/20)",
-  "cefr": 4,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (4/21)",
+  "cefr": 2,
   "words": [
-   "gevangenis",
-   "niveau",
-   "kwaliteit",
-   "waarde",
-   "code",
-   "versie",
-   "beroep",
-   "studie",
-   "rekening",
-   "stress",
-   "ervaring",
-   "hoofdstad",
-   "kust",
-   "golf"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (5/20)",
-  "cefr": 4,
-  "words": [
-   "afstand",
-   "richting__noun",
-   "ronde",
-   "finale",
-   "competitie",
-   "veld",
-   "kampioen",
-   "record",
-   "interview",
-   "reactie",
-   "boodschap",
-   "aflevering",
-   "optreden",
-   "collectie"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (6/20)",
-  "cefr": 4,
-  "words": [
-   "stukje",
-   "hoeveelheid",
-   "bron",
-   "tekst",
-   "titel",
-   "teken",
-   "Frankrijk",
-   "Duitsland",
-   "Rusland",
-   "Spanje",
-   "België",
-   "China",
-   "Engeland",
-   "Italië"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (7/20)",
-  "cefr": 4,
-  "words": [
-   "Griekenland",
-   "Canada",
-   "India",
-   "klasse",
+   "leeftijd",
+   "leger",
+   "leiding",
+   "leverancier",
+   "liever",
    "materiaal",
-   "merk",
+   "meest",
+   "mij",
+   "oorzaak",
+   "stof",
+   "vrijheid",
+   "wetenschap",
+   "zee",
+   "zorg"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (5/21)",
+  "cefr": 2,
+  "words": [
+   "aarde",
+   "bereid",
+   "bezwaar",
+   "buurt",
+   "cijfer",
+   "discussie",
+   "flink",
+   "gebouw",
+   "gebrek",
+   "geweld",
+   "herhaling",
+   "hiervan",
+   "ingaan",
+   "koning"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (6/21)",
+  "cefr": 2,
+  "words": [
+   "maatregel",
+   "markt",
+   "middag",
+   "miljoen",
+   "morgen__noun",
+   "onlangs",
+   "oplossing",
+   "opvoeding",
+   "paard",
+   "papier",
+   "pers",
+   "product",
+   "regel",
+   "ruimte"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (7/21)",
+  "cefr": 2,
+  "words": [
+   "schouder",
+   "sfeer",
+   "slachtoffer",
+   "sprake",
+   "uitsluitend",
+   "verschijnsel",
+   "vlakbij",
+   "voordeel",
+   "werkelijkheid",
+   "woning",
+   "aandeel",
+   "activiteit",
+   "bericht",
+   "dikwijls"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (8/21)",
+  "cefr": 2,
+  "words": [
+   "ei",
+   "enzovoorts",
+   "fel",
+   "industrie",
+   "inhoud",
+   "keuze",
+   "kilometer",
+   "leider",
+   "meerderheid",
+   "nummer",
+   "onderwerp",
+   "opeens",
+   "principe",
+   "reactie"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (9/21)",
+  "cefr": 2,
+  "words": [
+   "rijk",
+   "schaduw",
+   "soldaat",
+   "structuur",
+   "stukje",
+   "trap",
+   "uiteraard",
+   "verklaring",
+   "voorbij",
+   "voorstel",
+   "vrede",
+   "waarvoor",
+   "wapen",
+   "wezen"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (10/21)",
+  "cefr": 2,
+  "words": [
+   "zogenaamd",
+   "zoiets",
+   "zover",
+   "achtergrond",
+   "advies",
+   "aspect",
+   "bal",
+   "beurt",
+   "bos",
+   "bouw",
+   "brand",
+   "economie",
+   "eenheid",
+   "energie"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (11/21)",
+  "cefr": 2,
+  "words": [
+   "fout",
+   "gedrag",
+   "geschikt",
+   "gisteravond",
+   "hemel",
+   "hierbij",
+   "hoofdstuk",
+   "journalist",
+   "kaart",
+   "leraar",
+   "letter",
+   "lijst",
+   "onderneming",
+   "opleiding"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (12/21)",
+  "cefr": 2,
+  "words": [
+   "tekst",
+   "wijn",
+   "kabinet",
+   "moord",
+   "ongetwijfeld",
+   "fiets",
+   "handel",
+   "kaas",
+   "melk",
+   "vis",
+   "vlees",
+   "bier",
+   "brood",
+   "café"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (13/21)",
+  "cefr": 2,
+  "words": [
+   "ijs",
+   "jas",
+   "loon",
+   "suiker",
+   "thee",
+   "dorst",
+   "douche",
+   "drank",
+   "fruit",
+   "groente",
+   "kip",
+   "olie",
+   "rok",
+   "soep"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (14/21)",
+  "cefr": 2,
+  "words": [
+   "sok",
+   "verdomme",
+   "zout",
+   "benieuwd",
+   "consultatiebureau",
+   "kam",
+   "rijst",
+   "salaris",
+   "toilet",
+   "biljet",
+   "bon",
+   "centimeter",
+   "netto",
+   "recept"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (15/21)",
+  "cefr": 2,
+  "words": [
+   "supermarkt",
+   "trui",
+   "woonplaats",
+   "aardappel",
+   "brievenbus",
+   "criminaliteit",
+   "eventjes",
+   "rijbewijs",
+   "troep",
+   "beton",
+   "bevoegd",
+   "klacht",
+   "kroeg",
+   "respect"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (16/21)",
+  "cefr": 2,
+  "words": [
+   "ticket",
+   "visite",
+   "wc",
+   "consument",
+   "haat",
+   "hoed",
+   "kous",
+   "lunch",
+   "ontbijt",
+   "bekwaam",
+   "bijwerking",
+   "enquete",
+   "etiket",
+   "inburgering"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (17/21)",
+  "cefr": 2,
+  "words": [
+   "internet",
+   "overhemd",
+   "termijn",
+   "thermometer",
+   "wijsvinger",
+   "app",
+   "beleid",
+   "stichting",
+   "netwerk",
+   "koninkrijk",
+   "locatie",
+   "rivier",
+   "schoenen",
+   "aanval"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (18/21)",
+  "cefr": 2,
+  "words": [
+   "advocaat",
+   "camera",
+   "gegevens",
+   "hoofdstad",
+   "interview",
+   "premier",
+   "dollar",
+   "aflevering",
+   "teken",
+   "account",
+   "kleding",
+   "overwinning",
+   "verdachte",
+   "album"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (19/21)",
+  "cefr": 2,
+  "words": [
+   "strand",
+   "code",
+   "Italië",
+   "partner",
+   "veld",
+   "verjaardag",
+   "verlies",
+   "parlement",
+   "vlag",
+   "editie",
+   "storm",
+   "collectie",
+   "contract",
+   "rechtbank"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (20/21)",
+  "cefr": 2,
+  "words": [
+   "republiek",
+   "categorie",
+   "klasse",
+   "selectie",
+   "gemiddelde",
+   "kampioen",
+   "test",
+   "twijfel",
    "verkoop",
+   "debat",
+   "district",
    "effect",
    "evenement",
-   "betekenis",
+   "status"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – İsimler (21/21)",
+  "cefr": 2,
+  "words": [
+   "verslag",
    "details",
-   "excuus",
-   "medewerker",
-   "professor"
+   "India",
+   "kader",
+   "medewerker"
   ]
  },
  {
-  "title": "A2 (orta) – İsimler (8/20)",
-  "cefr": 4,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Sayılar",
+  "cefr": 2,
   "words": [
-   "service",
-   "stadion",
-   "agent",
-   "taak",
-   "thema",
-   "journalist",
-   "lengte",
-   "opening",
-   "presentatie",
-   "stroom",
-   "platform",
-   "profiel",
-   "studio",
-   "vertrek"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (9/20)",
-  "cefr": 4,
-  "words": [
-   "wetenschap",
-   "technologie",
-   "trainer",
-   "held",
-   "poging",
-   "snelheid",
-   "uitdaging",
-   "uitslag",
-   "voordeel",
-   "agenda",
-   "carrière",
-   "gebruiker",
-   "kanaal",
-   "straf"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (10/20)",
-  "cefr": 4,
-  "words": [
-   "gas",
-   "afscheid",
-   "talent",
-   "humor",
-   "optie",
-   "podium",
-   "rand",
-   "document",
-   "uitleg",
-   "kunstenaar",
-   "monument",
-   "patiënt",
-   "stilte",
-   "toernooi"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (11/20)",
-  "cefr": 4,
-  "words": [
-   "assistent",
-   "klacht",
-   "update",
-   "reclame",
-   "Suriname",
-   "gewicht",
-   "huur",
-   "rook",
-   "software",
-   "zaal",
-   "ingang",
-   "paleis",
-   "wagen",
-   "afval"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (12/20)",
-  "cefr": 4,
-  "words": [
-   "ontmoeting",
-   "poort",
-   "geboorte",
-   "kapitein",
-   "ouderen",
-   "volger",
-   "chauffeur",
-   "plaat",
-   "alcohol",
-   "docent",
-   "deal",
-   "loon",
-   "luxe",
-   "roman"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (13/20)",
-  "cefr": 4,
-  "words": [
-   "drama",
-   "blad",
-   "blok",
-   "documentaire",
-   "fotograaf",
-   "kruis",
-   "toestel",
-   "jury",
-   "medaille",
-   "trend",
-   "waarschuwing",
-   "emotie",
-   "kijkje",
-   "lijf"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (14/20)",
-  "cefr": 4,
-  "words": [
-   "uitzicht",
-   "pakket",
-   "boel",
-   "drank",
-   "tempel",
-   "voertuig",
-   "glimlach",
-   "graf",
-   "hersenen",
-   "alarm",
-   "boete",
-   "chef",
-   "elektriciteit",
-   "fotografie"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (15/20)",
-  "cefr": 4,
-  "words": [
-   "leider",
-   "tempo",
-   "passagier",
-   "schilderij",
-   "wonder",
-   "geur",
-   "gedicht",
-   "klap",
-   "pijp",
-   "fort",
-   "planning",
-   "score",
-   "stage",
-   "vallei"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (16/20)",
-  "cefr": 4,
-  "words": [
-   "doelpunt",
-   "kampioenschap",
-   "mix",
-   "uitnodiging",
-   "abonnement",
-   "idioot",
-   "lezer",
-   "tekening",
-   "adem",
-   "avontuur",
-   "koppel",
-   "metaal",
-   "priester",
-   "schrijfster"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (17/20)",
-  "cefr": 4,
-  "words": [
-   "architect",
-   "bom",
-   "hekel",
-   "label",
-   "monster",
-   "regisseur",
-   "schot",
-   "zuidoost",
-   "bestelling",
-   "instrument",
-   "klus",
-   "woestijn",
-   "begrafenis",
-   "gerecht"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (18/20)",
-  "cefr": 4,
-  "words": [
-   "gevangene",
-   "heleboel",
-   "kopie",
-   "muzikant",
-   "warmte",
-   "aankomst",
-   "achterkant",
-   "hoofdstuk",
-   "kroon",
-   "portret",
-   "supporter",
-   "voeding",
-   "arena",
-   "lef"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (19/20)",
-  "cefr": 4,
-  "words": [
-   "schaduw",
-   "zonnepaneel",
-   "aanrader",
-   "artiest",
-   "detail",
-   "tank",
-   "trio",
-   "leerkracht",
-   "liga",
-   "wetenschapper",
-   "actrice",
-   "bocht",
-   "campus",
-   "kliniek"
-  ]
- },
- {
-  "title": "A2 (orta) – İsimler (20/20)",
-  "cefr": 4,
-  "words": [
-   "staal",
-   "voorwerp",
-   "betaling",
-   "fantasie"
-  ]
- },
- {
-  "title": "A2 (orta) – Sayılar",
-  "cefr": 4,
-  "words": [
+   "dertig",
    "miljard"
   ]
  },
  {
-  "title": "A2 (orta) – Edatlar",
-  "cefr": 4,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Edatlar",
+  "cefr": 2,
   "words": [
    "vanuit",
-   "vanwege"
+   "vanaf"
   ]
  },
  {
-  "title": "A2 (orta) – Fiiller (1/4)",
-  "cefr": 4,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Zamirler",
+  "cefr": 2,
   "words": [
-   "zorgen",
-   "lijken",
-   "geloven",
-   "ontdekken",
-   "beslissen",
-   "twijfelen",
-   "vertrouwen",
-   "waarderen",
-   "respecteren",
-   "negeren",
-   "herkennen",
-   "waarschuwen",
-   "verrassen",
-   "redden"
+   "iets"
   ]
  },
  {
-  "title": "A2 (orta) – Fiiller (2/4)",
-  "cefr": 4,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Fiiller (1/10)",
+  "cefr": 2,
   "words": [
-   "scoren",
-   "melden",
-   "doden",
-   "vermoorden",
-   "groeien",
-   "serveren",
-   "vechten",
-   "draaien",
-   "verwijderen",
-   "verzamelen",
-   "oplossen",
-   "verdwijnen",
-   "oefenen",
-   "rekenen"
+   "vallen",
+   "zitten",
+   "volgen",
+   "dragen",
+   "helpen",
+   "menen",
+   "trekken",
+   "verliezen",
+   "wijzen",
+   "hopen",
+   "ontvangen",
+   "aantrekken",
+   "aanvaarden",
+   "bewegen"
   ]
  },
  {
-  "title": "A2 (orta) – Fiiller (3/4)",
-  "cefr": 4,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Fiiller (2/10)",
+  "cefr": 2,
   "words": [
-   "nadenken",
-   "liegen",
-   "tellen",
-   "bezorgen",
-   "vullen",
-   "bidden",
+   "slapen",
+   "bezitten",
    "durven",
-   "aankomen",
-   "bewaren",
-   "laden",
-   "opgeven",
-   "varen",
-   "slagen",
-   "danken"
+   "dwingen",
+   "knikken",
+   "opleveren",
+   "reserveren",
+   "toepassen",
+   "uitvoeren",
+   "verbinden",
+   "verlaten",
+   "veroorzaken",
+   "vertonen",
+   "voorzien"
   ]
  },
  {
-  "title": "A2 (orta) – Fiiller (4/4)",
-  "cefr": 4,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Fiiller (3/10)",
+  "cefr": 2,
   "words": [
-   "verbranden",
-   "voorbereiden",
-   "wisselen",
-   "rusten",
-   "duiken",
-   "wennen",
-   "filmen",
-   "haten",
-   "schelen",
-   "opzoeken",
+   "aantonen",
+   "bedenken",
+   "beschikken",
+   "bevatten",
+   "breken",
+   "gooien",
+   "grijpen",
+   "missen",
+   "ontbreken",
+   "ontmoeten",
+   "opmerken",
+   "overtuigen",
+   "plegen",
+   "sluiten"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Fiiller (4/10)",
+  "cefr": 2,
+  "words": [
+   "sterven",
+   "sturen",
+   "uitkomen",
+   "vergelijken",
+   "aanbieden",
+   "beloven",
+   "beschrijven",
+   "binden",
+   "buigen",
+   "constateren",
+   "genieten",
+   "herhalen",
+   "jongeren",
+   "meenemen"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Fiiller (5/10)",
+  "cefr": 2,
+  "words": [
+   "midden",
+   "nadenken",
+   "redden",
+   "schenken",
+   "tekenen",
    "toevoegen",
-   "uitgaan",
-   "doorgeven",
-   "uitzoeken"
+   "verstaan",
+   "weigeren",
+   "aangeven",
+   "aansluiten",
+   "aanwijzen",
+   "beheersen",
+   "beleven",
+   "beschermen"
   ]
  },
  {
-  "title": "A2 (ileri) – Sıfatlar (1/8)",
-  "cefr": 5,
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Fiiller (6/10)",
+  "cefr": 2,
   "words": [
-   "specifiek",
-   "concreet",
-   "effectief",
-   "efficiënt",
-   "passief",
-   "regionaal",
-   "theoretisch",
-   "politiek__adj",
-   "economisch",
-   "religieus",
-   "wetenschappelijk",
-   "juridisch",
+   "bezoeken",
+   "drijven",
+   "eisen",
+   "huilen",
+   "interesseren",
+   "inzien",
+   "meedelen",
+   "meedoen",
+   "melden",
+   "toegeven",
+   "uitmaken",
+   "ingrijpen",
+   "meebrengen",
+   "stoppen"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Fiiller (7/10)",
+  "cefr": 2,
+  "words": [
+   "vechten",
+   "bidden",
+   "onderzoeken",
+   "uitzien",
+   "verwerken",
+   "dansen",
+   "twijfelen",
+   "uitdrukken",
+   "varen",
+   "controleren",
+   "fietsen",
+   "opmaken",
+   "oppassen",
+   "spijten"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Fiiller (8/10)",
+  "cefr": 2,
+  "words": [
+   "uitkijken",
+   "opletten",
+   "opschieten",
+   "uitwijzen",
+   "aandoen",
+   "lusten",
+   "overmaken",
+   "slachten",
+   "uitkleden",
+   "aankleden",
+   "bewaren",
+   "ergeren",
+   "immigreren",
+   "noteren"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Fiiller (9/10)",
+  "cefr": 2,
+  "words": [
+   "parkeren",
+   "studeren",
+   "uitnodigen",
+   "beschuldigen",
+   "dreigen",
+   "snoepen",
+   "uitroepteken",
+   "verontschuldigen",
+   "veroordelen",
+   "zwijgen",
+   "reizen",
+   "verbeteren",
+   "dromen",
+   "leveren"
+  ]
+ },
+ {
+  "title": "A1-ileri: Yemek, giyim & günlük yaşam – Fiiller (10/10)",
+  "cefr": 2,
+  "words": [
+   "verwijderen"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – Sıfatlar (1/4)",
+  "cefr": 3,
+  "words": [
+   "kort",
+   "wit",
+   "duur",
+   "koud",
    "financieel",
-   "virtueel"
-  ]
- },
- {
-  "title": "A2 (ileri) – Sıfatlar (2/8)",
-  "cefr": 5,
-  "words": [
-   "psychologisch",
-   "beperkt",
-   "uitgebreid",
-   "wekelijks",
-   "maandelijks",
+   "warm",
+   "tevreden",
+   "behoorlijk",
+   "centraal",
+   "deskundig",
+   "dringend",
+   "goedkoop",
    "jaarlijks",
-   "voormalig",
-   "huidig",
-   "toekomstig",
-   "recent",
-   "verantwoordelijk",
-   "afhankelijk",
-   "onafhankelijk",
-   "militair"
+   "oorspronkelijk"
   ]
  },
  {
-  "title": "A2 (ileri) – Sıfatlar (3/8)",
-  "cefr": 5,
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – Sıfatlar (2/4)",
+  "cefr": 3,
   "words": [
-   "koninklijk",
-   "officieel",
-   "verplicht",
-   "vrijwillig",
-   "toegestaan",
-   "Afrikaans",
-   "Russisch",
-   "Britse",
-   "Vlaams",
-   "tijdelijk",
-   "wereldwijd",
-   "menselijk",
-   "individueel",
-   "katholiek"
-  ]
- },
- {
-  "title": "A2 (ileri) – Sıfatlar (4/8)",
-  "cefr": 5,
-  "words": [
-   "plaatselijk",
-   "duurzaam",
    "redelijk",
-   "christelijk",
-   "maximaal",
-   "definitief",
-   "extreem",
-   "gescheiden",
-   "rechtstreeks",
-   "seksueel",
-   "verkrijgbaar",
-   "automatisch",
-   "bewezen",
-   "professioneel"
+   "schoon",
+   "streng",
+   "vermoedelijk",
+   "wild",
+   "zwak",
+   "democratisch",
+   "droog",
+   "onafhankelijk",
+   "toevallig",
+   "trots",
+   "veilig",
+   "vierde",
+   "zichtbaar"
   ]
  },
  {
-  "title": "A2 (ileri) – Sıfatlar (5/8)",
-  "cefr": 5,
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – Sıfatlar (3/4)",
+  "cefr": 3,
   "words": [
-   "creatief",
-   "geldig",
-   "geestelijk",
-   "Joods",
-   "tropisch",
+   "lelijk",
+   "logisch",
+   "moe",
+   "moeilijk",
+   "nat",
+   "verplicht",
    "zelfstandig",
-   "landelijk",
-   "muzikaal",
-   "naakt",
-   "onvoldoende",
-   "gezamenlijk",
-   "minimaal",
-   "onzeker",
-   "anoniem"
-  ]
- },
- {
-  "title": "A2 (ileri) – Sıfatlar (6/8)",
-  "cefr": 5,
-  "words": [
-   "bereikbaar",
-   "betrouwbaar",
-   "gevoelig",
-   "beschadigd",
-   "gecontroleerd",
-   "krachtig",
-   "kritisch",
-   "gedeeltelijk",
-   "indrukwekkend",
-   "chemisch",
-   "exact",
-   "stabiel",
-   "verrassend",
-   "goedgekeurd"
-  ]
- },
- {
-  "title": "A2 (ileri) – Sıfatlar (7/8)",
-  "cefr": 5,
-  "words": [
-   "illegaal",
-   "onschuldig",
-   "gewenst",
-   "gewijzigd",
-   "uitstekend",
-   "afgerond",
-   "permanent",
+   "plat",
+   "typisch",
+   "bewolkt",
    "biologisch",
-   "dodelijk",
-   "onduidelijk",
-   "overdreven",
-   "schitterend",
-   "dwars",
-   "zakelijk"
+   "gemengd",
+   "Duits",
+   "wereldwijd"
   ]
  },
  {
-  "title": "A2 (ileri) – Sıfatlar (8/8)",
-  "cefr": 5,
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – Sıfatlar (4/4)",
+  "cefr": 3,
   "words": [
-   "zeldzaam",
-   "gereed",
-   "heftig",
-   "oprecht",
-   "toeristisch",
-   "literair",
-   "gewapend",
-   "heilig",
-   "herkenbaar"
+   "dagelijkse",
+   "Spaans",
+   "lager",
+   "trouw",
+   "geel",
+   "roze",
+   "toegestaan"
   ]
  },
  {
-  "title": "A2 (ileri) – Zarflar",
-  "cefr": 5,
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – Zarflar",
+  "cefr": 3,
   "words": [
-   "elders",
-   "achteraf",
-   "halverwege"
+   "weer",
+   "natuurlijk",
+   "omhoog",
+   "regelmatig",
+   "uiteindelijk",
+   "nergens",
+   "rechts",
+   "vooruit",
+   "overdag",
+   "rechtdoor",
+   "erover",
+   "alsjeblieft",
+   "onmiddellijk"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (1/25)",
-  "cefr": 5,
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – Bağlaçlar",
+  "cefr": 3,
   "words": [
-   "orde",
-   "leger",
-   "politiek__noun",
-   "minister",
-   "gemeente",
-   "provincie",
-   "inwoners",
-   "geloof",
-   "industrie",
-   "economie",
-   "stijl",
-   "traditie",
-   "bevolking",
-   "gemeenschap"
+   "hoewel"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (2/25)",
-  "cefr": 5,
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – Ünlemler",
+  "cefr": 3,
   "words": [
-   "beweging",
-   "vrijheid",
-   "waarheid",
-   "leugen",
-   "geduld",
-   "twijfel",
-   "haat",
-   "macht",
-   "invloed",
-   "strijd",
-   "geweld",
-   "aanval",
-   "overwinning",
-   "overheid"
+   "oké"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (3/25)",
-  "cefr": 5,
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (1/20)",
+  "cefr": 3,
   "words": [
-   "regering",
-   "burgemeester",
-   "premier",
-   "koninkrijk",
-   "verkiezing",
-   "partij",
-   "rechter",
-   "rechtbank",
-   "misdaad",
-   "slachtoffer",
-   "verdachte",
-   "burger",
-   "voorzitter",
-   "vereniging"
+   "belang",
+   "geld",
+   "weg",
+   "manier",
+   "tegenover",
+   "via",
+   "dier",
+   "boom",
+   "straat",
+   "vogel",
+   "afstand",
+   "lucht",
+   "stand",
+   "beslissing"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (4/25)",
-  "cefr": 5,
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (2/20)",
+  "cefr": 3,
   "words": [
-   "stichting",
-   "systeem",
-   "methode",
-   "proces",
-   "model",
-   "functie",
-   "gegevens",
-   "netwerk",
-   "uitvinding",
-   "opleiding",
-   "contract",
-   "schuld",
-   "winst",
-   "belasting"
-  ]
- },
- {
-  "title": "A2 (ileri) – İsimler (5/25)",
-  "cefr": 5,
-  "words": [
-   "behandeling",
-   "operatie",
-   "indruk",
-   "gedrag",
-   "houding",
+   "hond",
+   "rekening",
+   "donker",
    "karakter",
-   "persoonlijkheid",
-   "continent",
-   "grens",
-   "landschap",
-   "positie",
-   "locatie",
-   "discussie",
-   "kritiek"
-  ]
- },
- {
-  "title": "A2 (ileri) – İsimler (6/25)",
-  "cefr": 5,
-  "words": [
-   "verklaring",
+   "methode",
+   "norm",
+   "bank__1",
+   "bank__2",
+   "bus",
    "rapport",
-   "editie",
-   "percentage",
-   "gemiddelde",
-   "statistiek",
-   "achtergrond",
-   "inhoud",
-   "symbool",
-   "Brazilië",
-   "Indonesië",
-   "Zweden",
-   "Polen",
-   "Syrië"
+   "reis",
+   "besluit",
+   "plant",
+   "serie"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (7/25)",
-  "cefr": 5,
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (3/20)",
+  "cefr": 3,
   "words": [
-   "categorie",
-   "combinatie",
-   "selectie",
+   "spanning",
+   "stijl",
+   "stilte",
+   "studie",
+   "tegenstander",
+   "telkens",
+   "tentoonstelling",
+   "toon",
+   "trein",
+   "uitdrukking",
+   "vent",
    "verzoek",
-   "debat",
-   "district",
-   "status",
-   "stof",
-   "verslag",
-   "aanleiding",
-   "eenheid",
-   "kader",
-   "pers",
-   "generatie"
+   "voorstelling",
+   "wagen"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (8/25)",
-  "cefr": 5,
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (4/20)",
+  "cefr": 3,
   "words": [
-   "sfeer",
+   "wegens",
+   "wens",
+   "wind",
+   "zomer",
+   "argument",
+   "avond",
+   "blank",
+   "boer",
+   "burger",
+   "gezelschap",
+   "huid",
+   "instantie",
+   "kerel",
+   "koningin"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (5/20)",
+  "cefr": 3,
+  "words": [
+   "kwaliteit",
+   "leer",
+   "minst",
+   "opmerking",
+   "regeling",
    "spoor",
-   "handel",
-   "middel",
+   "stemming",
+   "theorie",
+   "vandaar",
+   "verkeer",
+   "verkiezing",
+   "verlangen",
+   "verwachting__1",
+   "verwachting__2"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (6/20)",
+  "cefr": 3,
+  "words": [
+   "vliegtuig",
+   "voorkeur",
+   "waarheid",
+   "wil",
+   "winst",
+   "zaal",
+   "zolang",
+   "abortus",
+   "advertentie",
+   "afscheid",
+   "berg",
+   "bevrijding",
+   "bloot",
+   "bord"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (7/20)",
+  "cefr": 3,
+  "words": [
+   "feest",
+   "haast",
+   "klas",
+   "kwijt",
+   "landbouw",
+   "lip",
+   "maat",
+   "motor",
+   "ochtend",
+   "onderdeel",
+   "post",
+   "provincie",
+   "regen",
+   "rij"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (8/20)",
+  "cefr": 3,
+  "words": [
+   "sigaret",
+   "techniek",
+   "uitzondering",
+   "vanavond",
+   "vanzelf",
+   "vereniging",
+   "vijand",
+   "vlug",
+   "voorlichting",
+   "voorwaarde",
+   "wakker",
+   "zak",
+   "ziel",
+   "adres"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (9/20)",
+  "cefr": 3,
+  "words": [
+   "allebei",
+   "anderhalf",
+   "bakker",
+   "boerderij",
+   "bom",
+   "boot",
+   "boter",
+   "broek",
+   "brug",
+   "drug",
+   "eer",
+   "grap",
+   "heleboel",
+   "honger"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (10/20)",
+  "cefr": 3,
+  "words": [
+   "hout",
+   "jammer",
+   "klimaat",
+   "koe",
+   "kwart",
+   "maan",
+   "machine",
+   "meegaan",
+   "minderheid",
+   "natuur",
+   "ongeluk",
+   "ontslag",
+   "protest",
+   "rechter"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (11/20)",
+  "cefr": 3,
+  "words": [
+   "sport",
+   "straf",
+   "vakbond",
+   "verliefd",
+   "vloer",
+   "voetbal",
+   "vriendin",
+   "bel",
+   "heet",
+   "overkant",
+   "station",
+   "herfst",
+   "ontslaan",
+   "slager"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (12/20)",
+  "cefr": 3,
+  "words": [
+   "sneeuw",
+   "taxi",
+   "uitgang",
+   "winter",
+   "korting",
+   "lente",
+   "linksaf",
+   "opruiming",
+   "rechtsaf",
+   "uitverkoop",
+   "kassa",
+   "complex",
+   "halte",
+   "kat"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (13/20)",
+  "cefr": 3,
+  "words": [
+   "munt",
+   "nota",
+   "voorjaar",
+   "bekeuring",
+   "najaar",
+   "poes",
+   "discipline",
+   "euro",
+   "nooduitgang",
+   "wisselgeld",
+   "professor",
+   "route",
+   "service",
+   "Brazilië"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (14/20)",
+  "cefr": 3,
+  "words": [
+   "generatie",
+   "golf",
+   "Canada",
+   "groei",
+   "overeenkomst",
    "reeks",
+   "temperatuur",
+   "thema",
    "unie",
    "verantwoordelijkheid",
-   "voorstel",
-   "mate",
-   "concept",
-   "kwestie",
-   "oorzaak",
-   "termijn",
-   "terrein"
+   "lengte",
+   "opening",
+   "presentatie",
+   "stroom"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (9/25)",
-  "cefr": 5,
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (15/20)",
+  "cefr": 3,
   "words": [
-   "begrip",
-   "bijeenkomst",
-   "crisis",
-   "meerderheid",
+   "concept",
+   "Griekenland",
+   "hoeveelheid",
+   "platform",
+   "profiel",
+   "spullen",
+   "studio",
+   "tijdschrift",
+   "vertrek",
+   "prins",
+   "technologie",
+   "trainer",
+   "Engeland",
+   "feestje"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (16/20)",
+  "cefr": 3,
+  "words": [
+   "held",
+   "Indonesië",
    "sector",
+   "snelheid",
+   "afbeelding",
+   "uitdaging",
+   "uitslag",
+   "appartement",
+   "Zweden",
    "aanwezigheid",
+   "Polen",
+   "shirt",
    "aanbod",
-   "praktijk",
+   "agent"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (17/20)",
+  "cefr": 3,
+  "words": [
+   "carrière",
+   "gebruiker",
+   "kanaal",
    "cel",
    "forum",
    "ploeg",
    "aanpak",
+   "dans",
+   "landschap",
    "lot",
-   "melding"
-  ]
- },
- {
-  "title": "A2 (ileri) – İsimler (10/25)",
-  "cefr": 5,
-  "words": [
+   "melding",
    "schaal",
-   "beveiliging",
-   "blik",
-   "instituut",
-   "pensioen",
-   "privacy",
-   "commentaar",
-   "fase",
-   "virus",
-   "kanker",
-   "tentoonstelling",
-   "gevecht",
-   "literatuur",
-   "natie"
+   "Syrië",
+   "talent"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (11/25)",
-  "cefr": 5,
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (18/20)",
+  "cefr": 3,
   "words": [
-   "wezen",
+   "verrassing",
+   "beveiliging",
+   "humor",
+   "instituut",
+   "optie",
+   "podium",
+   "privacy",
+   "rand",
+   "theater",
+   "aanslag",
+   "commentaar",
+   "eigendom",
+   "fase",
+   "uitleg"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (19/20)",
+  "cefr": 3,
+  "words": [
+   "virus",
+   "gevecht",
+   "kunstenaar",
+   "literatuur",
+   "logo",
+   "monument",
+   "patiënt",
+   "toernooi",
+   "traditie",
    "analyse",
+   "assistent",
    "congres",
-   "ondernemer",
    "revolutie",
+   "smaak"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – İsimler (20/20)",
+  "cefr": 3,
+  "words": [
+   "update",
    "zicht",
-   "getuige",
-   "uiterlijk",
-   "voorkeur",
-   "bedrag",
-   "drugs",
-   "element",
+   "opstand",
+   "reclame",
+   "Suriname",
+   "tip",
+   "vermogen",
+   "competitie",
+   "drugs"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – Edatlar",
+  "cefr": 3,
+  "words": [
+   "tegen",
+   "boven",
+   "richting",
+   "ondanks",
+   "rondom"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – Fiiller (1/6)",
+  "cefr": 3,
+  "words": [
+   "schrijven",
+   "heen",
+   "rijden",
+   "beslissen",
+   "besluiten",
+   "betalen",
+   "bieden",
+   "kopen",
+   "kosten",
+   "organiseren",
+   "verdienen",
+   "rekenen",
+   "verkopen",
+   "besteden"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – Fiiller (2/6)",
+  "cefr": 3,
+  "words": [
+   "oplossen",
+   "schuiven",
+   "springen",
+   "tellen",
+   "voordoen",
+   "waarschuwen",
+   "beseffen",
+   "herinneren",
+   "herkennen",
+   "intussen",
+   "opkomen",
+   "oprichten",
+   "oproepen",
+   "stappen"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – Fiiller (3/6)",
+  "cefr": 3,
+  "words": [
+   "steen",
+   "stemmen",
+   "teleurstellen",
+   "uitgeven",
+   "vangen",
+   "vertrekken",
+   "vertrouwen",
+   "vervelen",
+   "verwachten",
+   "bestellen",
+   "branden",
+   "haven",
+   "meemaken",
+   "ophalen"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – Fiiller (4/6)",
+  "cefr": 3,
+  "words": [
+   "ophouden",
+   "scheiden",
+   "terugkeren",
+   "uitleggen",
+   "voorbereiden",
+   "begraven",
+   "duwen",
+   "meevallen",
+   "opzoeken",
+   "roken",
+   "snijden",
+   "verantwoorden",
+   "vergissen",
+   "vertalen"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – Fiiller (5/6)",
+  "cefr": 3,
+  "words": [
+   "verzamelen",
+   "vieren",
+   "wandelen",
+   "wennen",
+   "wisselen",
+   "opschrijven",
+   "regenen",
+   "typen",
+   "weggooien",
+   "uitpakken",
+   "verkouden",
+   "oversteken",
+   "richten",
+   "creëren"
+  ]
+ },
+ {
+  "title": "A2-başlangıç: Alışveriş, ulaşım & hava durumu – Fiiller (6/6)",
+  "cefr": 3,
+  "words": [
+   "aanvallen",
+   "regelen",
+   "omgaan",
+   "bijdragen",
+   "herstellen",
+   "samenwerken"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – Sıfatlar (1/5)",
+  "cefr": 4,
+  "words": [
+   "dik",
+   "bereikbaar",
+   "gelukkig",
+   "breed",
+   "verbaasd",
+   "verschrikkelijk",
+   "kwaad",
+   "handig",
+   "middelbaar",
+   "triest",
+   "besmettelijk",
+   "fascistisch",
+   "kapot",
+   "krom"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – Sıfatlar (2/5)",
+  "cefr": 4,
+  "words": [
+   "vies",
+   "werkloos",
+   "automatisch",
+   "dun",
+   "heerlijk",
+   "jarig",
+   "kalm",
+   "lullig",
+   "minimaal",
+   "particulier",
+   "wekelijks",
+   "afschuwelijk",
+   "apart",
+   "correct"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – Sıfatlar (3/5)",
+  "cefr": 4,
+  "words": [
+   "eenzaam",
+   "egoistisch",
+   "fantastisch",
+   "lastig",
+   "maximaal",
+   "zakelijk",
+   "duurzaam",
+   "historisch",
+   "knap",
+   "toegankelijk",
+   "werkzaam",
+   "definitief",
+   "extreem",
+   "chinees"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – Sıfatlar (4/5)",
+  "cefr": 4,
+  "words": [
+   "gescheiden",
+   "kleiner",
+   "vijfde",
+   "spannend",
+   "Russisch",
+   "rechtstreeks",
+   "Vlaams",
+   "verkrijgbaar",
+   "bewezen",
+   "professioneel",
+   "uniek",
+   "Amerikaans",
+   "Japans",
+   "landelijk"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – Sıfatlar (5/5)",
+  "cefr": 4,
+  "words": [
+   "lokaal"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – Zarflar",
+  "cefr": 4,
+  "words": [
+   "zelden",
+   "constant",
+   "elders"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – Ünlemler",
+  "cefr": 4,
+  "words": [
+   "hallo"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (1/22)",
+  "cefr": 4,
+  "words": [
+   "zo",
+   "werk",
+   "zaak__1",
+   "zaak__2",
+   "gedachte",
+   "contact",
+   "idee",
+   "ruim",
+   "leerling",
+   "persoon",
+   "angst",
+   "liefde",
+   "scholier",
+   "universiteit"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (2/22)",
+  "cefr": 4,
+  "words": [
+   "verandering",
+   "arbeider",
+   "inzicht",
+   "opvatting",
+   "poging",
+   "relatie",
+   "slot",
+   "student",
+   "verhouding",
+   "betrekking",
+   "proces",
+   "samenwerking",
+   "verleden",
+   "baan"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (3/22)",
+  "cefr": 4,
+  "words": [
+   "collega",
+   "standpunt",
+   "vergadering",
+   "bespreking",
+   "geloof",
+   "werknemer",
+   "beroep",
+   "fabriek",
+   "vak__1",
+   "vak__2",
+   "baas",
+   "geluk",
+   "vakantie",
+   "verzet"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (4/22)",
+  "cefr": 4,
+  "words": [
+   "fles",
+   "ingang",
+   "les",
+   "werkgever",
+   "administratie",
+   "bibliotheek",
+   "bijstand",
+   "bioscoop",
+   "bladzijde",
+   "buurman",
+   "crisis",
+   "cursus",
+   "datum",
+   "dichtbij"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (5/22)",
+  "cefr": 4,
+  "words": [
+   "diploma",
+   "doek",
+   "dubbel",
+   "examen",
+   "gas",
+   "gedeelte",
+   "gevangenis",
+   "giro",
+   "glad",
+   "ijzer",
+   "inlichting",
+   "kachel",
+   "mist",
+   "oefening"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (6/22)",
+  "cefr": 4,
+  "words": [
+   "pan",
+   "pauze",
+   "project",
+   "ruzie",
+   "schrift",
+   "ster",
+   "tas",
+   "tram",
+   "vluchteling",
+   "vrijwilliger",
+   "weekend",
+   "werkgelegenheid",
+   "wijk",
+   "afwas"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (7/22)",
+  "cefr": 4,
+  "words": [
+   "arbeidsbureau",
+   "beslist",
+   "bezuiniging",
+   "boterham",
+   "brugklas",
+   "bruto",
+   "douane",
+   "heimwee",
+   "kelder",
+   "koekje",
+   "kussen__noun",
+   "landgenoot",
+   "lepel",
+   "mes"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (8/22)",
+  "cefr": 4,
+  "words": [
+   "netjes",
+   "pen",
+   "pensioen",
+   "plein",
+   "pond__1",
+   "pond__2",
+   "prima",
+   "rot",
+   "specialist",
+   "spreekuur",
+   "uitkering",
+   "verblijfsvergunning",
+   "verdieping",
+   "verslaafd"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (9/22)",
+  "cefr": 4,
+  "words": [
+   "vork",
+   "vreemdeling",
+   "werkloosheid",
+   "wonder",
+   "zakdoek",
+   "zeep",
+   "zwanger",
+   "achternaam",
+   "benzine",
+   "cadeau",
+   "circa",
+   "emotie",
+   "etcetera",
+   "garantie"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (10/22)",
+  "cefr": 4,
+  "words": [
+   "geachte",
+   "jaar",
+   "kilo",
+   "kust",
+   "lift",
+   "liter",
+   "merk",
+   "onweer",
+   "part-time",
+   "peper",
+   "perron",
+   "poep",
+   "postzegel",
+   "risico"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (11/22)",
+  "cefr": 4,
+  "words": [
+   "samenleving",
+   "sleutel",
+   "stadion",
+   "toets",
+   "verwarming",
+   "wasmachine",
+   "wond",
+   "woordenboek",
+   "aanbieding",
+   "agenda",
+   "banaan",
+   "batterij",
+   "bejaarde",
+   "brutaal"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (12/22)",
+  "cefr": 4,
+  "words": [
+   "celcius",
+   "cheque",
+   "combinatie",
+   "doos",
+   "droom",
+   "flauwekul",
+   "gewicht",
+   "hoezo",
+   "hoogachtend",
+   "irritant",
+   "kalender",
+   "klant",
+   "luxe",
+   "mager"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (13/22)",
+  "cefr": 4,
+  "words": [
+   "meervoud",
+   "toegang",
+   "begane",
+   "fooi",
+   "loket",
+   "aangiftebiljet",
+   "basisschool",
+   "beroepsonderwijs",
+   "bijeenkomst",
+   "kruispunt",
+   "mobiel",
    "ondersteuning",
+   "rook",
    "samenvatting"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (12/25)",
-  "cefr": 5,
+  "title": "A2-orta: İş, okul & duygular – İsimler (14/22)",
+  "cefr": 4,
   "words": [
+   "software",
+   "toezicht",
+   "uitvoering",
+   "villa",
+   "vliegveld",
    "werkzaamheden",
-   "ziel",
+   "bevel",
+   "getuige",
    "hongarije",
-   "wereldoorlog",
-   "bestuurder",
-   "conflict",
-   "inkomen",
-   "landbouw",
-   "paniek",
-   "beschrijving",
-   "goederen",
-   "identiteit",
-   "passie",
-   "religie"
+   "marine",
+   "ondernemer",
+   "paleis",
+   "prinses",
+   "toepassing"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (13/25)",
-  "cefr": 5,
+  "title": "A2-orta: İş, okul & duygular – İsimler (15/22)",
+  "cefr": 4,
   "words": [
+   "wereldoorlog",
+   "bestuurder",
+   "erfgoed",
+   "kasteel",
+   "laptop",
+   "ontmoeting",
+   "paniek",
+   "poort",
+   "stress",
+   "beschrijving",
+   "domein",
+   "geboorte",
+   "goederen",
+   "identiteit"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (16/22)",
+  "cefr": 4,
+  "words": [
+   "kapitein",
+   "koers",
+   "mode",
+   "moed",
+   "nek",
+   "ouderen",
+   "passie",
+   "symbool",
    "tekort",
+   "verdrag",
+   "web",
    "zone",
-   "bodem",
-   "conclusie",
-   "kenmerk",
+   "defensie",
+   "kerst"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (17/22)",
+  "cefr": 4,
+  "words": [
    "pand",
+   "plaat",
+   "werking",
    "zijde",
-   "belang",
+   "alcohol",
+   "beheer",
+   "docent",
+   "misdaad",
    "terugkeer",
-   "toestand",
    "verstand",
    "verzameling",
-   "voorstelling",
+   "deal",
+   "ellende",
    "impact"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (14/25)",
-  "cefr": 5,
+  "title": "A2-orta: İş, okul & duygular – İsimler (18/22)",
+  "cefr": 4,
   "words": [
-   "tegenstander",
-   "alternatief",
+   "metro",
+   "roman",
+   "uitbreiding",
+   "drama",
    "misbruik",
+   "neef",
    "opname",
    "politicus",
-   "prestatie",
+   "publicatie",
    "variant",
-   "vijand",
+   "verdediging",
+   "verdriet",
    "zelfmoord",
-   "figuur",
-   "herstel",
-   "promotie",
-   "ramp",
-   "transport"
+   "blok"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (15/25)",
-  "cefr": 5,
+  "title": "A2-orta: İş, okul & duygular – İsimler (19/22)",
+  "cefr": 4,
   "words": [
+   "herstel",
+   "overleg",
+   "promotie",
+   "scherm",
+   "zanger",
    "zekerheid",
+   "aard",
    "armoede",
    "bijbel",
-   "opmerking",
-   "verwachting",
+   "documentaire",
+   "fotograaf",
+   "kern",
+   "kruis",
+   "opkomst"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (20/22)",
+  "cefr": 4,
+  "words": [
+   "toestel",
+   "wetgeving",
+   "beurs",
+   "jury",
+   "medaille",
    "onderhoud",
    "oordeel",
+   "pot",
    "realiteit",
+   "trend",
    "verbetering",
    "vervolg",
    "voorbereiding",
+   "waarschuwing"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – İsimler (21/22)",
+  "cefr": 4,
+  "words": [
+   "wiskunde",
    "zender",
    "zonde",
-   "inkomsten"
+   "beker",
+   "bereik",
+   "elite",
+   "inkomsten",
+   "kijkje",
+   "lijf",
+   "officier",
+   "omvang",
+   "uitzicht",
+   "afkomst",
+   "bedreiging"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (16/25)",
-  "cefr": 5,
+  "title": "A2-orta: İş, okul & duygular – İsimler (22/22)",
+  "cefr": 4,
   "words": [
-   "officier",
-   "afkomst",
-   "bedreiging",
+   "front",
    "geheugen",
    "grootte",
-   "scheiding",
-   "verblijf",
-   "voorziening",
-   "aanvraag",
-   "archief",
-   "formule",
-   "dader",
-   "gezondheidszorg",
-   "jacht"
+   "infrastructuur"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (17/25)",
+  "title": "A2-orta: İş, okul & duygular – Edatlar",
+  "cefr": 4,
+  "words": [
+   "exclusief",
+   "inclusief"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – Fiiller (1/5)",
+  "cefr": 4,
+  "words": [
+   "werken",
+   "geloven",
+   "veranderen",
+   "wensen",
+   "schrikken",
+   "bespreken",
+   "vervangen",
+   "bakken",
+   "koken",
+   "discrimineren",
+   "lenen",
+   "stelen",
+   "uithalen",
+   "uitstappen"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – Fiiller (2/5)",
+  "cefr": 4,
+  "words": [
+   "uitzoeken",
+   "versieren",
+   "vluchten",
+   "zwemmen",
+   "feliciteren",
+   "inenten",
+   "inschrijven",
+   "instappen",
+   "invullen",
+   "kussen__verb",
+   "liegen",
+   "neerzetten",
+   "opruimen",
+   "snappen"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – Fiiller (3/5)",
+  "cefr": 4,
+  "words": [
+   "verhuizen",
+   "verven",
+   "weggaan",
+   "abonneren",
+   "afwezig",
+   "fluisteren",
+   "gesloten",
+   "naaien",
+   "oefenen",
+   "overmorgen",
+   "overwerken",
+   "samenwonen",
+   "uitdoen",
+   "voorlezen"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – Fiiller (4/5)",
+  "cefr": 4,
+  "words": [
+   "vriezen",
+   "welterusten",
+   "beschadigen",
+   "bijten",
+   "dalen",
+   "fluiten",
+   "landen",
+   "wijzigen",
+   "inzetten",
+   "ondernemen",
+   "verdedigen",
+   "ontsnappen",
+   "investeren",
+   "verschijnen"
+  ]
+ },
+ {
+  "title": "A2-orta: İş, okul & duygular – Fiiller (5/5)",
+  "cefr": 4,
+  "words": [
+   "negeren",
+   "plaatsvinden",
+   "blijken",
+   "trainen",
+   "verbergen",
+   "bezorgen",
+   "rennen"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – Sıfatlar (1/4)",
   "cefr": 5,
   "words": [
+   "illegaal",
+   "verboden",
+   "raar",
+   "smerig",
+   "vers",
+   "zenuwachtig",
+   "belachelijk",
+   "blind",
+   "creatief",
+   "exact",
+   "fris",
+   "giftig",
+   "naakt",
+   "nerveus"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – Sıfatlar (2/4)",
+  "cefr": 5,
+  "words": [
+   "smal",
+   "stevig",
+   "waardeloos",
+   "zeldzaam",
+   "beleefd",
+   "klassiek",
+   "komisch",
+   "schitterend",
+   "verlegen",
+   "aansprakelijk",
+   "romantisch",
+   "onvoldoende",
+   "saai",
+   "onzeker"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – Sıfatlar (3/4)",
+  "cefr": 5,
+  "words": [
+   "daadwerkelijk",
+   "gezamenlijk",
+   "levend",
+   "anoniem",
+   "koninklijk",
+   "beschadigd",
+   "gecontroleerd",
+   "gespecialiseerd",
+   "recent",
+   "stom",
+   "aanzienlijk",
+   "digitaal",
+   "effectief",
+   "pijnlijk"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – Sıfatlar (4/4)",
+  "cefr": 5,
+  "words": [
+   "teleurgesteld",
+   "gedeeltelijk",
+   "massaal",
+   "nuttig",
+   "aantrekkelijk",
+   "aanvankelijk",
+   "indrukwekkend",
+   "commercieel",
+   "nieuwsgierig",
+   "vergelijkbaar"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – Zarflar",
+  "cefr": 5,
+  "words": [
+   "vandaag",
+   "echter",
+   "uiterlijk__adv",
+   "veelal"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (1/21)",
+  "cefr": 5,
+  "words": [
+   "partij",
+   "politie",
+   "informatie",
+   "wet",
+   "radio",
+   "vergunning",
+   "belasting",
+   "toestemming",
+   "formulier",
+   "paspoort",
+   "verzekering",
+   "computer",
+   "legitimatie",
+   "min"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (2/21)",
+  "cefr": 5,
+  "words": [
+   "nederlands",
+   "park",
+   "pil",
+   "plastic",
+   "plus",
+   "potlood",
+   "spiegel",
+   "taart",
+   "top",
+   "urgent",
+   "verschillend",
+   "voornaam",
+   "woedend",
+   "zachtjes"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (3/21)",
+  "cefr": 5,
+  "words": [
+   "afval",
+   "andersom",
+   "binnenkort",
+   "chauffeur",
+   "chef",
+   "depressief",
+   "elleboog",
+   "enkelvoud",
+   "etage",
+   "folder",
+   "gordijn",
+   "goud",
+   "hobby",
+   "hollands"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (4/21)",
+  "cefr": 5,
+  "words": [
+   "inleiding",
+   "introductie",
+   "invalide",
+   "laatst",
+   "lawaai",
+   "lettergreep",
+   "mee",
+   "onzin",
+   "peer",
+   "rest",
+   "scheef",
+   "schilderij",
+   "schuin",
+   "slank"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (5/21)",
+  "cefr": 5,
+  "words": [
+   "streep",
+   "tempo",
+   "vanmiddag",
+   "vannacht",
+   "verf",
+   "vervelend",
+   "winnaar",
+   "zilver",
+   "accent",
+   "bacterie",
+   "bagage",
+   "beloning",
+   "bevalling",
+   "bodem"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (6/21)",
+  "cefr": 5,
+  "words": [
+   "citroen",
+   "definitie",
+   "dode",
+   "driehoek",
+   "dvd",
+   "eigenaar",
+   "garage",
+   "geduld",
+   "gehakt",
+   "geheim",
+   "graf",
+   "gras",
+   "inkomen",
+   "insect"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (7/21)",
+  "cefr": 5,
+  "words": [
+   "kaars",
+   "knoop",
+   "koffer",
+   "kraan",
+   "kus",
+   "lied",
+   "massa",
+   "mop",
+   "pech",
+   "plafond",
+   "prik",
+   "puur",
+   "reflex",
+   "rubber"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (8/21)",
+  "cefr": 5,
+  "words": [
+   "schade",
+   "slok",
+   "stok",
+   "tong",
+   "uiterlijk__noun",
+   "visum",
+   "vlek",
+   "voeding",
+   "wekker",
+   "wiel",
+   "wijzer",
+   "zalf",
+   "zand",
+   "zuiver"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (9/21)",
+  "cefr": 5,
+  "words": [
+   "aanbetaling",
+   "alternatief",
+   "autochtoon",
+   "bevestiging",
+   "bewaking",
+   "blessure",
+   "bliksem",
+   "cd",
+   "certificaat",
+   "concert",
+   "contactlens",
+   "duivel",
+   "e-mail",
+   "erfenis"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (10/21)",
+  "cefr": 5,
+  "words": [
+   "finale",
+   "fysiotherapie",
+   "gehandicapt",
+   "handdoek",
+   "hel",
+   "hoofdletter",
+   "hypotheek",
+   "infectie",
+   "kerkhof",
+   "klemtoon",
+   "kriebel",
+   "lucifer",
+   "medeklinker",
+   "museum"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (11/21)",
+  "cefr": 5,
+  "words": [
+   "oppervlakte",
+   "postkantoor",
+   "prestatie",
+   "religie",
+   "schaar",
+   "stopcontact",
+   "storing",
+   "subsidie",
+   "tapijt",
+   "tolk",
+   "transport",
+   "tube",
+   "uitvaart",
+   "vandalisme"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (12/21)",
+  "cefr": 5,
+  "words": [
+   "vet",
+   "video",
+   "vooroordeel",
+   "vuilniszak",
+   "wachtlijst",
+   "wachtwoord",
+   "website",
+   "wenkbrouw",
+   "werkwoord",
+   "yoghurt",
+   "zwembad",
+   "oorsprong",
+   "pakket",
+   "record"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (13/21)",
+  "cefr": 5,
+  "words": [
+   "scheiding",
+   "verblijf",
+   "wolf",
+   "aanvraag",
+   "archief",
+   "binnenstad",
+   "borst",
+   "formule",
+   "kaartje",
+   "planeet",
+   "vriendschap",
+   "boel",
+   "context",
+   "dader"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (14/21)",
+  "cefr": 5,
+  "words": [
+   "diner",
+   "gezondheidszorg",
+   "grondwet",
+   "jacht",
    "luitenant",
+   "omroep",
    "racisme",
-   "woonplaats",
+   "resolutie",
+   "tempel",
+   "tent",
+   "welzijn",
+   "coalitie",
+   "dossier",
+   "erkenning"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (15/21)",
+  "cefr": 5,
+  "words": [
+   "grondgebied",
    "hoogtepunt",
+   "instelling",
+   "opzet",
+   "stelling",
    "toeval",
+   "toren",
    "verbod",
+   "voertuig",
    "chaos",
    "duel",
    "focus",
-   "massa",
-   "reputatie",
-   "strategie",
-   "exemplaar",
-   "nood"
+   "glimlach",
+   "hersenen"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (18/25)",
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (16/21)",
   "cefr": 5,
   "words": [
+   "heuvel",
+   "integratie",
+   "knop",
+   "lach",
+   "mensheid",
+   "onderscheid",
+   "reputatie",
+   "sla",
+   "strategie",
+   "alarm",
+   "bestemming",
+   "bewustzijn",
+   "boete",
+   "elektriciteit"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (17/21)",
+  "cefr": 5,
+  "words": [
+   "exemplaar",
+   "fotografie",
+   "nood",
+   "perspectief",
+   "seconde",
+   "stijging",
+   "voorsprong",
    "woede",
-   "ambtenaar",
-   "crimineel",
+   "aanleg",
+   "apparaat",
+   "behoud",
+   "comité",
    "expert",
-   "explosie",
+   "explosie"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (18/21)",
+  "cefr": 5,
+  "words": [
+   "hal",
    "incident",
+   "innovatie",
+   "kok",
    "management",
    "ontvangst",
    "signaal",
-   "specialist",
    "vermoeden",
+   "wethouder",
+   "badkamer",
    "commandant",
    "geliefde",
-   "oppervlakte"
+   "geur",
+   "nederlaag"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (19/25)",
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (19/21)",
   "cefr": 5,
   "words": [
+   "onafhankelijkheid",
+   "oprichter",
+   "opvolger",
    "proef",
+   "snelweg",
+   "bruiloft",
    "budget",
+   "burgeroorlog",
    "deelnemer",
    "diefstal",
+   "excuus",
+   "hoogleraar",
+   "klap",
+   "leeuw"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (20/21)",
+  "cefr": 5,
+  "words": [
+   "marathon",
    "marketing",
    "nieuwsbrief",
    "senator",
    "vaart",
    "verlichting",
    "voorraad",
+   "acteur",
    "arbeid",
    "architectuur",
+   "besef",
    "debuut",
-   "draai"
+   "draai",
+   "drukte"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (20/25)",
+  "title": "A2-ileri: Resmi işler & teknoloji – İsimler (21/21)",
   "cefr": 5,
   "words": [
-   "drukte",
-   "kiezer",
+   "fort",
+   "fractie",
+   "massage",
    "patroon",
+   "planning",
+   "procedure",
+   "score",
    "secretaris",
-   "stemming",
+   "stage",
    "uitgave",
-   "waardering",
-   "brandstof",
-   "cliënt",
-   "roep",
-   "schatting",
-   "autoriteit",
-   "dagblad",
-   "Denemarken"
+   "vallei",
+   "waardering"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (21/25)",
+  "title": "A2-ileri: Resmi işler & teknoloji – Sayılar",
   "cefr": 5,
   "words": [
-   "keizer",
-   "kogel",
-   "lijk",
-   "tijdstip",
-   "vaardigheid",
-   "aanslag",
-   "interieur",
-   "nadruk",
-   "ongeval",
-   "toerisme",
-   "apparatuur",
-   "protest",
-   "registratie",
-   "schema"
+   "vijftien",
+   "veertig",
+   "nul"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (22/25)",
+  "title": "A2-ileri: Resmi işler & teknoloji – Edatlar",
   "cefr": 5,
   "words": [
-   "senior",
-   "terrorist",
-   "tocht",
-   "bod",
-   "brein",
-   "experiment",
-   "factor",
-   "gemak",
-   "lading",
-   "neerslag",
-   "overval",
-   "rechtszaak",
-   "ruil",
-   "sessie"
+   "betreffende"
   ]
  },
  {
-  "title": "A2 (ileri) – İsimler (23/25)",
+  "title": "A2-ileri: Resmi işler & teknoloji – Fiiller (1/4)",
   "cefr": 5,
   "words": [
-   "Zwitserland",
-   "nut",
-   "populariteit",
-   "amateur",
-   "balans",
-   "delta",
-   "gave",
-   "instructie",
-   "object",
-   "bende",
-   "bevestiging",
-   "daad",
-   "gerucht",
-   "lening"
-  ]
- },
- {
-  "title": "A2 (ileri) – İsimler (24/25)",
-  "cefr": 5,
-  "words": [
-   "lezing",
-   "wraak",
-   "conferentie",
-   "consument",
-   "enthousiasme",
-   "leed",
-   "mishandeling",
-   "bemanning",
-   "bevrijding",
-   "filosofie",
-   "hectare",
-   "poëzie",
-   "straling",
-   "verwarring"
-  ]
- },
- {
-  "title": "A2 (ileri) – İsimler (25/25)",
-  "cefr": 5,
-  "words": [
-   "academie",
-   "argument",
-   "beoordeling",
-   "divisie",
-   "echtgenote",
-   "herhaling",
-   "hoofdkantoor",
-   "journalistiek",
-   "uitgeverij",
-   "werkloosheid",
-   "zelfvertrouwen",
-   "aankoop",
-   "administratie"
-  ]
- },
- {
-  "title": "A2 (ileri) – Fiiller (1/10)",
-  "cefr": 5,
-  "words": [
-   "blijken",
-   "leiden",
-   "publiceren",
-   "richten",
-   "verwijzen",
-   "vermelden",
-   "aangeven",
-   "aantonen",
-   "bevestigen",
-   "ontkennen",
-   "weigeren",
-   "toestaan",
    "verbieden",
-   "beperken"
+   "overlijden",
+   "proeven",
+   "ruiken",
+   "selecteren",
+   "stinken",
+   "arresteren",
+   "loslaten",
+   "mislukken",
+   "onthouden",
+   "poetsen",
+   "vanmorgen",
+   "vullen",
+   "beoordelen"
   ]
  },
  {
-  "title": "A2 (ileri) – Fiiller (2/10)",
+  "title": "A2-ileri: Resmi işler & teknoloji – Fiiller (2/4)",
+  "cefr": 5,
+  "words": [
+   "blussen",
+   "graven",
+   "inhalen",
+   "meten",
+   "overgeven",
+   "schoonmaken",
+   "uitdelen",
+   "waaien",
+   "zuigen",
+   "zwaaien",
+   "aanraken",
+   "kenteken",
+   "onderhouden",
+   "overstappen"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – Fiiller (3/4)",
+  "cefr": 5,
+  "words": [
+   "scheuren",
+   "vermenigvuldigen",
+   "volhouden",
+   "zweten",
+   "verwijzen",
+   "beantwoorden",
+   "downloaden",
+   "ontwerpen",
+   "verlopen",
+   "vermoorden",
+   "versterken",
+   "aanpakken",
+   "handelen",
+   "stimuleren"
+  ]
+ },
+ {
+  "title": "A2-ileri: Resmi işler & teknoloji – Fiiller (4/4)",
   "cefr": 5,
   "words": [
    "vergroten",
-   "verkleinen",
-   "verhogen",
-   "verlagen",
-   "verslechteren",
-   "bevorderen",
-   "voorkomen",
-   "veroorzaken",
-   "beïnvloeden",
-   "overwegen",
-   "bewijzen",
-   "garanderen",
-   "teleurstellen",
-   "overtuigen"
-  ]
- },
- {
-  "title": "A2 (ileri) – Fiiller (3/10)",
-  "cefr": 5,
-  "words": [
-   "bieden",
-   "beschermen",
-   "verdedigen",
-   "aanvallen",
-   "bereiken",
-   "ontwikkelen",
-   "produceren",
-   "leveren",
-   "besturen",
-   "regeren",
-   "stemmen",
-   "samenwerken",
-   "communiceren",
-   "informeren"
-  ]
- },
- {
-  "title": "A2 (ileri) – Fiiller (4/10)",
-  "cefr": 5,
-  "words": [
-   "registreren",
-   "beheren",
-   "uitvoeren",
-   "realiseren",
-   "herstellen",
-   "genezen",
-   "overlijden",
-   "ontsnappen",
-   "vluchten",
-   "dalen",
-   "stijgen",
-   "bereiden",
-   "omgaan",
-   "dienen"
-  ]
- },
- {
-  "title": "A2 (ileri) – Fiiller (5/10)",
-  "cefr": 5,
-  "words": [
-   "bepalen",
-   "bespreken",
-   "creëren",
-   "ontwerpen",
-   "presenteren",
-   "behandelen",
-   "bevatten",
-   "bijdragen",
-   "dateren",
-   "uitzenden",
-   "ontstaan",
-   "aanpassen",
-   "verschijnen",
-   "verzorgen"
-  ]
- },
- {
-  "title": "A2 (ileri) – Fiiller (6/10)",
-  "cefr": 5,
-  "words": [
-   "verplaatsen",
-   "verwerken",
-   "verzenden",
-   "aanmaken",
-   "verzekeren",
-   "lijden",
-   "inzetten",
-   "veroordelen",
-   "ondernemen",
    "vernietigen",
-   "aanbieden",
-   "plaatsvinden",
-   "drukken",
-   "onderhouden"
-  ]
- },
- {
-  "title": "A2 (ileri) – Fiiller (7/10)",
-  "cefr": 5,
-  "words": [
-   "verbergen",
-   "verklaren",
-   "beantwoorden",
-   "verlopen",
-   "versterken",
-   "aanpakken",
-   "besteden",
-   "handelen",
-   "stimuleren",
    "afsluiten",
+   "informeren",
+   "bevestigen",
+   "produceren",
+   "laden",
    "vermijden",
    "verspreiden",
-   "aannemen",
-   "dreigen"
+   "aanpassen",
+   "onderscheiden",
+   "besparen",
+   "communiceren",
+   "verplaatsen"
   ]
  },
  {
-  "title": "A2 (ileri) – Fiiller (8/10)",
-  "cefr": 5,
-  "words": [
-   "ontvoeren",
-   "plegen",
-   "uitmaken",
-   "ophouden",
-   "toegeven",
-   "verminderen",
-   "opzetten",
-   "terugkeren",
-   "uitkomen",
-   "verblijven",
-   "eisen",
-   "verbinden",
-   "arresteren",
-   "verzinnen"
-  ]
- },
- {
-  "title": "A2 (ileri) – Fiiller (9/10)",
-  "cefr": 5,
-  "words": [
-   "voldoen",
-   "overkomen",
-   "overnemen",
-   "behalen",
-   "beleven",
-   "beseffen",
-   "dwingen",
-   "profiteren",
-   "promoten",
-   "scheiden",
-   "verlengen",
-   "beëindigen",
-   "functioneren",
-   "opleveren"
-  ]
- },
- {
-  "title": "A2 (ileri) – Fiiller (10/10)",
-  "cefr": 5,
-  "words": [
-   "beschuldigen"
-  ]
- },
- {
-  "title": "B1 (başlangıç) – Sıfatlar (1/3)",
+  "title": "B1-başlangıç – Sıfatlar (1/3)",
   "cefr": 6,
   "words": [
-   "burgerlijk",
-   "commercieel",
-   "toegankelijk",
-   "werkzaam",
-   "intern",
-   "voortdurend",
-   "federaal",
-   "daadwerkelijk",
-   "wettelijk",
-   "noodzakelijk",
-   "gespecialiseerd",
-   "aanzienlijk",
-   "massaal",
-   "aanvankelijk"
-  ]
- },
- {
-  "title": "B1 (başlangıç) – Sıfatlar (2/3)",
-  "cefr": 6,
-  "words": [
-   "vergelijkbaar",
    "ingediend",
-   "talloos",
+   "origineel",
+   "stabiel",
+   "verrassend",
+   "verstandig",
    "voorafgaand",
-   "hedendaags",
+   "favoriet",
+   "fysiek",
+   "goedgekeurd",
+   "schattig",
    "samengesteld",
-   "toenemend",
    "voortgezet",
-   "kwetsbaar",
-   "maatschappelijk",
+   "krachtig",
+   "kwetsbaar"
+  ]
+ },
+ {
+  "title": "B1-başlangıç – Sıfatlar (2/3)",
+  "cefr": 6,
+  "words": [
+   "onschuldig",
+   "specifiek",
+   "wettelijk",
+   "zesde",
+   "emotioneel",
+   "gewenst",
+   "gewijzigd",
+   "juridisch",
    "verleend",
-   "administratief",
-   "gebruikelijk",
-   "gemeentelijk"
+   "afgerond",
+   "gemeen",
+   "bot__adj",
+   "dodelijk",
+   "Italiaans"
   ]
  },
  {
-  "title": "B1 (başlangıç) – Sıfatlar (3/3)",
+  "title": "B1-başlangıç – Sıfatlar (3/3)",
   "cefr": 6,
   "words": [
-   "groeiend",
-   "industrieel",
-   "volkomen",
-   "langdurig",
-   "provinciaal",
-   "voornaamste",
-   "degelijk",
-   "toegekend",
-   "eventueel",
-   "onderling",
-   "buitengewoon"
+   "overdreven",
+   "dwars",
+   "gevuld",
+   "voornaamste"
   ]
  },
  {
-  "title": "B1 (başlangıç) – Zarflar",
+  "title": "B1-başlangıç – Zarflar",
   "cefr": 6,
   "words": [
-   "veelal",
-   "uiterst",
    "tegemoet",
+   "achteraf",
    "desondanks",
    "doorgaans",
+   "achteruit",
    "respectievelijk",
-   "enigszins"
+   "enigszins",
+   "halverwege"
   ]
  },
  {
-  "title": "B1 (başlangıç) – Bağlaçlar",
+  "title": "B1-başlangıç – İsimler (1/11)",
   "cefr": 6,
   "words": [
-   "alsmede"
-  ]
- },
- {
-  "title": "B1 (başlangıç) – İsimler (1/11)",
-  "cefr": 6,
-  "words": [
-   "samenleving",
-   "maatschappij",
-   "gelijkheid",
-   "moed",
-   "verdediging",
-   "nederlaag",
-   "republiek",
-   "parlement",
-   "beleid",
-   "commissie",
-   "bestuur",
-   "aandeel",
-   "investering",
-   "instantie"
-  ]
- },
- {
-  "title": "B1 (başlangıç) – İsimler (2/11)",
-  "cefr": 6,
-  "words": [
-   "eigendom",
-   "opstand",
-   "tegenstelling",
-   "vermogen",
-   "toezicht",
-   "uitvoering",
-   "bevel",
-   "marine",
-   "toepassing",
-   "erfgoed",
-   "principe",
-   "domein",
-   "koers",
-   "verdrag"
-  ]
- },
- {
-  "title": "B1 (başlangıç) – İsimler (3/11)",
-  "cefr": 6,
-  "words": [
-   "defensie",
-   "werking",
-   "beheer",
-   "ellende",
-   "structuur",
-   "uitbreiding",
-   "belangstelling",
-   "publicatie",
-   "overleg",
-   "aard",
-   "kern",
-   "opkomst",
-   "wetgeving",
-   "beurs"
-  ]
- },
- {
-  "title": "B1 (başlangıç) – İsimler (4/11)",
-  "cefr": 6,
-  "words": [
-   "complex",
-   "bereik",
-   "elite",
-   "omvang",
-   "front",
-   "gezelschap",
-   "infrastructuur",
-   "inzicht",
-   "oorsprong",
-   "context",
-   "grondwet",
-   "omroep",
-   "resolutie",
-   "welzijn"
-  ]
- },
- {
-  "title": "B1 (başlangıç) – İsimler (5/11)",
-  "cefr": 6,
-  "words": [
-   "coalitie",
-   "dossier",
-   "erkenning",
-   "gezag",
-   "grondgebied",
-   "instelling",
-   "opzet",
-   "stelling",
-   "integratie",
-   "mensheid",
-   "onderscheid",
-   "perspectief",
-   "bewustzijn",
-   "bezwaar"
-  ]
- },
- {
-  "title": "B1 (başlangıç) – İsimler (6/11)",
-  "cefr": 6,
-  "words": [
-   "stijging",
-   "voorsprong",
-   "aanleg",
-   "behoud",
-   "comité",
-   "innovatie",
-   "wethouder",
-   "onafhankelijkheid",
-   "oprichter",
-   "opvolger",
-   "verhouding",
-   "burgeroorlog",
-   "hoogleraar",
-   "norm"
-  ]
- },
- {
-  "title": "B1 (başlangıç) – İsimler (7/11)",
-  "cefr": 6,
-  "words": [
-   "onderneming",
-   "besef",
-   "fractie",
-   "procedure",
-   "standpunt",
    "begeleiding",
    "betrokkenheid",
+   "brandstof",
+   "cliënt",
    "concurrentie",
    "discriminatie",
+   "doelpunt",
+   "gedicht",
+   "kampioenschap",
    "maagd",
+   "mix",
    "overgang",
-   "traject",
-   "bezetting",
-   "decennium"
+   "roep",
+   "schatting"
   ]
  },
  {
-  "title": "B1 (başlangıç) – İsimler (8/11)",
+  "title": "B1-başlangıç – İsimler (2/11)",
   "cefr": 6,
   "words": [
-   "subsidie",
-   "tijdperk",
+   "traject",
+   "uitnodiging",
+   "wandeling",
+   "abonnement",
+   "ambulance",
+   "bezetting",
+   "chocolade",
+   "dagblad",
+   "Denemarken",
+   "document",
+   "idioot",
+   "keizer",
+   "lijk",
+   "tijdperk"
+  ]
+ },
+ {
+  "title": "B1-başlangıç – İsimler (3/11)",
+  "cefr": 6,
+  "words": [
+   "tijdstip",
    "vooruitgang",
    "aansluiting",
+   "adem",
+   "ambtenaar",
    "arbeidsmarkt",
+   "avontuur",
    "bekendheid",
    "beperking",
    "capaciteit",
    "diversiteit",
    "financiën",
-   "staatssecretaris",
-   "verloop",
-   "aanzien",
-   "oprichting"
+   "interieur",
+   "koppel"
   ]
  },
  {
-  "title": "B1 (başlangıç) – İsimler (9/11)",
+  "title": "B1-başlangıç – İsimler (4/11)",
+  "cefr": 6,
+  "words": [
+   "maaltijd",
+   "nadruk",
+   "ongeval",
+   "pizza",
+   "priester",
+   "schrijfster",
+   "smartphone",
+   "toerisme",
+   "tunnel",
+   "apparatuur",
+   "architect",
+   "gitaar",
+   "hekel",
+   "label"
+  ]
+ },
+ {
+  "title": "B1-başlangıç – İsimler (5/11)",
+  "cefr": 6,
+  "words": [
+   "leugen",
+   "monster",
+   "percentage",
+   "plicht",
+   "regisseur",
+   "registratie",
+   "schema",
+   "schot",
+   "senior",
+   "staatssecretaris",
+   "tocht",
+   "verloop",
+   "zuidoost",
+   "aanzien"
+  ]
+ },
+ {
+  "title": "B1-başlangıç – İsimler (6/11)",
+  "cefr": 6,
+  "words": [
+   "bestelling",
+   "bod",
+   "brein",
+   "crimineel",
+   "experiment",
+   "gemak",
+   "instrument",
+   "klus",
+   "lading",
+   "moskee",
+   "neerslag",
+   "oprichting",
+   "overval",
+   "rechtszaak"
+  ]
+ },
+ {
+  "title": "B1-başlangıç – İsimler (7/11)",
   "cefr": 6,
   "words": [
    "referendum",
+   "ruil",
    "sectie",
-   "verlangen",
+   "sessie",
    "verspreiding",
+   "woestijn",
+   "Zwitserland",
+   "begrafenis",
    "fraude",
+   "gerecht",
+   "gevangene",
    "invoering",
+   "ketting",
+   "kopie"
+  ]
+ },
+ {
+  "title": "B1-başlangıç – İsimler (8/11)",
+  "cefr": 6,
+  "words": [
+   "nut",
    "overeenstemming",
+   "populariteit",
    "uiterste",
    "verwijzing",
+   "vrachtwagen",
+   "wang",
+   "warmte",
+   "winkelcentrum",
+   "zuster",
+   "aankomst",
    "aanvang",
-   "benadering",
-   "creativiteit",
-   "fonds",
-   "onderhandeling"
+   "achterkant",
+   "amateur"
   ]
  },
  {
-  "title": "B1 (başlangıç) – İsimler (10/11)",
+  "title": "B1-başlangıç – İsimler (9/11)",
   "cefr": 6,
   "words": [
-   "verdeling",
+   "balans",
+   "benadering",
+   "bot__noun",
+   "creativiteit",
+   "delta",
+   "draak",
+   "fonds",
+   "gave",
+   "kroon",
+   "object",
+   "piano",
+   "portret",
+   "tekening",
+   "verdeling"
+  ]
+ },
+ {
+  "title": "B1-başlangıç – İsimler (10/11)",
+  "cefr": 6,
+  "words": [
+   "arena",
+   "bende",
+   "daad",
    "goedkeuring",
+   "lef",
+   "lening",
+   "lezing",
    "noodzaak",
    "toename",
+   "vos",
    "weerstand",
-   "indeling",
-   "omzet",
-   "opdrachtgever",
-   "vergunning",
-   "vervanging",
-   "dekking",
-   "duurzaamheid",
-   "overname",
-   "senaat"
+   "wraak",
+   "aanrader",
+   "artiest"
   ]
  },
  {
-  "title": "B1 (başlangıç) – İsimler (11/11)",
+  "title": "B1-başlangıç – İsimler (11/11)",
   "cefr": 6,
   "words": [
-   "wijziging",
-   "aanklacht",
-   "daling",
-   "departement",
-   "ligging",
-   "onrust",
-   "constructie",
-   "herkomst"
+   "autoriteit"
   ]
  },
  {
-  "title": "B1 (başlangıç) – Edatlar",
+  "title": "B1-başlangıç – Sayılar",
+  "cefr": 6,
+  "words": [
+   "zestig"
+  ]
+ },
+ {
+  "title": "B1-başlangıç – Edatlar",
   "cefr": 6,
   "words": [
    "ongeacht"
   ]
  },
  {
-  "title": "B1 (başlangıç) – Fiiller (1/2)",
+  "title": "B1-başlangıç – Fiiller (1/2)",
   "cefr": 6,
   "words": [
-   "investeren",
-   "verkiezen",
-   "vertegenwoordigen",
-   "onderhandelen",
-   "emigreren",
-   "immigreren",
-   "vestigen",
-   "krimpen",
-   "onderscheiden",
-   "opheffen",
-   "verkrijgen",
+   "rusten",
    "streven",
+   "verminderen",
+   "duiken",
+   "ontspannen",
+   "opzetten",
+   "scoren",
+   "verblijven",
    "bestrijden",
-   "opstellen"
+   "bevorderen",
+   "filmen",
+   "opstellen",
+   "verkrijgen",
+   "haten"
   ]
  },
  {
-  "title": "B1 (başlangıç) – Fiiller (2/2)",
+  "title": "B1-başlangıç – Fiiller (2/2)",
   "cefr": 6,
   "words": [
-   "omvatten"
+   "schelen",
+   "waarderen",
+   "verzinnen",
+   "voldoen",
+   "eindigen",
+   "overkomen",
+   "sparen",
+   "behalen"
+  ]
+ },
+ {
+  "title": "B1-orta – Sıfatlar (1/2)",
+  "cefr": 7,
+  "words": [
+   "degelijk",
+   "gereed",
+   "heftig",
+   "oprecht",
+   "toegekend",
+   "betrouwbaar",
+   "ideaal",
+   "zevende",
+   "vrijwillig",
+   "buitengewoon",
+   "olympisch",
+   "herkenbaar",
+   "traag",
+   "Afrikaans"
+  ]
+ },
+ {
+  "title": "B1-orta – Sıfatlar (2/2)",
+  "cefr": 7,
+  "words": [
+   "essentieel",
+   "allereerste",
+   "eeuwig",
+   "gebruikelijk",
+   "geconfronteerd",
+   "ingewikkeld",
+   "omringd",
+   "permanent",
+   "regionaal",
+   "achtste",
+   "blond",
+   "failliet",
+   "besmet",
+   "dergelijk"
+  ]
+ },
+ {
+  "title": "B1-orta – Zarflar",
+  "cefr": 7,
+  "words": [
+   "hoelang"
+  ]
+ },
+ {
+  "title": "B1-orta – Bağlaçlar",
+  "cefr": 7,
+  "words": [
+   "alsmede"
+  ]
+ },
+ {
+  "title": "B1-orta – İsimler (1/11)",
+  "cefr": 7,
+  "words": [
+   "conferentie",
+   "detail",
+   "enthousiasme",
+   "indeling",
+   "leed",
+   "mishandeling",
+   "omzet",
+   "opdrachtgever",
+   "tank",
+   "trio",
+   "belofte",
+   "nicht",
+   "lezer",
+   "vervanging"
+  ]
+ },
+ {
+  "title": "B1-orta – İsimler (2/11)",
+  "cefr": 7,
+  "words": [
+   "bemanning",
+   "dekking",
+   "duurzaamheid",
+   "filosofie",
+   "hectare",
+   "leerkracht",
+   "liga",
+   "overname",
+   "poëzie",
+   "senaat",
+   "straling",
+   "verwarring",
+   "wetenschapper",
+   "wijziging"
+  ]
+ },
+ {
+  "title": "B1-orta – İsimler (3/11)",
+  "cefr": 7,
+  "words": [
+   "aanklacht",
+   "academie",
+   "actrice",
+   "beoordeling",
+   "bocht",
+   "camping",
+   "campus",
+   "casino",
+   "daling",
+   "deken",
+   "departement",
+   "divisie",
+   "echtgenote",
+   "hoofdkantoor"
+  ]
+ },
+ {
+  "title": "B1-orta – İsimler (4/11)",
+  "cefr": 7,
+  "words": [
+   "journalistiek",
+   "kliniek",
+   "koelkast",
+   "ligging",
+   "molen",
+   "onrust",
+   "schilder",
+   "schuur",
+   "staal",
+   "uitgeverij",
+   "videoclip",
+   "voorwerp",
+   "zangeres",
+   "zelfvertrouwen"
+  ]
+ },
+ {
+  "title": "B1-orta – İsimler (5/11)",
+  "cefr": 7,
+  "words": [
+   "aankoop",
+   "aap",
+   "betaling",
+   "constructie",
+   "fantasie",
+   "herkomst",
+   "kunstwerk",
+   "logistiek",
+   "medelijden",
+   "metaal",
+   "nieuwbouw",
+   "oppervlak",
+   "parkeerplaats",
+   "piloot"
+  ]
+ },
+ {
+  "title": "B1-orta – İsimler (6/11)",
+  "cefr": 7,
+  "words": [
+   "platteland",
+   "poster",
+   "rondje",
+   "schooljaar",
+   "therapie",
+   "visser",
+   "vreugde",
+   "zetel",
+   "zuurstof",
+   "brons",
+   "diepte",
+   "fenomeen",
+   "gids",
+   "kamerlid"
+  ]
+ },
+ {
+  "title": "B1-orta – İsimler (7/11)",
+  "cefr": 7,
+  "words": [
+   "keten",
+   "kijker",
+   "lidmaatschap",
+   "masker",
+   "opvang",
+   "rente",
+   "scenario",
+   "scène",
+   "slang",
+   "vermelding",
+   "volgorde",
+   "volume",
+   "afsluiting",
+   "arrestatie"
+  ]
+ },
+ {
+  "title": "B1-orta – İsimler (8/11)",
+  "cefr": 7,
+  "words": [
+   "element",
+   "engel",
+   "expeditie",
+   "handtekening",
+   "mensenrechten",
+   "opera",
+   "prioriteit",
+   "renovatie",
+   "spot",
+   "tak",
+   "tiener",
+   "versterking",
+   "vlieg",
+   "volksgezondheid"
+  ]
+ },
+ {
+  "title": "B1-orta – İsimler (9/11)",
+  "cefr": 7,
+  "words": [
+   "circuit",
+   "concentratie",
+   "dialoog",
+   "dreiging",
+   "getal",
+   "graad",
+   "grootvader",
+   "hockey",
+   "installatie",
+   "interpretatie",
+   "jongeman",
+   "jubileum",
+   "kogel",
+   "musical"
+  ]
+ },
+ {
+  "title": "B1-orta – İsimler (10/11)",
+  "cefr": 7,
+  "words": [
+   "nachtmerrie",
+   "paradijs",
+   "première",
+   "stam",
+   "stelsel",
+   "terras",
+   "toespraak",
+   "uitkomst",
+   "uitstoot",
+   "verhoging",
+   "verkoper",
+   "vertraging",
+   "woonkamer",
+   "aardbeving"
+  ]
+ },
+ {
+  "title": "B1-orta – İsimler (11/11)",
+  "cefr": 7,
+  "words": [
+   "bundel",
+   "corruptie"
+  ]
+ },
+ {
+  "title": "B1-orta – Sayılar",
+  "cefr": 7,
+  "words": [
+   "tachtig",
+   "veertien",
+   "dertien"
+  ]
+ },
+ {
+  "title": "B1-orta – Zamirler",
+  "cefr": 7,
+  "words": [
+   "elkaars"
+  ]
+ },
+ {
+  "title": "B1-orta – Fiiller (1/2)",
+  "cefr": 7,
+  "words": [
+   "profiteren",
+   "promoten",
+   "garanderen",
+   "ontkennen",
+   "presenteren",
+   "beëindigen",
+   "doorgeven",
+   "functioneren",
+   "overwegen",
+   "identificeren",
+   "vergeven",
+   "combineren",
+   "inspireren",
+   "publiceren"
+  ]
+ },
+ {
+  "title": "B1-orta – Fiiller (2/2)",
+  "cefr": 7,
+  "words": [
+   "straffen",
+   "treffen",
+   "verlengen",
+   "vervullen",
+   "handhaven",
+   "instellen",
+   "verbranden",
+   "verdelen",
+   "registreren",
+   "verzekeren",
+   "afwachten",
+   "bereiden"
+  ]
+ },
+ {
+  "title": "B1-ileri – Sıfatlar (1/5)",
+  "cefr": 8,
+  "words": [
+   "keihard",
+   "spontaan",
+   "onverwacht",
+   "opgewonden",
+   "Joods",
+   "gewapend",
+   "zuur",
+   "potentieel",
+   "intern",
+   "muzikaal",
+   "relevant",
+   "religieus",
+   "administratief",
+   "gigantisch"
+  ]
+ },
+ {
+  "title": "B1-ileri – Sıfatlar (2/5)",
+  "cefr": 8,
+  "words": [
+   "ouderwets",
+   "burgerlijk",
+   "dapper",
+   "efficiënt",
+   "plaatselijk",
+   "industrieel",
+   "maandelijks",
+   "elektronisch",
+   "gemeentelijk",
+   "rijp",
+   "oneerlijk",
+   "ontevreden",
+   "langdurig",
+   "literair"
+  ]
+ },
+ {
+  "title": "B1-ileri – Sıfatlar (3/5)",
+  "cefr": 8,
+  "words": [
+   "onwaarschijnlijk",
+   "vierkant",
+   "nutteloos",
+   "vochtig",
+   "mentaal",
+   "virtueel",
+   "levendig",
+   "chemisch",
+   "federaal",
+   "theoretisch",
+   "passief",
+   "zonnig",
+   "tropisch",
+   "groeiend"
+  ]
+ },
+ {
+  "title": "B1-ileri – Sıfatlar (4/5)",
+  "cefr": 8,
+  "words": [
+   "provinciaal",
+   "psychologisch",
+   "mild",
+   "verveeld",
+   "onhandig",
+   "toekomstig",
+   "ondiep",
+   "toenemend",
+   "hedendaags",
+   "communistisch",
+   "onaardig",
+   "onbeleefd",
+   "gestrest",
+   "lawaaierig"
+  ]
+ },
+ {
+  "title": "B1-ileri – Sıfatlar (5/5)",
+  "cefr": 8,
+  "words": [
+   "bedorven"
+  ]
+ },
+ {
+  "title": "B1-ileri – Zarflar",
+  "cefr": 8,
+  "words": [
+   "langzamerhand"
+  ]
+ },
+ {
+  "title": "B1-ileri – Bağlaçlar",
+  "cefr": 8,
+  "words": [
+   "mits",
+   "ofschoon"
+  ]
+ },
+ {
+  "title": "B1-ileri – Ünlemler",
+  "cefr": 8,
+  "words": [
+   "doei",
+   "goedenacht",
+   "tot ziens",
+   "dank je wel"
+  ]
+ },
+ {
+  "title": "B1-ileri – İsimler (1/6)",
+  "cefr": 8,
+  "words": [
+   "faculteit",
+   "federatie",
+   "financiering",
+   "firma",
+   "ham",
+   "imago",
+   "inrichting",
+   "schedel",
+   "stelletje",
+   "telefoonnummer",
+   "terrorist",
+   "toneel",
+   "uitgever",
+   "persoonlijkheid"
+  ]
+ },
+ {
+  "title": "B1-ileri – İsimler (2/6)",
+  "cefr": 8,
+  "words": [
+   "ui",
+   "hals",
+   "sokken",
+   "tandarts",
+   "muis",
+   "toetsenbord",
+   "gerucht",
+   "noot",
+   "saus",
+   "natie",
+   "pijp",
+   "huisdier",
+   "verpleegkundige",
+   "buurvrouw"
+  ]
+ },
+ {
+  "title": "B1-ileri – İsimler (3/6)",
+  "cefr": 8,
+  "words": [
+   "kenmerk",
+   "sap",
+   "continent",
+   "pasta",
+   "riem",
+   "investering",
+   "feestdag",
+   "handschoenen",
+   "rugzak",
+   "ondergoed",
+   "muzikant",
+   "worst",
+   "gelijkheid",
+   "statistiek"
+  ]
+ },
+ {
+  "title": "B1-ileri – İsimler (4/6)",
+  "cefr": 8,
+  "words": [
+   "uitvinding",
+   "lerares",
+   "wortel",
+   "wolk",
+   "poot",
+   "sjaal",
+   "tomaat",
+   "nagel",
+   "muts",
+   "reiziger",
+   "spier",
+   "instructie",
+   "schoonmoeder",
+   "toerist"
+  ]
+ },
+ {
+  "title": "B1-ileri – İsimler (5/6)",
+  "cefr": 8,
+  "words": [
+   "decennium",
+   "kiezer",
+   "voorziening",
+   "passagier",
+   "stiefvader",
+   "verloofde",
+   "knoflook",
+   "frisdrank",
+   "schoonzus",
+   "sollicitatie",
+   "vaardigheid",
+   "rundvlees",
+   "magnetron",
+   "volger"
+  ]
+ },
+ {
+  "title": "B1-ileri – İsimler (6/6)",
+  "cefr": 8,
+  "words": [
+   "varkensvlees",
+   "verkoudheid",
+   "uitstapje",
+   "schoonvader",
+   "stiefmoeder",
+   "oplader",
+   "druif",
+   "onderhandeling",
+   "supporter",
+   "schoonbroer",
+   "fornuis"
+  ]
+ },
+ {
+  "title": "B1-ileri – Sayılar",
+  "cefr": 8,
+  "words": [
+   "zeventig",
+   "zestien",
+   "negentig",
+   "achttien",
+   "zeventien",
+   "negentien"
+  ]
+ },
+ {
+  "title": "B1-ileri – Fiiller (1/4)",
+  "cefr": 8,
+  "words": [
+   "schudden",
+   "beïnvloeden",
+   "vertegenwoordigen",
+   "besturen",
+   "douchen",
+   "schamen",
+   "winkelen",
+   "verrassen",
+   "klimmen",
+   "onderhandelen",
+   "respecteren",
+   "toestaan",
+   "repareren",
+   "verlagen"
+  ]
+ },
+ {
+  "title": "B1-ileri – Fiiller (2/4)",
+  "cefr": 8,
+  "words": [
+   "vermelden",
+   "voetballen",
+   "uploaden",
+   "regeren",
+   "serveren",
+   "mailen",
+   "beheren",
+   "scheren",
+   "inloggen",
+   "versturen",
+   "aanmaken",
+   "ondertekenen",
+   "uitzenden",
+   "opladen"
+  ]
+ },
+ {
+  "title": "B1-ileri – Fiiller (3/4)",
+  "cefr": 8,
+  "words": [
+   "baden",
+   "skiën",
+   "opheffen",
+   "krimpen",
+   "verkleinen",
+   "printen",
+   "storen",
+   "terugbetalen",
+   "verzenden",
+   "uitrusten",
+   "omvatten",
+   "ontvoeren",
+   "verkiezen",
+   "emigreren"
+  ]
+ },
+ {
+  "title": "B1-ileri – Fiiller (4/4)",
+  "cefr": 8,
+  "words": [
+   "irriteren",
+   "dateren",
+   "houden van",
+   "appen",
+   "tandenpoetsen",
+   "kammen",
+   "uitloggen"
+  ]
+ },
+ {
+  "title": "B2-başlangıç – Sıfatlar",
+  "cefr": 9,
+  "words": [
+   "regenachtig",
+   "talloos",
+   "toeristisch",
+   "ultiem"
+  ]
+ },
+ {
+  "title": "B2-başlangıç – İsimler",
+  "cefr": 9,
+  "words": [
+   "sinaasappel",
+   "sieraad",
+   "zonnepaneel",
+   "symptoom"
+  ]
+ },
+ {
+  "title": "B2-başlangıç – Fiiller",
+  "cefr": 9,
+  "words": [
+   "verslechteren"
   ]
  }
 ]

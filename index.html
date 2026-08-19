@@ -30,7 +30,7 @@
 <div id="peak-indicator" class="peak-tab dal" title="DeepSeek yoğun/sakin saat fiyatlandırması (UTC saatine göre)">● sakin saat</div>
 <div id="app">
 
-  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.14</span></h1>
+  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.16</span></h1>
 
   <!-- ===================== PRACTICE SCREEN ===================== -->
   <section id="screen-practice">
@@ -377,7 +377,7 @@
     </div>
     <div class="card">
       <h3 style="margin-top:0;">Sürüm</h3>
-      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.14</b></div>
+      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.16</b></div>
       <div class="muted" style="margin-top:4px;">Bir değişiklikten sonra bu zaman damgası güncellenmezse, yükleme doğru yenilenmemiş demektir — GitHub'ı kontrol edin ve sayfayı yeniden yükleyin (önbellek için gizli sekme deneyin).</div>
     </div>
     </div>
@@ -707,7 +707,7 @@ function repairLessonProgressGaps(){
     for(let i=0;i<lastCompletedIdx;i++){
       const id = list[i].id;
       if(!lessonProgress[id] || !lessonProgress[id].completed){
-        lessonProgress[id] = {completed:true, done:(lessonProgress[id]?.done||0)};
+        lessonProgress[id] = {completed:true, opened:true, done:(lessonProgress[id]?.done||0)};
         changed = true;
       }
     }
@@ -1217,8 +1217,11 @@ function isLessonUnlocked(idx){
 function isLessonCompleted(id){
   return !!(lessonProgress[id] && lessonProgress[id].completed);
 }
+function isLessonOpened(id){
+  return !!(lessonProgress[id] && (lessonProgress[id].opened || lessonProgress[id].completed));
+}
 function markLessonComplete(id){
-  lessonProgress[id] = {completed:true, done: (lessonProgress[id]?.done||0)};
+  lessonProgress[id] = {completed:true, opened:true, done: (lessonProgress[id]?.done||0)};
   saveJSON(LS_LESSONS, lessonProgress);
 }
 /* Grammatica-onderwerp kiezen binnen een actieve les (of het normale gedrag als er geen les actief is) */
@@ -1688,9 +1691,16 @@ Antwoord in JSON.`;
 // Puur woordniveau -- geen zin, geen context -- de gebruiker typt precies ÉÉN vervoegde Turkse vorm.
 // Geen eigen scoresysteem meer (zie screen-suffixes): puur goed/fout, met een morfeem-opbouw als
 // uitleg (zie "breakdown" hieronder) i.p.v. een niveau 0-10.
-const SUFFIX_DRILL_MIN_LEVEL = 7;
+// (SUFFIX_DRILL_MIN_LEVEL verwijderd -- de ontgrendelvereiste is nu "1x tegengekomen"/"les 1x geopend"
+// i.p.v. een beheersingsniveau, zie hieronder.)
+// Ontgrendelvereiste versoepeld: een werkwoord/onderwerp hoeft niet meer BEHEERST te worden (level 7+)
+// voordat de kalıp/patroon-trainer beschikbaar komt -- alleen dat je het al minstens 1x TEGENGEKOMEN
+// bent (een werkwoord: reps>=1) resp. de bijbehorende les minstens 1x GEOPEND hebt (een grammatica-
+// onderwerp: er is geen "beheersings"-drempel meer, puur blootstelling). Dit is een veel lagere drempel
+// dan voorheen, en respecteert nu ook het ingestelde CEFR-bereik (inCefrRangeEn/vocabCefrBand) -- beide
+// ontbraken hier voorheen volledig.
 function masteredVerbsForSuffixDrill(){
-  return EN_WORDS_DATA.filter(w => w.pos === "verb" && getProgress(w.en).level >= SUFFIX_DRILL_MIN_LEVEL);
+  return EN_WORDS_DATA.filter(w => w.pos === "verb" && inCefrRangeEn(w.en) && getProgress(w.en).reps >= 1);
 }
 // BUGFIX: hierboven wordt ALTIJD een werkwoord vervoegd, dus alleen grammatica-onderwerpen die
 // daadwerkelijk op een werkwoord toegepast worden (framework "verb"/"verb2" in
@@ -1700,7 +1710,14 @@ function masteredVerbsForSuffixDrill(){
 // werkwoord heeft geen meervoud/naamval). Onderwerpen zonder framework-vermelding (de "rest"-categorie
 // onderaan GRAMMAR_TOPIC_FRAMEWORK) worden voorzichtigheidshalve ook uitgesloten.
 function masteredTopicsForSuffixDrill(){
-  return GRAMMAR_TOPICS.filter(t => SUFFIX_DRILL_TOPIC_KEYS.has(t.key) && getTopicProgress(t).level >= SUFFIX_DRILL_MIN_LEVEL);
+  // LET OP: minCefr van een onderwerp is een DREMPEL ("vanaf dit niveau relevant/behapbaar"), geen
+  // precies venster -- dus alleen de BOVENGRENS van het ingestelde bereik telt (een onderwerp met een
+  // LAGERE minCefr dan je huidige ondergrens blijft gewoon toegankelijk; het is niet "te makkelijk om
+  // nog te tellen", zoals dat bij losse woorden wél zou gelden).
+  const hi = vocabCefrBand(Math.max(settings.cefrMin, settings.cefrMax));
+  return GRAMMAR_TOPICS.filter(t => SUFFIX_DRILL_TOPIC_KEYS.has(t.key)
+    && vocabCefrBand(t.minCefr) <= hi
+    && isLessonOpened(`g_${t.key}`));
 }
 function canOfferSuffixDrill(){
   return masteredVerbsForSuffixDrill().length > 0 && masteredTopicsForSuffixDrill().length > 0;
@@ -1708,7 +1725,7 @@ function canOfferSuffixDrill(){
 async function generateSuffixDrill(){
   const verbs = masteredVerbsForSuffixDrill();
   const topics = masteredTopicsForSuffixDrill();
-  if(!verbs.length || !topics.length) throw new Error("Henüz beheerst bir fiil + beheerst bir fiil-gramer konusu kombinasyonu yok.");
+  if(!verbs.length || !topics.length) throw new Error("Henüz uygun bir fiil + açılmış bir fiil-gramer konusu kombinasyonu yok.");
   const verb = verbs[Math.floor(Math.random()*verbs.length)];
   const topic = topics[Math.floor(Math.random()*topics.length)];
   // LET OP: "en"-veld/EN_WORDS_DATA bevat sinds de Nederlands-leren-versie het Nederlandse (doeltaal)
@@ -2710,12 +2727,26 @@ function unlockedGrammarTopicSet(){
   return set;
 }
 
+// Een handvol woorden heeft in het Turks GEEN los, zelfstandig te typen woord als vertaling -- alleen
+// een gebonden achtervoegsel (bv. "van" = -den/-dan eki, "tenzij" = -medikçe eki). Zulke woorden puur
+// als losse woord-vertaal-oefening tonen levert een onbeantwoordbare/verwarrende vraag op (je kunt geen
+// kaal achtervoegsel "typen"). Ze worden daarom pas GEÏNTRODUCEERD zodra de bijbehorende grammaticales
+// (die dit verschil uitlegt) al minstens 1x geopend is -- zie ook isLessonOpened()/openLessonModal().
+function wordGateLesson(en){
+  const curated = curatedTr[en];
+  return curated && curated.senses && curated.senses[0] && curated.senses[0].gateLesson || null;
+}
+function wordGateSatisfied(en){
+  const gate = wordGateLesson(en);
+  return !gate || isLessonOpened(gate);
+}
+
 function getIntroducibleWords(){
   const words = baseWordList();
   const lo = vocabCefrBand(Math.min(settings.cefrMin, settings.cefrMax)), hi = vocabCefrBand(Math.max(settings.cefrMin, settings.cefrMax));
   const inRange = w => typeof w.cefr !== "number" || (vocabCefrBand(w.cefr) >= lo && vocabCefrBand(w.cefr) <= hi);
   const unlocked = unlockedWordSet();
-  const allIntroducible = words.filter(w => unlocked.has(w.en) && getProgress(w.en).reps === 0);
+  const allIntroducible = words.filter(w => unlocked.has(w.en) && getProgress(w.en).reps === 0 && wordGateSatisfied(w.en));
   // Deze functie is puur bereik-respecterend en mag een LEGE array teruggeven als er binnen bereik
   // niets meer te introduceren valt -- géén interne "verbreed als leeg"-terugval meer. Die zat er
   // eerder wél in, en dat was precies het probleem: de aanroepers (pickNextItem,
@@ -4542,17 +4573,17 @@ async function renderSuffixPractice(){
     const hasVerb = masteredVerbsForSuffixDrill().length > 0;
     const hasTopic = masteredTopicsForSuffixDrill().length > 0;
     // Geef PRECIES aan welke van de twee vereisten (nog) niet gehaald is, i.p.v. altijd dezelfde
-    // gecombineerde melding -- anders lijkt de melding "onterecht" als je bv. wel al genoeg woorden
-    // beheerst, maar de aparte grammatica-onderwerp-voortgang (een HELEMAAL LOS bijgehouden niveau,
-    // dat alleen omhooggaat via grammatica-oefeningen, niet via gewone woordoefeningen) nog niet op
-    // niveau 7 zit -- dat werd voorheen ten onrechte gelezen als "ik ken toch al genoeg woorden?".
+    // gecombineerde melding. Vereisten VERSOEPELD (was voorheen: level 7+ beheersing op beide) --
+    // een werkwoord hoeft alleen al 1x TEGENGEKOMEN te zijn (reps>=1, binnen het ingestelde CEFR-
+    // bereik), en een grammatica-onderwerp hoeft alleen zijn LES al 1x GEOPEND te zijn -- geen
+    // beheersing meer nodig voor toegang tot de kalıp/patroon-trainer zelf.
     let msg;
     if(!hasVerb && !hasTopic){
-      msg = "⚠️ Henüz yeterince iyi bilinen içerik yok — kalıp alıştırmaları için en az bir FİİL (Pratik sekmesinde) VE bir fiil-gramer KONUSU (tegenwoordige tijd, geçmiş zaman, gelecek zaman, emir kipi veya modal fiiller — Kurs sekmesindeki dersler/\"Bu beceriyi çalış\"/bilgi kontrolü aracılığıyla) iyi seviyede (7+) olmalı.";
+      msg = "⚠️ Henüz uygun içerik yok — kalıp alıştırmaları için en az bir FİİL (Pratik sekmesinde bir kez karşılaşmış olmanız yeterli, iyi bilmeniz gerekmez) VE bir fiil-gramer KONUSUNUN dersini (Kurs sekmesinde) en az bir kez açmış olmanız gerekir: tegenwoordige tijd, voltooid tegenwoordige tijd, onvoltooid verleden tijd, toekomende tijd, gebiedende wijs veya modale werkwoorden. İkisi de mevcut CEFR aralığınızın (Ayarlar) içinde olmalı.";
     } else if(!hasVerb){
-      msg = "⚠️ Yeterince iyi bilinen bir FİİL yok — kalıp alıştırmaları için en az bir fiili iyi seviyede (7+) bilmeniz gerekir (bir isim veya sıfat bilmeniz burada saymaz, özellikle fiil gerekir). Pratik sekmesinde fiil kelimeleriyle çalışmaya devam edin.";
+      msg = "⚠️ Şu anda seçili CEFR aralığında (Ayarlar) uygun bir FİİL yok — kalıp alıştırmaları için Pratik sekmesinde bir fiille bir kez karşılaşmış olmanız yeterli (iyi bilmeniz gerekmez; bir isim veya sıfat burada saymaz, özellikle fiil gerekir). Pratik sekmesinde çalışmaya devam edin veya CEFR aralığınızı genişletin.";
     } else {
-      msg = "⚠️ Yeterince iyi bilinen bir fiil-gramer KONUSU yok — bu, kelime bilginizden AYRI bir şeydir: sadece kelime öğrenmek bunu artırmaz, sadece gramer alıştırmaları (Kurs sekmesindeki dersler, \"Bu beceriyi çalış\", veya bilgi kontrolündeki gramer soruları) bu seviyeyi yükseltir. ÖNEMLİ: bazı konuların birden fazla ALT-FORMU vardır (örn. tegenwoordige tijd: ik-formu, jij/hij-formu, çoğul-formu) — konunun TAMAMININ 7+ seviyeye ulaşması için HER ALT-FORMUN ayrı ayrı 7+ olması gerekir, sadece birini iyi bilmeniz yetmez. En hızlı yol: gebiedende wijs (emir kipi) — bu konunun alt-formu yok, tek bir doğru cevap yeterli. Diğer konular: tegenwoordige tijd, voltooid tegenwoordige tijd, onvoltooid verleden tijd, toekomende tijd, modale werkwoorden.";
+      msg = "⚠️ Şu anda seçili CEFR aralığında (Ayarlar) açılmış bir fiil-gramer KONUSU yok — bunun için o konunun dersini (Kurs sekmesi) en az bir kez AÇMANIZ yeterli, beheersmeniz gerekmez. Şu konulardan birinin dersini açın: tegenwoordige tijd, voltooid tegenwoordige tijd, onvoltooid verleden tijd, toekomende tijd, gebiedende wijs, modale werkwoorden — veya CEFR aralığınızı (Ayarlar) genişletin.";
     }
     el("suf-empty-notice").textContent = msg;
     el("suf-verb-label").textContent = "";
@@ -5467,6 +5498,14 @@ function closeLessonGradeModal(){
 async function openLessonModal(idx){
   openLessonIdx = idx;
   const l = LESSONS[idx];
+  // Markeert de les als "minstens 1x geopend" (los van "voltooid"/cijfer) -- gebruikt door bv. de
+  // kalıp/patroon-trainer en de "gate"-woorden (zie isLessonOpened/wordGateLesson hieronder) om te
+  // bepalen of iets al ONTSLOTEN is, zonder dat er eerst BEHEERSING vereist wordt.
+  if(!lessonProgress[l.id]) lessonProgress[l.id] = {completed:false, done:0};
+  if(!lessonProgress[l.id].opened){
+    lessonProgress[l.id].opened = true;
+    saveJSON(LS_LESSONS, lessonProgress);
+  }
   el("lesson-modal-title").textContent = `${l.icon} ${l.title}`;
   el("lesson-modal-explanation").innerHTML = l.explanation;
   const needsPractice = l.grammarTopics.length > 0 || (l.words && l.words.length > 0);
@@ -5518,7 +5557,7 @@ function startLessonAction(){
   if(!l) return;
   // Alleen zuivere leeslessen (geen eigen oefenstof) hebben deze knop -- toggle gelezen/ongelezen
   if(isLessonCompleted(l.id)){
-    lessonProgress[l.id] = {completed:false, done:0};
+    lessonProgress[l.id] = {completed:false, opened:true, done:0};
     saveJSON(LS_LESSONS, lessonProgress);
   } else {
     markLessonComplete(l.id);
