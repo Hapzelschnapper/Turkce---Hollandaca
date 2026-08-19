@@ -30,7 +30,7 @@
 <div id="peak-indicator" class="peak-tab dal" title="DeepSeek yoğun/sakin saat fiyatlandırması (UTC saatine göre)">● sakin saat</div>
 <div id="app">
 
-  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.09</span></h1>
+  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.12</span></h1>
 
   <!-- ===================== PRACTICE SCREEN ===================== -->
   <section id="screen-practice">
@@ -377,7 +377,7 @@
     </div>
     <div class="card">
       <h3 style="margin-top:0;">Sürüm</h3>
-      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.09</b></div>
+      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.12</b></div>
       <div class="muted" style="margin-top:4px;">Bir değişiklikten sonra bu zaman damgası güncellenmezse, yükleme doğru yenilenmemiş demektir — GitHub'ı kontrol edin ve sayfayı yeniden yükleyin (önbellek için gizli sekme deneyin).</div>
     </div>
     </div>
@@ -4421,18 +4421,18 @@ function showFeedback(kind, html){
   box.innerHTML = `<div class="feedback ${kind}">${html}</div>`;
 }
 
-// Short, clearly coloured line: "wrong answer: X" (red) and/or "correct answer: Y" (green)
+// Korte, duidelijk gekleurde regel: "fout antwoord: X betekent Y" (rood) en/of "juiste antwoord: Y" (groen)
 function answerCompareLine(userAnswer, correctAnswer, wasCorrect, wrongMeaning, registerInfo, deviation){
   const wrongPart = (!wasCorrect && userAnswer)
     ? (wrongMeaning
-        ? `Wrong: <span style="color:var(--accent);font-weight:600;">${escapeHtml(userAnswer)}</span> means <span style="color:var(--accent);font-weight:600;">${escapeHtml(wrongMeaning)}</span>.`
-        : `wrong answer: <span style="color:var(--accent);font-weight:600;">${escapeHtml(userAnswer)}</span>`)
+        ? `Yanlış: <span style="color:var(--accent);font-weight:600;">${escapeHtml(userAnswer)}</span> demek <span style="color:var(--accent);font-weight:600;">${escapeHtml(wrongMeaning)}</span>.`
+        : `yanlış cevap: <span style="color:var(--accent);font-weight:600;">${escapeHtml(userAnswer)}</span>`)
     : "";
   const goodPart = correctAnswer
     ? `${wasCorrect ? "doğru cevap" : "Doğru cevap"}: <span style="color:var(--accent2);font-weight:600;">${escapeHtml(correctAnswer)}</span>`
     : "";
   const registerPart = (wasCorrect && registerInfo)
-    ? `<br><span class="muted">ℹ️ Heads up: this is a bit ${registerInfo.register}${registerInfo.note ? " — " + escapeHtml(registerInfo.note) : ""}.</span>`
+    ? `<br><span class="muted">ℹ️ Not: bu biraz ${registerInfo.register}${registerInfo.note ? " — " + escapeHtml(registerInfo.note) : ""}.</span>`
     : "";
   // Wat precies afweek bij een GOEDGEKEURD-maar-niet-exact antwoord (tikfout, minder gebruikelijk
   // synoniem, andere vervoeging, ...) -- direct zichtbaar in de feedback, niet pas na het openen van
@@ -4487,7 +4487,7 @@ async function handleCheck(){
   const correctAnswer = currentItem.direction === "tr-en" ? displayEnglishWord(currentItem.en) : (cachedTranslation(currentItem.en)||[]).join(", ");
 
   if(!hasKeyFor("word")){
-    finalizeAnswer(false, "❌<br>" + answerCompareLine(answer, correctAnswer, false) + "<br><span class='muted'>Set a " + keyNameFor("word") + " API key to have other translations judged too, or dispute this result.</span>");
+    finalizeAnswer(false, "❌<br>" + answerCompareLine(answer, correctAnswer, false) + "<br><span class='muted'>Diğer çevirilerin de değerlendirilmesi için Ayarlar'dan bir " + keyNameFor("word") + " API anahtarı ekleyin, ya da bu sonuca itiraz edin.</span>");
     return;
   }
 
@@ -4523,7 +4523,7 @@ async function handleCheckSuffix(answer){
     return;
   }
   if(!hasKeyFor("word")){
-    finalizeAnswer(false, "❌<br>" + answerCompareLine(answer, currentItem.correct, false) + "<br><span class='muted'>Set a " + keyNameFor("word") + " API key to have other forms judged too, or dispute this result.</span>");
+    finalizeAnswer(false, "❌<br>" + answerCompareLine(answer, currentItem.correct, false) + "<br><span class='muted'>Diğer biçimlerin de değerlendirilmesi için Ayarlar'dan bir " + keyNameFor("word") + " API anahtarı ekleyin, ya da bu sonuca itiraz edin.</span>");
     return;
   }
   showFeedback("pending", "🤖 Yapay zeka cevabınızı kontrol ediyor…");
@@ -5628,7 +5628,7 @@ async function openLessonModal(idx){
   if(l.words && l.words.length){
     const wordListEl = el("lesson-modal-explanation").querySelector(".vocab-word-list");
     if(!hasKeyFor("word")){
-      if(wordListEl) wordListEl.insertAdjacentHTML("afterend", `<p class="muted">Set a ${keyNameFor("word")} API key in Settings to preview Turkish translations here.</p>`);
+      if(wordListEl) wordListEl.insertAdjacentHTML("afterend", `<p class="muted">Buradaki Türkçe çevirileri önceden görmek için Ayarlar'dan bir ${keyNameFor("word")} API anahtarı ekleyin.</p>`);
       return;
     }
     // vertalingen LIVE en SEQUENTIEEL ophalen (niet allemaal tegelijk) zodat het geen plotselinge
@@ -6018,7 +6018,7 @@ function initSettingsUI(){
   el("anthropic-key-status").textContent = settings.anthropicApiKey ? "✅ Anahtar ayarlandı." : "Henüz anahtar ayarlanmadı.";
   el("proxy-url-input").value = settings.proxyUrl || "";
   el("proxy-token-input").value = settings.proxyToken || "";
-  el("proxy-status").textContent = proxyConfigured() ? "✅ Using shared proxy — no personal API keys needed." : "Not set up — using your own API keys below (if any).";
+  el("proxy-status").textContent = proxyConfigured() ? "✅ Paylaşılan proxy kullanılıyor — kişisel API anahtarına gerek yok." : "Ayarlanmadı — aşağıdaki kendi API anahtarların kullanılır (varsa).";
   updateBulkTranslateStatus();
   const bal = loadJSON(LS_BALANCE, null);
   if(bal){
@@ -6027,7 +6027,7 @@ function initSettingsUI(){
   }
   el("sync-api-key").value = settings.syncApiKey || "";
   el("sync-bin-id").value = settings.syncBinId || "";
-  el("sync-status").textContent = syncConfigured() ? "" : "Not set up yet — progress stays local to this device.";
+  el("sync-status").textContent = syncConfigured() ? "" : "Henüz ayarlanmadı — ilerleme sadece bu cihazda kalır.";
 }
 
 /* ===================== PIEK/DAL-INDICATOR (DeepSeek verwachte piekuren, UTC) ===================== */
@@ -6217,7 +6217,7 @@ document.addEventListener("DOMContentLoaded", async ()=>{
   });
   el("btn-export").addEventListener("click", exportWordlist);
   el("btn-reset-progress").addEventListener("click", ()=>{
-    if(confirm("Are you sure you want to reset all progress? This cannot be undone.")){
+    if(confirm("Tüm ilerlemeni sıfırlamak istediğinden emin misin? Bu işlem geri alınamaz.")){
       progress = {}; saveJSON(LS_PROGRESS, progress);
       grammar = {}; saveJSON(LS_GRAMMAR, grammar);
       history = []; saveJSON(LS_HISTORY, history);
@@ -6225,7 +6225,7 @@ document.addEventListener("DOMContentLoaded", async ()=>{
     }
   });
   el("btn-clear-trcache").addEventListener("click", ()=>{
-    if(confirm("Clear all cached Turkish translations? Every word will be re-translated (using tokens) the next time it comes up. Your progress/levels stay untouched.")){
+    if(confirm("Türkçe çeviri önbelleği tamamen temizlensin mi? Bir sonraki karşılaşmada her kelime yeniden çevrilecek (token kullanılarak). İlerlemen/seviyelerin etkilenmez.")){
       trCache = {}; saveJSON(LS_TRCACHE, trCache);
       alert("Çeviri önbelleği temizlendi.");
     }
