@@ -30,7 +30,7 @@
 <div id="peak-indicator" class="peak-tab dal" title="DeepSeek yoğun/sakin saat fiyatlandırması (UTC saatine göre)">● sakin saat</div>
 <div id="app">
 
-  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.16</span></h1>
+  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.17</span></h1>
 
   <!-- ===================== PRACTICE SCREEN ===================== -->
   <section id="screen-practice">
@@ -377,7 +377,7 @@
     </div>
     <div class="card">
       <h3 style="margin-top:0;">Sürüm</h3>
-      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.16</b></div>
+      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.17</b></div>
       <div class="muted" style="margin-top:4px;">Bir değişiklikten sonra bu zaman damgası güncellenmezse, yükleme doğru yenilenmemiş demektir — GitHub'ı kontrol edin ve sayfayı yeniden yükleyin (önbellek için gizli sekme deneyin).</div>
     </div>
     </div>
@@ -1702,6 +1702,20 @@ Antwoord in JSON.`;
 function masteredVerbsForSuffixDrill(){
   return EN_WORDS_DATA.filter(w => w.pos === "verb" && inCefrRangeEn(w.en) && getProgress(w.en).reps >= 1);
 }
+// Kiest, binnen de pool van al-tegengekomen werkwoorden, bij VOORKEUR een al goed BEHEERST exemplaar
+// (level >= SUFFIX_DRILL_PREFERRED_LEVEL) -- dat geeft een prettigere oefening (je hoeft niet ook nog
+// aan het werkwoord zelf te twijfelen, alleen aan het grammaticapatroon). Is er nog geen enkel zo goed
+// beheerst werkwoord, dan valt dit gewoon terug op de volledige pool (elk werkwoord dat je al minstens
+// 1x gezien hebt) -- zie ook masteredVerbsForSuffixDrill()/canOfferSuffixDrill() hierboven, die de
+// ONTGRENDELING nog steeds op die volledige (soepelere) pool baseren.
+const SUFFIX_DRILL_PREFERRED_VERB_LEVEL = 7;
+function pickSuffixDrillVerb(){
+  const pool = masteredVerbsForSuffixDrill();
+  if(!pool.length) return null;
+  const wellKnown = pool.filter(w => getProgress(w.en).level >= SUFFIX_DRILL_PREFERRED_VERB_LEVEL);
+  const source = wellKnown.length ? wellKnown : pool;
+  return source[Math.floor(Math.random()*source.length)];
+}
 // BUGFIX: hierboven wordt ALTIJD een werkwoord vervoegd, dus alleen grammatica-onderwerpen die
 // daadwerkelijk op een werkwoord toegepast worden (framework "verb"/"verb2" in
 // GRAMMAR_TOPIC_FRAMEWORK) horen hier in aanmerking te komen. Voorheen ontbrak dit filter volledig --
@@ -1726,7 +1740,7 @@ async function generateSuffixDrill(){
   const verbs = masteredVerbsForSuffixDrill();
   const topics = masteredTopicsForSuffixDrill();
   if(!verbs.length || !topics.length) throw new Error("Henüz uygun bir fiil + açılmış bir fiil-gramer konusu kombinasyonu yok.");
-  const verb = verbs[Math.floor(Math.random()*verbs.length)];
+  const verb = pickSuffixDrillVerb();
   const topic = topics[Math.floor(Math.random()*topics.length)];
   // LET OP: "en"-veld/EN_WORDS_DATA bevat sinds de Nederlands-leren-versie het Nederlandse (doeltaal)
   // lemma, "tr"/getOrFetchTranslation geeft nog steeds de Turkse (bekende-taal) vertaling -- zie de
