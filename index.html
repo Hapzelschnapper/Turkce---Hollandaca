@@ -30,7 +30,7 @@
 <div id="peak-indicator" class="peak-tab dal" title="DeepSeek yoğun/sakin saat fiyatlandırması (UTC saatine göre)">● sakin saat</div>
 <div id="app">
 
-  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.12</span></h1>
+  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.13</span></h1>
 
   <!-- ===================== PRACTICE SCREEN ===================== -->
   <section id="screen-practice">
@@ -377,7 +377,7 @@
     </div>
     <div class="card">
       <h3 style="margin-top:0;">Sürüm</h3>
-      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.12</b></div>
+      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.13</b></div>
       <div class="muted" style="margin-top:4px;">Bir değişiklikten sonra bu zaman damgası güncellenmezse, yükleme doğru yenilenmemiş demektir — GitHub'ı kontrol edin ve sayfayı yeniden yükleyin (önbellek için gizli sekme deneyin).</div>
     </div>
     </div>
@@ -1626,110 +1626,6 @@ async function pickMasteredPoolWords(category, count, avoidEn){
   return pairs;
 }
 
-// Naamwoorden die zinvol als "bezitter" in een BEPAALDE naamwoordgroep (belirtili isim tamlaması/
-// genitief) kunnen optreden: levende wezens, organisaties, plekken -- dingen die daadwerkelijk iets
-// kunnen "hebben". Een volledig willekeurig abstract naamwoord (bv. "lepel", "banaan") kan dat niet,
-// wat eerder tot geforceerde/rare voorbeelden leidde (zie noun_compound_definite hierboven).
-const POSSESSOR_NOUNS = new Set([
-  "mother","father","teacher","dog","cat","king","queen","doctor","family","sister","brother",
-  "student","friend","man","woman","child","boy","girl","president","company","city","country",
-  "school","team","government","nurse","farmer","driver","police","army","church","university","hospital",
-  "village","town","house","office","shop","store","bird","horse","cow","lion","elephant","baby","parent",
-  "grandmother","grandfather","husband","wife","son","daughter","uncle","aunt","cousin","worker","manager",
-  "boss","owner","customer","client","leader","captain","soldier","lawyer","judge","priest","prince","princess",
-]);
-async function pickMasteredPossessorWords(count, avoidEn){
-  const allEn = baseWordList().map(w=>w.en).filter(en => POSSESSOR_NOUNS.has(en));
-  const level8 = allEn.filter(en => getProgress(en).level >= 8);
-  const level7 = allEn.filter(en => getProgress(en).level >= 7);
-  let pool = level8.length >= count ? level8 : level7;
-  if(!pool.length) pool = allEn; // nog geen enkele possessor-noun op niveau 7+: pak elk bekend exemplaar
-  if(!pool.length) pool = [...POSSESSOR_NOUNS]; // allerlaatste redmiddel: de curated lijst zelf (nog niet vertaald)
-  const poolInRange = pool.filter(inCefrRangeEn);
-  if(poolInRange.length) pool = poolInRange;
-  if(avoidEn && avoidEn.size){
-    const filtered = pool.filter(en => !avoidEn.has(en));
-    if(filtered.length) pool = filtered;
-  }
-  const shuffled = [...pool];
-  for(let i=shuffled.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]]; }
-  const picks = shuffled.slice(0, count);
-  const pairs = [];
-  for(const en of picks){
-    try{ const tr = await getOrFetchTranslation(en); pairs.push({en: baseEnOf(en), tr:tr[0]}); }
-    catch(e){ /* deze overslaan als vertalen mislukt */ }
-  }
-  return pairs;
-}
-
-const FRAMEWORK_INSTRUCTIONS = {
-  spatial: {needCategory:["Nouns","Nouns"], needCount:[1,1],
-    instr: (w1,w2) => `Build one short, natural sentence using EXACTLY these two nouns: "${w1.tr}" (${w1.en}) as the subject, and "${w2.tr}" (${w2.en}) as the location/reference noun that the grammar point attaches to.\nIllustration only (build your OWN sentence with the given words/topic, don't just copy this): "Kedi masanın üstünde." (The cat is on the table.)\nKeep it SHORT (3-6 words) and use no other nouns besides the two given.`},
-  // Postposities (için "for", ile "with", rağmen "despite", göre "according to") stellen heel
-  // verschillende eisen aan het naamwoord waar ze aan hangen -- daarom kiest de AI hier zelf welke
-  // postpositie past bij het gegeven tweede naamwoord, i.p.v. één vaste (locatieve) framing te forceren.
-  postpositions: {needCategory:["Nouns","Nouns"], needCount:[1,1],
-    instr: (w1,w2) => `Build one short, natural sentence using EXACTLY these two nouns: "${w1.tr}" (${w1.en}) as the subject, and "${w2.tr}" (${w2.en}) as the noun that a Turkish postposition attaches to. Choose WHICHEVER of these four postpositions fits "${w2.en}" most naturally: için ("for"), ile ("with"), rağmen ("despite"), or göre ("according to"). için/ile/rağmen work with almost any noun. göre is an EXCEPTION: it only makes natural sense if "${w2.en}" is a person, group, or source capable of holding an opinion/view (e.g. "according to my mother", "according to the teacher") — if "${w2.en}" is an inanimate object or abstract thing, do NOT use göre; pick için, ile, or rağmen instead. Keep it SHORT (3-6 words) and use no other nouns besides the two given.`},
-  verb: {needCategory:["Verbs"], needCount:[1],
-    instr: (w1) => `Build one short, natural sentence applying the grammar point to EXACTLY this verb: "${w1.tr}" (${w1.en}). Pick any subject (I/you/he/she/we/they) yourself. Do NOT add an object or any other noun beyond the subject unless the verb is grammatically impossible to use without one — a bare subject + verb is the goal, not a fuller scene. Keep it SHORT (2-5 words) and use no other verb besides the one given.`},
-  verb2: {needCategory:["Verbs","Verbs"], needCount:[1,1],
-    instr: (w1,w2) => `Build one short, natural sentence that links/combines EXACTLY these two verbs using the grammar point: "${w1.tr}" (${w1.en}) and "${w2.tr}" (${w2.en}). Example shape only (build your own): "Koşarak geldi." combines running+coming. Keep it SHORT and use no other verbs besides the two given.`},
-  noun: {needCategory:["Nouns"], needCount:[1],
-    instr: (w1) => `Build one short, natural sentence applying the grammar point to EXACTLY this noun: "${w1.tr}" (${w1.en}). Do NOT return a single bare inflected word with no verb/copula/context (e.g. just "${w1.tr}lar" alone is NOT acceptable) — always embed it in a minimal real clause (a copula, "var"/"yok", or a simple verb) so it's an actual testable sentence, not an isolated inflected form. Do NOT add any further nouns, objects, or extra descriptive details beyond what the grammar point itself requires — a bare subject + predicate is the goal, not a fuller scene. Keep it SHORT (2-5 words) and use no other noun besides the one given.`},
-  noun2: {needCategory:["Nouns","Nouns"], needCount:[1,1],
-    instr: (w1,w2) => `Build one short, natural phrase or sentence that relates EXACTLY these two nouns using the grammar point: "${w1.tr}" (${w1.en}) and "${w2.tr}" (${w2.en}). Keep it SHORT and use no other nouns besides the two given.`},
-  // Onbepaalde naamwoordgroep (belirtisiz isim tamlaması): eerste naamwoord blijft KAAL (geen
-  // achtervoegsel), tweede krijgt de 3e-persoons bezittelijke uitgang -(s)I. Dit is een "type/categorie"-
-  // relatie (bv. "araba anahtarı" = auto-sleutel/soort sleutel), die met vrijwel ELK naamwoordpaar werkt.
-  noun_compound_indefinite: {needCategory:["Nouns","Nouns"], needCount:[1,1],
-    instr: (w1,w2) => `Build a Turkish INDEFINITE noun compound (belirtisiz isim tamlaması) using EXACTLY these two nouns in this order: "${w1.tr}" (${w1.en}) + "${w2.tr}" (${w2.en}). The first noun stays in its bare dictionary form (no suffix); only the second noun takes the 3rd-person possessive suffix -(s)I. This construction expresses a category/type relation ("a ${w2.en} of/for/made-of ${w1.en}-type"), similar to "araba anahtarı" (car key) — it works naturally even for an unusual pair, since it just names a type/category, not literal ownership. Build a short, natural phrase (2-4 words).`},
-  // Bepaalde naamwoordgroep (belirtili isim tamlaması) + genitief: eerste naamwoord krijgt de genitief
-  // -(n)In, tweede weer de bezittelijke uitgang -(s)I (bv. "okulun bahçesi" = de tuin VAN de school).
-  // Vereist een ECHTE bezitsrelatie -- daarom komt het eerste woord uit een curated pool van "bezitter"-
-  // achtige naamwoorden (mensen, dieren, organisaties, plekken) i.p.v. een volledig willekeurig naamwoord.
-  noun_compound_definite: {needCategory:["PossessorNouns","Nouns"], needCount:[1,1],
-    instr: (w1,w2) => `Build a Turkish DEFINITE noun compound (belirtili isim tamlaması) expressing genuine, specific possession, using EXACTLY these two nouns: "${w1.tr}" (${w1.en}) as the possessor, and "${w2.tr}" (${w2.en}) as the thing possessed. The first noun takes the genitive suffix -(n)In; the second noun takes the 3rd-person possessive suffix -(s)I — e.g. "okulun bahçesi" (the school's garden, okul+un + bahçe+si). Build a short, natural phrase or short sentence (2-5 words) using exactly these two nouns.`},
-  // Het -ki achtervoegsel heeft twee heel verschillende hoofdgebruiken; de AI kiest zelf welke bij het
-  // gegeven paar past, i.p.v. één vaste (locatieve) lezing te forceren op een paar dat daar niet bij past.
-  relative_ki: {needCategory:["Nouns","Nouns"], needCount:[1,1],
-    instr: (w1,w2) => `Build one short, natural phrase or sentence using the Turkish relative suffix -ki, involving EXACTLY these two nouns: "${w1.tr}" (${w1.en}) and "${w2.tr}" (${w2.en}). -ki has two common uses — pick WHICHEVER actually fits this pair, don't force the wrong one:\n1) Locative-relative: [noun1 in locative + -ki] + noun2, meaning "the noun2 that is at/in/on noun1" (e.g. "masadaki kitap" = the book on the table). ONLY use this if "${w2.en}" could plausibly be physically located at/in/on "${w1.en}" (a book CAN be on a table; success CANNOT be in a cup).\n2) Possessive/comparative substitute: [noun1 in genitive + -ki], replacing an implied noun2, often comparing to noun2 (e.g. "Ahmet'in arabası benimkinden hızlı" = Ahmet's car is faster than mine). Use this if the locative reading doesn't make sense.\nKeep it SHORT and use no other nouns besides the two given.`},
-  // Formele/geschreven-register postposities -- een compleet ander, kleiner setje dan de spreektalige
-  // edatlar-postposities (için/ile/göre/rağmen). De AI kiest zelf welke van de vier het beste bij het
-  // gegeven tweede naamwoord past, zelfde aanpak als bij "postpositions" hierboven.
-  postpositions_formal: {needCategory:["Nouns","Nouns"], needCount:[1,1],
-    instr: (w1,w2) => `Build one short, natural FORMAL/WRITTEN-register Turkish sentence using EXACTLY these two nouns: "${w1.tr}" (${w1.en}) as the subject or topic, and "${w2.tr}" (${w2.en}) as the noun that a formal Turkish postposition attaches to. Choose WHICHEVER of these four fits "${w2.en}" most naturally: dair ("regarding/about"), ilişkin ("related to/concerning"), itibaren ("starting from", typically with a time noun), or nazaran ("compared to/relative to"). itibaren specifically needs a time/date-like noun (e.g. "yarından itibaren" = starting from tomorrow) — if "${w2.en}" isn't time-related, use dair, ilişkin, or nazaran instead. This is FORMAL/WRITTEN register (news, official documents, reports) — keep the sentence itself simple and SHORT (3-7 words) even though the register is formal, and use no other nouns besides the two given.`},
-  // Adresvormen (Ahmet Bey / Ayşe Hanım): geen zin, geen los vocabulairewoord -- alleen een titel
-  // ("Bey" of "Hanım") toegepast op een ECHTE, gangbare Turkse voornaam. needCategory is expres
-  // leeg: dit onderwerp heeft geen woord uit de vocabulairepool nodig, de AI kiest zelf een naam.
-  address_form: {needCategory:[], needCount:[],
-    // Dit onderwerp heeft 3 varianten (titel/diminutief/register, zie GRAMMAR_TOPICS.hitap_bicimleri)
-    // die elk hun EIGEN oefenvorm nodig hebben -- voorheen negeerde deze instr() de variant volledig
-    // en testte hij altijd alleen de titel-vorm (Ahmet Bey), ook wanneer diminutief/register aan de
-    // beurt was. topic.key bevat na effectiveTopicForVariant "hitap_bicimleri::<variantId>".
-    instr: (topic) => {
-      const variantId = topic && topic.key && topic.key.includes("::") ? topic.key.split("::")[1] : null;
-      if(variantId === "diminutief"){
-        return `Produce ONLY a single affectionate/diminutive Turkish address term — nothing else, no sentence, no verb, no extra words. Pick a real, genuinely common Turkish term of endearment yourself (vary between calls: e.g. "anneciğim" (mommy), "canım" (dear/darling), "tatlım" (sweetie), "aşkım" (my love), "babacığım" (daddy), "kızım" (used affectionately for a girl/young woman) — never an invented word). The English side should be the natural affectionate English equivalent (e.g. "mommy", "dear", "sweetie"). Nothing beyond the one address term — no greeting, no verb, no sentence.`;
-      }
-      if(variantId === "register"){
-        return `Produce ONLY one short, complete, natural everyday Turkish phrase or question, in EITHER the informal "sen" register OR the formal/polite "siz" register — pick which register RANDOMLY each call and vary the phrase itself (e.g. "Nasılsın?"/"Nasılsınız?", "Ne yapıyorsun?"/"Ne yapıyorsunuz?", "Adın ne?"/"Adınız ne?", "Nerelisin?"/"Nerelisiniz?" — don't reuse the same phrase every time). The English side is the natural translation. Nothing beyond that one short phrase — no extra sentence, no explanation of which register it is.`;
-      }
-      // default: "titel" variant (of geen variants-array, backward compatible)
-      return `Produce ONLY a title + a real, common Turkish first name — nothing else, no sentence, no verb, no extra words. Pick a real Turkish first name yourself (vary between calls: e.g. Ahmet, Mehmet, Ayşe, Fatma, Ali, Zeynep, Elif, Mustafa, Hasan, Emine, and other genuinely common Turkish names — never a placeholder or invented name), and attach the correct title: "Bey" after a male name, "Hanım" after a female name. Example shape only (pick a DIFFERENT name yourself, don't reuse this exact one): "Ahmet Bey". The English side should be the plain "Mr./Ms. [Name]" equivalent. Nothing beyond title + name — no greeting, no verb, no sentence.`;
-    }},
-  // Nieuw (suffix-dekkingscontrole): -ce/-ca heeft 2 heel verschillende ankers per variant -- de
-  // opinion-vorm ("bence") werkt ALLEEN met een klein, vast setje persoonlijke voornaamwoorden (geen
-  // willekeurig zelfstandig naamwoord), dus needCategory blijft leeg, net als bij address_form.
-  opinion_ce: {needCategory:[], needCount:[],
-    instr: (topic) => {
-      const variantId = topic && topic.key && topic.key.includes("::") ? topic.key.split("::")[1] : null;
-      if(variantId === "gorus"){
-        return `Produce a SHORT opinion phrase or short sentence using EXACTLY ONE of these genuinely common Turkish "-ce" opinion forms: "bence" (in my opinion), "sence" (in your opinion), "bizce" (in our opinion), or "sizce" (in your/plural-formal opinion) — pick randomly, vary between calls. Follow it with a short opinion (e.g. "Bence bu doğru." = In my opinion, this is right.). Keep it SHORT (2-5 words). Do NOT use "onca" or "onlarca" — those are not genuinely common opinion forms in everyday Turkish.`;
-      }
-      // default: "zarf" variant (bijwoordelijke "op een ... manier"-vorm)
-      return `Pick a real, common Turkish adjective yourself and attach the "-ce/-ca" adverbial suffix to it to mean "in a ... way" (e.g. "hızlı" -> "hızlıca" = quickly, "sessiz" -> "sessizce" = silently, "yavaş" -> "yavaşça" = slowly). Build one short, natural sentence using that adverb with a simple verb (e.g. "Yavaşça yürüdü." = He walked slowly). Keep it SHORT (2-4 words).`;
-    }},
-};
 
 /* Voor de "Prepositions"-vocabulairelessen: verpakt een specifiek voorzetsel-woord in een kort,
    natuurlijk zinnetje met een willekeurig, al beheerst zelfstandig naamwoord — in plaats van het
@@ -1787,56 +1683,6 @@ Antwoord in JSON.`;
   return parseAIJson(raw);
 }
 
-async function generateFrameworkDrillCandidate(topic, framework, correctionNote, avoidEn){
-  const cfg = FRAMEWORK_INSTRUCTIONS[framework];
-  const words = [];
-  for(let i=0;i<cfg.needCategory.length;i++){
-    // "PossessorNouns" is geen echte vocab-categorie maar de curated bezitter-pool (zie
-    // POSSESSOR_NOUNS hierboven) -- alleen relevant voor noun_compound_definite (genitief).
-    const picked = cfg.needCategory[i] === "PossessorNouns"
-      ? await pickMasteredPossessorWords(1, avoidEn)
-      : await pickMasteredPoolWords(cfg.needCategory[i], 1, avoidEn);
-    words.push(picked[0] || (cfg.needCategory[i] === "PossessorNouns" ? {en:"teacher", tr:"öğretmen"} : {en:"school", tr:"okul"})); // veiligheidsnet als de pool leeg is
-  }
-  // Bijhouden voor de "vermijd recent gebruikte woorden"-check bij de volgende drill in dezelfde sessie.
-  for(const w of words){
-    recentGrammarDrillWords.add(w.en);
-    while(recentGrammarDrillWords.size > RECENT_GRAMMAR_DRILL_WORDS_MAX){
-      recentGrammarDrillWords.delete(recentGrammarDrillWords.values().next().value); // oudste (eerst toegevoegde) eruit
-    }
-  }
-  const sys = `You create a SHORT, concrete example testing a given Turkish grammar topic, isolated to that one skill but applied PRACTICALLY (a real short sentence/phrase, never an abstract rule question, and NEVER a single bare inflected word with no surrounding context), using only the word(s) given to you for that call.
-Randomly choose the test direction: en-tr (show the English version, ask for the Turkish translation) or tr-en (show the Turkish version, ask for the English translation).
-If you use a possessive pronoun (benim/senin/onun/bizim/sizin/onların) before a noun, that noun ALWAYS needs its own possessive suffix too — the pronoun alone is never enough in Turkish, unlike English "my house" (e.g. "benim evim", NEVER bare "benim ev"; "benim ineğim" not "benim inek").
-Write everything in English and Turkish ONLY — never any other language.
-Respond in JSON.`;
-  const level = pickSentenceComplexityLevel();
-  const userMsg = `Topic: "${topic.label}" (${topic.hint})
-Niveau: ${cefrLabel(level)}. ${cefrGuidance(level)}
-${cfg.instr(...words, topic)}` + (correctionNote ? `\n\nNOTE: your previous attempt was rejected — ${correctionNote} Please get it right this time.` : "");
-  const schema = {
-    name: "grammar_drill",
-    description: "Een geïsoleerde grammatica-oefening: een concrete zin/frase, geen abstracte regelvraag.",
-    input_schema: {
-      type: "object",
-      properties: {
-        direction: {type:"string", enum:["en-tr","tr-en"]},
-        prompt: {type:"string", description:"De zin/frase die aan de gebruiker getoond wordt, in de taal die bij direction hoort."},
-        correct: {type:"string", description:"De correcte vertaling in de andere taal."},
-        baseWord: {type:"string", description:"Het/de gegeven woord(en), zoals gebruikt."},
-      },
-      required: ["direction","prompt","correct","baseWord"]
-    }
-  };
-  const raw = await callAI("sentence", sys, userMsg, 2500, 0.5, schema);
-  return parseAIJson(raw);
-}
-
-// Haalt de Turkse kant van een framework-drill op, ongeacht de gekozen richting -- nodig om 'm door
-// checkSentenceNatural te kunnen halen (die verwacht altijd Turkse tekst).
-function drillTurkishText(drill){
-  return drill.direction === "tr-en" ? drill.prompt : drill.correct;
-}
 // SUFFIX-OEFENING: een woord dat de gebruiker al beheerst (level >= 7) wordt vervoegd met een
 // grammaticaal patroon dat de gebruiker ook al beheerst (level >= 7 op dat GRAMMAR_TOPICS-onderwerp).
 // Puur woordniveau -- geen zin, geen context -- de gebruiker typt precies ÉÉN vervoegde Turkse vorm.
@@ -4132,7 +3978,7 @@ ${isTrEn
   : `Je krijgt een Nederlands woord, de reeds bekende Turkse vertaling(en), en het Turkse antwoord dat de gebruiker gaf. Beoordeel of het antwoord een acceptabele Turkse vertaling is — accepteer synoniemen, alternatieve (correcte) vervoegingen en kleine spelfouten. Is er hieronder een specifieke "bedoelde betekenis" vermeld (dit Nederlandse woord heeft meerdere losstaande betekenissen): beoordeel dan ALLEEN tegen die ene betekenis, ook al zou het antwoord bij een ANDERE betekenis van hetzelfde Nederlandse woord wel correct zijn.`}
 BELANGRIJK OVER TYPEFOUTEN: reken een antwoord GOED als het een tikfout bevat van de bedoelde vertaling, maar alleen als dat woord daadwerkelijk grotendeels dezelfde letters in vrijwel dezelfde volgorde bevat -- bv. één letter verwisseld, één letter te veel/te weinig, of twee letters omgewisseld (voorbeeld: "geliyor" i.p.v. "geliyour", of "tesekkur" i.p.v. "teşekkür"). Dit is GEEN tikfout en moet NIET als zodanig goedgekeurd worden: een kort/anders gespeld woord dat toevallig ergens op lijkt of er een beetje Turks/Engels uitziet, maar in werkelijkheid een ander of niet-bestaand woord is (voorbeeld: "çart" is GEEN tikfout van "grafik" -- die twee delen bijna geen letters, ook al lijkt "çart" fonetisch op het Engelse "chart"). Twijfel je of iets een tikfout is, ga dan uit van NEE (fout antwoord) tenzij de overeenkomst in spelling overduidelijk is. Zet een geaccepteerde tikfout dan wel kort en concreet in "afwijking" (zie hieronder), en zet "correct" niet op false enkel vanwege zo'n duidelijke, geringe tikfout.
 ALS HET ANTWOORD GOED IS MAAR NIET EXACT DE MEEST GANGBARE VORM: vul dan "afwijking" in met een korte, concrete Turkse zin die zegt WAT er afwijkt -- een tikfout (en wat het verschil is), een minder gebruikelijk/formeel synoniem, een andere (maar correcte) vervoeging/vorm, of iets dergelijks. Dit is de tekst die de gebruiker DIRECT bij het resultaat te zien krijgt (niet pas in het uitklapbare uitleg-paneel), dus hou het kort (één zin volstaat meestal). Was het antwoord exact de standaard/meest gangbare vorm, of is het antwoord fout, laat "afwijking" dan leeg ("").
-ALS HET ANTWOORD FOUT IS: geef in "betekenis_antwoord" aan wat het door de gebruiker ingevoerde woord ZELF betekent, VERTAALD NAAR ${isTrEn ? "het Turks" : "het Nederlands"} (dus NIET in dezelfde taal als het antwoord zelf — dat zou zinloos zijn, bv. nooit "great means great"), mits het een bestaand, betekenisvol woord is — dit helpt de gebruiker begrijpen welk ander woord hij in gedachten had. Is het antwoord geen bestaand woord, laat "betekenis_antwoord" dan leeg (""). Bij een GOED antwoord laat je "betekenis_antwoord" ook leeg.
+ALS HET ANTWOORD FOUT IS: geef in "betekenis_antwoord" aan wat het door de gebruiker ingevoerde woord ZELF betekent, ALTIJD VERTAALD NAAR HET TURKS (nooit naar het Nederlands — de gebruiker spreekt uitsluitend Turks, dus deze uitleg moet ALTIJD in het Turks zijn, ongeacht de richting van de oefening), mits het een bestaand, betekenisvol woord is — dit helpt de gebruiker begrijpen welk ander woord hij in gedachten had. Is het antwoord geen bestaand woord, laat "betekenis_antwoord" dan leeg (""). Bij een GOED antwoord laat je "betekenis_antwoord" ook leeg.
 "uitleg" is de tekst voor een apart, uitklapbaar "Açıklama"-paneel dat de gebruiker vrijwillig opent -- hier mag en moet je ruim de tijd/ruimte voor nemen, dit hoeft GEEN korte tekst te zijn. Schrijf hem ALTIJD rechtstreeks tegen de gebruiker (spreek diegene aan met "sen", NOOIT in de derde persoon zoals "öğrenci"), in het Turks, en behandel in aparte, korte alinea's (gescheiden door een lege regel):
 1) De betekenis van het geteste woord zelf (${isTrEn ? `het Turkse woord "${item.tr}"` : `het Nederlandse woord "${baseEnOf(item.en)}"`}) -- een heldere, wat rijkere uitleg dan alleen het kale vertaal-trefwoord, met relevante nuance of gebruikscontext.
 2) ALLEEN als het echt iets toevoegt: een korte, interessante etymologie van het woord, EN/OF -- als het woord meerdere losstaande betekenissen heeft -- die andere betekenissen kort genoemd (dit mag je overslaan of leeg laten als er niets noemenswaardigs is, forceer het niet).
