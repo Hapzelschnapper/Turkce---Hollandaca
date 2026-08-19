@@ -30,7 +30,7 @@
 <div id="peak-indicator" class="peak-tab dal" title="DeepSeek yoğun/sakin saat fiyatlandırması (UTC saatine göre)">● sakin saat</div>
 <div id="app">
 
-  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.13</span></h1>
+  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.14</span></h1>
 
   <!-- ===================== PRACTICE SCREEN ===================== -->
   <section id="screen-practice">
@@ -97,7 +97,7 @@
       <div class="row space-between">
         <span class="badge badge-word">kalıp</span>
       </div>
-      <div class="muted hidden" id="suf-empty-notice" style="color:#c0392b;font-size:.8rem;margin-top:4px;">⚠️ Henüz yeterince iyi bilinen içerik yok — kalıp alıştırmaları oluşturulabilmesi için en az bir fiili VE bir fiil-gramer konusunu iyi seviyede bilmeniz gerekir. Önce Pratik sekmesinde çalışmaya devam edin.</div>
+      <div class="muted hidden" id="suf-empty-notice" style="color:#c0392b;font-size:.8rem;margin-top:4px;"></div>
       <div class="muted" id="suf-verb-label" style="font-size:.85rem;margin-bottom:2px;"></div>
       <div id="suf-word" class="tr-word">…</div>
       <div class="muted" id="suf-word-meta" style="font-size:.78rem;margin-top:2px;"></div>
@@ -377,7 +377,7 @@
     </div>
     <div class="card">
       <h3 style="margin-top:0;">Sürüm</h3>
-      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.13</b></div>
+      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.14</b></div>
       <div class="muted" style="margin-top:4px;">Bir değişiklikten sonra bu zaman damgası güncellenmezse, yükleme doğru yenilenmemiş demektir — GitHub'ı kontrol edin ve sayfayı yeniden yükleyin (önbellek için gizli sekme deneyin).</div>
     </div>
     </div>
@@ -4539,6 +4539,22 @@ async function renderSuffixPractice(){
   el("suf-btn-skip").disabled = true;
 
   if(!canOfferSuffixDrill()){
+    const hasVerb = masteredVerbsForSuffixDrill().length > 0;
+    const hasTopic = masteredTopicsForSuffixDrill().length > 0;
+    // Geef PRECIES aan welke van de twee vereisten (nog) niet gehaald is, i.p.v. altijd dezelfde
+    // gecombineerde melding -- anders lijkt de melding "onterecht" als je bv. wel al genoeg woorden
+    // beheerst, maar de aparte grammatica-onderwerp-voortgang (een HELEMAAL LOS bijgehouden niveau,
+    // dat alleen omhooggaat via grammatica-oefeningen, niet via gewone woordoefeningen) nog niet op
+    // niveau 7 zit -- dat werd voorheen ten onrechte gelezen als "ik ken toch al genoeg woorden?".
+    let msg;
+    if(!hasVerb && !hasTopic){
+      msg = "⚠️ Henüz yeterince iyi bilinen içerik yok — kalıp alıştırmaları için en az bir FİİL (Pratik sekmesinde) VE bir fiil-gramer KONUSU (tegenwoordige tijd, geçmiş zaman, gelecek zaman, emir kipi veya modal fiiller — Kurs sekmesindeki dersler/\"Bu beceriyi çalış\"/bilgi kontrolü aracılığıyla) iyi seviyede (7+) olmalı.";
+    } else if(!hasVerb){
+      msg = "⚠️ Yeterince iyi bilinen bir FİİL yok — kalıp alıştırmaları için en az bir fiili iyi seviyede (7+) bilmeniz gerekir (bir isim veya sıfat bilmeniz burada saymaz, özellikle fiil gerekir). Pratik sekmesinde fiil kelimeleriyle çalışmaya devam edin.";
+    } else {
+      msg = "⚠️ Yeterince iyi bilinen bir fiil-gramer KONUSU yok — bu, kelime bilginizden AYRI bir şeydir: sadece kelime öğrenmek bunu artırmaz, sadece gramer alıştırmaları (Kurs sekmesindeki dersler, \"Bu beceriyi çalış\", veya bilgi kontrolündeki gramer soruları) bu seviyeyi yükseltir. ÖNEMLİ: bazı konuların birden fazla ALT-FORMU vardır (örn. tegenwoordige tijd: ik-formu, jij/hij-formu, çoğul-formu) — konunun TAMAMININ 7+ seviyeye ulaşması için HER ALT-FORMUN ayrı ayrı 7+ olması gerekir, sadece birini iyi bilmeniz yetmez. En hızlı yol: gebiedende wijs (emir kipi) — bu konunun alt-formu yok, tek bir doğru cevap yeterli. Diğer konular: tegenwoordige tijd, voltooid tegenwoordige tijd, onvoltooid verleden tijd, toekomende tijd, modale werkwoorden.";
+    }
+    el("suf-empty-notice").textContent = msg;
     el("suf-verb-label").textContent = "";
     el("suf-word").textContent = "—";
     el("suf-word-meta").textContent = "";
