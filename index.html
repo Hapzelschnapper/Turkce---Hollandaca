@@ -30,7 +30,7 @@
 <div id="peak-indicator" class="peak-tab dal" title="DeepSeek yoğun/sakin saat fiyatlandırması (UTC saatine göre)">● sakin saat</div>
 <div id="app">
 
-  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.17</span></h1>
+  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.19</span></h1>
 
   <!-- ===================== PRACTICE SCREEN ===================== -->
   <section id="screen-practice">
@@ -377,7 +377,7 @@
     </div>
     <div class="card">
       <h3 style="margin-top:0;">Sürüm</h3>
-      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.17</b></div>
+      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.19</b></div>
       <div class="muted" style="margin-top:4px;">Bir değişiklikten sonra bu zaman damgası güncellenmezse, yükleme doğru yenilenmemiş demektir — GitHub'ı kontrol edin ve sayfayı yeniden yükleyin (önbellek için gizli sekme deneyin).</div>
     </div>
     </div>
@@ -1700,7 +1700,18 @@ Antwoord in JSON.`;
 // dan voorheen, en respecteert nu ook het ingestelde CEFR-bereik (inCefrRangeEn/vocabCefrBand) -- beide
 // ontbraken hier voorheen volledig.
 function masteredVerbsForSuffixDrill(){
-  return EN_WORDS_DATA.filter(w => w.pos === "verb" && inCefrRangeEn(w.en) && getProgress(w.en).reps >= 1);
+  // BUGFIX: gebruikte eerst het VOLLEDIGE bereik (inCefrRangeEn, met zowel onder- als bovengrens) --
+  // maar settings.cefrLevel/cefrMin/cefrMax passen zich NOOIT automatisch aan wat de gebruiker al
+  // daadwerkelijk geleerd heeft (blijven op de standaardwaarde tot handmatig aangepast in Ayarlar).
+  // Nieuwe woorden worden altijd van laag-naar-hoog CEFR-niveau geïntroduceerd (getIntroducibleWords),
+  // dus bij een nog vrij nieuwe gebruiker zitten bijna AL zijn beheerste werkwoorden ONDER het
+  // standaardbereik (bv. bereik 3-5, terwijl de gebruiker vooral niveau 0-2-woorden al kent) -- met de
+  // volledige-bereik-check bleef de pool dan zo goed als altijd leeg. Net als bij
+  // masteredTopicsForSuffixDrill() telt daarom alleen de BOVENgrens: een allang-bekend, "te makkelijk"
+  // werkwoord is prima bruikbaar voor de kalıp-trainer, alleen een werkwoord BOVEN je huidige bereik
+  // (nog niet relevant/te moeilijk) wordt geweerd.
+  const hi = vocabCefrBand(Math.max(settings.cefrMin, settings.cefrMax));
+  return EN_WORDS_DATA.filter(w => w.pos === "verb" && vocabCefrBand(w.cefr) <= hi && getProgress(w.en).reps >= 1);
 }
 // Kiest, binnen de pool van al-tegengekomen werkwoorden, bij VOORKEUR een al goed BEHEERST exemplaar
 // (level >= SUFFIX_DRILL_PREFERRED_LEVEL) -- dat geeft een prettigere oefening (je hoeft niet ook nog
@@ -4597,7 +4608,7 @@ async function renderSuffixPractice(){
     } else if(!hasVerb){
       msg = "⚠️ Şu anda seçili CEFR aralığında (Ayarlar) uygun bir FİİL yok — kalıp alıştırmaları için Pratik sekmesinde bir fiille bir kez karşılaşmış olmanız yeterli (iyi bilmeniz gerekmez; bir isim veya sıfat burada saymaz, özellikle fiil gerekir). Pratik sekmesinde çalışmaya devam edin veya CEFR aralığınızı genişletin.";
     } else {
-      msg = "⚠️ Şu anda seçili CEFR aralığında (Ayarlar) açılmış bir fiil-gramer KONUSU yok — bunun için o konunun dersini (Kurs sekmesi) en az bir kez AÇMANIZ yeterli, beheersmeniz gerekmez. Şu konulardan birinin dersini açın: tegenwoordige tijd, voltooid tegenwoordige tijd, onvoltooid verleden tijd, toekomende tijd, gebiedende wijs, modale werkwoorden — veya CEFR aralığınızı (Ayarlar) genişletin.";
+      msg = "⚠️ Şu anda seçili CEFR aralığında (Ayarlar) açılmış bir fiil-gramer KONUSU yok — bunun için o konunun dersini (Kurs sekmesi) en az bir kez AÇMANIZ yeterli, iyi bilmeniz gerekmez. Şu konulardan birinin dersini açın: tegenwoordige tijd, voltooid tegenwoordige tijd, onvoltooid verleden tijd, toekomende tijd, gebiedende wijs, modale werkwoorden — veya CEFR aralığınızı (Ayarlar) genişletin.";
     }
     el("suf-empty-notice").textContent = msg;
     el("suf-verb-label").textContent = "";
@@ -5359,11 +5370,11 @@ function isLessonDone(l){
 function renderCourseLessonRow(l, idx){
   const level = displayLessonGrade(l);
   const lastScore = lastSkillPracticeScore[l.id];
-  const scoreTxt = lastScore ? ` · Last score: ${lastScore.correct}/${lastScore.total}` : "";
+  const scoreTxt = lastScore ? ` · Son puan: ${lastScore.correct}/${lastScore.total}` : "";
   let rightHtml, sub;
   if(level === null){
     rightHtml = `<div style="font-size:1.1rem;">📖</div>`;
-    sub = isLessonCompleted(l.id) ? "✅ Read" : "Reference — tap to read";
+    sub = isLessonCompleted(l.id) ? "✅ Okundu" : "Referans — okumak için dokun";
   } else {
     const color = level<=3 ? "#e0333f" : level<=6 ? "#e0a733" : level<9 ? "#2fae6a" : "#4fd88a";
     const hasOverride = lessonGradeOverrides[l.id] !== undefined;
@@ -5371,10 +5382,22 @@ function renderCourseLessonRow(l, idx){
       <button class="btn-ghost btn-small grade-override-btn" data-id="${l.id}" style="padding:1px 6px;font-size:.68rem;margin-top:2px;" title="Bu ders için kendi notunuzu belirleyin">${hasOverride ? "✏️ own" : "✏️"}</button>`;
     sub = (level === 0 ? "Henüz denenmedi" : level >= 9 ? "İyi seviyede" : "Devam ediyor") + scoreTxt;
   }
+  // BUGFIX: de hoofdtitel (grote tekst, .word-row-tr) toonde tot nu toe de KALE Nederlandse
+  // grammaticaterm (bv. "Tegenwoordige tijd"), terwijl de ondertitel (.word-row-trans) alleen
+  // Turkse statustekst liet zien ("Devam ediyor" e.d.) -- dus geen enkele Turkse UITLEG van het
+  // onderwerp zelf was op het eerste gezicht zichtbaar. GRAMMAR_TOPICS[key].label bevat wél al een
+  // Turks-georiënteerd label (Nederlandse term + Turkse verklarende glans, bv. "Tegenwoordige tijd
+  // (şimdiki/geniş zaman)") -- die wordt nu de hoofdtitel; de kale Nederlandse term (l.title) schuift
+  // door naar de ondertitel, vóór de statustekst. Voor lessen zonder gekoppeld grammatica-onderwerp
+  // (welcome/how_dutch_works, die al zuiver Turkse titels hebben) verandert er niets.
+  const topicKey = l.grammarTopics && l.grammarTopics[0] ? l.grammarTopics[0].split("::")[0] : null;
+  const topic = topicKey ? grammarTopicByKey(topicKey) : null;
+  const primaryTitle = topic ? topic.label : l.title;
+  const subPrefix = (topic && topic.label !== l.title) ? `<i>${escapeHtml(l.title)}</i> · ` : "";
   return `<div class="word-row" style="cursor:pointer;" data-idx="${idx}">
     <div>
-      <div class="word-row-tr">${l.icon} ${l.title}</div>
-      <div class="word-row-trans">${sub}</div>
+      <div class="word-row-tr">${l.icon} ${primaryTitle}</div>
+      <div class="word-row-trans">${subPrefix}${sub}</div>
     </div>
     <div style="text-align:right;">
       ${rightHtml}
