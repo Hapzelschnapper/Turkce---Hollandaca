@@ -30,7 +30,7 @@
 <div id="peak-indicator" class="peak-tab dal" title="DeepSeek yoğun/sakin saat fiyatlandırması (UTC saatine göre)">● sakin saat</div>
 <div id="app">
 
-  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.22</span></h1>
+  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.23</span></h1>
 
   <!-- ===================== PRACTICE SCREEN ===================== -->
   <section id="screen-practice">
@@ -377,7 +377,7 @@
     </div>
     <div class="card">
       <h3 style="margin-top:0;">Sürüm</h3>
-      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.22</b></div>
+      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.23</b></div>
       <div class="muted" style="margin-top:4px;">Bir değişiklikten sonra bu zaman damgası güncellenmezse, yükleme doğru yenilenmemiş demektir — GitHub'ı kontrol edin ve sayfayı yeniden yükleyin (önbellek için gizli sekme deneyin).</div>
     </div>
     </div>
@@ -1766,7 +1766,7 @@ Geef een kort, ondubbelzinnig TURKS zinnetje (in het Turks, de bekende taal van 
 KRITIEK -- "prompt" mag NOOIT het antwoord verklappen of uitleg bevatten: het veld "prompt" bevat UITSLUITEND het korte Turkse zinnetje zelf, NOOIT de Nederlandse vorm (ook niet tussen haakjes als "vertaling" of "voorbeeld"), en NOOIT een aanvullende grammaticale instructiezin erachter (zoals "- vervoeg dit werkwoord voor ..."). Dus GEEN patroon als "\"O görür.\" (Hij ziet.) - vervoeg..." -- puur en alleen het Turkse zinnetje, bv. "O görür." en verder niets. Alle uitleg over WAT de gebruiker moet doen staat al vast in de UI zelf (niet iets waar jij over hoeft na te denken) -- "prompt" is UITSLUITEND de talige aanwijzing.
 Geef de correcte Nederlandse vorm (normaal gesproken één woord; alleen als het patroon dat grammaticaal vereist -- bv. bij "hebben/zijn + voltooid deelwoord" of "gaan + infinitief" -- een vaste, korte woordgroep).
 KRITIEKE REGEL TEGEN DUBBELZINNIGHEID: bij de tegenwoordige tijd zijn de wij-, jullie- en zij(mv)-vormen IDENTIEK aan de kale infinitief (bv. "wij komen" = gewoon "komen", exact hetzelfde woordbeeld als de mastar/infinitief zelf). Als de gevormde vorm op zichzelf niet te onderscheiden is van de kale infinitief of van een andere vervoeging, MOET je het onderwerp-voornaamwoord (wij/jullie/zij, of eventueel ik/jij/hij) ALTIJD mee opnemen in zowel "correct" als de bijbehorende breakdown-stap(pen) -- dus "wij komen" i.p.v. kaal "komen", nooit een vorm tonen/verwachten die zonder extra context ook als iets anders (met name de kale infinitief) gelezen kan worden. Dit geldt ook voor de eerste-svp/imperatief-achtige samenvallende vormen bij andere patronen -- bij twijfel, voeg het voornaamwoord toe.
-Geef ook een STAP-VOOR-STAP OPBOUW ("breakdown"): een array van de KALE werkwoordstam (zonder -en, bv. "werk" niet "werken") tot en met de volledige gevormde Nederlandse vorm, waarbij ELKE volgende stap EXACT ÉÉN element/achtervoegsel/hulpwoord/voornaamwoord meer bevat dan de vorige. Elke stap krijgt "form" (de Nederlandse vorm tot en met dat element) en "meaning" (de TURKSE betekenis van de vorm OP DIE STAP, zodat de betekenisverandering door dat ene toegevoegde element duidelijk wordt). De eerste stap is altijd de kale stam met zijn kale (Turkse) betekenis; de laatste stap is EXACT gelijk aan "correct" (dus inclusief het voornaamwoord, als dat conform de regel hierboven nodig was om dubbelzinnigheid te voorkomen). Gebruik zoveel stappen als het patroon daadwerkelijk vereist (meestal 2-3) -- verzin geen kunstmatige tussenstap die geen echte taalkundige eenheid is.
+Geef ook een STAP-VOOR-STAP OPBOUW ("breakdown"): TOON HIERBIJ DE TURKSE AGGLUTINATIE, NIET DE NEDERLANDSE OPBOUW. Nederlands is namelijk NIET agglutinerend (bv. "wij komen" bestaat uit twee losse WOORDEN, er is geen taalkundig zinvolle tussenstap "wij kom" -- dat oogt raar en klopt niet). Het Turks daarentegen bouwt woorden wél op door achtervoegsels aan een stam te plakken, en DAT is wat de stappen moeten laten zien: begin bij de kale Turkse werkwoordstam, en voeg per stap PRECIES ÉÉN Turks achtervoegsel toe (tijd/aspect-eki, dan pas het şahıs/persoons-eki, in de taalkundig juiste volgorde) tot en met de volledige, correct vervoegde Turkse vorm. Elke stap krijgt "form" (de TURKSE vorm tot en met dat achtervoegsel, dus bv. "gel" -> "gelir" -> "geliriz") en "meaning" (de NEDERLANDSE vertaling/glans van die Turkse vorm op dat punt, als volledig natuurlijk Nederlands -- dus GEEN kunstmatige tussenvorm zoals "wij kom", gewoon de dichtstbijzijnde natuurlijke Nederlandse vertaling van wat er op dat punt al staat, bv. bij "gel" = "komen" (kaal, mastar), bij "gelir" = "hij komt" (als dat de tussenliggende betekenis is), bij "geliriz" = "wij komen"). De laatste stap heeft als "form" de volledige Turkse vorm die bij "prompt" hoort (of het Turkse equivalent van "correct" als dat de Nederlandse kant is); de laatste stap heeft dan als "meaning" de Nederlandse kant van de oefening. Gebruik zoveel stappen als het Turkse achtervoegselpatroon daadwerkelijk vereist (meestal 2-3: kök -> +tijd/aspect -> +persoon) -- verzin geen kunstmatige tussenstap die geen echte Turkse morfologische eenheid is.
 Schrijf alles in het Nederlands en Turks -- nooit een andere taal.
 Antwoord in JSON.`;
   const schema = {
@@ -1779,12 +1779,12 @@ Antwoord in JSON.`;
         correct: {type:"string", description:"De correcte Nederlandse vorm. BEVAT het onderwerp-voornaamwoord (bv. 'wij komen') als de kale vervoegde vorm anders identiek zou zijn aan de infinitief of een andere vervoeging -- nooit een vorm die zonder context ook anders gelezen kan worden."},
         breakdown: {
           type: "array",
-          description: "Stap-voor-stap opbouw: van de kale werkwoordstam tot de volledige vorm, elke stap precies 1 element meer dan de vorige. Laatste stap = 'correct'.",
+          description: "Stap-voor-stap TURKSE agglutinatie-opbouw (kök -> +tijd/aspect-eki -> +şahıs-eki), elke stap precies 1 Turks achtervoegsel meer dan de vorige. NIET de Nederlandse opbouw -- Nederlands is niet agglutinerend, dus geen kunstmatige tussenvormen zoals 'wij kom'.",
           items: {
             type: "object",
             properties: {
-              form: {type:"string", description:"De Nederlandse vorm tot en met dit element."},
-              meaning: {type:"string", description:"De Turkse betekenis van de vorm op deze stap."},
+              form: {type:"string", description:"De TURKSE vorm tot en met dit achtervoegsel (bv. 'gel' -> 'gelir' -> 'geliriz')."},
+              meaning: {type:"string", description:"De natuurlijke NEDERLANDSE vertaling van de Turkse vorm op dit punt (geen kunstmatige Nederlandse tussenvorm)."},
             },
             required: ["form","meaning"],
           },
@@ -1808,7 +1808,7 @@ Antwoord in JSON.`;
     return !startsWithPronoun && c === verbNl.trim().toLowerCase();
   }
   if(looksAmbiguousBareForm(parsed.correct)){
-    const retryUser = `Werkwoord: ${verbNl} (${verbTrGloss}) | Patroon: ${topic.label}\n\nLET OP: je vorige poging gaf "${parsed.correct}" als "correct" terug -- dat is EXACT gelijk aan de kale infinitief van het werkwoord zelf, dus zonder extra context (zoals het onderwerp-voornaamwoord) kan een gebruiker onmogelijk weten dat hier een specifieke vervoeging (bv. de wij-vorm) getest wordt in plaats van simpelweg de infinitief. Voeg het onderwerp-voornaamwoord toe (bv. "wij ${verbNl}" i.p.v. kaal "${verbNl}") in zowel "correct" als de laatste breakdown-stap, en herhaal dit dan pas.`;
+    const retryUser = `Werkwoord: ${verbNl} (${verbTrGloss}) | Patroon: ${topic.label}\n\nLET OP: je vorige poging gaf "${parsed.correct}" als "correct" terug -- dat is EXACT gelijk aan de kale infinitief van het werkwoord zelf, dus zonder extra context (zoals het onderwerp-voornaamwoord) kan een gebruiker onmogelijk weten dat hier een specifieke vervoeging (bv. de wij-vorm) getest wordt in plaats van simpelweg de infinitief. Voeg het onderwerp-voornaamwoord toe (bv. "wij ${verbNl}" i.p.v. kaal "${verbNl}") aan "correct", en pas de laatste "meaning" van de breakdown (de Nederlandse vertaling van de laatste Turkse stap) hierop aan, en herhaal dit dan pas.`;
     const raw2 = await callAI("sentence", sys, retryUser, 700, 0.5, schema);
     const parsed2 = parseAIJson(raw2);
     if(parsed2.prompt && parsed2.correct) parsed = parsed2;
@@ -1835,7 +1835,7 @@ Antwoord in JSON.`;
   }
   const breakdown = (Array.isArray(parsed.breakdown) && parsed.breakdown.length)
     ? parsed.breakdown.filter(s => s && s.form && s.meaning)
-    : [{form: parsed.correct, meaning: parsed.prompt}]; // veiligheidsnet: geen (bruikbare) breakdown terug -> toon tenminste de eindvorm
+    : [{form: parsed.prompt, meaning: parsed.correct}]; // veiligheidsnet: geen (bruikbare) breakdown terug -> toon tenminste de Turkse aanwijzing + Nederlandse vorm
 
   // Richting willekeurig kiezen -- de AI levert altijd zowel de Turkse aanwijzing (parsed.prompt) als
   // de gevormde Nederlandse vorm (parsed.correct), dus welke van de twee getoond wordt en welke als
