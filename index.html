@@ -30,7 +30,7 @@
 <div id="peak-indicator" class="peak-tab dal" title="DeepSeek yoğun/sakin saat fiyatlandırması (UTC saatine göre)">● sakin saat</div>
 <div id="app">
 
-  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.23</span></h1>
+  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.25</span></h1>
 
   <!-- ===================== PRACTICE SCREEN ===================== -->
   <section id="screen-practice">
@@ -377,7 +377,7 @@
     </div>
     <div class="card">
       <h3 style="margin-top:0;">Sürüm</h3>
-      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.23</b></div>
+      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.25</b></div>
       <div class="muted" style="margin-top:4px;">Bir değişiklikten sonra bu zaman damgası güncellenmezse, yükleme doğru yenilenmemiş demektir — GitHub'ı kontrol edin ve sayfayı yeniden yükleyin (önbellek için gizli sekme deneyin).</div>
     </div>
     </div>
@@ -1109,6 +1109,7 @@ function cefrGuidance(idx){
 }
 
 let GRAMMAR_LESSONS; // gevuld door loadAllData()
+let SUFFIX_DATA; // handmatig geverifieerde Turkse suffix-vervoegingen (kalıp-trainer), gevuld door loadAllData()
 
 /* Bouwt de volledige cursus: de 238 auto-gegenereerde vocabulaire-lessen (28-woordbatches per
    niveau+woordsoort) geïnterleaved met de 11 grammaticale oefenlessen (de eerste 2, pure leesstof,
@@ -1173,18 +1174,20 @@ let LESSONS = [], GRAMMAR_TRACK = [], VOCAB_TRACK = [];
    daarin. Wordt vóór de rest van de app-initialisatie aangeroepen door de DOMContentLoaded-handler
    onderaan dit bestand, terwijl #loading-overlay zichtbaar is. */
 async function loadAllData(){
-  const [enWords, vocabLessons, embeddedCuratedTr, reverseTrIndex, grammarLessons] = await Promise.all([
+  const [enWords, vocabLessons, embeddedCuratedTr, reverseTrIndex, grammarLessons, suffixConjugations] = await Promise.all([
     loadJSONAsync("words.json"),           // Oxford 3000/5000, {en, cefr} per item
     loadJSONAsync("vocab-lessons.json"),   // {title, cefr, words:[...]} per vocabulary lesson, 28-word batches grouped by level+POS
     loadJSONAsync("vocab-data.json"),      // { [en]: {senses:[{gloss,pos,tr,register,note}]} } — gecureerd op basis van de Oxford 5000 en-tr-lijst
     loadJSONAsync("reverse-tr-index.json"),// { [en]: [{tr, gloss, pos, register, note}] } — reverse-lookup vanaf de APART gecureerde tr-en-lijst
     loadJSONAsync("lessons.json"),
+    loadJSONAsync("suffix-conjugations.json"), // handmatig geverifieerde Turkse suffix-vervoegingen (kalıp-trainer) -- zie SUFFIX_DATA hieronder
   ]);
   EN_WORDS_DATA = enWords;
   VOCAB_LESSON_DATA = vocabLessons;
   EMBEDDED_CURATED_TR = embeddedCuratedTr;
   REVERSE_TR_INDEX = reverseTrIndex;
   GRAMMAR_LESSONS = grammarLessons;
+  SUFFIX_DATA = suffixConjugations;
 
   curatedTr = {...curatedTr, ...EMBEDDED_CURATED_TR};
 
@@ -1747,10 +1750,81 @@ function masteredTopicsForSuffixDrill(){
 function canOfferSuffixDrill(){
   return masteredVerbsForSuffixDrill().length > 0 && masteredTopicsForSuffixDrill().length > 0;
 }
+// Kiest, indien mogelijk, een (werkwoord, onderwerp)-combinatie waarvoor GEVERIFIEERDE data bestaat
+// in SUFFIX_DATA (zie loadAllData/suffix-conjugations.json), en bouwt daar een volledige kalıp-drill
+// uit op -- zonder enige AI-aanroep, dus zonder het risico op AI-generatiefouten. Geeft null terug
+// als er voor de huidige (ontgrendelde) werkwoorden/onderwerpen geen geverifieerde combinatie is,
+// zodat de aanroeper dan op de bestaande AI-generatie kan terugvallen.
+const VERIFIED_SUFFIX_STEP_LABELS = {
+  tegenwoordige_tijd: "şimdiki zaman eki (-Iyor) eklendi",
+  toekomende_tijd: "gelecek zaman eki (-EcEk) eklendi",
+  onvoltooid_verleden_tijd: "di'li geçmiş zaman eki (-DI) eklendi",
+};
+function pickVerifiedSuffixDrill(verbs, topics){
+  if(!SUFFIX_DATA) return null;
+  const verbEnSet = new Set(verbs.map(w => baseEnOf(w.en)));
+  const topicKeySet = new Set(topics.map(t => t.key));
+  const candidates = [];
+  for(const topicKey of Object.keys(SUFFIX_DATA)){
+    if(topicKey.startsWith("_") || !topicKeySet.has(topicKey)) continue;
+    const perWerkwoord = SUFFIX_DATA[topicKey].per_werkwoord;
+    if(!perWerkwoord) continue;
+    for(const verbNl of Object.keys(perWerkwoord)){
+      if(!verbEnSet.has(verbNl)) continue;
+      // Voorkeur voor al goed beheerste werkwoorden, zelfde principe als pickSuffixDrillVerb()
+      const w = verbs.find(v => baseEnOf(v.en) === verbNl);
+      const wellKnown = w && getProgress(w.en).level >= SUFFIX_DRILL_PREFERRED_VERB_LEVEL;
+      candidates.push({topicKey, verbNl, wellKnown});
+    }
+  }
+  if(!candidates.length) return null;
+  const wellKnownCandidates = candidates.filter(c => c.wellKnown);
+  const pool = wellKnownCandidates.length ? wellKnownCandidates : candidates;
+  const {topicKey, verbNl} = pool[Math.floor(Math.random()*pool.length)];
+  const data = SUFFIX_DATA[topicKey].per_werkwoord[verbNl];
+  const personKeys = Object.keys(data.paren);
+  const person = personKeys[Math.floor(Math.random()*personKeys.length)];
+  const {tr, nl} = data.paren[person];
+  const direction = Math.random() < 0.5 ? "en-tr" : "tr-en";
+  const trPronoun = {ben:"Ben", sen:"Sen", o:"O", biz:"Biz", siz:"Siz", onlar:"Onlar"}[person];
+  const trPrompt = `${trPronoun} ${tr}.`;
+
+  const breakdown = [];
+  breakdown.push({form: data.tr_stam, meaning: `${data.tr_infinitief} (kök)`});
+  if(data.tr_tussenstap && VERIFIED_SUFFIX_STEP_LABELS[topicKey]){
+    breakdown.push({form: data.tr_tussenstap, meaning: VERIFIED_SUFFIX_STEP_LABELS[topicKey]});
+  }
+  breakdown.push({form: tr, meaning: nl});
+
+  return {
+    type: "suffix",
+    en: `suffix:${verbNl}:${topicKey}:verified`,
+    direction,
+    prompt: direction === "en-tr" ? trPrompt : nl,
+    correct: direction === "en-tr" ? nl : trPrompt,
+    englishCue: trPrompt,
+    turkishForm: nl,
+    verbEn: verbNl,
+    verbTr: data.tr_infinitief,
+    topicKey,
+    breakdown,
+    verified: true, // markeert dat dit UIT DE GEVERIFIEERDE DATABASE komt, geen AI-generatie
+  };
+}
+
 async function generateSuffixDrill(){
   const verbs = masteredVerbsForSuffixDrill();
   const topics = masteredTopicsForSuffixDrill();
   if(!verbs.length || !topics.length) throw new Error("Henüz uygun bir fiil + açılmış bir fiil-gramer konusu kombinasyonu yok.");
+
+  // Probeer eerst een combinatie te vinden waarvoor GEVERIFIEERDE (niet AI-live-gegenereerde) data
+  // bestaat -- zie SUFFIX_DATA/suffix-conjugations.json: een handmatig gecontroleerde vervoegingstabel
+  // voor 25 kernwerkwoorden × de onderwerpen waarvoor dat al is opgebouwd. Dit is 100% betrouwbaar
+  // (geen AI-gok meer nodig) voor de combinaties die erin zitten; voor alle andere combinaties (ander
+  // werkwoord, of een onderwerp waarvoor nog geen data bestaat) valt dit terug op AI-generatie hieronder.
+  const verified = pickVerifiedSuffixDrill(verbs, topics);
+  if(verified) return verified;
+
   const verb = pickSuffixDrillVerb();
   const topic = topics[Math.floor(Math.random()*topics.length)];
   // LET OP: "en"-veld/EN_WORDS_DATA bevat sinds de Nederlands-leren-versie het Nederlandse (doeltaal)
@@ -1766,7 +1840,12 @@ Geef een kort, ondubbelzinnig TURKS zinnetje (in het Turks, de bekende taal van 
 KRITIEK -- "prompt" mag NOOIT het antwoord verklappen of uitleg bevatten: het veld "prompt" bevat UITSLUITEND het korte Turkse zinnetje zelf, NOOIT de Nederlandse vorm (ook niet tussen haakjes als "vertaling" of "voorbeeld"), en NOOIT een aanvullende grammaticale instructiezin erachter (zoals "- vervoeg dit werkwoord voor ..."). Dus GEEN patroon als "\"O görür.\" (Hij ziet.) - vervoeg..." -- puur en alleen het Turkse zinnetje, bv. "O görür." en verder niets. Alle uitleg over WAT de gebruiker moet doen staat al vast in de UI zelf (niet iets waar jij over hoeft na te denken) -- "prompt" is UITSLUITEND de talige aanwijzing.
 Geef de correcte Nederlandse vorm (normaal gesproken één woord; alleen als het patroon dat grammaticaal vereist -- bv. bij "hebben/zijn + voltooid deelwoord" of "gaan + infinitief" -- een vaste, korte woordgroep).
 KRITIEKE REGEL TEGEN DUBBELZINNIGHEID: bij de tegenwoordige tijd zijn de wij-, jullie- en zij(mv)-vormen IDENTIEK aan de kale infinitief (bv. "wij komen" = gewoon "komen", exact hetzelfde woordbeeld als de mastar/infinitief zelf). Als de gevormde vorm op zichzelf niet te onderscheiden is van de kale infinitief of van een andere vervoeging, MOET je het onderwerp-voornaamwoord (wij/jullie/zij, of eventueel ik/jij/hij) ALTIJD mee opnemen in zowel "correct" als de bijbehorende breakdown-stap(pen) -- dus "wij komen" i.p.v. kaal "komen", nooit een vorm tonen/verwachten die zonder extra context ook als iets anders (met name de kale infinitief) gelezen kan worden. Dit geldt ook voor de eerste-svp/imperatief-achtige samenvallende vormen bij andere patronen -- bij twijfel, voeg het voornaamwoord toe.
-Geef ook een STAP-VOOR-STAP OPBOUW ("breakdown"): TOON HIERBIJ DE TURKSE AGGLUTINATIE, NIET DE NEDERLANDSE OPBOUW. Nederlands is namelijk NIET agglutinerend (bv. "wij komen" bestaat uit twee losse WOORDEN, er is geen taalkundig zinvolle tussenstap "wij kom" -- dat oogt raar en klopt niet). Het Turks daarentegen bouwt woorden wél op door achtervoegsels aan een stam te plakken, en DAT is wat de stappen moeten laten zien: begin bij de kale Turkse werkwoordstam, en voeg per stap PRECIES ÉÉN Turks achtervoegsel toe (tijd/aspect-eki, dan pas het şahıs/persoons-eki, in de taalkundig juiste volgorde) tot en met de volledige, correct vervoegde Turkse vorm. Elke stap krijgt "form" (de TURKSE vorm tot en met dat achtervoegsel, dus bv. "gel" -> "gelir" -> "geliriz") en "meaning" (de NEDERLANDSE vertaling/glans van die Turkse vorm op dat punt, als volledig natuurlijk Nederlands -- dus GEEN kunstmatige tussenvorm zoals "wij kom", gewoon de dichtstbijzijnde natuurlijke Nederlandse vertaling van wat er op dat punt al staat, bv. bij "gel" = "komen" (kaal, mastar), bij "gelir" = "hij komt" (als dat de tussenliggende betekenis is), bij "geliriz" = "wij komen"). De laatste stap heeft als "form" de volledige Turkse vorm die bij "prompt" hoort (of het Turkse equivalent van "correct" als dat de Nederlandse kant is); de laatste stap heeft dan als "meaning" de Nederlandse kant van de oefening. Gebruik zoveel stappen als het Turkse achtervoegselpatroon daadwerkelijk vereist (meestal 2-3: kök -> +tijd/aspect -> +persoon) -- verzin geen kunstmatige tussenstap die geen echte Turkse morfologische eenheid is.
+Geef ook een STAP-VOOR-STAP OPBOUW ("breakdown"): TOON HIERBIJ DE TURKSE AGGLUTINATIE, NIET DE NEDERLANDSE OPBOUW. Nederlands is namelijk NIET agglutinerend (bv. "wij komen" bestaat uit twee losse WOORDEN, er is geen taalkundig zinvolle tussenstap "wij kom" -- dat oogt raar en klopt niet). Het Turks daarentegen bouwt woorden wél op door achtervoegsels aan een stam te plakken, en DAT is wat de stappen moeten laten zien: begin bij de kale Turkse werkwoordstam, en voeg per stap PRECIES ÉÉN Turks achtervoegsel toe (tijd/aspect-eki, dan pas het şahıs/persoons-eki, in de taalkundig juiste volgorde) tot en met de volledige, correct vervoegde Turkse vorm. Elke stap krijgt "form" (de TURKSE vorm tot en met dat achtervoegsel, dus bv. "gel" -> "gelir" -> "geliriz").
+BELANGRIJK voor "meaning" per stap -- benoem de GRAMMATICALE FUNCTIE van het net toegevoegde element, geef GEEN voorbarige volledige vertaling zolang de vorm nog onvolledig/dubbelzinnig is: een tijd/aspect-eki zoals "-ir" voegt namelijk ALLEEN een tijdscategorie toe (bv. geniş zaman), NOG GEEN specifieke persoon -- "gelir" op zichzelf een vertaling geven als "hij komt" is misleidend, want er is nog geen persoons-eki toegevoegd. Gebruik dus:
+- Bij de kale stam: de kale (Turkse of Nederlandse) grondbetekenis, bv. "gel" -> "gelmek (kök)".
+- Bij een tijd/aspect-eki: de NAAM van die grammaticale categorie, bv. "gelir" -> "geniş zaman eki (-ir) eklendi" -- NIET een voortijdige vertaling met een geraden persoon.
+- Pas bij de stap waar de vorm daadwerkelijk COMPLEET en ondubbelzinnig is (meestal na het şahıs-eki, bv. "geliriz"): DAN pas de natuurlijke Nederlandse vertaling, bv. "geliriz" -> "wij komen".
+De laatste stap heeft als "form" de volledige Turkse vorm die bij "prompt" hoort (of het Turkse equivalent van "correct" als dat de Nederlandse kant is); de laatste stap heeft dan als "meaning" de Nederlandse kant van de oefening. Gebruik zoveel stappen als het Turkse achtervoegselpatroon daadwerkelijk vereist (meestal 2-3: kök -> +tijd/aspect -> +persoon) -- verzin geen kunstmatige tussenstap die geen echte Turkse morfologische eenheid is.
 Schrijf alles in het Nederlands en Turks -- nooit een andere taal.
 Antwoord in JSON.`;
   const schema = {
@@ -1784,7 +1863,7 @@ Antwoord in JSON.`;
             type: "object",
             properties: {
               form: {type:"string", description:"De TURKSE vorm tot en met dit achtervoegsel (bv. 'gel' -> 'gelir' -> 'geliriz')."},
-              meaning: {type:"string", description:"De natuurlijke NEDERLANDSE vertaling van de Turkse vorm op dit punt (geen kunstmatige Nederlandse tussenvorm)."},
+              meaning: {type:"string", description:"Bij een tijd/aspect-eki: de NAAM van die grammaticale categorie (bv. 'geniş zaman eki eklendi'), GEEN voortijdige vertaling met een geraden persoon. Pas bij de vorm die daadwerkelijk compleet/ondubbelzinnig is: de natuurlijke Nederlandse vertaling."},
             },
             required: ["form","meaning"],
           },

@@ -1,0 +1,3512 @@
+{
+ "_meta": {
+  "beschrijving": "Handmatig geverifieerde Nederlands+Turkse suffix-conjugaties voor de kalıp/patroon-trainer.",
+  "kernwerkwoorden": [
+   {
+    "nl": "gaan",
+    "infinitief": "gitmek",
+    "stam": "git"
+   },
+   {
+    "nl": "komen",
+    "infinitief": "gelmek",
+    "stam": "gel"
+   },
+   {
+    "nl": "doen",
+    "infinitief": "yapmak",
+    "stam": "yap"
+   },
+   {
+    "nl": "nemen",
+    "infinitief": "almak",
+    "stam": "al"
+   },
+   {
+    "nl": "geven",
+    "infinitief": "vermek",
+    "stam": "ver"
+   },
+   {
+    "nl": "zien",
+    "infinitief": "görmek",
+    "stam": "gör"
+   },
+   {
+    "nl": "weten",
+    "infinitief": "bilmek",
+    "stam": "bil"
+   },
+   {
+    "nl": "willen",
+    "infinitief": "istemek",
+    "stam": "iste"
+   },
+   {
+    "nl": "drinken",
+    "infinitief": "içmek",
+    "stam": "iç"
+   },
+   {
+    "nl": "kijken",
+    "infinitief": "bakmak",
+    "stam": "bak"
+   },
+   {
+    "nl": "denken",
+    "infinitief": "düşünmek",
+    "stam": "düşün"
+   },
+   {
+    "nl": "horen",
+    "infinitief": "duymak",
+    "stam": "duy"
+   },
+   {
+    "nl": "lopen",
+    "infinitief": "yürümek",
+    "stam": "yürü"
+   },
+   {
+    "nl": "schrijven",
+    "infinitief": "yazmak",
+    "stam": "yaz"
+   },
+   {
+    "nl": "spreken",
+    "infinitief": "konuşmak",
+    "stam": "konuş"
+   },
+   {
+    "nl": "vinden",
+    "infinitief": "bulmak",
+    "stam": "bul"
+   },
+   {
+    "nl": "vragen",
+    "infinitief": "sormak",
+    "stam": "sor"
+   },
+   {
+    "nl": "werken",
+    "infinitief": "çalışmak",
+    "stam": "çalış"
+   },
+   {
+    "nl": "zitten",
+    "infinitief": "oturmak",
+    "stam": "otur"
+   },
+   {
+    "nl": "gebruiken",
+    "infinitief": "kullanmak",
+    "stam": "kullan"
+   },
+   {
+    "nl": "lezen",
+    "infinitief": "okumak",
+    "stam": "oku"
+   },
+   {
+    "nl": "wachten",
+    "infinitief": "beklemek",
+    "stam": "bekle"
+   },
+   {
+    "nl": "zoeken",
+    "infinitief": "aramak",
+    "stam": "ara"
+   },
+   {
+    "nl": "luisteren",
+    "infinitief": "dinlemek",
+    "stam": "dinle"
+   },
+   {
+    "nl": "openen",
+    "infinitief": "açmak",
+    "stam": "aç"
+   }
+  ],
+  "kernnaamwoorden": [
+   {
+    "nl": "huis",
+    "tr": "ev"
+   },
+   {
+    "nl": "boek",
+    "tr": "kitap"
+   },
+   {
+    "nl": "appel",
+    "tr": "elma"
+   },
+   {
+    "nl": "dag",
+    "tr": "gün"
+   },
+   {
+    "nl": "jaar",
+    "tr": "yıl"
+   },
+   {
+    "nl": "maand",
+    "tr": "ay"
+   },
+   {
+    "nl": "week",
+    "tr": "hafta"
+   },
+   {
+    "nl": "tijd",
+    "tr": "zaman"
+   },
+   {
+    "nl": "plaats",
+    "tr": "yer"
+   },
+   {
+    "nl": "werk",
+    "tr": "iş"
+   },
+   {
+    "nl": "school",
+    "tr": "okul"
+   },
+   {
+    "nl": "auto",
+    "tr": "araba"
+   },
+   {
+    "nl": "deur",
+    "tr": "kapı"
+   },
+   {
+    "nl": "raam",
+    "tr": "pencere"
+   },
+   {
+    "nl": "tafel",
+    "tr": "masa"
+   },
+   {
+    "nl": "stoel",
+    "tr": "sandalye"
+   },
+   {
+    "nl": "kind",
+    "tr": "çocuk"
+   },
+   {
+    "nl": "man",
+    "tr": "adam"
+   },
+   {
+    "nl": "vrouw",
+    "tr": "kadın"
+   },
+   {
+    "nl": "vriend",
+    "tr": "arkadaş"
+   },
+   {
+    "nl": "leraar",
+    "tr": "öğretmen"
+   },
+   {
+    "nl": "dokter",
+    "tr": "doktor"
+   },
+   {
+    "nl": "stad",
+    "tr": "şehir"
+   },
+   {
+    "nl": "land",
+    "tr": "ülke"
+   },
+   {
+    "nl": "taal",
+    "tr": "dil"
+   }
+  ]
+ },
+ "tegenwoordige_tijd": {
+  "per_werkwoord": {
+   "gaan": {
+    "tr_infinitief": "gitmek",
+    "tr_stam": "git",
+    "tr_tussenstap": "gidiyor",
+    "paren": {
+     "ben": {
+      "tr": "gidiyorum",
+      "nl": "ga"
+     },
+     "sen": {
+      "tr": "gidiyorsun",
+      "nl": "gaat"
+     },
+     "o": {
+      "tr": "gidiyor",
+      "nl": "gaat"
+     },
+     "biz": {
+      "tr": "gidiyoruz",
+      "nl": "gaan"
+     },
+     "siz": {
+      "tr": "gidiyorsunuz",
+      "nl": "gaan"
+     },
+     "onlar": {
+      "tr": "gidiyorlar",
+      "nl": "gaan"
+     }
+    }
+   },
+   "komen": {
+    "tr_infinitief": "gelmek",
+    "tr_stam": "gel",
+    "tr_tussenstap": "geliyor",
+    "paren": {
+     "ben": {
+      "tr": "geliyorum",
+      "nl": "kom"
+     },
+     "sen": {
+      "tr": "geliyorsun",
+      "nl": "komt"
+     },
+     "o": {
+      "tr": "geliyor",
+      "nl": "komt"
+     },
+     "biz": {
+      "tr": "geliyoruz",
+      "nl": "komen"
+     },
+     "siz": {
+      "tr": "geliyorsunuz",
+      "nl": "komen"
+     },
+     "onlar": {
+      "tr": "geliyorlar",
+      "nl": "komen"
+     }
+    }
+   },
+   "doen": {
+    "tr_infinitief": "yapmak",
+    "tr_stam": "yap",
+    "tr_tussenstap": "yapıyor",
+    "paren": {
+     "ben": {
+      "tr": "yapıyorum",
+      "nl": "doe"
+     },
+     "sen": {
+      "tr": "yapıyorsun",
+      "nl": "doet"
+     },
+     "o": {
+      "tr": "yapıyor",
+      "nl": "doet"
+     },
+     "biz": {
+      "tr": "yapıyoruz",
+      "nl": "doen"
+     },
+     "siz": {
+      "tr": "yapıyorsunuz",
+      "nl": "doen"
+     },
+     "onlar": {
+      "tr": "yapıyorlar",
+      "nl": "doen"
+     }
+    }
+   },
+   "nemen": {
+    "tr_infinitief": "almak",
+    "tr_stam": "al",
+    "tr_tussenstap": "alıyor",
+    "paren": {
+     "ben": {
+      "tr": "alıyorum",
+      "nl": "neem"
+     },
+     "sen": {
+      "tr": "alıyorsun",
+      "nl": "neemt"
+     },
+     "o": {
+      "tr": "alıyor",
+      "nl": "neemt"
+     },
+     "biz": {
+      "tr": "alıyoruz",
+      "nl": "nemen"
+     },
+     "siz": {
+      "tr": "alıyorsunuz",
+      "nl": "nemen"
+     },
+     "onlar": {
+      "tr": "alıyorlar",
+      "nl": "nemen"
+     }
+    }
+   },
+   "geven": {
+    "tr_infinitief": "vermek",
+    "tr_stam": "ver",
+    "tr_tussenstap": "veriyor",
+    "paren": {
+     "ben": {
+      "tr": "veriyorum",
+      "nl": "geef"
+     },
+     "sen": {
+      "tr": "veriyorsun",
+      "nl": "geeft"
+     },
+     "o": {
+      "tr": "veriyor",
+      "nl": "geeft"
+     },
+     "biz": {
+      "tr": "veriyoruz",
+      "nl": "geven"
+     },
+     "siz": {
+      "tr": "veriyorsunuz",
+      "nl": "geven"
+     },
+     "onlar": {
+      "tr": "veriyorlar",
+      "nl": "geven"
+     }
+    }
+   },
+   "zien": {
+    "tr_infinitief": "görmek",
+    "tr_stam": "gör",
+    "tr_tussenstap": "görüyor",
+    "paren": {
+     "ben": {
+      "tr": "görüyorum",
+      "nl": "zie"
+     },
+     "sen": {
+      "tr": "görüyorsun",
+      "nl": "ziet"
+     },
+     "o": {
+      "tr": "görüyor",
+      "nl": "ziet"
+     },
+     "biz": {
+      "tr": "görüyoruz",
+      "nl": "zien"
+     },
+     "siz": {
+      "tr": "görüyorsunuz",
+      "nl": "zien"
+     },
+     "onlar": {
+      "tr": "görüyorlar",
+      "nl": "zien"
+     }
+    }
+   },
+   "weten": {
+    "tr_infinitief": "bilmek",
+    "tr_stam": "bil",
+    "tr_tussenstap": "biliyor",
+    "paren": {
+     "ben": {
+      "tr": "biliyorum",
+      "nl": "weet"
+     },
+     "sen": {
+      "tr": "biliyorsun",
+      "nl": "weet"
+     },
+     "o": {
+      "tr": "biliyor",
+      "nl": "weet"
+     },
+     "biz": {
+      "tr": "biliyoruz",
+      "nl": "weten"
+     },
+     "siz": {
+      "tr": "biliyorsunuz",
+      "nl": "weten"
+     },
+     "onlar": {
+      "tr": "biliyorlar",
+      "nl": "weten"
+     }
+    }
+   },
+   "willen": {
+    "tr_infinitief": "istemek",
+    "tr_stam": "iste",
+    "tr_tussenstap": "istiyor",
+    "paren": {
+     "ben": {
+      "tr": "istiyorum",
+      "nl": "wil"
+     },
+     "sen": {
+      "tr": "istiyorsun",
+      "nl": "wil"
+     },
+     "o": {
+      "tr": "istiyor",
+      "nl": "wil"
+     },
+     "biz": {
+      "tr": "istiyoruz",
+      "nl": "willen"
+     },
+     "siz": {
+      "tr": "istiyorsunuz",
+      "nl": "willen"
+     },
+     "onlar": {
+      "tr": "istiyorlar",
+      "nl": "willen"
+     }
+    }
+   },
+   "drinken": {
+    "tr_infinitief": "içmek",
+    "tr_stam": "iç",
+    "tr_tussenstap": "içiyor",
+    "paren": {
+     "ben": {
+      "tr": "içiyorum",
+      "nl": "drink"
+     },
+     "sen": {
+      "tr": "içiyorsun",
+      "nl": "drinkt"
+     },
+     "o": {
+      "tr": "içiyor",
+      "nl": "drinkt"
+     },
+     "biz": {
+      "tr": "içiyoruz",
+      "nl": "drinken"
+     },
+     "siz": {
+      "tr": "içiyorsunuz",
+      "nl": "drinken"
+     },
+     "onlar": {
+      "tr": "içiyorlar",
+      "nl": "drinken"
+     }
+    }
+   },
+   "kijken": {
+    "tr_infinitief": "bakmak",
+    "tr_stam": "bak",
+    "tr_tussenstap": "bakıyor",
+    "paren": {
+     "ben": {
+      "tr": "bakıyorum",
+      "nl": "kijk"
+     },
+     "sen": {
+      "tr": "bakıyorsun",
+      "nl": "kijkt"
+     },
+     "o": {
+      "tr": "bakıyor",
+      "nl": "kijkt"
+     },
+     "biz": {
+      "tr": "bakıyoruz",
+      "nl": "kijken"
+     },
+     "siz": {
+      "tr": "bakıyorsunuz",
+      "nl": "kijken"
+     },
+     "onlar": {
+      "tr": "bakıyorlar",
+      "nl": "kijken"
+     }
+    }
+   },
+   "denken": {
+    "tr_infinitief": "düşünmek",
+    "tr_stam": "düşün",
+    "tr_tussenstap": "düşünüyor",
+    "paren": {
+     "ben": {
+      "tr": "düşünüyorum",
+      "nl": "denk"
+     },
+     "sen": {
+      "tr": "düşünüyorsun",
+      "nl": "denkt"
+     },
+     "o": {
+      "tr": "düşünüyor",
+      "nl": "denkt"
+     },
+     "biz": {
+      "tr": "düşünüyoruz",
+      "nl": "denken"
+     },
+     "siz": {
+      "tr": "düşünüyorsunuz",
+      "nl": "denken"
+     },
+     "onlar": {
+      "tr": "düşünüyorlar",
+      "nl": "denken"
+     }
+    }
+   },
+   "horen": {
+    "tr_infinitief": "duymak",
+    "tr_stam": "duy",
+    "tr_tussenstap": "duyuyor",
+    "paren": {
+     "ben": {
+      "tr": "duyuyorum",
+      "nl": "hoor"
+     },
+     "sen": {
+      "tr": "duyuyorsun",
+      "nl": "hoort"
+     },
+     "o": {
+      "tr": "duyuyor",
+      "nl": "hoort"
+     },
+     "biz": {
+      "tr": "duyuyoruz",
+      "nl": "horen"
+     },
+     "siz": {
+      "tr": "duyuyorsunuz",
+      "nl": "horen"
+     },
+     "onlar": {
+      "tr": "duyuyorlar",
+      "nl": "horen"
+     }
+    }
+   },
+   "lopen": {
+    "tr_infinitief": "yürümek",
+    "tr_stam": "yürü",
+    "tr_tussenstap": "yürüyor",
+    "paren": {
+     "ben": {
+      "tr": "yürüyorum",
+      "nl": "loop"
+     },
+     "sen": {
+      "tr": "yürüyorsun",
+      "nl": "loopt"
+     },
+     "o": {
+      "tr": "yürüyor",
+      "nl": "loopt"
+     },
+     "biz": {
+      "tr": "yürüyoruz",
+      "nl": "lopen"
+     },
+     "siz": {
+      "tr": "yürüyorsunuz",
+      "nl": "lopen"
+     },
+     "onlar": {
+      "tr": "yürüyorlar",
+      "nl": "lopen"
+     }
+    }
+   },
+   "schrijven": {
+    "tr_infinitief": "yazmak",
+    "tr_stam": "yaz",
+    "tr_tussenstap": "yazıyor",
+    "paren": {
+     "ben": {
+      "tr": "yazıyorum",
+      "nl": "schrijf"
+     },
+     "sen": {
+      "tr": "yazıyorsun",
+      "nl": "schrijft"
+     },
+     "o": {
+      "tr": "yazıyor",
+      "nl": "schrijft"
+     },
+     "biz": {
+      "tr": "yazıyoruz",
+      "nl": "schrijven"
+     },
+     "siz": {
+      "tr": "yazıyorsunuz",
+      "nl": "schrijven"
+     },
+     "onlar": {
+      "tr": "yazıyorlar",
+      "nl": "schrijven"
+     }
+    }
+   },
+   "spreken": {
+    "tr_infinitief": "konuşmak",
+    "tr_stam": "konuş",
+    "tr_tussenstap": "konuşuyor",
+    "paren": {
+     "ben": {
+      "tr": "konuşuyorum",
+      "nl": "spreek"
+     },
+     "sen": {
+      "tr": "konuşuyorsun",
+      "nl": "spreekt"
+     },
+     "o": {
+      "tr": "konuşuyor",
+      "nl": "spreekt"
+     },
+     "biz": {
+      "tr": "konuşuyoruz",
+      "nl": "spreken"
+     },
+     "siz": {
+      "tr": "konuşuyorsunuz",
+      "nl": "spreken"
+     },
+     "onlar": {
+      "tr": "konuşuyorlar",
+      "nl": "spreken"
+     }
+    }
+   },
+   "vinden": {
+    "tr_infinitief": "bulmak",
+    "tr_stam": "bul",
+    "tr_tussenstap": "buluyor",
+    "paren": {
+     "ben": {
+      "tr": "buluyorum",
+      "nl": "vind"
+     },
+     "sen": {
+      "tr": "buluyorsun",
+      "nl": "vindt"
+     },
+     "o": {
+      "tr": "buluyor",
+      "nl": "vindt"
+     },
+     "biz": {
+      "tr": "buluyoruz",
+      "nl": "vinden"
+     },
+     "siz": {
+      "tr": "buluyorsunuz",
+      "nl": "vinden"
+     },
+     "onlar": {
+      "tr": "buluyorlar",
+      "nl": "vinden"
+     }
+    }
+   },
+   "vragen": {
+    "tr_infinitief": "sormak",
+    "tr_stam": "sor",
+    "tr_tussenstap": "soruyor",
+    "paren": {
+     "ben": {
+      "tr": "soruyorum",
+      "nl": "vraag"
+     },
+     "sen": {
+      "tr": "soruyorsun",
+      "nl": "vraagt"
+     },
+     "o": {
+      "tr": "soruyor",
+      "nl": "vraagt"
+     },
+     "biz": {
+      "tr": "soruyoruz",
+      "nl": "vragen"
+     },
+     "siz": {
+      "tr": "soruyorsunuz",
+      "nl": "vragen"
+     },
+     "onlar": {
+      "tr": "soruyorlar",
+      "nl": "vragen"
+     }
+    }
+   },
+   "werken": {
+    "tr_infinitief": "çalışmak",
+    "tr_stam": "çalış",
+    "tr_tussenstap": "çalışıyor",
+    "paren": {
+     "ben": {
+      "tr": "çalışıyorum",
+      "nl": "werk"
+     },
+     "sen": {
+      "tr": "çalışıyorsun",
+      "nl": "werkt"
+     },
+     "o": {
+      "tr": "çalışıyor",
+      "nl": "werkt"
+     },
+     "biz": {
+      "tr": "çalışıyoruz",
+      "nl": "werken"
+     },
+     "siz": {
+      "tr": "çalışıyorsunuz",
+      "nl": "werken"
+     },
+     "onlar": {
+      "tr": "çalışıyorlar",
+      "nl": "werken"
+     }
+    }
+   },
+   "zitten": {
+    "tr_infinitief": "oturmak",
+    "tr_stam": "otur",
+    "tr_tussenstap": "oturuyor",
+    "paren": {
+     "ben": {
+      "tr": "oturuyorum",
+      "nl": "zit"
+     },
+     "sen": {
+      "tr": "oturuyorsun",
+      "nl": "zit"
+     },
+     "o": {
+      "tr": "oturuyor",
+      "nl": "zit"
+     },
+     "biz": {
+      "tr": "oturuyoruz",
+      "nl": "zitten"
+     },
+     "siz": {
+      "tr": "oturuyorsunuz",
+      "nl": "zitten"
+     },
+     "onlar": {
+      "tr": "oturuyorlar",
+      "nl": "zitten"
+     }
+    }
+   },
+   "gebruiken": {
+    "tr_infinitief": "kullanmak",
+    "tr_stam": "kullan",
+    "tr_tussenstap": "kullanıyor",
+    "paren": {
+     "ben": {
+      "tr": "kullanıyorum",
+      "nl": "gebruik"
+     },
+     "sen": {
+      "tr": "kullanıyorsun",
+      "nl": "gebruikt"
+     },
+     "o": {
+      "tr": "kullanıyor",
+      "nl": "gebruikt"
+     },
+     "biz": {
+      "tr": "kullanıyoruz",
+      "nl": "gebruiken"
+     },
+     "siz": {
+      "tr": "kullanıyorsunuz",
+      "nl": "gebruiken"
+     },
+     "onlar": {
+      "tr": "kullanıyorlar",
+      "nl": "gebruiken"
+     }
+    }
+   },
+   "lezen": {
+    "tr_infinitief": "okumak",
+    "tr_stam": "oku",
+    "tr_tussenstap": "okuyor",
+    "paren": {
+     "ben": {
+      "tr": "okuyorum",
+      "nl": "lees"
+     },
+     "sen": {
+      "tr": "okuyorsun",
+      "nl": "leest"
+     },
+     "o": {
+      "tr": "okuyor",
+      "nl": "leest"
+     },
+     "biz": {
+      "tr": "okuyoruz",
+      "nl": "lezen"
+     },
+     "siz": {
+      "tr": "okuyorsunuz",
+      "nl": "lezen"
+     },
+     "onlar": {
+      "tr": "okuyorlar",
+      "nl": "lezen"
+     }
+    }
+   },
+   "wachten": {
+    "tr_infinitief": "beklemek",
+    "tr_stam": "bekle",
+    "tr_tussenstap": "bekliyor",
+    "paren": {
+     "ben": {
+      "tr": "bekliyorum",
+      "nl": "wacht"
+     },
+     "sen": {
+      "tr": "bekliyorsun",
+      "nl": "wacht"
+     },
+     "o": {
+      "tr": "bekliyor",
+      "nl": "wacht"
+     },
+     "biz": {
+      "tr": "bekliyoruz",
+      "nl": "wachten"
+     },
+     "siz": {
+      "tr": "bekliyorsunuz",
+      "nl": "wachten"
+     },
+     "onlar": {
+      "tr": "bekliyorlar",
+      "nl": "wachten"
+     }
+    }
+   },
+   "zoeken": {
+    "tr_infinitief": "aramak",
+    "tr_stam": "ara",
+    "tr_tussenstap": "arıyor",
+    "paren": {
+     "ben": {
+      "tr": "arıyorum",
+      "nl": "zoek"
+     },
+     "sen": {
+      "tr": "arıyorsun",
+      "nl": "zoekt"
+     },
+     "o": {
+      "tr": "arıyor",
+      "nl": "zoekt"
+     },
+     "biz": {
+      "tr": "arıyoruz",
+      "nl": "zoeken"
+     },
+     "siz": {
+      "tr": "arıyorsunuz",
+      "nl": "zoeken"
+     },
+     "onlar": {
+      "tr": "arıyorlar",
+      "nl": "zoeken"
+     }
+    }
+   },
+   "luisteren": {
+    "tr_infinitief": "dinlemek",
+    "tr_stam": "dinle",
+    "tr_tussenstap": "dinliyor",
+    "paren": {
+     "ben": {
+      "tr": "dinliyorum",
+      "nl": "luister"
+     },
+     "sen": {
+      "tr": "dinliyorsun",
+      "nl": "luistert"
+     },
+     "o": {
+      "tr": "dinliyor",
+      "nl": "luistert"
+     },
+     "biz": {
+      "tr": "dinliyoruz",
+      "nl": "luisteren"
+     },
+     "siz": {
+      "tr": "dinliyorsunuz",
+      "nl": "luisteren"
+     },
+     "onlar": {
+      "tr": "dinliyorlar",
+      "nl": "luisteren"
+     }
+    }
+   },
+   "openen": {
+    "tr_infinitief": "açmak",
+    "tr_stam": "aç",
+    "tr_tussenstap": "açıyor",
+    "paren": {
+     "ben": {
+      "tr": "açıyorum",
+      "nl": "open"
+     },
+     "sen": {
+      "tr": "açıyorsun",
+      "nl": "opent"
+     },
+     "o": {
+      "tr": "açıyor",
+      "nl": "opent"
+     },
+     "biz": {
+      "tr": "açıyoruz",
+      "nl": "openen"
+     },
+     "siz": {
+      "tr": "açıyorsunuz",
+      "nl": "openen"
+     },
+     "onlar": {
+      "tr": "açıyorlar",
+      "nl": "openen"
+     }
+    }
+   }
+  }
+ },
+ "toekomende_tijd": {
+  "per_werkwoord": {
+   "gaan": {
+    "tr_infinitief": "gitmek",
+    "tr_stam": "git",
+    "tr_tussenstap": "gidecek",
+    "paren": {
+     "ben": {
+      "tr": "gideceğim",
+      "nl": "ga gaan"
+     },
+     "sen": {
+      "tr": "gideceksin",
+      "nl": "gaat gaan"
+     },
+     "o": {
+      "tr": "gidecek",
+      "nl": "gaat gaan"
+     },
+     "biz": {
+      "tr": "gideceğiz",
+      "nl": "gaan gaan"
+     },
+     "siz": {
+      "tr": "gideceksiniz",
+      "nl": "gaan gaan"
+     },
+     "onlar": {
+      "tr": "gidecekler",
+      "nl": "gaan gaan"
+     }
+    }
+   },
+   "komen": {
+    "tr_infinitief": "gelmek",
+    "tr_stam": "gel",
+    "tr_tussenstap": "gelecek",
+    "paren": {
+     "ben": {
+      "tr": "geleceğim",
+      "nl": "ga komen"
+     },
+     "sen": {
+      "tr": "geleceksin",
+      "nl": "gaat komen"
+     },
+     "o": {
+      "tr": "gelecek",
+      "nl": "gaat komen"
+     },
+     "biz": {
+      "tr": "geleceğiz",
+      "nl": "gaan komen"
+     },
+     "siz": {
+      "tr": "geleceksiniz",
+      "nl": "gaan komen"
+     },
+     "onlar": {
+      "tr": "gelecekler",
+      "nl": "gaan komen"
+     }
+    }
+   },
+   "doen": {
+    "tr_infinitief": "yapmak",
+    "tr_stam": "yap",
+    "tr_tussenstap": "yapacak",
+    "paren": {
+     "ben": {
+      "tr": "yapacağım",
+      "nl": "ga doen"
+     },
+     "sen": {
+      "tr": "yapacaksın",
+      "nl": "gaat doen"
+     },
+     "o": {
+      "tr": "yapacak",
+      "nl": "gaat doen"
+     },
+     "biz": {
+      "tr": "yapacağız",
+      "nl": "gaan doen"
+     },
+     "siz": {
+      "tr": "yapacaksınız",
+      "nl": "gaan doen"
+     },
+     "onlar": {
+      "tr": "yapacaklar",
+      "nl": "gaan doen"
+     }
+    }
+   },
+   "nemen": {
+    "tr_infinitief": "almak",
+    "tr_stam": "al",
+    "tr_tussenstap": "alacak",
+    "paren": {
+     "ben": {
+      "tr": "alacağım",
+      "nl": "ga nemen"
+     },
+     "sen": {
+      "tr": "alacaksın",
+      "nl": "gaat nemen"
+     },
+     "o": {
+      "tr": "alacak",
+      "nl": "gaat nemen"
+     },
+     "biz": {
+      "tr": "alacağız",
+      "nl": "gaan nemen"
+     },
+     "siz": {
+      "tr": "alacaksınız",
+      "nl": "gaan nemen"
+     },
+     "onlar": {
+      "tr": "alacaklar",
+      "nl": "gaan nemen"
+     }
+    }
+   },
+   "geven": {
+    "tr_infinitief": "vermek",
+    "tr_stam": "ver",
+    "tr_tussenstap": "verecek",
+    "paren": {
+     "ben": {
+      "tr": "vereceğim",
+      "nl": "ga geven"
+     },
+     "sen": {
+      "tr": "vereceksin",
+      "nl": "gaat geven"
+     },
+     "o": {
+      "tr": "verecek",
+      "nl": "gaat geven"
+     },
+     "biz": {
+      "tr": "vereceğiz",
+      "nl": "gaan geven"
+     },
+     "siz": {
+      "tr": "vereceksiniz",
+      "nl": "gaan geven"
+     },
+     "onlar": {
+      "tr": "verecekler",
+      "nl": "gaan geven"
+     }
+    }
+   },
+   "zien": {
+    "tr_infinitief": "görmek",
+    "tr_stam": "gör",
+    "tr_tussenstap": "görecek",
+    "paren": {
+     "ben": {
+      "tr": "göreceğim",
+      "nl": "ga zien"
+     },
+     "sen": {
+      "tr": "göreceksin",
+      "nl": "gaat zien"
+     },
+     "o": {
+      "tr": "görecek",
+      "nl": "gaat zien"
+     },
+     "biz": {
+      "tr": "göreceğiz",
+      "nl": "gaan zien"
+     },
+     "siz": {
+      "tr": "göreceksiniz",
+      "nl": "gaan zien"
+     },
+     "onlar": {
+      "tr": "görecekler",
+      "nl": "gaan zien"
+     }
+    }
+   },
+   "weten": {
+    "tr_infinitief": "bilmek",
+    "tr_stam": "bil",
+    "tr_tussenstap": "bilecek",
+    "paren": {
+     "ben": {
+      "tr": "bileceğim",
+      "nl": "ga weten"
+     },
+     "sen": {
+      "tr": "bileceksin",
+      "nl": "gaat weten"
+     },
+     "o": {
+      "tr": "bilecek",
+      "nl": "gaat weten"
+     },
+     "biz": {
+      "tr": "bileceğiz",
+      "nl": "gaan weten"
+     },
+     "siz": {
+      "tr": "bileceksiniz",
+      "nl": "gaan weten"
+     },
+     "onlar": {
+      "tr": "bilecekler",
+      "nl": "gaan weten"
+     }
+    }
+   },
+   "willen": {
+    "tr_infinitief": "istemek",
+    "tr_stam": "iste",
+    "tr_tussenstap": "isteyecek",
+    "paren": {
+     "ben": {
+      "tr": "isteyeceğim",
+      "nl": "ga willen"
+     },
+     "sen": {
+      "tr": "isteyeceksin",
+      "nl": "gaat willen"
+     },
+     "o": {
+      "tr": "isteyecek",
+      "nl": "gaat willen"
+     },
+     "biz": {
+      "tr": "isteyeceğiz",
+      "nl": "gaan willen"
+     },
+     "siz": {
+      "tr": "isteyeceksiniz",
+      "nl": "gaan willen"
+     },
+     "onlar": {
+      "tr": "isteyecekler",
+      "nl": "gaan willen"
+     }
+    }
+   },
+   "drinken": {
+    "tr_infinitief": "içmek",
+    "tr_stam": "iç",
+    "tr_tussenstap": "içecek",
+    "paren": {
+     "ben": {
+      "tr": "içeceğim",
+      "nl": "ga drinken"
+     },
+     "sen": {
+      "tr": "içeceksin",
+      "nl": "gaat drinken"
+     },
+     "o": {
+      "tr": "içecek",
+      "nl": "gaat drinken"
+     },
+     "biz": {
+      "tr": "içeceğiz",
+      "nl": "gaan drinken"
+     },
+     "siz": {
+      "tr": "içeceksiniz",
+      "nl": "gaan drinken"
+     },
+     "onlar": {
+      "tr": "içecekler",
+      "nl": "gaan drinken"
+     }
+    }
+   },
+   "kijken": {
+    "tr_infinitief": "bakmak",
+    "tr_stam": "bak",
+    "tr_tussenstap": "bakacak",
+    "paren": {
+     "ben": {
+      "tr": "bakacağım",
+      "nl": "ga kijken"
+     },
+     "sen": {
+      "tr": "bakacaksın",
+      "nl": "gaat kijken"
+     },
+     "o": {
+      "tr": "bakacak",
+      "nl": "gaat kijken"
+     },
+     "biz": {
+      "tr": "bakacağız",
+      "nl": "gaan kijken"
+     },
+     "siz": {
+      "tr": "bakacaksınız",
+      "nl": "gaan kijken"
+     },
+     "onlar": {
+      "tr": "bakacaklar",
+      "nl": "gaan kijken"
+     }
+    }
+   },
+   "denken": {
+    "tr_infinitief": "düşünmek",
+    "tr_stam": "düşün",
+    "tr_tussenstap": "düşünecek",
+    "paren": {
+     "ben": {
+      "tr": "düşüneceğim",
+      "nl": "ga denken"
+     },
+     "sen": {
+      "tr": "düşüneceksin",
+      "nl": "gaat denken"
+     },
+     "o": {
+      "tr": "düşünecek",
+      "nl": "gaat denken"
+     },
+     "biz": {
+      "tr": "düşüneceğiz",
+      "nl": "gaan denken"
+     },
+     "siz": {
+      "tr": "düşüneceksiniz",
+      "nl": "gaan denken"
+     },
+     "onlar": {
+      "tr": "düşünecekler",
+      "nl": "gaan denken"
+     }
+    }
+   },
+   "horen": {
+    "tr_infinitief": "duymak",
+    "tr_stam": "duy",
+    "tr_tussenstap": "duyacak",
+    "paren": {
+     "ben": {
+      "tr": "duyacağım",
+      "nl": "ga horen"
+     },
+     "sen": {
+      "tr": "duyacaksın",
+      "nl": "gaat horen"
+     },
+     "o": {
+      "tr": "duyacak",
+      "nl": "gaat horen"
+     },
+     "biz": {
+      "tr": "duyacağız",
+      "nl": "gaan horen"
+     },
+     "siz": {
+      "tr": "duyacaksınız",
+      "nl": "gaan horen"
+     },
+     "onlar": {
+      "tr": "duyacaklar",
+      "nl": "gaan horen"
+     }
+    }
+   },
+   "lopen": {
+    "tr_infinitief": "yürümek",
+    "tr_stam": "yürü",
+    "tr_tussenstap": "yürüyecek",
+    "paren": {
+     "ben": {
+      "tr": "yürüyeceğim",
+      "nl": "ga lopen"
+     },
+     "sen": {
+      "tr": "yürüyeceksin",
+      "nl": "gaat lopen"
+     },
+     "o": {
+      "tr": "yürüyecek",
+      "nl": "gaat lopen"
+     },
+     "biz": {
+      "tr": "yürüyeceğiz",
+      "nl": "gaan lopen"
+     },
+     "siz": {
+      "tr": "yürüyeceksiniz",
+      "nl": "gaan lopen"
+     },
+     "onlar": {
+      "tr": "yürüyecekler",
+      "nl": "gaan lopen"
+     }
+    }
+   },
+   "schrijven": {
+    "tr_infinitief": "yazmak",
+    "tr_stam": "yaz",
+    "tr_tussenstap": "yazacak",
+    "paren": {
+     "ben": {
+      "tr": "yazacağım",
+      "nl": "ga schrijven"
+     },
+     "sen": {
+      "tr": "yazacaksın",
+      "nl": "gaat schrijven"
+     },
+     "o": {
+      "tr": "yazacak",
+      "nl": "gaat schrijven"
+     },
+     "biz": {
+      "tr": "yazacağız",
+      "nl": "gaan schrijven"
+     },
+     "siz": {
+      "tr": "yazacaksınız",
+      "nl": "gaan schrijven"
+     },
+     "onlar": {
+      "tr": "yazacaklar",
+      "nl": "gaan schrijven"
+     }
+    }
+   },
+   "spreken": {
+    "tr_infinitief": "konuşmak",
+    "tr_stam": "konuş",
+    "tr_tussenstap": "konuşacak",
+    "paren": {
+     "ben": {
+      "tr": "konuşacağım",
+      "nl": "ga spreken"
+     },
+     "sen": {
+      "tr": "konuşacaksın",
+      "nl": "gaat spreken"
+     },
+     "o": {
+      "tr": "konuşacak",
+      "nl": "gaat spreken"
+     },
+     "biz": {
+      "tr": "konuşacağız",
+      "nl": "gaan spreken"
+     },
+     "siz": {
+      "tr": "konuşacaksınız",
+      "nl": "gaan spreken"
+     },
+     "onlar": {
+      "tr": "konuşacaklar",
+      "nl": "gaan spreken"
+     }
+    }
+   },
+   "vinden": {
+    "tr_infinitief": "bulmak",
+    "tr_stam": "bul",
+    "tr_tussenstap": "bulacak",
+    "paren": {
+     "ben": {
+      "tr": "bulacağım",
+      "nl": "ga vinden"
+     },
+     "sen": {
+      "tr": "bulacaksın",
+      "nl": "gaat vinden"
+     },
+     "o": {
+      "tr": "bulacak",
+      "nl": "gaat vinden"
+     },
+     "biz": {
+      "tr": "bulacağız",
+      "nl": "gaan vinden"
+     },
+     "siz": {
+      "tr": "bulacaksınız",
+      "nl": "gaan vinden"
+     },
+     "onlar": {
+      "tr": "bulacaklar",
+      "nl": "gaan vinden"
+     }
+    }
+   },
+   "vragen": {
+    "tr_infinitief": "sormak",
+    "tr_stam": "sor",
+    "tr_tussenstap": "soracak",
+    "paren": {
+     "ben": {
+      "tr": "soracağım",
+      "nl": "ga vragen"
+     },
+     "sen": {
+      "tr": "soracaksın",
+      "nl": "gaat vragen"
+     },
+     "o": {
+      "tr": "soracak",
+      "nl": "gaat vragen"
+     },
+     "biz": {
+      "tr": "soracağız",
+      "nl": "gaan vragen"
+     },
+     "siz": {
+      "tr": "soracaksınız",
+      "nl": "gaan vragen"
+     },
+     "onlar": {
+      "tr": "soracaklar",
+      "nl": "gaan vragen"
+     }
+    }
+   },
+   "werken": {
+    "tr_infinitief": "çalışmak",
+    "tr_stam": "çalış",
+    "tr_tussenstap": "çalışacak",
+    "paren": {
+     "ben": {
+      "tr": "çalışacağım",
+      "nl": "ga werken"
+     },
+     "sen": {
+      "tr": "çalışacaksın",
+      "nl": "gaat werken"
+     },
+     "o": {
+      "tr": "çalışacak",
+      "nl": "gaat werken"
+     },
+     "biz": {
+      "tr": "çalışacağız",
+      "nl": "gaan werken"
+     },
+     "siz": {
+      "tr": "çalışacaksınız",
+      "nl": "gaan werken"
+     },
+     "onlar": {
+      "tr": "çalışacaklar",
+      "nl": "gaan werken"
+     }
+    }
+   },
+   "zitten": {
+    "tr_infinitief": "oturmak",
+    "tr_stam": "otur",
+    "tr_tussenstap": "oturacak",
+    "paren": {
+     "ben": {
+      "tr": "oturacağım",
+      "nl": "ga zitten"
+     },
+     "sen": {
+      "tr": "oturacaksın",
+      "nl": "gaat zitten"
+     },
+     "o": {
+      "tr": "oturacak",
+      "nl": "gaat zitten"
+     },
+     "biz": {
+      "tr": "oturacağız",
+      "nl": "gaan zitten"
+     },
+     "siz": {
+      "tr": "oturacaksınız",
+      "nl": "gaan zitten"
+     },
+     "onlar": {
+      "tr": "oturacaklar",
+      "nl": "gaan zitten"
+     }
+    }
+   },
+   "gebruiken": {
+    "tr_infinitief": "kullanmak",
+    "tr_stam": "kullan",
+    "tr_tussenstap": "kullanacak",
+    "paren": {
+     "ben": {
+      "tr": "kullanacağım",
+      "nl": "ga gebruiken"
+     },
+     "sen": {
+      "tr": "kullanacaksın",
+      "nl": "gaat gebruiken"
+     },
+     "o": {
+      "tr": "kullanacak",
+      "nl": "gaat gebruiken"
+     },
+     "biz": {
+      "tr": "kullanacağız",
+      "nl": "gaan gebruiken"
+     },
+     "siz": {
+      "tr": "kullanacaksınız",
+      "nl": "gaan gebruiken"
+     },
+     "onlar": {
+      "tr": "kullanacaklar",
+      "nl": "gaan gebruiken"
+     }
+    }
+   },
+   "lezen": {
+    "tr_infinitief": "okumak",
+    "tr_stam": "oku",
+    "tr_tussenstap": "okuyacak",
+    "paren": {
+     "ben": {
+      "tr": "okuyacağım",
+      "nl": "ga lezen"
+     },
+     "sen": {
+      "tr": "okuyacaksın",
+      "nl": "gaat lezen"
+     },
+     "o": {
+      "tr": "okuyacak",
+      "nl": "gaat lezen"
+     },
+     "biz": {
+      "tr": "okuyacağız",
+      "nl": "gaan lezen"
+     },
+     "siz": {
+      "tr": "okuyacaksınız",
+      "nl": "gaan lezen"
+     },
+     "onlar": {
+      "tr": "okuyacaklar",
+      "nl": "gaan lezen"
+     }
+    }
+   },
+   "wachten": {
+    "tr_infinitief": "beklemek",
+    "tr_stam": "bekle",
+    "tr_tussenstap": "bekleyecek",
+    "paren": {
+     "ben": {
+      "tr": "bekleyeceğim",
+      "nl": "ga wachten"
+     },
+     "sen": {
+      "tr": "bekleyeceksin",
+      "nl": "gaat wachten"
+     },
+     "o": {
+      "tr": "bekleyecek",
+      "nl": "gaat wachten"
+     },
+     "biz": {
+      "tr": "bekleyeceğiz",
+      "nl": "gaan wachten"
+     },
+     "siz": {
+      "tr": "bekleyeceksiniz",
+      "nl": "gaan wachten"
+     },
+     "onlar": {
+      "tr": "bekleyecekler",
+      "nl": "gaan wachten"
+     }
+    }
+   },
+   "zoeken": {
+    "tr_infinitief": "aramak",
+    "tr_stam": "ara",
+    "tr_tussenstap": "arayacak",
+    "paren": {
+     "ben": {
+      "tr": "arayacağım",
+      "nl": "ga zoeken"
+     },
+     "sen": {
+      "tr": "arayacaksın",
+      "nl": "gaat zoeken"
+     },
+     "o": {
+      "tr": "arayacak",
+      "nl": "gaat zoeken"
+     },
+     "biz": {
+      "tr": "arayacağız",
+      "nl": "gaan zoeken"
+     },
+     "siz": {
+      "tr": "arayacaksınız",
+      "nl": "gaan zoeken"
+     },
+     "onlar": {
+      "tr": "arayacaklar",
+      "nl": "gaan zoeken"
+     }
+    }
+   },
+   "luisteren": {
+    "tr_infinitief": "dinlemek",
+    "tr_stam": "dinle",
+    "tr_tussenstap": "dinleyecek",
+    "paren": {
+     "ben": {
+      "tr": "dinleyeceğim",
+      "nl": "ga luisteren"
+     },
+     "sen": {
+      "tr": "dinleyeceksin",
+      "nl": "gaat luisteren"
+     },
+     "o": {
+      "tr": "dinleyecek",
+      "nl": "gaat luisteren"
+     },
+     "biz": {
+      "tr": "dinleyeceğiz",
+      "nl": "gaan luisteren"
+     },
+     "siz": {
+      "tr": "dinleyeceksiniz",
+      "nl": "gaan luisteren"
+     },
+     "onlar": {
+      "tr": "dinleyecekler",
+      "nl": "gaan luisteren"
+     }
+    }
+   },
+   "openen": {
+    "tr_infinitief": "açmak",
+    "tr_stam": "aç",
+    "tr_tussenstap": "açacak",
+    "paren": {
+     "ben": {
+      "tr": "açacağım",
+      "nl": "ga openen"
+     },
+     "sen": {
+      "tr": "açacaksın",
+      "nl": "gaat openen"
+     },
+     "o": {
+      "tr": "açacak",
+      "nl": "gaat openen"
+     },
+     "biz": {
+      "tr": "açacağız",
+      "nl": "gaan openen"
+     },
+     "siz": {
+      "tr": "açacaksınız",
+      "nl": "gaan openen"
+     },
+     "onlar": {
+      "tr": "açacaklar",
+      "nl": "gaan openen"
+     }
+    }
+   }
+  }
+ },
+ "onvoltooid_verleden_tijd": {
+  "per_werkwoord": {
+   "gaan": {
+    "tr_infinitief": "gitmek",
+    "tr_stam": "git",
+    "tr_tussenstap": "gitti",
+    "paren": {
+     "ben": {
+      "tr": "gittim",
+      "nl": "ging"
+     },
+     "sen": {
+      "tr": "gittin",
+      "nl": "ging"
+     },
+     "o": {
+      "tr": "gitti",
+      "nl": "ging"
+     },
+     "biz": {
+      "tr": "gittik",
+      "nl": "gingen"
+     },
+     "siz": {
+      "tr": "gittiniz",
+      "nl": "gingen"
+     },
+     "onlar": {
+      "tr": "gittiler",
+      "nl": "gingen"
+     }
+    }
+   },
+   "komen": {
+    "tr_infinitief": "gelmek",
+    "tr_stam": "gel",
+    "tr_tussenstap": "geldi",
+    "paren": {
+     "ben": {
+      "tr": "geldim",
+      "nl": "kwam"
+     },
+     "sen": {
+      "tr": "geldin",
+      "nl": "kwam"
+     },
+     "o": {
+      "tr": "geldi",
+      "nl": "kwam"
+     },
+     "biz": {
+      "tr": "geldik",
+      "nl": "kwamen"
+     },
+     "siz": {
+      "tr": "geldiniz",
+      "nl": "kwamen"
+     },
+     "onlar": {
+      "tr": "geldiler",
+      "nl": "kwamen"
+     }
+    }
+   },
+   "doen": {
+    "tr_infinitief": "yapmak",
+    "tr_stam": "yap",
+    "tr_tussenstap": "yaptı",
+    "paren": {
+     "ben": {
+      "tr": "yaptım",
+      "nl": "deed"
+     },
+     "sen": {
+      "tr": "yaptın",
+      "nl": "deed"
+     },
+     "o": {
+      "tr": "yaptı",
+      "nl": "deed"
+     },
+     "biz": {
+      "tr": "yaptık",
+      "nl": "deden"
+     },
+     "siz": {
+      "tr": "yaptınız",
+      "nl": "deden"
+     },
+     "onlar": {
+      "tr": "yaptılar",
+      "nl": "deden"
+     }
+    }
+   },
+   "nemen": {
+    "tr_infinitief": "almak",
+    "tr_stam": "al",
+    "tr_tussenstap": "aldı",
+    "paren": {
+     "ben": {
+      "tr": "aldım",
+      "nl": "nam"
+     },
+     "sen": {
+      "tr": "aldın",
+      "nl": "nam"
+     },
+     "o": {
+      "tr": "aldı",
+      "nl": "nam"
+     },
+     "biz": {
+      "tr": "aldık",
+      "nl": "namen"
+     },
+     "siz": {
+      "tr": "aldınız",
+      "nl": "namen"
+     },
+     "onlar": {
+      "tr": "aldılar",
+      "nl": "namen"
+     }
+    }
+   },
+   "geven": {
+    "tr_infinitief": "vermek",
+    "tr_stam": "ver",
+    "tr_tussenstap": "verdi",
+    "paren": {
+     "ben": {
+      "tr": "verdim",
+      "nl": "gaf"
+     },
+     "sen": {
+      "tr": "verdin",
+      "nl": "gaf"
+     },
+     "o": {
+      "tr": "verdi",
+      "nl": "gaf"
+     },
+     "biz": {
+      "tr": "verdik",
+      "nl": "gaven"
+     },
+     "siz": {
+      "tr": "verdiniz",
+      "nl": "gaven"
+     },
+     "onlar": {
+      "tr": "verdiler",
+      "nl": "gaven"
+     }
+    }
+   },
+   "zien": {
+    "tr_infinitief": "görmek",
+    "tr_stam": "gör",
+    "tr_tussenstap": "gördü",
+    "paren": {
+     "ben": {
+      "tr": "gördüm",
+      "nl": "zag"
+     },
+     "sen": {
+      "tr": "gördün",
+      "nl": "zag"
+     },
+     "o": {
+      "tr": "gördü",
+      "nl": "zag"
+     },
+     "biz": {
+      "tr": "gördük",
+      "nl": "zagen"
+     },
+     "siz": {
+      "tr": "gördünüz",
+      "nl": "zagen"
+     },
+     "onlar": {
+      "tr": "gördüler",
+      "nl": "zagen"
+     }
+    }
+   },
+   "weten": {
+    "tr_infinitief": "bilmek",
+    "tr_stam": "bil",
+    "tr_tussenstap": "bildi",
+    "paren": {
+     "ben": {
+      "tr": "bildim",
+      "nl": "wist"
+     },
+     "sen": {
+      "tr": "bildin",
+      "nl": "wist"
+     },
+     "o": {
+      "tr": "bildi",
+      "nl": "wist"
+     },
+     "biz": {
+      "tr": "bildik",
+      "nl": "wisten"
+     },
+     "siz": {
+      "tr": "bildiniz",
+      "nl": "wisten"
+     },
+     "onlar": {
+      "tr": "bildiler",
+      "nl": "wisten"
+     }
+    }
+   },
+   "willen": {
+    "tr_infinitief": "istemek",
+    "tr_stam": "iste",
+    "tr_tussenstap": "istedi",
+    "paren": {
+     "ben": {
+      "tr": "istedim",
+      "nl": "wilde"
+     },
+     "sen": {
+      "tr": "istedin",
+      "nl": "wilde"
+     },
+     "o": {
+      "tr": "istedi",
+      "nl": "wilde"
+     },
+     "biz": {
+      "tr": "istedik",
+      "nl": "wilden"
+     },
+     "siz": {
+      "tr": "istediniz",
+      "nl": "wilden"
+     },
+     "onlar": {
+      "tr": "istediler",
+      "nl": "wilden"
+     }
+    }
+   },
+   "drinken": {
+    "tr_infinitief": "içmek",
+    "tr_stam": "iç",
+    "tr_tussenstap": "içti",
+    "paren": {
+     "ben": {
+      "tr": "içtim",
+      "nl": "dronk"
+     },
+     "sen": {
+      "tr": "içtin",
+      "nl": "dronk"
+     },
+     "o": {
+      "tr": "içti",
+      "nl": "dronk"
+     },
+     "biz": {
+      "tr": "içtik",
+      "nl": "dronken"
+     },
+     "siz": {
+      "tr": "içtiniz",
+      "nl": "dronken"
+     },
+     "onlar": {
+      "tr": "içtiler",
+      "nl": "dronken"
+     }
+    }
+   },
+   "kijken": {
+    "tr_infinitief": "bakmak",
+    "tr_stam": "bak",
+    "tr_tussenstap": "baktı",
+    "paren": {
+     "ben": {
+      "tr": "baktım",
+      "nl": "keek"
+     },
+     "sen": {
+      "tr": "baktın",
+      "nl": "keek"
+     },
+     "o": {
+      "tr": "baktı",
+      "nl": "keek"
+     },
+     "biz": {
+      "tr": "baktık",
+      "nl": "keken"
+     },
+     "siz": {
+      "tr": "baktınız",
+      "nl": "keken"
+     },
+     "onlar": {
+      "tr": "baktılar",
+      "nl": "keken"
+     }
+    }
+   },
+   "denken": {
+    "tr_infinitief": "düşünmek",
+    "tr_stam": "düşün",
+    "tr_tussenstap": "düşündü",
+    "paren": {
+     "ben": {
+      "tr": "düşündüm",
+      "nl": "dacht"
+     },
+     "sen": {
+      "tr": "düşündün",
+      "nl": "dacht"
+     },
+     "o": {
+      "tr": "düşündü",
+      "nl": "dacht"
+     },
+     "biz": {
+      "tr": "düşündük",
+      "nl": "dachten"
+     },
+     "siz": {
+      "tr": "düşündünüz",
+      "nl": "dachten"
+     },
+     "onlar": {
+      "tr": "düşündüler",
+      "nl": "dachten"
+     }
+    }
+   },
+   "horen": {
+    "tr_infinitief": "duymak",
+    "tr_stam": "duy",
+    "tr_tussenstap": "duydu",
+    "paren": {
+     "ben": {
+      "tr": "duydum",
+      "nl": "hoorde"
+     },
+     "sen": {
+      "tr": "duydun",
+      "nl": "hoorde"
+     },
+     "o": {
+      "tr": "duydu",
+      "nl": "hoorde"
+     },
+     "biz": {
+      "tr": "duyduk",
+      "nl": "hoorden"
+     },
+     "siz": {
+      "tr": "duydunuz",
+      "nl": "hoorden"
+     },
+     "onlar": {
+      "tr": "duydular",
+      "nl": "hoorden"
+     }
+    }
+   },
+   "lopen": {
+    "tr_infinitief": "yürümek",
+    "tr_stam": "yürü",
+    "tr_tussenstap": "yürüdü",
+    "paren": {
+     "ben": {
+      "tr": "yürüdüm",
+      "nl": "liep"
+     },
+     "sen": {
+      "tr": "yürüdün",
+      "nl": "liep"
+     },
+     "o": {
+      "tr": "yürüdü",
+      "nl": "liep"
+     },
+     "biz": {
+      "tr": "yürüdük",
+      "nl": "liepen"
+     },
+     "siz": {
+      "tr": "yürüdünüz",
+      "nl": "liepen"
+     },
+     "onlar": {
+      "tr": "yürüdüler",
+      "nl": "liepen"
+     }
+    }
+   },
+   "schrijven": {
+    "tr_infinitief": "yazmak",
+    "tr_stam": "yaz",
+    "tr_tussenstap": "yazdı",
+    "paren": {
+     "ben": {
+      "tr": "yazdım",
+      "nl": "schreef"
+     },
+     "sen": {
+      "tr": "yazdın",
+      "nl": "schreef"
+     },
+     "o": {
+      "tr": "yazdı",
+      "nl": "schreef"
+     },
+     "biz": {
+      "tr": "yazdık",
+      "nl": "schreven"
+     },
+     "siz": {
+      "tr": "yazdınız",
+      "nl": "schreven"
+     },
+     "onlar": {
+      "tr": "yazdılar",
+      "nl": "schreven"
+     }
+    }
+   },
+   "spreken": {
+    "tr_infinitief": "konuşmak",
+    "tr_stam": "konuş",
+    "tr_tussenstap": "konuştu",
+    "paren": {
+     "ben": {
+      "tr": "konuştum",
+      "nl": "sprak"
+     },
+     "sen": {
+      "tr": "konuştun",
+      "nl": "sprak"
+     },
+     "o": {
+      "tr": "konuştu",
+      "nl": "sprak"
+     },
+     "biz": {
+      "tr": "konuştuk",
+      "nl": "spraken"
+     },
+     "siz": {
+      "tr": "konuştunuz",
+      "nl": "spraken"
+     },
+     "onlar": {
+      "tr": "konuştular",
+      "nl": "spraken"
+     }
+    }
+   },
+   "vinden": {
+    "tr_infinitief": "bulmak",
+    "tr_stam": "bul",
+    "tr_tussenstap": "buldu",
+    "paren": {
+     "ben": {
+      "tr": "buldum",
+      "nl": "vond"
+     },
+     "sen": {
+      "tr": "buldun",
+      "nl": "vond"
+     },
+     "o": {
+      "tr": "buldu",
+      "nl": "vond"
+     },
+     "biz": {
+      "tr": "bulduk",
+      "nl": "vonden"
+     },
+     "siz": {
+      "tr": "buldunuz",
+      "nl": "vonden"
+     },
+     "onlar": {
+      "tr": "buldular",
+      "nl": "vonden"
+     }
+    }
+   },
+   "vragen": {
+    "tr_infinitief": "sormak",
+    "tr_stam": "sor",
+    "tr_tussenstap": "sordu",
+    "paren": {
+     "ben": {
+      "tr": "sordum",
+      "nl": "vroeg"
+     },
+     "sen": {
+      "tr": "sordun",
+      "nl": "vroeg"
+     },
+     "o": {
+      "tr": "sordu",
+      "nl": "vroeg"
+     },
+     "biz": {
+      "tr": "sorduk",
+      "nl": "vroegen"
+     },
+     "siz": {
+      "tr": "sordunuz",
+      "nl": "vroegen"
+     },
+     "onlar": {
+      "tr": "sordular",
+      "nl": "vroegen"
+     }
+    }
+   },
+   "werken": {
+    "tr_infinitief": "çalışmak",
+    "tr_stam": "çalış",
+    "tr_tussenstap": "çalıştı",
+    "paren": {
+     "ben": {
+      "tr": "çalıştım",
+      "nl": "werkte"
+     },
+     "sen": {
+      "tr": "çalıştın",
+      "nl": "werkte"
+     },
+     "o": {
+      "tr": "çalıştı",
+      "nl": "werkte"
+     },
+     "biz": {
+      "tr": "çalıştık",
+      "nl": "werkten"
+     },
+     "siz": {
+      "tr": "çalıştınız",
+      "nl": "werkten"
+     },
+     "onlar": {
+      "tr": "çalıştılar",
+      "nl": "werkten"
+     }
+    }
+   },
+   "zitten": {
+    "tr_infinitief": "oturmak",
+    "tr_stam": "otur",
+    "tr_tussenstap": "oturdu",
+    "paren": {
+     "ben": {
+      "tr": "oturdum",
+      "nl": "zat"
+     },
+     "sen": {
+      "tr": "oturdun",
+      "nl": "zat"
+     },
+     "o": {
+      "tr": "oturdu",
+      "nl": "zat"
+     },
+     "biz": {
+      "tr": "oturduk",
+      "nl": "zaten"
+     },
+     "siz": {
+      "tr": "oturdunuz",
+      "nl": "zaten"
+     },
+     "onlar": {
+      "tr": "oturdular",
+      "nl": "zaten"
+     }
+    }
+   },
+   "gebruiken": {
+    "tr_infinitief": "kullanmak",
+    "tr_stam": "kullan",
+    "tr_tussenstap": "kullandı",
+    "paren": {
+     "ben": {
+      "tr": "kullandım",
+      "nl": "gebruikte"
+     },
+     "sen": {
+      "tr": "kullandın",
+      "nl": "gebruikte"
+     },
+     "o": {
+      "tr": "kullandı",
+      "nl": "gebruikte"
+     },
+     "biz": {
+      "tr": "kullandık",
+      "nl": "gebruikten"
+     },
+     "siz": {
+      "tr": "kullandınız",
+      "nl": "gebruikten"
+     },
+     "onlar": {
+      "tr": "kullandılar",
+      "nl": "gebruikten"
+     }
+    }
+   },
+   "lezen": {
+    "tr_infinitief": "okumak",
+    "tr_stam": "oku",
+    "tr_tussenstap": "okudu",
+    "paren": {
+     "ben": {
+      "tr": "okudum",
+      "nl": "las"
+     },
+     "sen": {
+      "tr": "okudun",
+      "nl": "las"
+     },
+     "o": {
+      "tr": "okudu",
+      "nl": "las"
+     },
+     "biz": {
+      "tr": "okuduk",
+      "nl": "lazen"
+     },
+     "siz": {
+      "tr": "okudunuz",
+      "nl": "lazen"
+     },
+     "onlar": {
+      "tr": "okudular",
+      "nl": "lazen"
+     }
+    }
+   },
+   "wachten": {
+    "tr_infinitief": "beklemek",
+    "tr_stam": "bekle",
+    "tr_tussenstap": "bekledi",
+    "paren": {
+     "ben": {
+      "tr": "bekledim",
+      "nl": "wachtte"
+     },
+     "sen": {
+      "tr": "bekledin",
+      "nl": "wachtte"
+     },
+     "o": {
+      "tr": "bekledi",
+      "nl": "wachtte"
+     },
+     "biz": {
+      "tr": "bekledik",
+      "nl": "wachtten"
+     },
+     "siz": {
+      "tr": "beklediniz",
+      "nl": "wachtten"
+     },
+     "onlar": {
+      "tr": "beklediler",
+      "nl": "wachtten"
+     }
+    }
+   },
+   "zoeken": {
+    "tr_infinitief": "aramak",
+    "tr_stam": "ara",
+    "tr_tussenstap": "aradı",
+    "paren": {
+     "ben": {
+      "tr": "aradım",
+      "nl": "zocht"
+     },
+     "sen": {
+      "tr": "aradın",
+      "nl": "zocht"
+     },
+     "o": {
+      "tr": "aradı",
+      "nl": "zocht"
+     },
+     "biz": {
+      "tr": "aradık",
+      "nl": "zochten"
+     },
+     "siz": {
+      "tr": "aradınız",
+      "nl": "zochten"
+     },
+     "onlar": {
+      "tr": "aradılar",
+      "nl": "zochten"
+     }
+    }
+   },
+   "luisteren": {
+    "tr_infinitief": "dinlemek",
+    "tr_stam": "dinle",
+    "tr_tussenstap": "dinledi",
+    "paren": {
+     "ben": {
+      "tr": "dinledim",
+      "nl": "luisterde"
+     },
+     "sen": {
+      "tr": "dinledin",
+      "nl": "luisterde"
+     },
+     "o": {
+      "tr": "dinledi",
+      "nl": "luisterde"
+     },
+     "biz": {
+      "tr": "dinledik",
+      "nl": "luisterden"
+     },
+     "siz": {
+      "tr": "dinlediniz",
+      "nl": "luisterden"
+     },
+     "onlar": {
+      "tr": "dinlediler",
+      "nl": "luisterden"
+     }
+    }
+   },
+   "openen": {
+    "tr_infinitief": "açmak",
+    "tr_stam": "aç",
+    "tr_tussenstap": "açtı",
+    "paren": {
+     "ben": {
+      "tr": "açtım",
+      "nl": "opende"
+     },
+     "sen": {
+      "tr": "açtın",
+      "nl": "opende"
+     },
+     "o": {
+      "tr": "açtı",
+      "nl": "opende"
+     },
+     "biz": {
+      "tr": "açtık",
+      "nl": "openden"
+     },
+     "siz": {
+      "tr": "açtınız",
+      "nl": "openden"
+     },
+     "onlar": {
+      "tr": "açtılar",
+      "nl": "openden"
+     }
+    }
+   }
+  }
+ },
+ "gebiedende_wijs": {
+  "per_werkwoord": {
+   "gaan": {
+    "tr_infinitief": "gitmek",
+    "tr_stam": "git",
+    "paren": {
+     "sen": {
+      "tr": "git",
+      "nl": "ga"
+     },
+     "siz": {
+      "tr": "gitin",
+      "nl": "ga"
+     }
+    }
+   },
+   "komen": {
+    "tr_infinitief": "gelmek",
+    "tr_stam": "gel",
+    "paren": {
+     "sen": {
+      "tr": "gel",
+      "nl": "kom"
+     },
+     "siz": {
+      "tr": "gelin",
+      "nl": "kom"
+     }
+    }
+   },
+   "doen": {
+    "tr_infinitief": "yapmak",
+    "tr_stam": "yap",
+    "paren": {
+     "sen": {
+      "tr": "yap",
+      "nl": "doe"
+     },
+     "siz": {
+      "tr": "yapın",
+      "nl": "doe"
+     }
+    }
+   },
+   "nemen": {
+    "tr_infinitief": "almak",
+    "tr_stam": "al",
+    "paren": {
+     "sen": {
+      "tr": "al",
+      "nl": "neem"
+     },
+     "siz": {
+      "tr": "alın",
+      "nl": "neem"
+     }
+    }
+   },
+   "geven": {
+    "tr_infinitief": "vermek",
+    "tr_stam": "ver",
+    "paren": {
+     "sen": {
+      "tr": "ver",
+      "nl": "geef"
+     },
+     "siz": {
+      "tr": "verin",
+      "nl": "geef"
+     }
+    }
+   },
+   "zien": {
+    "tr_infinitief": "görmek",
+    "tr_stam": "gör",
+    "paren": {
+     "sen": {
+      "tr": "gör",
+      "nl": "zie"
+     },
+     "siz": {
+      "tr": "görün",
+      "nl": "zie"
+     }
+    }
+   },
+   "weten": {
+    "tr_infinitief": "bilmek",
+    "tr_stam": "bil",
+    "paren": {
+     "sen": {
+      "tr": "bil",
+      "nl": "weet"
+     },
+     "siz": {
+      "tr": "bilin",
+      "nl": "weet"
+     }
+    }
+   },
+   "willen": {
+    "tr_infinitief": "istemek",
+    "tr_stam": "iste",
+    "paren": {
+     "sen": {
+      "tr": "iste",
+      "nl": "wil"
+     },
+     "siz": {
+      "tr": "isteyin",
+      "nl": "wil"
+     }
+    }
+   },
+   "drinken": {
+    "tr_infinitief": "içmek",
+    "tr_stam": "iç",
+    "paren": {
+     "sen": {
+      "tr": "iç",
+      "nl": "drink"
+     },
+     "siz": {
+      "tr": "için",
+      "nl": "drink"
+     }
+    }
+   },
+   "kijken": {
+    "tr_infinitief": "bakmak",
+    "tr_stam": "bak",
+    "paren": {
+     "sen": {
+      "tr": "bak",
+      "nl": "kijk"
+     },
+     "siz": {
+      "tr": "bakın",
+      "nl": "kijk"
+     }
+    }
+   },
+   "denken": {
+    "tr_infinitief": "düşünmek",
+    "tr_stam": "düşün",
+    "paren": {
+     "sen": {
+      "tr": "düşün",
+      "nl": "denk"
+     },
+     "siz": {
+      "tr": "düşünün",
+      "nl": "denk"
+     }
+    }
+   },
+   "horen": {
+    "tr_infinitief": "duymak",
+    "tr_stam": "duy",
+    "paren": {
+     "sen": {
+      "tr": "duy",
+      "nl": "hoor"
+     },
+     "siz": {
+      "tr": "duyun",
+      "nl": "hoor"
+     }
+    }
+   },
+   "lopen": {
+    "tr_infinitief": "yürümek",
+    "tr_stam": "yürü",
+    "paren": {
+     "sen": {
+      "tr": "yürü",
+      "nl": "loop"
+     },
+     "siz": {
+      "tr": "yürüyün",
+      "nl": "loop"
+     }
+    }
+   },
+   "schrijven": {
+    "tr_infinitief": "yazmak",
+    "tr_stam": "yaz",
+    "paren": {
+     "sen": {
+      "tr": "yaz",
+      "nl": "schrijf"
+     },
+     "siz": {
+      "tr": "yazın",
+      "nl": "schrijf"
+     }
+    }
+   },
+   "spreken": {
+    "tr_infinitief": "konuşmak",
+    "tr_stam": "konuş",
+    "paren": {
+     "sen": {
+      "tr": "konuş",
+      "nl": "spreek"
+     },
+     "siz": {
+      "tr": "konuşun",
+      "nl": "spreek"
+     }
+    }
+   },
+   "vinden": {
+    "tr_infinitief": "bulmak",
+    "tr_stam": "bul",
+    "paren": {
+     "sen": {
+      "tr": "bul",
+      "nl": "vind"
+     },
+     "siz": {
+      "tr": "bulun",
+      "nl": "vind"
+     }
+    }
+   },
+   "vragen": {
+    "tr_infinitief": "sormak",
+    "tr_stam": "sor",
+    "paren": {
+     "sen": {
+      "tr": "sor",
+      "nl": "vraag"
+     },
+     "siz": {
+      "tr": "sorun",
+      "nl": "vraag"
+     }
+    }
+   },
+   "werken": {
+    "tr_infinitief": "çalışmak",
+    "tr_stam": "çalış",
+    "paren": {
+     "sen": {
+      "tr": "çalış",
+      "nl": "werk"
+     },
+     "siz": {
+      "tr": "çalışın",
+      "nl": "werk"
+     }
+    }
+   },
+   "zitten": {
+    "tr_infinitief": "oturmak",
+    "tr_stam": "otur",
+    "paren": {
+     "sen": {
+      "tr": "otur",
+      "nl": "zit"
+     },
+     "siz": {
+      "tr": "oturun",
+      "nl": "zit"
+     }
+    }
+   },
+   "gebruiken": {
+    "tr_infinitief": "kullanmak",
+    "tr_stam": "kullan",
+    "paren": {
+     "sen": {
+      "tr": "kullan",
+      "nl": "gebruik"
+     },
+     "siz": {
+      "tr": "kullanın",
+      "nl": "gebruik"
+     }
+    }
+   },
+   "lezen": {
+    "tr_infinitief": "okumak",
+    "tr_stam": "oku",
+    "paren": {
+     "sen": {
+      "tr": "oku",
+      "nl": "lees"
+     },
+     "siz": {
+      "tr": "okuyun",
+      "nl": "lees"
+     }
+    }
+   },
+   "wachten": {
+    "tr_infinitief": "beklemek",
+    "tr_stam": "bekle",
+    "paren": {
+     "sen": {
+      "tr": "bekle",
+      "nl": "wacht"
+     },
+     "siz": {
+      "tr": "bekleyin",
+      "nl": "wacht"
+     }
+    }
+   },
+   "zoeken": {
+    "tr_infinitief": "aramak",
+    "tr_stam": "ara",
+    "paren": {
+     "sen": {
+      "tr": "ara",
+      "nl": "zoek"
+     },
+     "siz": {
+      "tr": "arayın",
+      "nl": "zoek"
+     }
+    }
+   },
+   "luisteren": {
+    "tr_infinitief": "dinlemek",
+    "tr_stam": "dinle",
+    "paren": {
+     "sen": {
+      "tr": "dinle",
+      "nl": "luister"
+     },
+     "siz": {
+      "tr": "dinleyin",
+      "nl": "luister"
+     }
+    }
+   },
+   "openen": {
+    "tr_infinitief": "açmak",
+    "tr_stam": "aç",
+    "paren": {
+     "sen": {
+      "tr": "aç",
+      "nl": "open"
+     },
+     "siz": {
+      "tr": "açın",
+      "nl": "open"
+     }
+    }
+   }
+  }
+ },
+ "meervoud": {
+  "per_naamwoord": {
+   "huis": {
+    "tr": "ev",
+    "tr_vorm": "evler"
+   },
+   "boek": {
+    "tr": "kitap",
+    "tr_vorm": "kitaplar"
+   },
+   "appel": {
+    "tr": "elma",
+    "tr_vorm": "elmalar"
+   },
+   "dag": {
+    "tr": "gün",
+    "tr_vorm": "günler"
+   },
+   "jaar": {
+    "tr": "yıl",
+    "tr_vorm": "yıllar"
+   },
+   "maand": {
+    "tr": "ay",
+    "tr_vorm": "aylar"
+   },
+   "week": {
+    "tr": "hafta",
+    "tr_vorm": "haftalar"
+   },
+   "tijd": {
+    "tr": "zaman",
+    "tr_vorm": "zamanlar"
+   },
+   "plaats": {
+    "tr": "yer",
+    "tr_vorm": "yerler"
+   },
+   "werk": {
+    "tr": "iş",
+    "tr_vorm": "işler"
+   },
+   "school": {
+    "tr": "okul",
+    "tr_vorm": "okullar"
+   },
+   "auto": {
+    "tr": "araba",
+    "tr_vorm": "arabalar"
+   },
+   "deur": {
+    "tr": "kapı",
+    "tr_vorm": "kapılar"
+   },
+   "raam": {
+    "tr": "pencere",
+    "tr_vorm": "pencereler"
+   },
+   "tafel": {
+    "tr": "masa",
+    "tr_vorm": "masalar"
+   },
+   "stoel": {
+    "tr": "sandalye",
+    "tr_vorm": "sandalyeler"
+   },
+   "kind": {
+    "tr": "çocuk",
+    "tr_vorm": "çocuklar"
+   },
+   "man": {
+    "tr": "adam",
+    "tr_vorm": "adamlar"
+   },
+   "vrouw": {
+    "tr": "kadın",
+    "tr_vorm": "kadınlar"
+   },
+   "vriend": {
+    "tr": "arkadaş",
+    "tr_vorm": "arkadaşlar"
+   },
+   "leraar": {
+    "tr": "öğretmen",
+    "tr_vorm": "öğretmenler"
+   },
+   "dokter": {
+    "tr": "doktor",
+    "tr_vorm": "doktorlar"
+   },
+   "stad": {
+    "tr": "şehir",
+    "tr_vorm": "şehirler"
+   },
+   "land": {
+    "tr": "ülke",
+    "tr_vorm": "ülkeler"
+   },
+   "taal": {
+    "tr": "dil",
+    "tr_vorm": "diller"
+   }
+  }
+ },
+ "bezittelijke_vnw": {
+  "per_naamwoord": {
+   "huis": {
+    "tr": "ev",
+    "tr_vormen": {
+     "benim": "evim",
+     "senin": "evin",
+     "onun": "evi",
+     "bizim": "evimiz",
+     "sizin": "eviniz",
+     "onların": "evleri"
+    }
+   },
+   "boek": {
+    "tr": "kitap",
+    "tr_vormen": {
+     "benim": "kitabım",
+     "senin": "kitabın",
+     "onun": "kitabı",
+     "bizim": "kitabımız",
+     "sizin": "kitabınız",
+     "onların": "kitapları"
+    }
+   },
+   "appel": {
+    "tr": "elma",
+    "tr_vormen": {
+     "benim": "elmayım",
+     "senin": "elmayın",
+     "onun": "elması",
+     "bizim": "elmayımız",
+     "sizin": "elmayınız",
+     "onların": "elmaları"
+    }
+   },
+   "dag": {
+    "tr": "gün",
+    "tr_vormen": {
+     "benim": "günüm",
+     "senin": "günün",
+     "onun": "günü",
+     "bizim": "günümüz",
+     "sizin": "gününüz",
+     "onların": "günleri"
+    }
+   },
+   "jaar": {
+    "tr": "yıl",
+    "tr_vormen": {
+     "benim": "yılım",
+     "senin": "yılın",
+     "onun": "yılı",
+     "bizim": "yılımız",
+     "sizin": "yılınız",
+     "onların": "yılları"
+    }
+   },
+   "maand": {
+    "tr": "ay",
+    "tr_vormen": {
+     "benim": "ayım",
+     "senin": "ayın",
+     "onun": "ayı",
+     "bizim": "ayımız",
+     "sizin": "ayınız",
+     "onların": "ayları"
+    }
+   },
+   "week": {
+    "tr": "hafta",
+    "tr_vormen": {
+     "benim": "haftayım",
+     "senin": "haftayın",
+     "onun": "haftası",
+     "bizim": "haftayımız",
+     "sizin": "haftayınız",
+     "onların": "haftaları"
+    }
+   },
+   "tijd": {
+    "tr": "zaman",
+    "tr_vormen": {
+     "benim": "zamanım",
+     "senin": "zamanın",
+     "onun": "zamanı",
+     "bizim": "zamanımız",
+     "sizin": "zamanınız",
+     "onların": "zamanları"
+    }
+   },
+   "plaats": {
+    "tr": "yer",
+    "tr_vormen": {
+     "benim": "yerim",
+     "senin": "yerin",
+     "onun": "yeri",
+     "bizim": "yerimiz",
+     "sizin": "yeriniz",
+     "onların": "yerleri"
+    }
+   },
+   "werk": {
+    "tr": "iş",
+    "tr_vormen": {
+     "benim": "işim",
+     "senin": "işin",
+     "onun": "işi",
+     "bizim": "işimiz",
+     "sizin": "işiniz",
+     "onların": "işleri"
+    }
+   },
+   "school": {
+    "tr": "okul",
+    "tr_vormen": {
+     "benim": "okulum",
+     "senin": "okulun",
+     "onun": "okulu",
+     "bizim": "okulumuz",
+     "sizin": "okulunuz",
+     "onların": "okulları"
+    }
+   },
+   "auto": {
+    "tr": "araba",
+    "tr_vormen": {
+     "benim": "arabayım",
+     "senin": "arabayın",
+     "onun": "arabası",
+     "bizim": "arabayımız",
+     "sizin": "arabayınız",
+     "onların": "arabaları"
+    }
+   },
+   "deur": {
+    "tr": "kapı",
+    "tr_vormen": {
+     "benim": "kapıyım",
+     "senin": "kapıyın",
+     "onun": "kapısı",
+     "bizim": "kapıyımız",
+     "sizin": "kapıyınız",
+     "onların": "kapıları"
+    }
+   },
+   "raam": {
+    "tr": "pencere",
+    "tr_vormen": {
+     "benim": "pencereyim",
+     "senin": "pencereyin",
+     "onun": "penceresi",
+     "bizim": "pencereyimiz",
+     "sizin": "pencereyiniz",
+     "onların": "pencereleri"
+    }
+   },
+   "tafel": {
+    "tr": "masa",
+    "tr_vormen": {
+     "benim": "masayım",
+     "senin": "masayın",
+     "onun": "masası",
+     "bizim": "masayımız",
+     "sizin": "masayınız",
+     "onların": "masaları"
+    }
+   },
+   "stoel": {
+    "tr": "sandalye",
+    "tr_vormen": {
+     "benim": "sandalyeyim",
+     "senin": "sandalyeyin",
+     "onun": "sandalyesi",
+     "bizim": "sandalyeyimiz",
+     "sizin": "sandalyeyiniz",
+     "onların": "sandalyeleri"
+    }
+   },
+   "kind": {
+    "tr": "çocuk",
+    "tr_vormen": {
+     "benim": "çocuğum",
+     "senin": "çocuğun",
+     "onun": "çocuğu",
+     "bizim": "çocuğumuz",
+     "sizin": "çocuğunuz",
+     "onların": "çocukları"
+    }
+   },
+   "man": {
+    "tr": "adam",
+    "tr_vormen": {
+     "benim": "adamım",
+     "senin": "adamın",
+     "onun": "adamı",
+     "bizim": "adamımız",
+     "sizin": "adamınız",
+     "onların": "adamları"
+    }
+   },
+   "vrouw": {
+    "tr": "kadın",
+    "tr_vormen": {
+     "benim": "kadınım",
+     "senin": "kadının",
+     "onun": "kadını",
+     "bizim": "kadınımız",
+     "sizin": "kadınınız",
+     "onların": "kadınları"
+    }
+   },
+   "vriend": {
+    "tr": "arkadaş",
+    "tr_vormen": {
+     "benim": "arkadaşım",
+     "senin": "arkadaşın",
+     "onun": "arkadaşı",
+     "bizim": "arkadaşımız",
+     "sizin": "arkadaşınız",
+     "onların": "arkadaşları"
+    }
+   },
+   "leraar": {
+    "tr": "öğretmen",
+    "tr_vormen": {
+     "benim": "öğretmenim",
+     "senin": "öğretmenin",
+     "onun": "öğretmeni",
+     "bizim": "öğretmenimiz",
+     "sizin": "öğretmeniniz",
+     "onların": "öğretmenleri"
+    }
+   },
+   "dokter": {
+    "tr": "doktor",
+    "tr_vormen": {
+     "benim": "doktorum",
+     "senin": "doktorun",
+     "onun": "doktoru",
+     "bizim": "doktorumuz",
+     "sizin": "doktorunuz",
+     "onların": "doktorları"
+    }
+   },
+   "stad": {
+    "tr": "şehir",
+    "tr_vormen": {
+     "benim": "şehirim",
+     "senin": "şehirin",
+     "onun": "şehiri",
+     "bizim": "şehirimiz",
+     "sizin": "şehiriniz",
+     "onların": "şehirleri"
+    }
+   },
+   "land": {
+    "tr": "ülke",
+    "tr_vormen": {
+     "benim": "ülkeyim",
+     "senin": "ülkeyin",
+     "onun": "ülkesi",
+     "bizim": "ülkeyimiz",
+     "sizin": "ülkeyiniz",
+     "onların": "ülkeleri"
+    }
+   },
+   "taal": {
+    "tr": "dil",
+    "tr_vormen": {
+     "benim": "dilim",
+     "senin": "dilin",
+     "onun": "dili",
+     "bizim": "dilimiz",
+     "sizin": "diliniz",
+     "onların": "dilleri"
+    }
+   }
+  }
+ },
+ "voorzetsels": {
+  "per_naamwoord": {
+   "huis": {
+    "tr": "ev",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "evde",
+     "ablative (-den/-dan, van/uit)": "evden",
+     "dative (-e/-a, naar/aan)": "eve"
+    }
+   },
+   "boek": {
+    "tr": "kitap",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "kitapta",
+     "ablative (-den/-dan, van/uit)": "kitaptan",
+     "dative (-e/-a, naar/aan)": "kitaba"
+    }
+   },
+   "appel": {
+    "tr": "elma",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "elmada",
+     "ablative (-den/-dan, van/uit)": "elmadan",
+     "dative (-e/-a, naar/aan)": "elmaya"
+    }
+   },
+   "dag": {
+    "tr": "gün",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "günde",
+     "ablative (-den/-dan, van/uit)": "günden",
+     "dative (-e/-a, naar/aan)": "güne"
+    }
+   },
+   "jaar": {
+    "tr": "yıl",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "yılda",
+     "ablative (-den/-dan, van/uit)": "yıldan",
+     "dative (-e/-a, naar/aan)": "yıla"
+    }
+   },
+   "maand": {
+    "tr": "ay",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "ayda",
+     "ablative (-den/-dan, van/uit)": "aydan",
+     "dative (-e/-a, naar/aan)": "aya"
+    }
+   },
+   "week": {
+    "tr": "hafta",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "haftada",
+     "ablative (-den/-dan, van/uit)": "haftadan",
+     "dative (-e/-a, naar/aan)": "haftaya"
+    }
+   },
+   "tijd": {
+    "tr": "zaman",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "zamanda",
+     "ablative (-den/-dan, van/uit)": "zamandan",
+     "dative (-e/-a, naar/aan)": "zamana"
+    }
+   },
+   "plaats": {
+    "tr": "yer",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "yerde",
+     "ablative (-den/-dan, van/uit)": "yerden",
+     "dative (-e/-a, naar/aan)": "yere"
+    }
+   },
+   "werk": {
+    "tr": "iş",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "işte",
+     "ablative (-den/-dan, van/uit)": "işten",
+     "dative (-e/-a, naar/aan)": "işe"
+    }
+   },
+   "school": {
+    "tr": "okul",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "okulda",
+     "ablative (-den/-dan, van/uit)": "okuldan",
+     "dative (-e/-a, naar/aan)": "okula"
+    }
+   },
+   "auto": {
+    "tr": "araba",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "arabada",
+     "ablative (-den/-dan, van/uit)": "arabadan",
+     "dative (-e/-a, naar/aan)": "arabaya"
+    }
+   },
+   "deur": {
+    "tr": "kapı",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "kapıda",
+     "ablative (-den/-dan, van/uit)": "kapıdan",
+     "dative (-e/-a, naar/aan)": "kapıya"
+    }
+   },
+   "raam": {
+    "tr": "pencere",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "pencerede",
+     "ablative (-den/-dan, van/uit)": "pencereden",
+     "dative (-e/-a, naar/aan)": "pencereye"
+    }
+   },
+   "tafel": {
+    "tr": "masa",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "masada",
+     "ablative (-den/-dan, van/uit)": "masadan",
+     "dative (-e/-a, naar/aan)": "masaya"
+    }
+   },
+   "stoel": {
+    "tr": "sandalye",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "sandalyede",
+     "ablative (-den/-dan, van/uit)": "sandalyeden",
+     "dative (-e/-a, naar/aan)": "sandalyeye"
+    }
+   },
+   "kind": {
+    "tr": "çocuk",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "çocukta",
+     "ablative (-den/-dan, van/uit)": "çocuktan",
+     "dative (-e/-a, naar/aan)": "çocuğa"
+    }
+   },
+   "man": {
+    "tr": "adam",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "adamda",
+     "ablative (-den/-dan, van/uit)": "adamdan",
+     "dative (-e/-a, naar/aan)": "adama"
+    }
+   },
+   "vrouw": {
+    "tr": "kadın",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "kadında",
+     "ablative (-den/-dan, van/uit)": "kadından",
+     "dative (-e/-a, naar/aan)": "kadına"
+    }
+   },
+   "vriend": {
+    "tr": "arkadaş",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "arkadaşta",
+     "ablative (-den/-dan, van/uit)": "arkadaştan",
+     "dative (-e/-a, naar/aan)": "arkadaşa"
+    }
+   },
+   "leraar": {
+    "tr": "öğretmen",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "öğretmende",
+     "ablative (-den/-dan, van/uit)": "öğretmenden",
+     "dative (-e/-a, naar/aan)": "öğretmene"
+    }
+   },
+   "dokter": {
+    "tr": "doktor",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "doktorda",
+     "ablative (-den/-dan, van/uit)": "doktordan",
+     "dative (-e/-a, naar/aan)": "doktora"
+    }
+   },
+   "stad": {
+    "tr": "şehir",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "şehirde",
+     "ablative (-den/-dan, van/uit)": "şehirden",
+     "dative (-e/-a, naar/aan)": "şehire"
+    }
+   },
+   "land": {
+    "tr": "ülke",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "ülkede",
+     "ablative (-den/-dan, van/uit)": "ülkeden",
+     "dative (-e/-a, naar/aan)": "ülkeye"
+    }
+   },
+   "taal": {
+    "tr": "dil",
+    "tr_vormen": {
+     "locative (-de/-da, in/op)": "dilde",
+     "ablative (-den/-dan, van/uit)": "dilden",
+     "dative (-e/-a, naar/aan)": "dile"
+    }
+   }
+  }
+ }
+}
