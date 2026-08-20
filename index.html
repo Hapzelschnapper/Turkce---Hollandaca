@@ -30,7 +30,7 @@
 <div id="peak-indicator" class="peak-tab dal" title="DeepSeek yoğun/sakin saat fiyatlandırması (UTC saatine göre)">● sakin saat</div>
 <div id="app">
 
-  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.27</span></h1>
+  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.28</span></h1>
 
   <!-- ===================== PRACTICE SCREEN ===================== -->
   <section id="screen-practice">
@@ -377,7 +377,7 @@
     </div>
     <div class="card">
       <h3 style="margin-top:0;">Sürüm</h3>
-      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.27</b></div>
+      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.28</b></div>
       <div class="muted" style="margin-top:4px;">Bir değişiklikten sonra bu zaman damgası güncellenmezse, yükleme doğru yenilenmemiş demektir — GitHub'ı kontrol edin ve sayfayı yeniden yükleyin (önbellek için gizli sekme deneyin).</div>
     </div>
     </div>
@@ -4186,7 +4186,7 @@ ${isTrEn
   : `Je krijgt een Nederlands woord, de reeds bekende Turkse vertaling(en), en het Turkse antwoord dat de gebruiker gaf. Beoordeel of het antwoord een acceptabele Turkse vertaling is — accepteer synoniemen, alternatieve (correcte) vervoegingen en kleine spelfouten. Is er hieronder een specifieke "bedoelde betekenis" vermeld (dit Nederlandse woord heeft meerdere losstaande betekenissen): beoordeel dan ALLEEN tegen die ene betekenis, ook al zou het antwoord bij een ANDERE betekenis van hetzelfde Nederlandse woord wel correct zijn.`}
 BELANGRIJK OVER TYPEFOUTEN: reken een antwoord GOED als het een tikfout bevat van de bedoelde vertaling, maar alleen als dat woord daadwerkelijk grotendeels dezelfde letters in vrijwel dezelfde volgorde bevat -- bv. één letter verwisseld, één letter te veel/te weinig, of twee letters omgewisseld (voorbeeld: "geliyor" i.p.v. "geliyour", of "tesekkur" i.p.v. "teşekkür"). Dit is GEEN tikfout en moet NIET als zodanig goedgekeurd worden: een kort/anders gespeld woord dat toevallig ergens op lijkt of er een beetje Turks/Engels uitziet, maar in werkelijkheid een ander of niet-bestaand woord is (voorbeeld: "çart" is GEEN tikfout van "grafik" -- die twee delen bijna geen letters, ook al lijkt "çart" fonetisch op het Engelse "chart"). Twijfel je of iets een tikfout is, ga dan uit van NEE (fout antwoord) tenzij de overeenkomst in spelling overduidelijk is. Zet een geaccepteerde tikfout dan wel kort en concreet in "afwijking" (zie hieronder), en zet "correct" niet op false enkel vanwege zo'n duidelijke, geringe tikfout.
 ALS HET ANTWOORD GOED IS MAAR NIET EXACT DE MEEST GANGBARE VORM: vul dan "afwijking" in met een korte, concrete Turkse zin die zegt WAT er afwijkt -- een tikfout (en wat het verschil is), een minder gebruikelijk/formeel synoniem, een andere (maar correcte) vervoeging/vorm, of iets dergelijks. Dit is de tekst die de gebruiker DIRECT bij het resultaat te zien krijgt (niet pas in het uitklapbare uitleg-paneel), dus hou het kort (één zin volstaat meestal). Was het antwoord exact de standaard/meest gangbare vorm, of is het antwoord fout, laat "afwijking" dan leeg ("").
-ALS HET ANTWOORD FOUT IS: geef in "betekenis_antwoord" aan wat het door de gebruiker ingevoerde woord ZELF betekent, ALTIJD VERTAALD NAAR HET TURKS (nooit naar het Nederlands — de gebruiker spreekt uitsluitend Turks, dus deze uitleg moet ALTIJD in het Turks zijn, ongeacht de richting van de oefening), mits het een bestaand, betekenisvol woord is — dit helpt de gebruiker begrijpen welk ander woord hij in gedachten had. Is het antwoord geen bestaand woord, laat "betekenis_antwoord" dan leeg (""). Bij een GOED antwoord laat je "betekenis_antwoord" ook leeg.
+ALS HET ANTWOORD FOUT IS: geef in "betekenis_antwoord" aan wat het door de gebruiker ingevoerde woord ZELF betekent, ALTIJD VERTAALD NAAR HET TURKS (nooit naar het Nederlands — de gebruiker spreekt uitsluitend Turks, dus deze uitleg moet ALTIJD in het Turks zijn, ongeacht de richting van de oefening). BELANGRIJK -- dit veld heeft ALLEEN zin als het ingevoerde woord in een ANDERE taal is dan het Turks zelf: als de gebruiker al een Turks woord moest intypen (en dus per definitie al een Turks woord invoerde, ook al is het het VERKEERDE Turkse woord), dan is "vertaal dit naar het Turks" een zinloze no-op (je zou dan letterlijk hetzelfde woord teruggeven, bv. "onu" -> "onu" -- dat is VERWARREND en NOOIT toegestaan). Laat "betekenis_antwoord" in dat geval LEEG (""), want er valt niets zinvols te "vertalen" van Turks naar Turks. Vul dit veld dus UITSLUITEND als het ingevoerde woord daadwerkelijk in een andere taal is (doorgaans: de gebruiker moest een Nederlands woord intypen en typte per ongeluk iets anders in), en dat woord een bestaand, betekenisvol woord is — dit helpt de gebruiker dan begrijpen welk ander woord hij in gedachten had. Is het antwoord geen bestaand woord, laat "betekenis_antwoord" ook leeg. Bij een GOED antwoord laat je "betekenis_antwoord" eveneens leeg.
 "uitleg" is de tekst voor een apart, uitklapbaar "Açıklama"-paneel dat de gebruiker vrijwillig opent -- hier mag en moet je ruim de tijd/ruimte voor nemen, dit hoeft GEEN korte tekst te zijn. Schrijf hem ALTIJD rechtstreeks tegen de gebruiker (spreek diegene aan met "sen", NOOIT in de derde persoon zoals "öğrenci"), in het Turks, en behandel in aparte, korte alinea's (gescheiden door een lege regel):
 1) De betekenis van het geteste woord zelf (${isTrEn ? `het Turkse woord "${item.tr}"` : `het Nederlandse woord "${baseEnOf(item.en)}"`}) -- een heldere, wat rijkere uitleg dan alleen het kale vertaal-trefwoord, met relevante nuance of gebruikscontext.
 2) ALLEEN als het echt iets toevoegt: een korte, interessante etymologie van het woord, EN/OF -- als het woord meerdere losstaande betekenissen heeft -- die andere betekenissen kort genoemd (dit mag je overslaan of leeg laten als er niets noemenswaardigs is, forceer het niet).
@@ -4206,7 +4206,7 @@ Antwoord in JSON.`;
         correct: {type:"boolean"},
         afwijking: {type:"string", description:"ALLEEN bij een GOED antwoord dat niet exact de standaardvorm was: korte Turkse zin die zegt wat afwijkt (tikfout, minder gebruikelijk synoniem, andere correcte vervoeging, ...). Leeg bij een exact antwoord of een fout antwoord."},
         uitleg: {type:"string", description:"Rijkere uitleg in het Turks voor het uitklapbare Açıklama-paneel: betekenis van het geteste woord, evt. etymologie/deelbetekenissen, en bij een fout antwoord de betekenis van het gegeven woord plus (indien van toepassing) het verschil met de bedoelde betekenis. Meerdere zinnen/alinea's mogen, mag leeg zijn."},
-        betekenis_antwoord: {type:"string", description:"Betekenis van het antwoord van de gebruiker (vertaald naar de andere taal), indien fout en een bestaand woord; anders leeg."},
+        betekenis_antwoord: {type:"string", description:"ALLEEN als het ingevoerde antwoord in een ANDERE taal is dan het Turks (dus NIET als de gebruiker al een Turks woord moest intypen): de Turkse betekenis van het antwoord, indien fout en een bestaand woord; anders altijd leeg."},
       },
       required: ["correct","afwijking","uitleg","betekenis_antwoord"]
     }
@@ -4214,6 +4214,13 @@ Antwoord in JSON.`;
   const raw = await callAI("word", sys, user, 2500, 0, schema);
   try{
     const verdict = parseAIJson(raw);
+    // Vangnet tegen exact de bug die hier eerder optrad: "betekenis_antwoord" gaf soms letterlijk
+    // hetzelfde woord terug als het foute antwoord zelf (bv. "onu" -> "onu"), omdat "vertaal dit naar
+    // het Turks" een zinloze no-op is als het antwoord al Turks was (de gebruiker moest immers al
+    // Turks intypen). Zo'n tautologie is verwarrender dan geen uitleg -- wis het veld dan alsnog.
+    if(verdict && verdict.betekenis_antwoord && foldDiacritics(normalize(verdict.betekenis_antwoord)) === foldDiacritics(normalize(answer))){
+      verdict.betekenis_antwoord = "";
+    }
     // Vangnet: promptaanpassingen alleen zijn kansrekening, geen garantie -- de AI kan een antwoord
     // toch nog als "tikfout" bestempelen terwijl het structureel een compleet ander woord is (bv.
     // "çart" goedgekeurd als tikfout van "grafik", terwijl die woorden bijna geen letters delen). Als

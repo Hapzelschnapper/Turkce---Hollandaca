@@ -9,16 +9,6 @@
    "cefr": 0
   }
  ],
- "al": [
-  {
-   "tr": "hepsi",
-   "gloss": "al (hepsi)",
-   "pos": "adv",
-   "register": "neutral",
-   "note": "",
-   "cefr": 0
-  }
- ],
  "allemaal": [
   {
    "tr": "hep birlikte",
@@ -197,16 +187,6 @@
    "register": "neutral",
    "note": "",
    "cefr": 0
-  }
- ],
- "eens": [
-  {
-   "tr": "zijn met aynı görüşte olmak",
-   "gloss": "eens (zijn met aynı görüşte olmak)",
-   "pos": "adv",
-   "register": "neutral",
-   "note": "",
-   "cefr": 2
   }
  ],
  "en": [
@@ -2449,16 +2429,6 @@
    "cefr": 0
   }
  ],
- "net": [
-  {
-   "tr": "aynı",
-   "gloss": "net (aynı)",
-   "pos": "adv",
-   "register": "neutral",
-   "note": "",
-   "cefr": 0
-  }
- ],
  "paar": [
   {
    "tr": "bir çift",
@@ -3247,16 +3217,6 @@
    "register": "neutral",
    "note": "",
    "cefr": 0
-  }
- ],
- "hard": [
-  {
-   "tr": "sert",
-   "gloss": "hard (sert)",
-   "pos": "adj",
-   "register": "neutral",
-   "note": "snelheid",
-   "cefr": 1
   }
  ],
  "heen": [
@@ -5419,16 +5379,6 @@
    "cefr": 1
   }
  ],
- "licht": [
-  {
-   "tr": "açık renk",
-   "gloss": "licht (açık renk)",
-   "pos": "adj",
-   "register": "neutral",
-   "note": "gewicht",
-   "cefr": 1
-  }
- ],
  "maatschappij": [
   {
    "tr": "toplum",
@@ -7014,16 +6964,6 @@
    "tr": "bayan",
    "gloss": "dame (bayan)",
    "pos": "noun",
-   "register": "neutral",
-   "note": "",
-   "cefr": 2
-  }
- ],
- "dicht": [
-  {
-   "tr": "kapalı",
-   "gloss": "dicht (kapalı)",
-   "pos": "adj",
    "register": "neutral",
    "note": "",
    "cefr": 2
@@ -9526,16 +9466,6 @@
    "pos": "verb",
    "register": "neutral",
    "note": "su",
-   "cefr": 2
-  }
- ],
- "scherp": [
-  {
-   "tr": "keskin",
-   "gloss": "scherp (keskin)",
-   "pos": "adj",
-   "register": "neutral",
-   "note": "",
    "cefr": 2
   }
  ],
@@ -12177,16 +12107,6 @@
    "register": "neutral",
    "note": "het klopt",
    "cefr": 1
-  }
- ],
- "kwaad": [
-  {
-   "tr": "kızgın",
-   "gloss": "kwaad (kızgın)",
-   "pos": "adj",
-   "register": "neutral",
-   "note": "",
-   "cefr": 4
   }
  ],
  "kwijt": [
@@ -17447,16 +17367,6 @@
    "register": "neutral",
    "note": "",
    "cefr": 5
-  }
- ],
- "plat": [
-  {
-   "tr": "düz",
-   "gloss": "plat (düz)",
-   "pos": "adj",
-   "register": "neutral",
-   "note": "manieren",
-   "cefr": 3
   }
  ],
  "plus": [
@@ -32800,6 +32710,216 @@
    "note": "from (ablative suffix -den/-dan, e.g. ev+den = evden = 'from the house')",
    "cefr": 0,
    "gateLesson": "g_voorzetsels"
+  }
+ ],
+ "net__1": [
+  {
+   "tr": "ağ",
+   "gloss": "net (vissersgerei)",
+   "pos": "noun",
+   "register": "neutral",
+   "note": "fishing net",
+   "cefr": 0
+  }
+ ],
+ "net__2": [
+  {
+   "tr": "az önce",
+   "gloss": "net (onlangs)",
+   "pos": "adv",
+   "register": "neutral",
+   "note": "just, recently",
+   "cefr": 0
+  }
+ ],
+ "net__3": [
+  {
+   "tr": "düzenli",
+   "gloss": "net (niet slordig)",
+   "pos": "adj",
+   "register": "neutral",
+   "note": "tidy, neat",
+   "cefr": 0
+  }
+ ],
+ "net__4": [
+  {
+   "tr": "tıpkı",
+   "gloss": "net (lijkend op)",
+   "pos": "adj",
+   "register": "neutral",
+   "note": "exactly like, resembling",
+   "cefr": 0
+  }
+ ],
+ "al__1": [
+  {
+   "tr": "zaten",
+   "gloss": "al (reeds)",
+   "pos": "adv",
+   "register": "neutral",
+   "note": "already",
+   "cefr": 0
+  }
+ ],
+ "al__2": [
+  {
+   "tr": "hepsi",
+   "gloss": "al (hepsi/bütün)",
+   "pos": "adv",
+   "register": "neutral",
+   "note": "all, the whole",
+   "cefr": 0
+  }
+ ],
+ "dicht__1": [
+  {
+   "tr": "kapalı",
+   "gloss": "dicht (gesloten)",
+   "pos": "adj",
+   "register": "neutral",
+   "note": "closed",
+   "cefr": 2
+  }
+ ],
+ "dicht__2": [
+  {
+   "tr": "sık",
+   "gloss": "dicht (dicht opeen)",
+   "pos": "adj",
+   "register": "neutral",
+   "note": "dense, close together",
+   "cefr": 2
+  }
+ ],
+ "eens__1": [
+  {
+   "tr": "aynı görüşte olmak",
+   "gloss": "eens (het ermee eens zijn)",
+   "pos": "adv",
+   "register": "neutral",
+   "note": "to agree",
+   "cefr": 2
+  }
+ ],
+ "eens__2": [
+  {
+   "tr": "bir gün",
+   "gloss": "eens (op een dag / één keer)",
+   "pos": "adv",
+   "register": "neutral",
+   "note": "once, someday",
+   "cefr": 2
+  }
+ ],
+ "kwaad__1": [
+  {
+   "tr": "kızgın",
+   "gloss": "kwaad (boos)",
+   "pos": "adj",
+   "register": "neutral",
+   "note": "angry",
+   "cefr": 4
+  }
+ ],
+ "kwaad__2": [
+  {
+   "tr": "kötü",
+   "gloss": "kwaad (slecht/kötü)",
+   "pos": "adj",
+   "register": "neutral",
+   "note": "evil, bad",
+   "cefr": 4
+  }
+ ],
+ "licht__1": [
+  {
+   "tr": "açık renk",
+   "gloss": "licht (kleur)",
+   "pos": "adj",
+   "register": "neutral",
+   "note": "light (colour)",
+   "cefr": 1
+  }
+ ],
+ "licht__2": [
+  {
+   "tr": "hafif",
+   "gloss": "licht (gewicht)",
+   "pos": "adj",
+   "register": "neutral",
+   "note": "light (weight)",
+   "cefr": 1
+  }
+ ],
+ "hard__1": [
+  {
+   "tr": "sert",
+   "gloss": "hard (stevig)",
+   "pos": "adj",
+   "register": "neutral",
+   "note": "hard, firm",
+   "cefr": 1
+  }
+ ],
+ "hard__2": [
+  {
+   "tr": "yüksek sesli",
+   "gloss": "hard (luid)",
+   "pos": "adj",
+   "register": "neutral",
+   "note": "loud",
+   "cefr": 1
+  }
+ ],
+ "plat__1": [
+  {
+   "tr": "düz",
+   "gloss": "plat (vlak)",
+   "pos": "adj",
+   "register": "neutral",
+   "note": "flat",
+   "cefr": 3
+  }
+ ],
+ "plat__2": [
+  {
+   "tr": "kaba",
+   "gloss": "plat (grof taalgebruik)",
+   "pos": "adj",
+   "register": "neutral",
+   "note": "crude, vulgar (language)",
+   "cefr": 3
+  }
+ ],
+ "scherp__1": [
+  {
+   "tr": "keskin",
+   "gloss": "scherp (mes)",
+   "pos": "adj",
+   "register": "neutral",
+   "note": "sharp (blade)",
+   "cefr": 2
+  }
+ ],
+ "scherp__2": [
+  {
+   "tr": "acı",
+   "gloss": "scherp (pittig)",
+   "pos": "adj",
+   "register": "neutral",
+   "note": "spicy, hot (taste)",
+   "cefr": 2
+  }
+ ],
+ "vast__adv": [
+  {
+   "tr": "muhtemelen",
+   "gloss": "vast (waarschijnlijk)",
+   "pos": "adv",
+   "register": "neutral",
+   "note": "probably, surely",
+   "cefr": 2
   }
  ]
 }
