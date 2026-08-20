@@ -30,7 +30,7 @@
 <div id="peak-indicator" class="peak-tab dal" title="DeepSeek yoğun/sakin saat fiyatlandırması (UTC saatine göre)">● sakin saat</div>
 <div id="app">
 
-  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.19</span></h1>
+  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.21</span></h1>
 
   <!-- ===================== PRACTICE SCREEN ===================== -->
   <section id="screen-practice">
@@ -377,7 +377,7 @@
     </div>
     <div class="card">
       <h3 style="margin-top:0;">Sürüm</h3>
-      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.19</b></div>
+      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.21</b></div>
       <div class="muted" style="margin-top:4px;">Bir değişiklikten sonra bu zaman damgası güncellenmezse, yükleme doğru yenilenmemiş demektir — GitHub'ı kontrol edin ve sayfayı yeniden yükleyin (önbellek için gizli sekme deneyin).</div>
     </div>
     </div>
@@ -1764,7 +1764,8 @@ async function generateSuffixDrill(){
 Patroonomschrijving: ${topic.hint}
 Geef een kort, ondubbelzinnig TURKS zinnetje (in het Turks, de bekende taal van de gebruiker) dat PRECIES deze ene vervoegde/gevormde Nederlandse vorm oproept -- geen volledige zin met andere woorden erbij, puur de vervoeging van dit ene werkwoord in dit patroon.
 Geef de correcte Nederlandse vorm (normaal gesproken één woord; alleen als het patroon dat grammaticaal vereist -- bv. bij "hebben/zijn + voltooid deelwoord" of "gaan + infinitief" -- een vaste, korte woordgroep).
-Geef ook een STAP-VOOR-STAP OPBOUW ("breakdown"): een array van de KALE werkwoordstam (zonder -en, bv. "werk" niet "werken") tot en met de volledige gevormde Nederlandse vorm, waarbij ELKE volgende stap EXACT ÉÉN element/achtervoegsel/hulpwoord meer bevat dan de vorige. Elke stap krijgt "form" (de Nederlandse vorm tot en met dat element) en "meaning" (de TURKSE betekenis van de vorm OP DIE STAP, zodat de betekenisverandering door dat ene toegevoegde element duidelijk wordt). De eerste stap is altijd de kale stam met zijn kale (Turkse) betekenis; de laatste stap is EXACT gelijk aan "correct". Gebruik zoveel stappen als het patroon daadwerkelijk vereist (meestal 2-3) -- verzin geen kunstmatige tussenstap die geen echte taalkundige eenheid is.
+KRITIEKE REGEL TEGEN DUBBELZINNIGHEID: bij de tegenwoordige tijd zijn de wij-, jullie- en zij(mv)-vormen IDENTIEK aan de kale infinitief (bv. "wij komen" = gewoon "komen", exact hetzelfde woordbeeld als de mastar/infinitief zelf). Als de gevormde vorm op zichzelf niet te onderscheiden is van de kale infinitief of van een andere vervoeging, MOET je het onderwerp-voornaamwoord (wij/jullie/zij, of eventueel ik/jij/hij) ALTIJD mee opnemen in zowel "correct" als de bijbehorende breakdown-stap(pen) -- dus "wij komen" i.p.v. kaal "komen", nooit een vorm tonen/verwachten die zonder extra context ook als iets anders (met name de kale infinitief) gelezen kan worden. Dit geldt ook voor de eerste-svp/imperatief-achtige samenvallende vormen bij andere patronen -- bij twijfel, voeg het voornaamwoord toe.
+Geef ook een STAP-VOOR-STAP OPBOUW ("breakdown"): een array van de KALE werkwoordstam (zonder -en, bv. "werk" niet "werken") tot en met de volledige gevormde Nederlandse vorm, waarbij ELKE volgende stap EXACT ÉÉN element/achtervoegsel/hulpwoord/voornaamwoord meer bevat dan de vorige. Elke stap krijgt "form" (de Nederlandse vorm tot en met dat element) en "meaning" (de TURKSE betekenis van de vorm OP DIE STAP, zodat de betekenisverandering door dat ene toegevoegde element duidelijk wordt). De eerste stap is altijd de kale stam met zijn kale (Turkse) betekenis; de laatste stap is EXACT gelijk aan "correct" (dus inclusief het voornaamwoord, als dat conform de regel hierboven nodig was om dubbelzinnigheid te voorkomen). Gebruik zoveel stappen als het patroon daadwerkelijk vereist (meestal 2-3) -- verzin geen kunstmatige tussenstap die geen echte taalkundige eenheid is.
 Schrijf alles in het Nederlands en Turks -- nooit een andere taal.
 Antwoord in JSON.`;
   const schema = {
@@ -1774,7 +1775,7 @@ Antwoord in JSON.`;
       type: "object",
       properties: {
         prompt: {type:"string", description:"Kort, ONDUBBELZINNIG Turks zinnetje dat precies deze ene gevormde Nederlandse vorm oproept."},
-        correct: {type:"string", description:"De correcte Nederlandse vorm."},
+        correct: {type:"string", description:"De correcte Nederlandse vorm. BEVAT het onderwerp-voornaamwoord (bv. 'wij komen') als de kale vervoegde vorm anders identiek zou zijn aan de infinitief of een andere vervoeging -- nooit een vorm die zonder context ook anders gelezen kan worden."},
         breakdown: {
           type: "array",
           description: "Stap-voor-stap opbouw: van de kale werkwoordstam tot de volledige vorm, elke stap precies 1 element meer dan de vorige. Laatste stap = 'correct'.",
@@ -1792,8 +1793,25 @@ Antwoord in JSON.`;
     }
   };
   const raw = await callAI("sentence", sys, `Werkwoord: ${verbNl} (${verbTrGloss}) | Patroon: ${topic.label}`, 700, 0.5, schema);
-  const parsed = parseAIJson(raw);
+  let parsed = parseAIJson(raw);
   if(!parsed.prompt || !parsed.correct) throw new Error("AI did not return a valid pattern drill.");
+  // Vangnet tegen de exacte bug die hier eerder optrad: bij de tegenwoordige tijd valt de wij-/jullie-/
+  // zij(mv)-vorm SAMEN met de kale infinitief (bv. "wij komen" = gewoon "komen") -- als de AI ondanks de
+  // instructie hierboven toch zo'n kale, dubbelzinnige vorm teruggeeft (zonder onderwerp-voornaamwoord,
+  // en dus letterlijk identiek aan de infinitief van het werkwoord zelf), wordt dat afgekeurd en één keer
+  // opnieuw gevraagd met een expliciete correctienotitie.
+  const PRONOUN_PREFIXES = ["ik ","jij ","je ","u ","hij ","zij ","ze ","het ","wij ","we ","jullie "];
+  function looksAmbiguousBareForm(correct){
+    const c = correct.trim().toLowerCase();
+    const startsWithPronoun = PRONOUN_PREFIXES.some(p => c.startsWith(p));
+    return !startsWithPronoun && c === verbNl.trim().toLowerCase();
+  }
+  if(looksAmbiguousBareForm(parsed.correct)){
+    const retryUser = `Werkwoord: ${verbNl} (${verbTrGloss}) | Patroon: ${topic.label}\n\nLET OP: je vorige poging gaf "${parsed.correct}" als "correct" terug -- dat is EXACT gelijk aan de kale infinitief van het werkwoord zelf, dus zonder extra context (zoals het onderwerp-voornaamwoord) kan een gebruiker onmogelijk weten dat hier een specifieke vervoeging (bv. de wij-vorm) getest wordt in plaats van simpelweg de infinitief. Voeg het onderwerp-voornaamwoord toe (bv. "wij ${verbNl}" i.p.v. kaal "${verbNl}") in zowel "correct" als de laatste breakdown-stap, en herhaal dit dan pas.`;
+    const raw2 = await callAI("sentence", sys, retryUser, 700, 0.5, schema);
+    const parsed2 = parseAIJson(raw2);
+    if(parsed2.prompt && parsed2.correct) parsed = parsed2;
+  }
   const breakdown = (Array.isArray(parsed.breakdown) && parsed.breakdown.length)
     ? parsed.breakdown.filter(s => s && s.form && s.meaning)
     : [{form: parsed.correct, meaning: parsed.prompt}]; // veiligheidsnet: geen (bruikbare) breakdown terug -> toon tenminste de eindvorm
@@ -5385,15 +5403,18 @@ function renderCourseLessonRow(l, idx){
   // BUGFIX: de hoofdtitel (grote tekst, .word-row-tr) toonde tot nu toe de KALE Nederlandse
   // grammaticaterm (bv. "Tegenwoordige tijd"), terwijl de ondertitel (.word-row-trans) alleen
   // Turkse statustekst liet zien ("Devam ediyor" e.d.) -- dus geen enkele Turkse UITLEG van het
-  // onderwerp zelf was op het eerste gezicht zichtbaar. GRAMMAR_TOPICS[key].label bevat wél al een
-  // Turks-georiënteerd label (Nederlandse term + Turkse verklarende glans, bv. "Tegenwoordige tijd
-  // (şimdiki/geniş zaman)") -- die wordt nu de hoofdtitel; de kale Nederlandse term (l.title) schuift
-  // door naar de ondertitel, vóór de statustekst. Voor lessen zonder gekoppeld grammatica-onderwerp
+  // onderwerp zelf was op het eerste gezicht zichtbaar. GRAMMAR_TOPICS[key].label was zelf ook nog
+  // grotendeels Nederlands-georiënteerd (Nederlandse term voorop, een enkele keer een Turkse glans
+  // erachter) -- daarom is er een apart trTitle-veld toegevoegd (puur Turks, bv. "Şimdiki / geniş
+  // zaman") dat nu de hoofdtitel is; de kale Nederlandse term (l.title) schuift door naar de
+  // ondertitel, vóór de statustekst. topic.label zelf blijft ONGEWIJZIGD (wordt nog gebruikt in de
+  // AI-prompts die het exacte Nederlandse grammatica-onderwerp identificeren -- dat moet Nederlands
+  // blijven voor ondubbelzinnige AI-herkenning). Voor lessen zonder gekoppeld grammatica-onderwerp
   // (welcome/how_dutch_works, die al zuiver Turkse titels hebben) verandert er niets.
   const topicKey = l.grammarTopics && l.grammarTopics[0] ? l.grammarTopics[0].split("::")[0] : null;
   const topic = topicKey ? grammarTopicByKey(topicKey) : null;
-  const primaryTitle = topic ? topic.label : l.title;
-  const subPrefix = (topic && topic.label !== l.title) ? `<i>${escapeHtml(l.title)}</i> · ` : "";
+  const primaryTitle = topic ? topic.trTitle : l.title;
+  const subPrefix = topic ? `<i>${escapeHtml(l.title)}</i> · ` : "";
   return `<div class="word-row" style="cursor:pointer;" data-idx="${idx}">
     <div>
       <div class="word-row-tr">${l.icon} ${primaryTitle}</div>
