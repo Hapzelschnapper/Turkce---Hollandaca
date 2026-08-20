@@ -30,7 +30,7 @@
 <div id="peak-indicator" class="peak-tab dal" title="DeepSeek yoğun/sakin saat fiyatlandırması (UTC saatine göre)">● sakin saat</div>
 <div id="app">
 
-  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.25</span></h1>
+  <h1><span class="flag">🇳🇱</span> Hollandaca Öğren <span class="muted" style="font-weight:400;font-size:.65rem;margin-left:auto;" id="build-stamp">v1.27</span></h1>
 
   <!-- ===================== PRACTICE SCREEN ===================== -->
   <section id="screen-practice">
@@ -377,7 +377,7 @@
     </div>
     <div class="card">
       <h3 style="margin-top:0;">Sürüm</h3>
-      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.25</b></div>
+      <div class="muted">Son sürüm: <b id="build-stamp-settings">2026-08-18 v1.27</b></div>
       <div class="muted" style="margin-top:4px;">Bir değişiklikten sonra bu zaman damgası güncellenmezse, yükleme doğru yenilenmemiş demektir — GitHub'ı kontrol edin ve sayfayı yeniden yükleyin (önbellek için gizli sekme deneyin).</div>
     </div>
     </div>
@@ -1755,6 +1755,44 @@ function canOfferSuffixDrill(){
 // uit op -- zonder enige AI-aanroep, dus zonder het risico op AI-generatiefouten. Geeft null terug
 // als er voor de huidige (ontgrendelde) werkwoorden/onderwerpen geen geverifieerde combinatie is,
 // zodat de aanroeper dan op de bestaande AI-generatie kan terugvallen.
+const NL_PRONOUN = {ben:"ik", sen:"jij", o:"hij", biz:"wij", siz:"jullie", onlar:"zij"};
+// BUGFIX: eerder werd de kale vervoegde vorm getoond/verwacht ZONDER Nederlands voornaamwoord (bv.
+// kaal "kom" voor de ik-vorm, kaal "komen" voor de wij-vorm) -- dat is exact dezelfde dubbelzinnigheid
+// die eerder al bij de AI-generatie gefixt werd (kaal "kom" is niet te onderscheiden van de gebiedende
+// wijs "Kom!", kaal "komen" niet van de infinitief zelf) maar hier bij het geverifieerde-data-pad over
+// het hoofd gezien. Nu ALTIJD het voornaamwoord ervoor, voor elke persoon, ongeacht of die specifieke
+// vorm toevallig wél al ondubbelzinnig zou zijn -- consistentie is veiliger dan per-vorm uitzonderingen.
+function nlWithPronoun(person, nl){
+  return `${NL_PRONOUN[person]} ${nl}`;
+}
+// Per onderwerp: hoe wordt de LAATSTE (şahıs-)stap toegelicht, met EXPLICIETE koppeling naar hoe
+// diezelfde informatie in het Nederlands wordt overgebracht -- dat is precies waar de vorige versie
+// tekortschoot (de tussenstappen bleven zuiver Turks-taalkundig, zonder ooit te laten zien HOE dat
+// zich verhoudt tot het Nederlands, tot aan de kale eindvertaling).
+function verifiedBreakdown(topicKey, data, tr, nlFull, verbNl){
+  // LET OP: de gebruiker is Turkstalig en weet dus AL wat "-Iyor"/"-DI"/"-EcEk" in het Turks betekenen
+  // (geniş/şimdiki zaman, geçmiş zaman, gelecek zaman e.d.) -- dat opnieuw benoemen is overbodig. Wat
+  // WEL nieuw/leerzaam is: wat er bij elke stap met het NEDERLANDS gebeurt. Daarom focust elke stap nu
+  // uitsluitend op de Nederlandse kant, niet op het herhalen van bekende Turkse grammatica-termen.
+  const steps = [];
+  if(topicKey === "tegenwoordige_tijd"){
+    steps.push({form: data.tr_stam, meaning: `Hollandaca mastar: "${verbNl}" (henüz kimse belirtilmedi)`});
+    steps.push({form: data.tr_tussenstap, meaning: `Hollandacada BU AŞAMADA hâlâ hiçbir şey değişmiyor -- hâlâ "${verbNl}"`});
+    steps.push({form: tr, meaning: `Şimdi değişti: özne zamiri eklendi, fiil biçimi de kısaldı → "${nlFull}"`});
+  } else if(topicKey === "toekomende_tijd"){
+    steps.push({form: data.tr_stam, meaning: `Hollandaca mastar: "${verbNl}" (henüz kimse belirtilmedi)`});
+    steps.push({form: data.tr_tussenstap, meaning: `Hollandacada BU AŞAMADA hâlâ hiçbir şey değişmiyor -- hâlâ "${verbNl}"`});
+    steps.push({form: tr, meaning: `Şimdi değişti: özne zamiri + AYRI bir yardımcı fiil ("gaan") eklendi, "${verbNl}" kendisi mastar hâlinde en sonda kalıyor → "${nlFull}"`});
+  } else if(topicKey === "onvoltooid_verleden_tijd"){
+    steps.push({form: data.tr_stam, meaning: `Hollandaca mastar: "${verbNl}" (henüz kimse belirtilmedi)`});
+    steps.push({form: tr, meaning: `Şimdi değişti: fiilin KENDİSİ tamamen başka bir hâl aldı (çoğu zaman düzensiz) → "${nlFull}"`});
+  } else if(topicKey === "gebiedende_wijs"){
+    steps.push({form: tr, meaning: `Hollandacada bu, mastardan "-en" çıkarılmış hâliyle AYNI kalır, sen/siz farkı yansımaz → "${nlFull}"`});
+  } else {
+    steps.push({form: tr, meaning: nlFull});
+  }
+  return steps;
+}
 const VERIFIED_SUFFIX_STEP_LABELS = {
   tegenwoordige_tijd: "şimdiki zaman eki (-Iyor) eklendi",
   toekomende_tijd: "gelecek zaman eki (-EcEk) eklendi",
@@ -1785,25 +1823,21 @@ function pickVerifiedSuffixDrill(verbs, topics){
   const personKeys = Object.keys(data.paren);
   const person = personKeys[Math.floor(Math.random()*personKeys.length)];
   const {tr, nl} = data.paren[person];
+  const nlFull = topicKey === "gebiedende_wijs" ? nl : nlWithPronoun(person, nl); // emir kipi: NL heeft nooit een expliciet onderwerp
   const direction = Math.random() < 0.5 ? "en-tr" : "tr-en";
   const trPronoun = {ben:"Ben", sen:"Sen", o:"O", biz:"Biz", siz:"Siz", onlar:"Onlar"}[person];
-  const trPrompt = `${trPronoun} ${tr}.`;
+  const trPrompt = topicKey === "gebiedende_wijs" ? `${tr}!` : `${trPronoun} ${tr}.`;
 
-  const breakdown = [];
-  breakdown.push({form: data.tr_stam, meaning: `${data.tr_infinitief} (kök)`});
-  if(data.tr_tussenstap && VERIFIED_SUFFIX_STEP_LABELS[topicKey]){
-    breakdown.push({form: data.tr_tussenstap, meaning: VERIFIED_SUFFIX_STEP_LABELS[topicKey]});
-  }
-  breakdown.push({form: tr, meaning: nl});
+  const breakdown = verifiedBreakdown(topicKey, data, tr, nlFull, verbNl);
 
   return {
     type: "suffix",
     en: `suffix:${verbNl}:${topicKey}:verified`,
     direction,
-    prompt: direction === "en-tr" ? trPrompt : nl,
-    correct: direction === "en-tr" ? nl : trPrompt,
+    prompt: direction === "en-tr" ? trPrompt : nlFull,
+    correct: direction === "en-tr" ? nlFull : trPrompt,
     englishCue: trPrompt,
-    turkishForm: nl,
+    turkishForm: nlFull,
     verbEn: verbNl,
     verbTr: data.tr_infinitief,
     topicKey,
@@ -1841,10 +1875,10 @@ KRITIEK -- "prompt" mag NOOIT het antwoord verklappen of uitleg bevatten: het ve
 Geef de correcte Nederlandse vorm (normaal gesproken één woord; alleen als het patroon dat grammaticaal vereist -- bv. bij "hebben/zijn + voltooid deelwoord" of "gaan + infinitief" -- een vaste, korte woordgroep).
 KRITIEKE REGEL TEGEN DUBBELZINNIGHEID: bij de tegenwoordige tijd zijn de wij-, jullie- en zij(mv)-vormen IDENTIEK aan de kale infinitief (bv. "wij komen" = gewoon "komen", exact hetzelfde woordbeeld als de mastar/infinitief zelf). Als de gevormde vorm op zichzelf niet te onderscheiden is van de kale infinitief of van een andere vervoeging, MOET je het onderwerp-voornaamwoord (wij/jullie/zij, of eventueel ik/jij/hij) ALTIJD mee opnemen in zowel "correct" als de bijbehorende breakdown-stap(pen) -- dus "wij komen" i.p.v. kaal "komen", nooit een vorm tonen/verwachten die zonder extra context ook als iets anders (met name de kale infinitief) gelezen kan worden. Dit geldt ook voor de eerste-svp/imperatief-achtige samenvallende vormen bij andere patronen -- bij twijfel, voeg het voornaamwoord toe.
 Geef ook een STAP-VOOR-STAP OPBOUW ("breakdown"): TOON HIERBIJ DE TURKSE AGGLUTINATIE, NIET DE NEDERLANDSE OPBOUW. Nederlands is namelijk NIET agglutinerend (bv. "wij komen" bestaat uit twee losse WOORDEN, er is geen taalkundig zinvolle tussenstap "wij kom" -- dat oogt raar en klopt niet). Het Turks daarentegen bouwt woorden wél op door achtervoegsels aan een stam te plakken, en DAT is wat de stappen moeten laten zien: begin bij de kale Turkse werkwoordstam, en voeg per stap PRECIES ÉÉN Turks achtervoegsel toe (tijd/aspect-eki, dan pas het şahıs/persoons-eki, in de taalkundig juiste volgorde) tot en met de volledige, correct vervoegde Turkse vorm. Elke stap krijgt "form" (de TURKSE vorm tot en met dat achtervoegsel, dus bv. "gel" -> "gelir" -> "geliriz").
-BELANGRIJK voor "meaning" per stap -- benoem de GRAMMATICALE FUNCTIE van het net toegevoegde element, geef GEEN voorbarige volledige vertaling zolang de vorm nog onvolledig/dubbelzinnig is: een tijd/aspect-eki zoals "-ir" voegt namelijk ALLEEN een tijdscategorie toe (bv. geniş zaman), NOG GEEN specifieke persoon -- "gelir" op zichzelf een vertaling geven als "hij komt" is misleidend, want er is nog geen persoons-eki toegevoegd. Gebruik dus:
-- Bij de kale stam: de kale (Turkse of Nederlandse) grondbetekenis, bv. "gel" -> "gelmek (kök)".
-- Bij een tijd/aspect-eki: de NAAM van die grammaticale categorie, bv. "gelir" -> "geniş zaman eki (-ir) eklendi" -- NIET een voortijdige vertaling met een geraden persoon.
-- Pas bij de stap waar de vorm daadwerkelijk COMPLEET en ondubbelzinnig is (meestal na het şahıs-eki, bv. "geliriz"): DAN pas de natuurlijke Nederlandse vertaling, bv. "geliriz" -> "wij komen".
+BELANGRIJK voor "meaning" per stap -- de gebruiker is Turkstalig en weet dus AL wat elk Turks achtervoegsel betekent (geniş zaman, geçmiş zaman, e.d.) -- dat opnieuw benoemen in het Turks is dus OVERBODIG en niet leerzaam. Wat WEL leerzaam is: wat er bij elke stap met het NEDERLANDS gebeurt. Elke "meaning" beschrijft dus UITSLUITEND de Nederlandse kant op dat punt, in het Turks geschreven:
+- Bij de kale stam: de Nederlandse mastar, bv. "Hollandaca mastar: 'komen' (henüz kimse belirtilmedi)".
+- Bij een tussenstap die de Nederlandse vorm nog NIET verandert (zoals bij tegenwoordige/toekomende tijd, waar pas de laatste stap iets aan het Nederlands verandert): benoem dat er op dit punt NOG NIETS verandert, bv. "Hollandacada bu aşamada hâlâ hiçbir şey değişmiyor -- hâlâ 'komen'". NOOIT de Turkse grammaticale naam van het achtervoegsel herhalen (geen "geniş zaman eki eklendi" e.d.) -- dat weet de gebruiker al.
+- Pas bij de stap waar de Nederlandse vorm daadwerkelijk verandert (meestal de laatste): leg uit WAT er verandert (bv. "Şimdi değişti: özne zamiri eklendi, fiil biçimi de kısaldı") en geef de vertaling, bv. "→ 'wij komen'".
 De laatste stap heeft als "form" de volledige Turkse vorm die bij "prompt" hoort (of het Turkse equivalent van "correct" als dat de Nederlandse kant is); de laatste stap heeft dan als "meaning" de Nederlandse kant van de oefening. Gebruik zoveel stappen als het Turkse achtervoegselpatroon daadwerkelijk vereist (meestal 2-3: kök -> +tijd/aspect -> +persoon) -- verzin geen kunstmatige tussenstap die geen echte Turkse morfologische eenheid is.
 Schrijf alles in het Nederlands en Turks -- nooit een andere taal.
 Antwoord in JSON.`;
@@ -1863,7 +1897,7 @@ Antwoord in JSON.`;
             type: "object",
             properties: {
               form: {type:"string", description:"De TURKSE vorm tot en met dit achtervoegsel (bv. 'gel' -> 'gelir' -> 'geliriz')."},
-              meaning: {type:"string", description:"Bij een tijd/aspect-eki: de NAAM van die grammaticale categorie (bv. 'geniş zaman eki eklendi'), GEEN voortijdige vertaling met een geraden persoon. Pas bij de vorm die daadwerkelijk compleet/ondubbelzinnig is: de natuurlijke Nederlandse vertaling."},
+              meaning: {type:"string", description:"UITSLUITEND wat er op dit punt met het NEDERLANDS gebeurt (in het Turks geschreven) -- nooit de Turkse grammaticale naam van het achtervoegsel herhalen, dat weet de Turkstalige gebruiker al. Bij een stap die het Nederlands nog niet verandert: benoem dat er nog niets verandert. Pas bij de stap die het Nederlands wél verandert: de natuurlijke Nederlandse vertaling."},
             },
             required: ["form","meaning"],
           },
