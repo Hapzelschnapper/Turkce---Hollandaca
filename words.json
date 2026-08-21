@@ -5,11 +5,6 @@
   "pos": "prep"
  },
  {
-  "en": "al",
-  "cefr": 0,
-  "pos": "adv"
- },
- {
   "en": "allemaal",
   "cefr": 0,
   "pos": "adv"
@@ -52,7 +47,7 @@
  {
   "en": "dan",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "conj"
  },
  {
   "en": "dat",
@@ -98,11 +93,6 @@
   "en": "dus",
   "cefr": 0,
   "pos": "conj"
- },
- {
-  "en": "eens",
-  "cefr": 2,
-  "pos": "adv"
  },
  {
   "en": "en",
@@ -152,7 +142,7 @@
  {
   "en": "hem",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "pron"
  },
  {
   "en": "het",
@@ -302,7 +292,7 @@
  {
   "en": "nou",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "interj"
  },
  {
   "en": "nu",
@@ -402,7 +392,7 @@
  {
   "en": "wel",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adv"
  },
  {
   "en": "weten",
@@ -452,7 +442,7 @@
  {
   "en": "zo'n",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adj"
  },
  {
   "en": "aantal",
@@ -512,7 +502,7 @@
  {
   "en": "beter",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adj"
  },
  {
   "en": "boek",
@@ -562,7 +552,7 @@
  {
   "en": "derde",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adj"
  },
  {
   "en": "ding",
@@ -587,7 +577,7 @@
  {
   "en": "eigen",
   "cefr": 0,
-  "pos": "verb"
+  "pos": "adj"
  },
  {
   "en": "elk",
@@ -602,7 +592,7 @@
  {
   "en": "enkel",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adj"
  },
  {
   "en": "erg__1",
@@ -674,7 +664,7 @@
  {
   "en": "ieder",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adj"
  },
  {
   "en": "iets",
@@ -734,7 +724,7 @@
  {
   "en": "me",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "pron"
  },
  {
   "en": "misschien",
@@ -919,7 +909,7 @@
  {
   "en": "wie",
   "cefr": 0,
-  "pos": "adv"
+  "pos": "pron"
  },
  {
   "en": "woord",
@@ -929,17 +919,17 @@
  {
   "en": "zeer",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adv"
  },
  {
   "en": "zelf",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "pron"
  },
  {
   "en": "zelfs",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adv"
  },
  {
   "en": "zitten",
@@ -949,12 +939,13 @@
  {
   "en": "zoals",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "conj"
  },
  {
   "en": "zonder",
   "cefr": 0,
-  "pos": "prep"
+  "pos": "prep",
+  "base": "zonder geld"
  },
  {
   "en": "afhankelijk",
@@ -1024,22 +1015,22 @@
  {
   "en": "daarmee",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adv"
  },
  {
   "en": "daarna",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adv"
  },
  {
   "en": "daarvoor",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adv"
  },
  {
   "en": "dergelijke",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adj"
  },
  {
   "en": "deur",
@@ -1049,12 +1040,12 @@
  {
   "en": "dezelfde",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adj"
  },
  {
   "en": "eerder",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adv"
  },
  {
   "en": "eigenlijk",
@@ -1064,7 +1055,7 @@
  {
   "en": "erin",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adv"
  },
  {
   "en": "feit",
@@ -1099,7 +1090,7 @@
  {
   "en": "geleden",
   "cefr": 0,
-  "pos": "verb"
+  "pos": "adv"
  },
  {
   "en": "geloven",
@@ -1134,12 +1125,12 @@
  {
   "en": "helemaal",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adv"
  },
  {
   "en": "hen",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "pron"
  },
  {
   "en": "hoofd",
@@ -1149,7 +1140,7 @@
  {
   "en": "hoor",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "interj"
  },
  {
   "en": "iemand",
@@ -1169,7 +1160,7 @@
  {
   "en": "juist",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adj"
  },
  {
   "en": "keer",
@@ -1227,11 +1218,6 @@
   "pos": "noun"
  },
  {
-  "en": "net",
-  "cefr": 0,
-  "pos": "adv"
- },
- {
   "en": "paar",
   "cefr": 0,
   "pos": "noun"
@@ -1244,12 +1230,12 @@
  {
   "en": "pas",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adv"
  },
  {
   "en": "per",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "prep"
  },
  {
   "en": "praten",
@@ -1269,12 +1255,12 @@
  {
   "en": "reeds",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adv"
  },
  {
   "en": "slechts",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adv"
  },
  {
   "en": "snel",
@@ -1424,7 +1410,7 @@
  {
   "en": "welk",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adj"
  },
  {
   "en": "wereld",
@@ -1461,7 +1447,7 @@
  {
   "en": "alsof",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "conj"
  },
  {
   "en": "antwoord",
@@ -1541,7 +1527,7 @@
  {
   "en": "eerst",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adv"
  },
  {
   "en": "eeuw",
@@ -1561,7 +1547,7 @@
  {
   "en": "ermee",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adv"
  },
  {
   "en": "film",
@@ -1611,7 +1597,7 @@
  {
   "en": "graag",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "adv"
  },
  {
   "en": "grond",
@@ -1627,11 +1613,6 @@
   "en": "hangen",
   "cefr": 0,
   "pos": "verb"
- },
- {
-  "en": "hard",
-  "cefr": 1,
-  "pos": "adj"
  },
  {
   "en": "heen",
@@ -1661,7 +1642,7 @@
  {
   "en": "iedereen",
   "cefr": 0,
-  "pos": "verb"
+  "pos": "pron"
  },
  {
   "en": "kamer",
@@ -2720,11 +2701,6 @@
   "pos": "noun"
  },
  {
-  "en": "licht",
-  "cefr": 1,
-  "pos": "adj"
- },
- {
   "en": "maatschappij",
   "cefr": 1,
   "pos": "noun"
@@ -3518,11 +3494,6 @@
   "en": "dame",
   "cefr": 2,
   "pos": "noun"
- },
- {
-  "en": "dicht",
-  "cefr": 2,
-  "pos": "adj"
  },
  {
   "en": "doordat",
@@ -4777,11 +4748,6 @@
   "en": "schenken",
   "cefr": 2,
   "pos": "verb"
- },
- {
-  "en": "scherp",
-  "cefr": 2,
-  "pos": "adj"
  },
  {
   "en": "seksueel",
@@ -6108,11 +6074,6 @@
   "pos": "verb"
  },
  {
-  "en": "kwaad",
-  "cefr": 4,
-  "pos": "adj"
- },
- {
   "en": "kwijt",
   "cefr": 3,
   "pos": "noun"
@@ -6935,7 +6896,7 @@
  {
   "en": "alstublieft",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "interj"
  },
  {
   "en": "bad",
@@ -7385,7 +7346,7 @@
  {
   "en": "welkom",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "interj"
  },
  {
   "en": "werkgelegenheid",
@@ -7520,7 +7481,7 @@
  {
   "en": "goedendag",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "interj"
  },
  {
   "en": "griep",
@@ -8747,11 +8708,6 @@
   "pos": "noun"
  },
  {
-  "en": "plat",
-  "cefr": 3,
-  "pos": "adj"
- },
- {
   "en": "plus",
   "cefr": 5,
   "pos": "noun"
@@ -9274,7 +9230,7 @@
  {
   "en": "s.v.p.",
   "cefr": 0,
-  "pos": "noun"
+  "pos": "interj"
  },
  {
   "en": "scheef",
@@ -10441,7 +10397,7 @@
  {
   "en": "welke",
   "cefr": 0,
-  "pos": "adv"
+  "pos": "adj"
  },
  {
   "en": "hoop",
@@ -16430,5 +16386,131 @@
   "cefr": 0,
   "pos": "prep",
   "base": "van het huis"
+ },
+ {
+  "en": "net__1",
+  "cefr": 0,
+  "pos": "noun",
+  "base": "net (vissersgerei)"
+ },
+ {
+  "en": "net__2",
+  "cefr": 0,
+  "pos": "adv",
+  "base": "net (onlangs)"
+ },
+ {
+  "en": "net__3",
+  "cefr": 0,
+  "pos": "adj",
+  "base": "net (niet slordig)"
+ },
+ {
+  "en": "net__4",
+  "cefr": 0,
+  "pos": "adj",
+  "base": "net (lijkend op)"
+ },
+ {
+  "en": "al__1",
+  "cefr": 0,
+  "pos": "adv",
+  "base": "al (reeds)"
+ },
+ {
+  "en": "al__2",
+  "cefr": 0,
+  "pos": "adv",
+  "base": "al (hepsi/bütün)"
+ },
+ {
+  "en": "dicht__1",
+  "cefr": 2,
+  "pos": "adj",
+  "base": "dicht (gesloten)"
+ },
+ {
+  "en": "dicht__2",
+  "cefr": 2,
+  "pos": "adj",
+  "base": "dicht (dicht opeen)"
+ },
+ {
+  "en": "eens__1",
+  "cefr": 2,
+  "pos": "adv",
+  "base": "eens (het ermee eens zijn)"
+ },
+ {
+  "en": "eens__2",
+  "cefr": 2,
+  "pos": "adv",
+  "base": "eens (op een dag / één keer)"
+ },
+ {
+  "en": "kwaad__1",
+  "cefr": 4,
+  "pos": "adj",
+  "base": "kwaad (boos)"
+ },
+ {
+  "en": "kwaad__2",
+  "cefr": 4,
+  "pos": "adj",
+  "base": "kwaad (slecht/kötü)"
+ },
+ {
+  "en": "licht__1",
+  "cefr": 1,
+  "pos": "adj",
+  "base": "licht (kleur)"
+ },
+ {
+  "en": "licht__2",
+  "cefr": 1,
+  "pos": "adj",
+  "base": "licht (gewicht)"
+ },
+ {
+  "en": "hard__1",
+  "cefr": 1,
+  "pos": "adj",
+  "base": "hard (stevig)"
+ },
+ {
+  "en": "hard__2",
+  "cefr": 1,
+  "pos": "adj",
+  "base": "hard (luid)"
+ },
+ {
+  "en": "plat__1",
+  "cefr": 3,
+  "pos": "adj",
+  "base": "plat (vlak)"
+ },
+ {
+  "en": "plat__2",
+  "cefr": 3,
+  "pos": "adj",
+  "base": "plat (grof taalgebruik)"
+ },
+ {
+  "en": "scherp__1",
+  "cefr": 2,
+  "pos": "adj",
+  "base": "scherp (mes)"
+ },
+ {
+  "en": "scherp__2",
+  "cefr": 2,
+  "pos": "adj",
+  "base": "scherp (pittig)"
+ },
+ {
+  "en": "vast__adv",
+  "cefr": 2,
+  "pos": "adv",
+  "base": "vast (waarschijnlijk)"
  }
 ]

@@ -2,10 +2,10 @@
  "aan": {
   "senses": [
    {
-    "gloss": "aan (a-e)",
+    "gloss": "aan (richting: -e/-a eki)",
     "pos": "prep",
     "tr": [
-     "a-e"
+     "-e (yön eki)"
     ],
     "register": "neutral",
     "note": ""
@@ -121,10 +121,10 @@
  "dan": {
   "senses": [
    {
-    "gloss": "dan (daha büyük)",
-    "pos": "noun",
+    "gloss": "dan (vergelijking)",
+    "pos": "conj",
     "tr": [
-     "daha büyük"
+     "-den daha"
     ],
     "register": "neutral",
     "note": "vgl"
@@ -134,10 +134,11 @@
  "dat": {
   "senses": [
    {
-    "gloss": "dat ([betrek yle olduğunu)",
+    "gloss": "dat (voegwoord: ki) / dat (aanwijzend: şu)",
     "pos": "conj",
     "tr": [
-     "[betrek yle olduğunu"
+     "ki",
+     "şu"
     ],
     "register": "neutral",
     "note": ""
@@ -345,10 +346,11 @@
  "haar": {
   "senses": [
    {
-    "gloss": "haar (saç)",
+    "gloss": "haar (bezittelijk/objectvorm: onun/ona)",
     "pos": "pron",
     "tr": [
-     "saç"
+     "ona",
+     "onun"
     ],
     "register": "neutral",
     "note": ""
@@ -372,7 +374,7 @@
   "senses": [
    {
     "gloss": "hem (ona)",
-    "pos": "noun",
+    "pos": "pron",
     "tr": [
      "ona"
     ],
@@ -532,7 +534,7 @@
     "gloss": "klein (kücük)",
     "pos": "adj",
     "tr": [
-     "kücük"
+     "küçük"
     ],
     "register": "neutral",
     "note": ""
@@ -728,10 +730,10 @@
  "naar": {
   "senses": [
    {
-    "gloss": "naar (bir yöne doğru gitmek)",
+    "gloss": "naar (richting: -e doğru)",
     "pos": "prep",
     "tr": [
-     "bir yöne doğru gitmek"
+     "-e doğru"
     ],
     "register": "neutral",
     "note": ""
@@ -770,7 +772,7 @@
   "senses": [
    {
     "gloss": "nou (ee!)",
-    "pos": "noun",
+    "pos": "interj",
     "tr": [
      "ee!",
      "şimdi"
@@ -824,10 +826,11 @@
  "ons": {
   "senses": [
    {
-    "gloss": "ons (yüz gram)",
+    "gloss": "ons (nesne hâli: bizi/bize)",
     "pos": "pron",
     "tr": [
-     "yüz gram"
+     "bizi",
+     "bize"
     ],
     "register": "neutral",
     "note": ""
@@ -851,11 +854,11 @@
  "op": {
   "senses": [
    {
-    "gloss": "op (bitti [het is .))",
+    "gloss": "op (bovenop)",
     "pos": "prep",
     "tr": [
-     "bitti [het is .)",
-     "üzrinde"
+     "üzerinde",
+     "üstünde"
     ],
     "register": "neutral",
     "note": ""
@@ -892,11 +895,11 @@
  "te": {
   "senses": [
    {
-    "gloss": "te (için çok ...)",
+    "gloss": "te (te veel) / te (voor infinitief)",
     "pos": "noun",
     "tr": [
-     "için çok ...",
-     "de/da"
+     "çok (aşırı)",
+     "de/da (mastar öncesi)"
     ],
     "register": "neutral",
     "note": "te amsterdam"
@@ -972,10 +975,10 @@
  "uit": {
   "senses": [
    {
-    "gloss": "uit (pencer-den)",
+    "gloss": "uit (oorsprong: -den)",
     "pos": "prep",
     "tr": [
-     "pencer-den"
+     "-den (dışarı)"
     ],
     "register": "neutral",
     "note": "uit...."
@@ -998,11 +1001,10 @@
  "wat": {
   "senses": [
    {
-    "gloss": "wat (ne ...)",
+    "gloss": "wat (ne)",
     "pos": "adv",
     "tr": [
-     "ne ...",
-     "biraz"
+     "ne"
     ],
     "register": "neutral",
     "note": "een beetje"
@@ -1038,10 +1040,10 @@
  "wel": {
   "senses": [
    {
-    "gloss": "wel (ise)",
-    "pos": "noun",
+    "gloss": "wel (nadrukpartikel: aslında/gerçekten)",
+    "pos": "adv",
     "tr": [
-     "ise"
+     "aslında"
     ],
     "register": "neutral",
     "note": ""
@@ -1103,11 +1105,10 @@
  "zich": {
   "senses": [
    {
-    "gloss": "zich (kendini .....)",
+    "gloss": "zich (wederkerend voornaamwoord)",
     "pos": "pron",
     "tr": [
-     "kendini .....",
-     "aslında"
+     "kendini"
     ],
     "register": "neutral",
     "note": "op zich"
@@ -1170,7 +1171,7 @@
   "senses": [
    {
     "gloss": "zo'n (bunun gibi)",
-    "pos": "noun",
+    "pos": "adj",
     "tr": [
      "bunun gibi"
     ],
@@ -1195,10 +1196,9 @@
  "als": {
   "senses": [
    {
-    "gloss": "als (zmn)",
+    "gloss": "als (eğer, koşul)",
     "pos": "conj",
     "tr": [
-     "zmn",
      "eğer"
     ],
     "register": "neutral",
@@ -1300,10 +1300,10 @@
  "bestaan": {
   "senses": [
    {
-    "gloss": "bestaan (olgu)",
+    "gloss": "bestaan (var olmak)",
     "pos": "verb",
     "tr": [
-     "olgu"
+     "var olmak"
     ],
     "register": "neutral",
     "note": ""
@@ -1313,10 +1313,10 @@
  "betekenen": {
   "senses": [
    {
-    "gloss": "betekenen (anlam)",
+    "gloss": "betekenen (anlamına gelmek)",
     "pos": "verb",
     "tr": [
-     "anlam"
+     "anlamına gelmek"
     ],
     "register": "neutral",
     "note": ""
@@ -1327,7 +1327,7 @@
   "senses": [
    {
     "gloss": "beter (daha iyi)",
-    "pos": "noun",
+    "pos": "adj",
     "tr": [
      "daha iyi"
     ],
@@ -1342,7 +1342,7 @@
     "gloss": "boek (kiap)",
     "pos": "noun",
     "tr": [
-     "kiap"
+     "kitap"
     ],
     "register": "neutral",
     "note": ""
@@ -1459,7 +1459,7 @@
   "senses": [
    {
     "gloss": "derde (üçüncü)",
-    "pos": "noun",
+    "pos": "adj",
     "tr": [
      "üçüncü"
     ],
@@ -1524,7 +1524,7 @@
   "senses": [
    {
     "gloss": "eigen (öz)",
-    "pos": "verb",
+    "pos": "adj",
     "tr": [
      "öz",
      "kendi"
@@ -1564,10 +1564,11 @@
  "enkel": {
   "senses": [
    {
-    "gloss": "enkel (birkaç)",
-    "pos": "noun",
+    "gloss": "enkel (bijvoeglijk: enkel/slechts)",
+    "pos": "adj",
     "tr": [
-     "birkaç"
+     "tek",
+     "sadece"
     ],
     "register": "neutral",
     "note": ""
@@ -1750,7 +1751,7 @@
   "senses": [
    {
     "gloss": "ieder (her)",
-    "pos": "noun",
+    "pos": "adj",
     "tr": [
      "her"
     ],
@@ -1909,7 +1910,7 @@
   "senses": [
    {
     "gloss": "me (beni)",
-    "pos": "noun",
+    "pos": "pron",
     "tr": [
      "beni"
     ],
@@ -2118,11 +2119,10 @@
  "plaats": {
   "senses": [
    {
-    "gloss": "plaats (yer)",
+    "gloss": "plaats (plek)",
     "pos": "noun",
     "tr": [
-     "yer",
-     "ilk önce"
+     "yer"
     ],
     "register": "neutral",
     "note": "in de eerste plaats"
@@ -2161,7 +2161,7 @@
     "gloss": "spreken (konşmak)",
     "pos": "verb",
     "tr": [
-     "konşmak"
+     "konuşmak"
     ],
     "register": "neutral",
     "note": ""
@@ -2318,10 +2318,10 @@
  "waar": {
   "senses": [
    {
-    "gloss": "waar (zijn doğru)",
+    "gloss": "waar (nerede, soru kelimesi)",
     "pos": "adv",
     "tr": [
-     "zijn doğru"
+     "nerede"
     ],
     "register": "neutral",
     "note": ""
@@ -2398,7 +2398,7 @@
   "senses": [
    {
     "gloss": "wie (kim)",
-    "pos": "adv",
+    "pos": "pron",
     "tr": [
      "kim"
     ],
@@ -2424,7 +2424,7 @@
   "senses": [
    {
     "gloss": "zeer (çok)",
-    "pos": "noun",
+    "pos": "adv",
     "tr": [
      "çok"
     ],
@@ -2437,7 +2437,7 @@
   "senses": [
    {
     "gloss": "zelf (kendi)",
-    "pos": "noun",
+    "pos": "pron",
     "tr": [
      "kendi"
     ],
@@ -2450,7 +2450,7 @@
   "senses": [
    {
     "gloss": "zelfs (bile)",
-    "pos": "noun",
+    "pos": "adv",
     "tr": [
      "bile"
     ],
@@ -2477,7 +2477,7 @@
   "senses": [
    {
     "gloss": "zoals (gibi)",
-    "pos": "noun",
+    "pos": "conj",
     "tr": [
      "gibi"
     ],
@@ -2489,14 +2489,14 @@
  "zonder": {
   "senses": [
    {
-    "gloss": "zonder (siz)",
+    "gloss": "zonder geld",
     "pos": "prep",
     "tr": [
-     "siz",
-     "kesinlikle"
+     "parasız"
     ],
     "register": "neutral",
-    "note": "zonder meer"
+    "note": "Türkçede bağımsız bir kelime yoktur — isme eklenen bir ek (-sız/-siz/-suz/-süz)",
+    "gateLesson": "g_voorzetsels"
    }
   ]
  },
@@ -2676,7 +2676,7 @@
   "senses": [
    {
     "gloss": "daarmee (bunun için)",
-    "pos": "noun",
+    "pos": "adv",
     "tr": [
      "bunun için"
     ],
@@ -2689,7 +2689,7 @@
   "senses": [
    {
     "gloss": "daarna (ondan sonra)",
-    "pos": "noun",
+    "pos": "adv",
     "tr": [
      "ondan sonra"
     ],
@@ -2702,7 +2702,7 @@
   "senses": [
    {
     "gloss": "daarvoor (daha önce)",
-    "pos": "noun",
+    "pos": "adv",
     "tr": [
      "daha önce",
      "bunun için"
@@ -2716,7 +2716,7 @@
   "senses": [
    {
     "gloss": "dergelijke (tür)",
-    "pos": "noun",
+    "pos": "adj",
     "tr": [
      "tür"
     ],
@@ -2742,7 +2742,7 @@
   "senses": [
    {
     "gloss": "dezelfde (ayni)",
-    "pos": "noun",
+    "pos": "adj",
     "tr": [
      "ayni"
     ],
@@ -2755,7 +2755,7 @@
   "senses": [
    {
     "gloss": "eerder (daha önce)",
-    "pos": "noun",
+    "pos": "adv",
     "tr": [
      "daha önce"
     ],
@@ -2781,7 +2781,7 @@
   "senses": [
    {
     "gloss": "erin (içine)",
-    "pos": "noun",
+    "pos": "adv",
     "tr": [
      "içine"
     ],
@@ -2806,11 +2806,10 @@
  "gebeuren": {
   "senses": [
    {
-    "gloss": "gebeuren (olmak)",
+    "gloss": "gebeuren (vuku bulmak)",
     "pos": "verb",
     "tr": [
-     "olmak",
-     "oldu"
+     "olmak"
     ],
     "register": "neutral",
     "note": ""
@@ -2873,7 +2872,7 @@
   "senses": [
    {
     "gloss": "geleden (önce)",
-    "pos": "verb",
+    "pos": "adv",
     "tr": [
      "önce"
     ],
@@ -2941,7 +2940,7 @@
     "gloss": "god (tanri)",
     "pos": "noun",
     "tr": [
-     "tanri"
+     "tanrı"
     ],
     "register": "neutral",
     "note": ""
@@ -2965,7 +2964,7 @@
   "senses": [
    {
     "gloss": "helemaal (tamamen)",
-    "pos": "noun",
+    "pos": "adv",
     "tr": [
      "tamamen"
     ],
@@ -2977,10 +2976,10 @@
  "hen": {
   "senses": [
    {
-    "gloss": "hen (onların)",
-    "pos": "noun",
+    "gloss": "hen (nesne hâli: onları)",
+    "pos": "pron",
     "tr": [
-     "onların"
+     "onları"
     ],
     "register": "neutral",
     "note": ""
@@ -3003,10 +3002,11 @@
  "hoor": {
   "senses": [
    {
-    "gloss": "hoor (tamam mı)",
-    "pos": "noun",
+    "gloss": "hoor (nadrukpartikel)",
+    "pos": "interj",
     "tr": [
-     "tamam mı"
+     "tamam mı",
+     "işte"
     ],
     "register": "neutral",
     "note": ""
@@ -3056,7 +3056,7 @@
   "senses": [
    {
     "gloss": "juist (doğru)",
-    "pos": "noun",
+    "pos": "adj",
     "tr": [
      "doğru"
     ],
@@ -3147,10 +3147,10 @@
  "leren": {
   "senses": [
    {
-    "gloss": "leren (öğrenmen)",
+    "gloss": "leren (öğrenmek)",
     "pos": "verb",
     "tr": [
-     "öğrenmen"
+     "öğrenmek"
     ],
     "register": "neutral",
     "note": ""
@@ -3239,7 +3239,7 @@
   "senses": [
    {
     "gloss": "pas (henüz)",
-    "pos": "noun",
+    "pos": "adv",
     "tr": [
      "henüz",
      "o zaman"
@@ -3253,7 +3253,7 @@
   "senses": [
    {
     "gloss": "per (hafta-da)",
-    "pos": "noun",
+    "pos": "prep",
     "tr": [
      "hafta-da"
     ],
@@ -3305,7 +3305,7 @@
   "senses": [
    {
     "gloss": "reeds (bile)",
-    "pos": "noun",
+    "pos": "adv",
     "tr": [
      "bile"
     ],
@@ -3318,7 +3318,7 @@
   "senses": [
    {
     "gloss": "slechts (yanlıca)",
-    "pos": "noun",
+    "pos": "adv",
     "tr": [
      "yanlıca"
     ],
@@ -3650,7 +3650,7 @@
     "gloss": "waarom (neden?)",
     "pos": "adv",
     "tr": [
-     "neden?"
+     "neden"
     ],
     "register": "neutral",
     "note": ""
@@ -3714,7 +3714,7 @@
   "senses": [
    {
     "gloss": "welk (hangi)",
-    "pos": "noun",
+    "pos": "adj",
     "tr": [
      "hangi"
     ],
@@ -3806,7 +3806,7 @@
   "senses": [
    {
     "gloss": "alsof (sanki)",
-    "pos": "noun",
+    "pos": "conj",
     "tr": [
      "sanki"
     ],
@@ -3950,11 +3950,11 @@
  "dienen": {
   "senses": [
    {
-    "gloss": "dienen (ne için)",
+    "gloss": "dienen (hizmet etmek / gerekmek)",
     "pos": "verb",
     "tr": [
-     "ne için",
-     "zorunda"
+     "hizmet etmek",
+     "gerekmek"
     ],
     "register": "neutral",
     "note": ""
@@ -4019,7 +4019,7 @@
   "senses": [
    {
     "gloss": "eerst (ilk önce)",
-    "pos": "noun",
+    "pos": "adv",
     "tr": [
      "ilk önce"
     ],
@@ -4072,7 +4072,7 @@
   "senses": [
    {
     "gloss": "ermee (onunla)",
-    "pos": "noun",
+    "pos": "adv",
     "tr": [
      "onunla"
     ],
@@ -4202,7 +4202,7 @@
   "senses": [
    {
     "gloss": "graag (zevkle)",
-    "pos": "noun",
+    "pos": "adv",
     "tr": [
      "zevkle",
      "lütfen"
@@ -4321,7 +4321,7 @@
   "senses": [
    {
     "gloss": "iedereen (herkes)",
-    "pos": "verb",
+    "pos": "pron",
     "tr": [
      "herkes"
     ],
@@ -4412,10 +4412,10 @@
  "lief": {
   "senses": [
    {
-    "gloss": "lief (secimli)",
+    "gloss": "lief (sevimli/tatlı)",
     "pos": "adj",
     "tr": [
-     "secimli"
+     "sevimli"
     ],
     "register": "neutral",
     "note": ""
@@ -15727,10 +15727,10 @@
  "danken": {
   "senses": [
    {
-    "gloss": "danken (teşekkürler)",
+    "gloss": "danken (teşekkür etmek)",
     "pos": "verb",
     "tr": [
-     "teşekkürler"
+     "teşekkür etmek"
     ],
     "register": "neutral",
     "note": ""
@@ -18131,7 +18131,7 @@
   "senses": [
    {
     "gloss": "alstublieft (lütfen)",
-    "pos": "noun",
+    "pos": "interj",
     "tr": [
      "lütfen"
     ],
@@ -18755,10 +18755,11 @@
  "kwalijk": {
   "senses": [
    {
-    "gloss": "kwalijk (özür dilerim)",
+    "gloss": "kwalijk (kötü, fena -- meestal in 'niet kwalijk nemen')",
     "pos": "adj",
     "tr": [
-     "özür dilerim"
+     "kötü",
+     "fena"
     ],
     "register": "neutral",
     "note": ""
@@ -18888,12 +18889,11 @@
  "over": {
   "senses": [
    {
-    "gloss": "over (bitti)",
+    "gloss": "over (bovenop / betreffende)",
     "pos": "prep",
     "tr": [
-     "bitti",
      "üzerinde",
-     "bir hafta sonra"
+     "hakkında"
     ],
     "register": "neutral",
     "note": ""
@@ -19311,7 +19311,7 @@
   "senses": [
    {
     "gloss": "welkom (hoşgeldin)",
-    "pos": "noun",
+    "pos": "interj",
     "tr": [
      "hoşgeldin"
     ],
@@ -19665,7 +19665,7 @@
   "senses": [
    {
     "gloss": "goedendag (iyi günler)",
-    "pos": "noun",
+    "pos": "interj",
     "tr": [
      "iyi günler",
      "selam"
@@ -24299,7 +24299,7 @@
   "senses": [
    {
     "gloss": "s.v.p. (lütfen)",
-    "pos": "noun",
+    "pos": "interj",
     "tr": [
      "lütfen"
     ],
@@ -27381,7 +27381,8 @@
     "gloss": "last",
     "pos": "adj",
     "tr": [
-     "sonuncu / son"
+     "sonuncu",
+     "son"
     ],
     "register": "neutral",
     "note": ""
@@ -27392,7 +27393,7 @@
   "senses": [
    {
     "gloss": "which",
-    "pos": "adv",
+    "pos": "adj",
     "tr": [
      "hangi"
     ],
@@ -27446,7 +27447,8 @@
     "gloss": "team",
     "pos": "noun",
     "tr": [
-     "takım / ekip"
+     "takım",
+     "ekip"
     ],
     "register": "neutral",
     "note": ""

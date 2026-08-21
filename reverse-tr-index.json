@@ -1,8 +1,8 @@
 {
  "aan": [
   {
-   "tr": "a-e",
-   "gloss": "aan (a-e)",
+   "tr": "-e (yön eki)",
+   "gloss": "aan (richting: -e/-a eki)",
    "pos": "prep",
    "register": "neutral",
    "note": "",
@@ -91,9 +91,9 @@
  ],
  "dan": [
   {
-   "tr": "daha büyük",
-   "gloss": "dan (daha büyük)",
-   "pos": "noun",
+   "tr": "-den daha",
+   "gloss": "dan (vergelijking)",
+   "pos": "conj",
    "register": "neutral",
    "note": "vgl",
    "cefr": 0
@@ -101,8 +101,8 @@
  ],
  "dat": [
   {
-   "tr": "[betrek yle olduğunu",
-   "gloss": "dat ([betrek yle olduğunu)",
+   "tr": "ki",
+   "gloss": "dat (voegwoord: ki) / dat (aanwijzend: şu)",
    "pos": "conj",
    "register": "neutral",
    "note": "",
@@ -261,8 +261,8 @@
  ],
  "haar": [
   {
-   "tr": "saç",
-   "gloss": "haar (saç)",
+   "tr": "ona",
+   "gloss": "haar (bezittelijk/objectvorm: onun/ona)",
    "pos": "pron",
    "register": "neutral",
    "note": "",
@@ -283,7 +283,7 @@
   {
    "tr": "ona",
    "gloss": "hem (ona)",
-   "pos": "noun",
+   "pos": "pron",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -401,7 +401,7 @@
  ],
  "klein": [
   {
-   "tr": "kücük",
+   "tr": "küçük",
    "gloss": "klein (kücük)",
    "pos": "adj",
    "register": "neutral",
@@ -551,8 +551,8 @@
  ],
  "naar": [
   {
-   "tr": "bir yöne doğru gitmek",
-   "gloss": "naar (bir yöne doğru gitmek)",
+   "tr": "-e doğru",
+   "gloss": "naar (richting: -e doğru)",
    "pos": "prep",
    "register": "neutral",
    "note": "",
@@ -583,7 +583,7 @@
   {
    "tr": "ee!",
    "gloss": "nou (ee!)",
-   "pos": "noun",
+   "pos": "interj",
    "register": "neutral",
    "note": "nu",
    "cefr": 0
@@ -621,8 +621,8 @@
  ],
  "ons": [
   {
-   "tr": "yüz gram",
-   "gloss": "ons (yüz gram)",
+   "tr": "bizi",
+   "gloss": "ons (nesne hâli: bizi/bize)",
    "pos": "pron",
    "register": "neutral",
    "note": "",
@@ -641,8 +641,8 @@
  ],
  "op": [
   {
-   "tr": "bitti [het is .)",
-   "gloss": "op (bitti [het is .))",
+   "tr": "üzerinde",
+   "gloss": "op (bovenop)",
    "pos": "prep",
    "register": "neutral",
    "note": "",
@@ -671,8 +671,8 @@
  ],
  "te": [
   {
-   "tr": "için çok ...",
-   "gloss": "te (için çok ...)",
+   "tr": "çok (aşırı)",
+   "gloss": "te (te veel) / te (voor infinitief)",
    "pos": "noun",
    "register": "neutral",
    "note": "te amsterdam",
@@ -731,8 +731,8 @@
  ],
  "uit": [
   {
-   "tr": "pencer-den",
-   "gloss": "uit (pencer-den)",
+   "tr": "-den (dışarı)",
+   "gloss": "uit (oorsprong: -den)",
    "pos": "prep",
    "register": "neutral",
    "note": "uit....",
@@ -751,8 +751,8 @@
  ],
  "wat": [
   {
-   "tr": "ne ...",
-   "gloss": "wat (ne ...)",
+   "tr": "ne",
+   "gloss": "wat (ne)",
    "pos": "adv",
    "register": "neutral",
    "note": "een beetje",
@@ -781,9 +781,9 @@
  ],
  "wel": [
   {
-   "tr": "ise",
-   "gloss": "wel (ise)",
-   "pos": "noun",
+   "tr": "aslında",
+   "gloss": "wel (nadrukpartikel: aslında/gerçekten)",
+   "pos": "adv",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -831,8 +831,8 @@
  ],
  "zich": [
   {
-   "tr": "kendini .....",
-   "gloss": "zich (kendini .....)",
+   "tr": "kendini",
+   "gloss": "zich (wederkerend voornaamwoord)",
    "pos": "pron",
    "register": "neutral",
    "note": "op zich",
@@ -883,7 +883,7 @@
   {
    "tr": "bunun gibi",
    "gloss": "zo'n (bunun gibi)",
-   "pos": "noun",
+   "pos": "adj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -901,8 +901,8 @@
  ],
  "als": [
   {
-   "tr": "zmn",
-   "gloss": "als (zmn)",
+   "tr": "eğer",
+   "gloss": "als (eğer, koşul)",
    "pos": "conj",
    "register": "neutral",
    "note": "",
@@ -981,8 +981,8 @@
  ],
  "bestaan": [
   {
-   "tr": "olgu",
-   "gloss": "bestaan (olgu)",
+   "tr": "var olmak",
+   "gloss": "bestaan (var olmak)",
    "pos": "verb",
    "register": "neutral",
    "note": "",
@@ -991,8 +991,8 @@
  ],
  "betekenen": [
   {
-   "tr": "anlam",
-   "gloss": "betekenen (anlam)",
+   "tr": "anlamına gelmek",
+   "gloss": "betekenen (anlamına gelmek)",
    "pos": "verb",
    "register": "neutral",
    "note": "",
@@ -1003,7 +1003,7 @@
   {
    "tr": "daha iyi",
    "gloss": "beter (daha iyi)",
-   "pos": "noun",
+   "pos": "adj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -1011,7 +1011,7 @@
  ],
  "boek": [
   {
-   "tr": "kiap",
+   "tr": "kitap",
    "gloss": "boek (kiap)",
    "pos": "noun",
    "register": "neutral",
@@ -1103,7 +1103,7 @@
   {
    "tr": "üçüncü",
    "gloss": "derde (üçüncü)",
-   "pos": "noun",
+   "pos": "adj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -1153,7 +1153,7 @@
   {
    "tr": "öz",
    "gloss": "eigen (öz)",
-   "pos": "verb",
+   "pos": "adj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -1181,9 +1181,9 @@
  ],
  "enkel": [
   {
-   "tr": "birkaç",
-   "gloss": "enkel (birkaç)",
-   "pos": "noun",
+   "tr": "tek",
+   "gloss": "enkel (bijvoeglijk: enkel/slechts)",
+   "pos": "adj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -1323,7 +1323,7 @@
   {
    "tr": "her",
    "gloss": "ieder (her)",
-   "pos": "noun",
+   "pos": "adj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -1443,7 +1443,7 @@
   {
    "tr": "beni",
    "gloss": "me (beni)",
-   "pos": "noun",
+   "pos": "pron",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -1602,7 +1602,7 @@
  "plaats": [
   {
    "tr": "yer",
-   "gloss": "plaats (yer)",
+   "gloss": "plaats (plek)",
    "pos": "noun",
    "register": "neutral",
    "note": "in de eerste plaats",
@@ -1631,7 +1631,7 @@
  ],
  "spreken": [
   {
-   "tr": "konşmak",
+   "tr": "konuşmak",
    "gloss": "spreken (konşmak)",
    "pos": "verb",
    "register": "neutral",
@@ -1751,8 +1751,8 @@
  ],
  "waar": [
   {
-   "tr": "zijn doğru",
-   "gloss": "waar (zijn doğru)",
+   "tr": "nerede",
+   "gloss": "waar (nerede, soru kelimesi)",
    "pos": "adv",
    "register": "neutral",
    "note": "",
@@ -1813,7 +1813,7 @@
   {
    "tr": "kim",
    "gloss": "wie (kim)",
-   "pos": "adv",
+   "pos": "pron",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -1833,7 +1833,7 @@
   {
    "tr": "çok",
    "gloss": "zeer (çok)",
-   "pos": "noun",
+   "pos": "adv",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -1843,7 +1843,7 @@
   {
    "tr": "kendi",
    "gloss": "zelf (kendi)",
-   "pos": "noun",
+   "pos": "pron",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -1853,7 +1853,7 @@
   {
    "tr": "bile",
    "gloss": "zelfs (bile)",
-   "pos": "noun",
+   "pos": "adv",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -1873,7 +1873,7 @@
   {
    "tr": "gibi",
    "gloss": "zoals (gibi)",
-   "pos": "noun",
+   "pos": "conj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -1881,12 +1881,13 @@
  ],
  "zonder": [
   {
-   "tr": "siz",
-   "gloss": "zonder (siz)",
+   "tr": "parasız",
+   "gloss": "zonder geld",
    "pos": "prep",
    "register": "neutral",
-   "note": "zonder meer",
-   "cefr": 0
+   "note": "Türkçede bağımsız bir kelime yoktur — isme eklenen bir ek (-sız/-siz/-suz/-süz)",
+   "cefr": 0,
+   "gateLesson": "g_voorzetsels"
   }
  ],
  "afhankelijk": [
@@ -2023,7 +2024,7 @@
   {
    "tr": "bunun için",
    "gloss": "daarmee (bunun için)",
-   "pos": "noun",
+   "pos": "adv",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2033,7 +2034,7 @@
   {
    "tr": "ondan sonra",
    "gloss": "daarna (ondan sonra)",
-   "pos": "noun",
+   "pos": "adv",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2043,7 +2044,7 @@
   {
    "tr": "daha önce",
    "gloss": "daarvoor (daha önce)",
-   "pos": "noun",
+   "pos": "adv",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2053,7 +2054,7 @@
   {
    "tr": "tür",
    "gloss": "dergelijke (tür)",
-   "pos": "noun",
+   "pos": "adj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2073,7 +2074,7 @@
   {
    "tr": "ayni",
    "gloss": "dezelfde (ayni)",
-   "pos": "noun",
+   "pos": "adj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2083,7 +2084,7 @@
   {
    "tr": "daha önce",
    "gloss": "eerder (daha önce)",
-   "pos": "noun",
+   "pos": "adv",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2103,7 +2104,7 @@
   {
    "tr": "içine",
    "gloss": "erin (içine)",
-   "pos": "noun",
+   "pos": "adv",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2122,7 +2123,7 @@
  "gebeuren": [
   {
    "tr": "olmak",
-   "gloss": "gebeuren (olmak)",
+   "gloss": "gebeuren (vuku bulmak)",
    "pos": "verb",
    "register": "neutral",
    "note": "",
@@ -2173,7 +2174,7 @@
   {
    "tr": "önce",
    "gloss": "geleden (önce)",
-   "pos": "verb",
+   "pos": "adv",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2221,7 +2222,7 @@
  ],
  "god": [
   {
-   "tr": "tanri",
+   "tr": "tanrı",
    "gloss": "god (tanri)",
    "pos": "noun",
    "register": "neutral",
@@ -2243,7 +2244,7 @@
   {
    "tr": "tamamen",
    "gloss": "helemaal (tamamen)",
-   "pos": "noun",
+   "pos": "adv",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2251,9 +2252,9 @@
  ],
  "hen": [
   {
-   "tr": "onların",
-   "gloss": "hen (onların)",
-   "pos": "noun",
+   "tr": "onları",
+   "gloss": "hen (nesne hâli: onları)",
+   "pos": "pron",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2272,8 +2273,8 @@
  "hoor": [
   {
    "tr": "tamam mı",
-   "gloss": "hoor (tamam mı)",
-   "pos": "noun",
+   "gloss": "hoor (nadrukpartikel)",
+   "pos": "interj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2313,7 +2314,7 @@
   {
    "tr": "doğru",
    "gloss": "juist (doğru)",
-   "pos": "noun",
+   "pos": "adj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2381,8 +2382,8 @@
  ],
  "leren": [
   {
-   "tr": "öğrenmen",
-   "gloss": "leren (öğrenmen)",
+   "tr": "öğrenmek",
+   "gloss": "leren (öğrenmek)",
    "pos": "verb",
    "register": "neutral",
    "note": "",
@@ -2453,7 +2454,7 @@
   {
    "tr": "henüz",
    "gloss": "pas (henüz)",
-   "pos": "noun",
+   "pos": "adv",
    "register": "neutral",
    "note": "toen pas",
    "cefr": 0
@@ -2463,7 +2464,7 @@
   {
    "tr": "hafta-da",
    "gloss": "per (hafta-da)",
-   "pos": "noun",
+   "pos": "prep",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2503,7 +2504,7 @@
   {
    "tr": "bile",
    "gloss": "reeds (bile)",
-   "pos": "noun",
+   "pos": "adv",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2513,7 +2514,7 @@
   {
    "tr": "yanlıca",
    "gloss": "slechts (yanlıca)",
-   "pos": "noun",
+   "pos": "adv",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2761,7 +2762,7 @@
  ],
  "waarom": [
   {
-   "tr": "neden?",
+   "tr": "neden",
    "gloss": "waarom (neden?)",
    "pos": "adv",
    "register": "neutral",
@@ -2813,7 +2814,7 @@
   {
    "tr": "hangi",
    "gloss": "welk (hangi)",
-   "pos": "noun",
+   "pos": "adj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2883,7 +2884,7 @@
   {
    "tr": "sanki",
    "gloss": "alsof (sanki)",
-   "pos": "noun",
+   "pos": "conj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -2991,8 +2992,8 @@
  ],
  "dienen": [
   {
-   "tr": "ne için",
-   "gloss": "dienen (ne için)",
+   "tr": "hizmet etmek",
+   "gloss": "dienen (hizmet etmek / gerekmek)",
    "pos": "verb",
    "register": "neutral",
    "note": "",
@@ -3043,7 +3044,7 @@
   {
    "tr": "ilk önce",
    "gloss": "eerst (ilk önce)",
-   "pos": "noun",
+   "pos": "adv",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -3083,7 +3084,7 @@
   {
    "tr": "onunla",
    "gloss": "ermee (onunla)",
-   "pos": "noun",
+   "pos": "adv",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -3183,7 +3184,7 @@
   {
    "tr": "zevkle",
    "gloss": "graag (zevkle)",
-   "pos": "noun",
+   "pos": "adv",
    "register": "neutral",
    "note": "antw.",
    "cefr": 0
@@ -3273,7 +3274,7 @@
   {
    "tr": "herkes",
    "gloss": "iedereen (herkes)",
-   "pos": "verb",
+   "pos": "pron",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -3341,8 +3342,8 @@
  ],
  "lief": [
   {
-   "tr": "secimli",
-   "gloss": "lief (secimli)",
+   "tr": "sevimli",
+   "gloss": "lief (sevimli/tatlı)",
    "pos": "adj",
    "register": "neutral",
    "note": "",
@@ -11921,8 +11922,8 @@
  ],
  "danken": [
   {
-   "tr": "teşekkürler",
-   "gloss": "danken (teşekkürler)",
+   "tr": "teşekkür etmek",
+   "gloss": "danken (teşekkür etmek)",
    "pos": "verb",
    "register": "neutral",
    "note": "",
@@ -13753,7 +13754,7 @@
   {
    "tr": "lütfen",
    "gloss": "alstublieft (lütfen)",
-   "pos": "noun",
+   "pos": "interj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -14231,8 +14232,8 @@
  ],
  "kwalijk": [
   {
-   "tr": "özür dilerim",
-   "gloss": "kwalijk (özür dilerim)",
+   "tr": "kötü",
+   "gloss": "kwalijk (kötü, fena -- meestal in 'niet kwalijk nemen')",
    "pos": "adj",
    "register": "neutral",
    "note": "",
@@ -14331,8 +14332,8 @@
  ],
  "over": [
   {
-   "tr": "bitti",
-   "gloss": "over (bitti)",
+   "tr": "üzerinde",
+   "gloss": "over (bovenop / betreffende)",
    "pos": "prep",
    "register": "neutral",
    "note": "",
@@ -14653,7 +14654,7 @@
   {
    "tr": "hoşgeldin",
    "gloss": "welkom (hoşgeldin)",
-   "pos": "noun",
+   "pos": "interj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -14923,7 +14924,7 @@
   {
    "tr": "iyi günler",
    "gloss": "goedendag (iyi günler)",
-   "pos": "noun",
+   "pos": "interj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -18413,7 +18414,7 @@
   {
    "tr": "lütfen",
    "gloss": "s.v.p. (lütfen)",
-   "pos": "noun",
+   "pos": "interj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -20731,7 +20732,7 @@
  ],
  "laatste": [
   {
-   "tr": "sonuncu / son",
+   "tr": "sonuncu",
    "gloss": "last",
    "pos": "adj",
    "register": "neutral",
@@ -20743,7 +20744,7 @@
   {
    "tr": "hangi",
    "gloss": "which",
-   "pos": "adv",
+   "pos": "adj",
    "register": "neutral",
    "note": "",
    "cefr": 0
@@ -20781,7 +20782,7 @@
  ],
  "team": [
   {
-   "tr": "takım / ekip",
+   "tr": "takım",
    "gloss": "team",
    "pos": "noun",
    "register": "neutral",
